@@ -1,6 +1,6 @@
 # Axewallet
 
-[![CI Status](http://img.shields.io/travis/QuantumExplorer/axewalletsvg?style=flat)](https://travis-ci.org/QuantumExplorer/axewallet)
+[![CI Status](http://img.shields.io/travis/AXErunners/axewalletsvg?style=flat)](https://travis-ci.com/AXErunners/axewallet)
 
 <p align="center" >
 <img src="AxeWallet/Images.xcassets/AppIcon.appiconset/icon120.png" alt="Axewallet" title="Axewallet">
