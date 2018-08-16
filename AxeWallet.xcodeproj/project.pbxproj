@@ -1338,8 +1338,8 @@
 			attributes = {
 				CLASSPREFIX = BR;
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "Aaron Voisine";
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = AXErunners;
 				TargetAttributes = {
 					31D68B4F1C23B6C10030FAAA = {
 						CreatedOnToolsVersion = 7.2;
