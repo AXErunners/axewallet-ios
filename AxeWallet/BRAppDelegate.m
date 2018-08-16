@@ -39,6 +39,8 @@
 #pragma message "snapshot build"
 #endif
 
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
 @interface BRAppDelegate ()
 
 // the nsnotificationcenter observer for wallet balance
@@ -61,18 +63,26 @@
     UIPageControl.appearance.pageIndicatorTintColor = [UIColor lightGrayColor];
     UIPageControl.appearance.currentPageIndicatorTintColor = [UIColor blueColor];
     
-    UIImage * tabBarImage = [[UIImage imageNamed:@"tab-bar-axe"]
-     resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0) resizingMode:UIImageResizingModeStretch];
-    [[UINavigationBar appearance] setBackgroundImage:tabBarImage forBarMetrics:UIBarMetricsDefault];
-
+    //This will set the Navigation Bar to the same color as the background and remove unwanted features.
+    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x00A0EA)];
+    [[UINavigationBar appearance] setTranslucent:NO];
+    [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
+    [[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init]
+                                      forBarPosition:UIBarPositionAny
+                                          barMetrics:UIBarMetricsDefault];
+    
     [[UIBarButtonItem appearanceWhenContainedInInstancesOfClasses:@[[UINavigationBar class]]]
      setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:18]}
      forState:UIControlStateNormal];
-    UIFont * titleBarFont = [UIFont systemFontOfSize:19 weight:UIFontWeightSemibold];
+    UIFont * titleBarFont = [UIFont systemFontOfSize:18 weight:UIFontWeightSemibold];
     [[UINavigationBar appearance] setTitleTextAttributes:@{
                                                            NSFontAttributeName:titleBarFont,
                                                            NSForegroundColorAttributeName: [UIColor whiteColor],
                                                            }];
+    
+    UIImage * backImage = [[UIImage imageNamed:@"back-button"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    [[UINavigationBar appearance] setBackIndicatorImage:backImage];
+    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:backImage];
 
     if (launchOptions[UIApplicationLaunchOptionsURLKey]) {
         NSData *file = [NSData dataWithContentsOfURL:launchOptions[UIApplicationLaunchOptionsURLKey]];

@@ -378,7 +378,7 @@
 #if AXE_TESTNET
     UILabel *label = [UILabel new];
     
-    label.font = [UIFont systemFontOfSize:13.0 weight:UIFontWeightLight];
+    label.font = [UIFont systemFontOfSize:14.0 weight:UIFontWeightLight];
     label.textColor = [UIColor redColor];
     label.textAlignment = NSTextAlignmentRight;
     label.text = @"testnet";
@@ -402,7 +402,7 @@
     if (manager.watchOnly) { // watch only wallet
         UILabel *label = [UILabel new];
         
-        label.font = [UIFont systemFontOfSize:13];
+        label.font = [UIFont systemFontOfSize:14];
         label.textColor = [UIColor redColor];
         label.textAlignment = NSTextAlignmentRight;
         label.text = @"watch only";
@@ -416,7 +416,6 @@
                                                                                 withExtension:@"aiff"], &_pingsound);
     
     if (! manager.noWallet) {
-        //TODO: do some kickass quick logo animation, fast circle spin that slows
         self.splash.hidden = YES;
         self.navigationController.navigationBar.hidden = NO;
     }
@@ -696,16 +695,11 @@
         UIAlertController * alert = [UIAlertController
                                      alertControllerWithTitle:NSLocalizedString(@"WARNING", nil)
                                      message:[NSString stringWithFormat:@"\n%@\n\n%@\n\n%@\n",
-                                              [NSLocalizedString(@"\nDO NOT let anyone see your recovery\n"
-                                                                 "phrase or they can spend your axe.\n", nil)
+                                              [NSLocalizedString(@"DO NOT let anyone see your recovery phrase or they can spend your axe.", nil)
                                                stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]],
-                                              [NSLocalizedString(@"\nNEVER type your recovery phrase into\n"
-                                                                 "password managers or elsewhere.\n"
-                                                                 "Other devices may be infected.\n", nil)
+                                              [NSLocalizedString(@"NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected.", nil)
                                                stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]],
-                                              [NSLocalizedString(@"\nDO NOT take a screenshot.\n"
-                                                                 "Screenshots are visible to other apps\n"
-                                                                 "and devices.\n", nil)
+                                              [NSLocalizedString(@"DO NOT take a screenshot. Screenshots are visible to other apps and devices.", nil)
                                                stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]]]
                                      preferredStyle:UIAlertControllerStyleAlert];
         UIAlertAction* cancelButton = [UIAlertAction
@@ -1109,7 +1103,7 @@
         self.tipView = [BRBubbleView viewWithAttributedText:attributedTip
                                                    tipPoint:CGPointMake(b.center.x, b.frame.origin.y + b.frame.size.height - 10)
                                                tipDirection:BRBubbleTipDirectionUp];
-        self.tipView.font = [UIFont systemFontOfSize:15.0];
+        self.tipView.font = [UIFont systemFontOfSize:14.0];
         self.tipView.userInteractionEnabled = NO;
         UIWindow *currentWindow = [UIApplication sharedApplication].keyWindow;
         [currentWindow addSubview:[self.tipView popIn]];
@@ -1326,7 +1320,23 @@
         [containerView addSubview:self.burger];
         [containerView layoutIfNeeded];
         
-        self.burger.center = CGPointMake(26.0, self.topLayoutGuide.length - 24);
+        CGRect rect =[self.navigationController.navigationBar convertRect:CGRectMake(0, 0, self.navigationController.navigationBar.frame.size.width, self.navigationController.navigationBar.frame.size.height)  toView:containerView];
+        float startX = 0; //a little hacky but good enough for now.
+        switch ((int)containerView.frame.size.width) {
+            case 320:
+                startX = 26;
+                break;
+            case 375:
+                startX = 26;
+                break;
+            case 414:
+                startX = 30;
+                break;
+            default:
+                startX = containerView.frame.size.width/14.4;
+                break;
+        }
+        self.burger.center = CGPointMake(startX, rect.origin.y + (rect.size.height / 2) - 1);
         self.burger.hidden = NO;
         [self.burger setX:YES completion:nil];
         
@@ -1376,18 +1386,34 @@
         self.navigationItem.leftBarButtonItem.image = [UIImage imageNamed:@"none"];
         self.burger.hidden = NO;
         [containerView layoutIfNeeded];
-        self.burger.center = CGPointMake(26.0, self.topLayoutGuide.length - 24);
+        CGRect rect =[self.navigationController.navigationBar convertRect:CGRectMake(0, 0, self.navigationController.navigationBar.frame.size.width, self.navigationController.navigationBar.frame.size.height)  toView:containerView];
+        float startX = 0; //a little hacky but good enough for now.
+        switch ((int)containerView.frame.size.width) {
+            case 320:
+                startX = 26;
+                break;
+            case 375:
+                startX = 26;
+                break;
+            case 414:
+                startX = 30;
+                break;
+            default:
+                startX = containerView.frame.size.width/14.4;
+                break;
+        }
+        self.burger.center = CGPointMake(startX, rect.origin.y + (rect.size.height / 2) - 1);
         [self.burger setX:NO completion:nil];
         self.pageViewController.view.alpha = 0.0;
         self.pageViewController.view.center = CGPointMake(self.pageViewController.view.center.x,
-                                                          containerView.frame.size.height/4.0);
+                                                          containerView.frame.size.height/4.0 - self.navigationController.navigationBar.frame.size.height);
         
         [UIView animateWithDuration:[self transitionDuration:transitionContext] delay:0.0 usingSpringWithDamping:0.8
               initialSpringVelocity:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
                   from.view.center = CGPointMake(from.view.center.x, containerView.frame.size.height*3/2);
                   self.pageViewController.view.alpha = 1.0;
                   self.pageViewController.view.center = CGPointMake(self.pageViewController.view.center.x,
-                                                                    containerView.frame.size.height/2);
+                                                                    containerView.frame.size.height/2 - self.navigationController.navigationBar.frame.size.height);
               } completion:^(BOOL finished) {
                   item.rightBarButtonItem = rightButton;
                   item.titleView = titleView;
@@ -1422,6 +1448,12 @@
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed
 {
     return self;
+}
+
+// MARK: - Segues
+
+- (IBAction)unwindToRootViewController:(UIStoryboardSegue *)segue {
+    //nothing goes here
 }
 
 // MARK: - UIGestureRecognizerDelegate

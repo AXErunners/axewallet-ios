@@ -36,7 +36,7 @@
 "\n%d attempts remaining\n" = "\n还剩%d次尝试机会\n";
 
 /* No comment provided by engineer. */
-"\n(local requested amount: %@)" = "\n(local requested amount: %@)";
+"\n(local requested amount: %@)" = "\n(本地请求金额: %@)";
 
 /* No comment provided by engineer. */
 "\n1 attempt remaining\n" = "\n还剩1次尝试机会\n";
@@ -54,16 +54,7 @@
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\n允许照相机访问\n设置->隐私->照相机->%@";
 
 /* No comment provided by engineer. */
-"\nDO NOT let anyone see your recovery\nphrase or they can spend your axe.\n" = "\n不要让任何人看到你的恢复密语\n否则他们就可以使用您的达世币。\n";
-
-/* No comment provided by engineer. */
-"\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\n不要使用截图。\n截图对其他应用或设备是可见的。\n";
-
-/* No comment provided by engineer. */
 "\nnetwork fee +%@ (%@)" = "\n网络手续费+%1$@ (%2$@)";
-
-/* No comment provided by engineer. */
-"\nNEVER type your recovery phrase into\npassword managers or elsewhere.\nOther devices may be infected.\n" = "\n永远不要将恢复密语输入到\n密码管理器或其他地方。\n其它设备都可能存在病毒软件。\n";
 
 /* No comment provided by engineer. */
 "\ntry again in %@" = "\n还可尝试 %@";
@@ -72,7 +63,7 @@
 "\ntry again in %d %@" = "\n在 %1$d %2$@ 后重试";
 
 /* No comment provided by engineer. */
-"about" = "关于";
+"About" = "关于";
 
 /* No comment provided by engineer. */
 "always require passcode" = "总是要求密码";
@@ -81,10 +72,10 @@
 "amount too small" = "金额过小";
 
 /* No comment provided by engineer. */
-"Application %@ is requesting a payment to" = "Application %@ is requesting a payment to";
+"Application %@ is requesting a payment to" = "应用程序 %@ 正在请求付款给";
 
 /* No comment provided by engineer. */
-"Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?";
+"Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "应用程序 %@ 正在请求一个地址用来发送交易给您.  您是否同意?";
 
 /* No comment provided by engineer. */
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "应用程序 %@ 想要获取你的公钥。它可以被用作查看你的钱包记录，但无法用来移动你钱包中的达世币。";
@@ -126,7 +117,7 @@
 "change" = "改变";
 
 /* No comment provided by engineer. */
-"change passcode" = "修改密码";
+"Change passcode" = "修改密码";
 
 /* No comment provided by engineer. */
 "change payment amount?" = "更改付款金额？";
@@ -152,8 +143,8 @@
 /* No comment provided by engineer. */
 "close app" = "关闭App";
 
-/* confirm */
-"confirm" = "确认";
+/* Confirm */
+"Confirm" = "确认";
 
 /* No comment provided by engineer. */
 "confirmed in block #%d" = "在区块#%d中已确认";
@@ -189,6 +180,9 @@
 "couldn't transmit payment to axe network" = "无法将交易发送到达世币网络";
 
 /* No comment provided by engineer. */
+"CRITICAL" = "重要";
+
+/* No comment provided by engineer. */
 "Axe address" = "达世币地址";
 
 /* No comment provided by engineer. */
@@ -216,7 +210,13 @@
 "do it later" = "以后再做";
 
 /* No comment provided by engineer. */
-"done" = "完成";
+"DO NOT let anyone see your recovery phrase or they can spend your axe." = "不要让任何人看到你的恢复密语否则他们就可以使用您的达世币。";
+
+/* No comment provided by engineer. */
+"DO NOT take a screenshot. Screenshots are visible to other apps and devices." = "不要使用截图。截图对其他应用或设备是可见的。";
+
+/* No comment provided by engineer. */
+"Done" = "完成";
 
 /* No comment provided by engineer. */
 "double spend" = "双重花费";
@@ -228,7 +228,7 @@
 "enable" = "激活";
 
 /* No comment provided by engineer. */
-"enable receive notifications" = "打开接收提示";
+"Enable receive notifications" = "打开接收提示";
 
 /* No comment provided by engineer. */
 "enter" = "进入";
@@ -246,10 +246,16 @@
 "exit" = "退出";
 
 /* No comment provided by engineer. */
+"Face ID limit" = "面容ID限制";
+
+/* No comment provided by engineer. */
 "failed wallet update" = "钱包升级失败";
 
 /* No comment provided by engineer. */
 "from:" = "来自：";
+
+/* No comment provided by engineer. */
+"GENERAL" = "通用";
 
 /* No comment provided by engineer. */
 "hour" = "小时";
@@ -258,16 +264,19 @@
 "hours" = "小时";
 
 /* No comment provided by engineer. */
+"I accept that I will lose my coins if I no longer possess the recovery phrase" = "我同意如果我丢失恢复密语，我会丢失我的达世币";
+
+/* No comment provided by engineer. */
 "id:" = "id：";
 
 /* No comment provided by engineer. */
-"If you still would like to wipe it please input : \"I accept that I will lose my coins if I no longer possess the recovery phrase\"" = "If you still would like to wipe it please input : \"I accept that I will lose my coins if I no longer possess the recovery phrase\"";
+"If you still would like to wipe it please input: \"%@\"" = "如果您仍想清空钱包, 请输入 : \"%@\"";
 
 /* No comment provided by engineer. */
 "ignore" = "忽略";
 
 /* No comment provided by engineer. */
-"import private key" = "导入私钥";
+"Import private key" = "导入私钥";
 
 /* No comment provided by engineer. */
 "IMPORTANT" = "重要";
@@ -276,7 +285,7 @@
 "instant payment" = "即时支付";
 
 /* No comment provided by engineer. */
-"Instant Send requires enough inputs with 6 confirmations, send anyways as regular transaction?" = "即时支付需要交易输出有6次确认，是否改为普通交易并发送？";
+"InstantSend requires enough inputs with 6 confirmations, send anyways as regular transaction?" = "即时支付需要交易输出有6次确认，是否改为普通交易并发送？";
 
 /* No comment provided by engineer. */
 "insufficient funds" = "资金不足";
@@ -303,13 +312,16 @@
 "more..." = "更多...";
 
 /* No comment provided by engineer. */
-"moved" = "已移动";
+"Moved" = "已移动";
+
+/* No comment provided by engineer. */
+"NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected." = "永远不要将恢复密语输入到密码管理器或其他地方。其它设备都可能存在病毒软件。";
 
 /* No comment provided by engineer. */
 "next, write down your recovery phrase" = "下面，请写下你的恢复密语";
 
 /* No comment provided by engineer. */
-"NFC device didn't transmit a valid axe or bitcoin address" = "NFC device didn't transmit a valid axe or bitcoin address";
+"NFC device didn't transmit a valid axe or bitcoin address" = "NFC设备未发送有效的达世币或比特币地址";
 
 /* No comment provided by engineer. */
 "no exchange rate data" = "没有汇率信息";
@@ -354,7 +366,7 @@
 "password protected key" = "密码保护的密钥";
 
 /* No comment provided by engineer. */
-"pay" = "支付";
+"Pay" = "支付";
 
 /* No comment provided by engineer. */
 "payee identity isn't certified" = "收款人身份未经过认证";
@@ -372,7 +384,7 @@
 "please enter pin to upgrade wallet" = "请输入密码进行钱包升级";
 
 /* No comment provided by engineer. */
-"Please place your phone near NFC device." = "Please place your phone near NFC device.";
+"Please place your phone near NFC device." = "请将你的手机靠近NFC设备.";
 
 /* No comment provided by engineer. */
 "rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@" = "比率：%@ = %@\n升级版本：%@\n区块 #%d of %d\n已链接节点：%d\ndl节点：%@";
@@ -381,13 +393,13 @@
 "Receive axe at this address: %@" = "在此地址接收达世币： %@";
 
 /* No comment provided by engineer. */
-"received" = "收到";
+"Received" = "收到";
 
 /* No comment provided by engineer. */
 "received %@ (%@)" = "收到 %1$@ (%2$@)";
 
-/* recovery phrase */
-"recovery phrase" = "恢复密语";
+/* Recovery phrase */
+"Recovery phrase" = "恢复密语";
 
 /* No comment provided by engineer. */
 "recovery phrase doesn't match" = "恢复密语不匹配";
@@ -399,7 +411,10 @@
 "reduce payment amount by\n%@ (%@)?" = "减少付款金额\n%1$@ (%2$@)?";
 
 /* No comment provided by engineer. */
-"request" = "请求";
+"Remind me later" = "以后提醒我";
+
+/* No comment provided by engineer. */
+"Request" = "请求";
 
 /* No comment provided by engineer. */
 "request an amount" = "请求金额";
@@ -417,7 +432,7 @@
 "rescan" = "重新扫描";
 
 /* No comment provided by engineer. */
-"rescan blockchain" = "重新扫描区块链";
+"Rescan blockchain" = "重新扫描区块链";
 
 /* No comment provided by engineer. */
 "rescan blockchain if you think you may have missing transactions, or are having trouble sending (rescanning can take several minutes)" = "若你认为你的交易缺失，或发送交易遇到了问题，请重新扫描区块链 (重新扫描可能需要几分钟)";
@@ -426,7 +441,7 @@
 "reset" = "重置";
 
 /* No comment provided by engineer. */
-"retry" = "retry";
+"retry" = "重试";
 
 /* No comment provided by engineer. */
 "Scan someone else's QR code to get their axe or bitcoin address. You can send a payment to anyone with an address." = "扫描别人的二维码来获得他们的达世币或者比特币币地址。您可以向任何一个地址发送付款。";
@@ -465,7 +480,7 @@
 "send request as message" = "以短信形式发送请求";
 
 /* No comment provided by engineer. */
-"sent" = "已发送";
+"Sent" = "已发送";
 
 /* No comment provided by engineer. */
 "sent!" = "已发送！";
@@ -474,7 +489,7 @@
 "set a trusted node" = "设定信任节点";
 
 /* No comment provided by engineer. */
-"settings" = "设置";
+"Settings" = "设置";
 
 /* No comment provided by engineer. */
 "shapeshift bitcoin id:" = "shapeshift 比特币 id：";
@@ -543,13 +558,13 @@
 "this private key is empty" = "这个私钥为空";
 
 /* No comment provided by engineer. */
-"This request requires an instant payment but you do not have enough inputs with 6 confirmations required by Instant Send, you may ask the merchant to accept a normal transaction or wait a few minutes." = "This request requires an instant payment but you do not have enough inputs with 6 confirmations required by Instant Send, you may ask the merchant to accept a normal transaction or wait a few minutes.";
+"This request requires an instant payment but you do not have enough inputs with 6 confirmations required by InstantSend, you may ask the merchant to accept a normal transaction or wait a few minutes." = "此请求需要即时付款, 但您没有足够6次确认的交易输入来进行即时发送. 您可以询问商家接受普通付款, 或等待几分钟.";
 
 /* No comment provided by engineer. */
-"this request requires an instant payment but you have disabled instant payments" = "this request requires an instant payment but you have disabled instant payments";
+"this request requires an instant payment but you have disabled instant payments" = "此请求需要即时付款, 但您已禁用了即时支付功能";
 
 /* No comment provided by engineer. */
-"This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase" = "This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase";
+"This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase" = "此钱包并不是空的或同步尚未完成, 如果没有恢复密语, 请不要清空钱包";
 
 /* No comment provided by engineer. */
 "to:" = "到：";
@@ -561,7 +576,7 @@
 "to: %@ (via Shapeshift)" = "至：%@ (通过 Shapeshift)";
 
 /* No comment provided by engineer. */
-"touch id limit" = "指纹解锁限制";
+"Touch ID limit" = "触控ID限制";
 
 /* No comment provided by engineer. */
 "touch id spending limit" = "指纹解锁支出限额";
@@ -573,7 +588,7 @@
 "transaction fees would cost more than the funds available on this private key (due to tiny \"dust\" deposits)" = "交易手续费将比此私钥上可用资金多 (由于极小额存款) ";
 
 /* No comment provided by engineer. */
-"transaction history" = "交易历史记录";
+"Transaction history" = "交易历史记录";
 
 /* No comment provided by engineer. */
 "transaction rejected" = "交易被拒绝";

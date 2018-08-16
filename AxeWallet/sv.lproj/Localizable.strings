@@ -54,16 +54,7 @@
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nbevilja kameraåtkomst i Inställningar->Personligt->Kamera->%@";
 
 /* No comment provided by engineer. */
-"\nDO NOT let anyone see your recovery\nphrase or they can spend your axe.\n" = "\nLÅT INTE NÅGON se din återställningsfras – annars kan hen spendera dina axe.\n";
-
-/* No comment provided by engineer. */
-"\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\nTA INTE en skärmdump\nSkärmdumpar är synliga för andra applikationer\noch enheter.\n";
-
-/* No comment provided by engineer. */
 "\nnetwork fee +%@ (%@)" = "\nnätverksavgift +%1$@ (%2$@)";
-
-/* No comment provided by engineer. */
-"\nNEVER type your recovery phrase into\npassword managers or elsewhere.\nOther devices may be infected.\n" = "\nSKRIV ALDRIG in din återställningsfras i lösenordshanterare eller någon annanstans. \nAndra enheter kan vara infekterade.\n";
 
 /* No comment provided by engineer. */
 "\ntry again in %@" = "\nförsök igen om %@";
@@ -72,7 +63,7 @@
 "\ntry again in %d %@" = "\nförsök igen om %1$d %2$@";
 
 /* No comment provided by engineer. */
-"about" = "om";
+"About" = "om";
 
 /* No comment provided by engineer. */
 "always require passcode" = "kräv alltid lösenord";
@@ -126,7 +117,7 @@
 "change" = "ändra";
 
 /* No comment provided by engineer. */
-"change passcode" = "ändra lösenord";
+"Change passcode" = "ändra lösenord";
 
 /* No comment provided by engineer. */
 "change payment amount?" = "ändra belopp?";
@@ -152,8 +143,8 @@
 /* No comment provided by engineer. */
 "close app" = "stäng app";
 
-/* confirm */
-"confirm" = "bekräfta";
+/* Confirm */
+"Confirm" = "bekräfta";
 
 /* No comment provided by engineer. */
 "confirmed in block #%d" = "bekräftad i block #%d";
@@ -189,6 +180,9 @@
 "couldn't transmit payment to axe network" = "kunde inte skicka betalningen till axe-nätverket";
 
 /* No comment provided by engineer. */
+"CRITICAL" = "CRITICAL";
+
+/* No comment provided by engineer. */
 "Axe address" = "Axe-adress";
 
 /* No comment provided by engineer. */
@@ -216,7 +210,13 @@
 "do it later" = "gör det senare";
 
 /* No comment provided by engineer. */
-"done" = "klar";
+"DO NOT let anyone see your recovery phrase or they can spend your axe." = "LÅT INTE NÅGON se din återställningsfras – annars kan hen spendera dina axe.";
+
+/* No comment provided by engineer. */
+"DO NOT take a screenshot. Screenshots are visible to other apps and devices." = "DO NOT take a screenshot. Screenshots are visible to other apps and devices.";
+
+/* No comment provided by engineer. */
+"Done" = "Done";
 
 /* No comment provided by engineer. */
 "double spend" = "dubbelbetalning";
@@ -228,7 +228,7 @@
 "enable" = "tillåt";
 
 /* No comment provided by engineer. */
-"enable receive notifications" = "tillåt motta notifikationer";
+"Enable receive notifications" = "tillåt motta notifikationer";
 
 /* No comment provided by engineer. */
 "enter" = "enter";
@@ -246,10 +246,16 @@
 "exit" = "gå ur";
 
 /* No comment provided by engineer. */
+"Face ID limit" = "Face ID limit";
+
+/* No comment provided by engineer. */
 "failed wallet update" = "misslyckades med plånboks uppdateringen";
 
 /* No comment provided by engineer. */
 "from:" = "från:";
+
+/* No comment provided by engineer. */
+"GENERAL" = "GENERAL";
 
 /* No comment provided by engineer. */
 "hour" = "timme";
@@ -258,16 +264,19 @@
 "hours" = "timmar";
 
 /* No comment provided by engineer. */
+"I accept that I will lose my coins if I no longer possess the recovery phrase" = "I accept that I will lose my coins if I no longer possess the recovery phrase";
+
+/* No comment provided by engineer. */
 "id:" = "id:";
 
 /* No comment provided by engineer. */
-"If you still would like to wipe it please input : \"I accept that I will lose my coins if I no longer possess the recovery phrase\"" = "Om du fortfarande vill radera, var god och skriv: \"Jag accepterar att jag kommer att förlora alla mina coins om jag inte längre har återställningsfrasen\"";
+"If you still would like to wipe it please input: \"%@\"" = "If you still would like to wipe it please input: \"%@\"";
 
 /* No comment provided by engineer. */
 "ignore" = "ignorera";
 
 /* No comment provided by engineer. */
-"import private key" = "importera privat nyckel";
+"Import private key" = "importera privat nyckel";
 
 /* No comment provided by engineer. */
 "IMPORTANT" = "VIKTIGT";
@@ -276,7 +285,7 @@
 "instant payment" = "Omedelbar betalning";
 
 /* No comment provided by engineer. */
-"Instant Send requires enough inputs with 6 confirmations, send anyways as regular transaction?" = "Instant Send kräver tillräckligt många inputs med 6 bekräftelser, skicka ändå som en normal transaktion?";
+"InstantSend requires enough inputs with 6 confirmations, send anyways as regular transaction?" = "InstantSend requires enough inputs with 6 confirmations, send anyways as regular transaction?";
 
 /* No comment provided by engineer. */
 "insufficient funds" = "täckning saknas";
@@ -303,7 +312,10 @@
 "more..." = "mer...";
 
 /* No comment provided by engineer. */
-"moved" = "överförd";
+"Moved" = "överförd";
+
+/* No comment provided by engineer. */
+"NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected." = "NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected.";
 
 /* No comment provided by engineer. */
 "next, write down your recovery phrase" = "nästa, skriv ner din återhämtning fras";
@@ -354,7 +366,7 @@
 "password protected key" = "lösenordskyddad nyckel";
 
 /* No comment provided by engineer. */
-"pay" = "Betala";
+"Pay" = "Betala";
 
 /* No comment provided by engineer. */
 "payee identity isn't certified" = "betalningsmottagarens identitet är inte certifierad";
@@ -381,13 +393,13 @@
 "Receive axe at this address: %@" = "Ta emot axe på denna adress: %@";
 
 /* No comment provided by engineer. */
-"received" = "mottagna";
+"Received" = "mottagna";
 
 /* No comment provided by engineer. */
 "received %@ (%@)" = "tog emot %1$@ (%2$@)";
 
-/* recovery phrase */
-"recovery phrase" = "återställningsfras";
+/* Recovery phrase */
+"Recovery phrase" = "återställningsfras";
 
 /* No comment provided by engineer. */
 "recovery phrase doesn't match" = "återställningsfrasen stämmer inte";
@@ -399,7 +411,10 @@
 "reduce payment amount by\n%@ (%@)?" = "minska beloppet med\n%1$@ (%2$@)?";
 
 /* No comment provided by engineer. */
-"request" = "begäran";
+"Remind me later" = "Remind me later";
+
+/* No comment provided by engineer. */
+"Request" = "begäran";
 
 /* No comment provided by engineer. */
 "request an amount" = "begär ett belopp";
@@ -417,7 +432,7 @@
 "rescan" = "återläs";
 
 /* No comment provided by engineer. */
-"rescan blockchain" = "återläs blockkedjan";
+"Rescan blockchain" = "återläs blockkedjan";
 
 /* No comment provided by engineer. */
 "rescan blockchain if you think you may have missing transactions, or are having trouble sending (rescanning can take several minutes)" = "återläs blockkedjan om du misstänker att det saknas transaktioner, eller om du har problem att skicka axe (återläsning kan ta flera minuter)";
@@ -465,7 +480,7 @@
 "send request as message" = "skicka begäran som meddelande";
 
 /* No comment provided by engineer. */
-"sent" = "skickat";
+"Sent" = "skickat";
 
 /* No comment provided by engineer. */
 "sent!" = "skickat!";
@@ -474,7 +489,7 @@
 "set a trusted node" = "lägg till som en pålitlig node";
 
 /* No comment provided by engineer. */
-"settings" = "inställningar";
+"Settings" = "inställningar";
 
 /* No comment provided by engineer. */
 "shapeshift bitcoin id:" = "shapeshift bitcoin id:";
@@ -543,7 +558,7 @@
 "this private key is empty" = "denna privata nyckel är tom";
 
 /* No comment provided by engineer. */
-"This request requires an instant payment but you do not have enough inputs with 6 confirmations required by Instant Send, you may ask the merchant to accept a normal transaction or wait a few minutes." = "Denna begäran kräver en direktbetalning men du har inte tillräckligt med inputs, du måste minst ha 6 bekräftelser av Instant Send. Du kan ändra din betalning till en normal transaktion eller vänta några minuter.";
+"This request requires an instant payment but you do not have enough inputs with 6 confirmations required by InstantSend, you may ask the merchant to accept a normal transaction or wait a few minutes." = "This request requires an instant payment but you do not have enough inputs with 6 confirmations required by InstantSend, you may ask the merchant to accept a normal transaction or wait a few minutes.";
 
 /* No comment provided by engineer. */
 "this request requires an instant payment but you have disabled instant payments" = "denna begäran kräver en direktbetalning men du har inaktiverat direktbetalning";
@@ -561,7 +576,7 @@
 "to: %@ (via Shapeshift)" = "till: %@ (via Shapeshift)";
 
 /* No comment provided by engineer. */
-"touch id limit" = "gräns för touch id";
+"Touch ID limit" = "gräns för touch id";
 
 /* No comment provided by engineer. */
 "touch id spending limit" = "touch id beloppsgräns";
@@ -573,7 +588,7 @@
 "transaction fees would cost more than the funds available on this private key (due to tiny \"dust\" deposits)" = "transaktionsavgiften skulle överstiga de medel som nyckeln har tillgängligt (på grund av \"damminsättningar\")";
 
 /* No comment provided by engineer. */
-"transaction history" = "transaktionshistorik";
+"Transaction history" = "transaktionshistorik";
 
 /* No comment provided by engineer. */
 "transaction rejected" = "transaktion avvisad";

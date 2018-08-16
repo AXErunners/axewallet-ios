@@ -1,33 +1,30 @@
 
-/* Class = "UIButton"; normalTitle = "recover wallet"; ObjectID = "4w7-k8-9wY"; */
-"4w7-k8-9wY.normalTitle" = "възстанови портфейл";
+/* Class = "UIButton"; normalTitle = "Recover Wallet"; ObjectID = "4w7-k8-9wY"; */
+"4w7-k8-9wY.normalTitle" = "Възстанови портфейл";
 
-/* Class = "UILabel"; text = "https://github.com/QuantumExplorer/axewallet"; ObjectID = "5OA-tB-Exg"; */
-"5OA-tB-Exg.text" = "https://github.com/QuantumExplorer/axewallet";
+/* Class = "UILabel"; text = "https://github.com/axerunners/axewallet"; ObjectID = "5OA-tB-Exg"; */
+"5OA-tB-Exg.text" = "https://github.com/axerunners/axewallet";
 
-/* Class = "UILabel"; text = "local currency"; ObjectID = "8e2-ar-Ehc"; */
-"8e2-ar-Ehc.text" = "местна валута";
+/* Class = "UILabel"; text = "Local currency"; ObjectID = "8e2-ar-Ehc"; */
+"8e2-ar-Ehc.text" = "Местна валута";
 
-/* Class = "UIButton"; normalTitle = "generate recovery phrase"; ObjectID = "A4M-yq-26d"; */
-"A4M-yq-26d.normalTitle" = "генериране на фраза за възстановяване";
+/* Class = "UIButton"; normalTitle = "Generate Recovery Phrase"; ObjectID = "A4M-yq-26d"; */
+"A4M-yq-26d.normalTitle" = "Генериране на фраза за възстановяване";
 
-/* Class = "UILabel"; text = "start/recover another wallet"; ObjectID = "D1b-HB-lKH"; */
-"D1b-HB-lKH.text" = "старт/възстановяване на друг портфейл";
+/* Class = "UILabel"; text = "Start / Recover another wallet"; ObjectID = "D1b-HB-lKH"; */
+"D1b-HB-lKH.text" = "Старт/възстановяване на друг портфейл";
 
 /* Class = "UILabel"; text = "exchange rate data provided by\nbitpay.com/rates and poloniex"; ObjectID = "D4H-hd-LsX"; */
-"D4H-hd-LsX.text" = "данните за обменните курсове, са предоставени от\nbitpay.com/rates и poloniex.com";
+"D4H-hd-LsX.text" = "Данните за обменните курсове, са предоставени от\nbitpay.com/rates и poloniex.com";
 
 /* Class = "UILabel"; text = "if you ever lose your phone, you will need this phrase to recover your wallet"; ObjectID = "EQG-Km-ZKY"; */
-"EQG-Km-ZKY.text" = "ако някога загубите вашият телефон, ще ви бъде нужна тази фраза за възстановяване на портфейла Ви";
+"EQG-Km-ZKY.text" = "Ако загубите своят телефон ще Ви е нужна тази фраза за да възстановите портфейла.";
 
 /* Class = "UILabel"; text = "sent"; ObjectID = "FjB-H2-BnK"; */
 "FjB-H2-BnK.text" = "изпратено";
 
-/* Class = "UIBarButtonItem"; title = "remind me later"; ObjectID = "QQS-Me-RNh"; */
-"QQS-Me-RNh.title" = "напомни ми по-късно";
-
-/* Class = "UILabel"; text = "please write it down"; ObjectID = "Td7-xP-kmB"; */
-"Td7-xP-kmB.text" = "моля запишете го долу";
+/* Class = "UILabel"; text = "Please write it down"; ObjectID = "Td7-xP-kmB"; */
+"Td7-xP-kmB.text" = "Моля запишете го долу";
 
 /* Class = "UILabel"; text = "not connected"; ObjectID = "UyF-OV-QVY"; */
 "UyF-OV-QVY.text" = "не е свързан";
@@ -50,20 +47,17 @@
 /* Class = "UILabel"; text = "I wrote it down:"; ObjectID = "cyp-mV-Bhd"; */
 "cyp-mV-Bhd.text" = "Написах го долу:";
 
-/* Class = "UIButton"; normalTitle = "new wallet"; ObjectID = "dOa-zm-TDG"; */
-"dOa-zm-TDG.normalTitle" = "нов портфейл";
+/* Class = "UIButton"; normalTitle = "New Wallet"; ObjectID = "dOa-zm-TDG"; */
+"dOa-zm-TDG.normalTitle" = "Нов портфейл";
 
-/* Class = "UILabel"; text = "if you ever lose your phone, you will need this phrase to recover your wallet"; ObjectID = "dX6-jg-5IA"; */
+/* Class = "UILabel"; text = "If you ever lose your phone, you will need this phrase to recover your wallet"; ObjectID = "dX6-jg-5IA"; */
 "dX6-jg-5IA.text" = "Ако загубите своят телефон ще Ви е нужна тази фраза за да възстановите портфейла.";
 
 /* Class = "UILabel"; text = "unconfirmed"; ObjectID = "eJ2-5h-DO2"; */
 "eJ2-5h-DO2.text" = "непотвърдена";
 
-/* Class = "UIButton"; normalTitle = "show"; ObjectID = "efL-Cj-Aho"; */
-"efL-Cj-Aho.normalTitle" = "покажи";
-
-/* Class = "UINavigationItem"; title = "confirm:"; ObjectID = "fQN-xb-SYb"; */
-"fQN-xb-SYb.title" = "потвърди:";
+/* Class = "UINavigationItem"; title = "Confirm:"; ObjectID = "fQN-xb-SYb"; */
+"fQN-xb-SYb.title" = "Потвърди:";
 
 /* Class = "UILabel"; text = "Send AXE"; ObjectID = "l5l-JR-LKA"; */
 "l5l-JR-LKA.text" = "Изпрати AXE";
@@ -80,11 +74,11 @@
 /* Class = "UILabel"; text = "no transactions"; ObjectID = "t1j-JZ-FW0"; */
 "t1j-JZ-FW0.text" = "няма транзакции ";
 
-/* Class = "UILabel"; text = "axewallet v%ver%%net%\ncopyright © 2018 Axe Core\nForked from breadwallet.\nThis app is open source:"; ObjectID = "uvz-hk-Nr4"; */
-"uvz-hk-Nr4.text" = "axewallet v%ver%%net%\ncopyright © 2018 Axe Core\n\nBased on breadwallet\n\nтова приложение е open source";
+/* Class = "UILabel"; text = "AxeWallet v%ver%%net%\nCopyright © 2018 Axe Core\nForked from breadwallet.\nThis app is open source:"; ObjectID = "uvz-hk-Nr4"; */
+"uvz-hk-Nr4.text" = "AxeWallet v%ver%%net%\nCopyright © 2018 Axe Core\n\nForked from Breadwallet\n\nТова приложение е с отворен код";
 
-/* Class = "UILabel"; text = "start a new wallet by generating a wallet recovery phrase"; ObjectID = "wDZ-DN-szv"; */
-"wDZ-DN-szv.text" = "стартирай нов портфейл чрез генериране на фраза за възстановяване";
+/* Class = "UILabel"; text = "Start a new wallet by generating a wallet recovery phrase"; ObjectID = "wDZ-DN-szv"; */
+"wDZ-DN-szv.text" = "Стартирай нов портфейл чрез генериране на фраза за възстановяване";
 
 /* Class = "UIButton"; normalTitle = "↔︎"; ObjectID = "83W-1O-V9b"; */
 "83W-1O-V9b.normalTitle" = "↔︎";
@@ -125,8 +119,8 @@
 /* Class = "UILabel"; text = "Shapeshift in progress"; ObjectID = "adc-g6-wnP"; */
 "adc-g6-wnP.text" = "Shapeshift в процес";
 
-/* Class = "UILabel"; text = "Instant Send"; ObjectID = "lbm-03-nu4"; */
-"lbm-03-nu4.text" = "Instant Send";
+/* Class = "UILabel"; text = "Use InstantSend"; ObjectID = "lbm-03-nu4"; */
+"lbm-03-nu4.text" = "Използвай InstantSend";
 
 /* Class = "UILabel"; text = "status:"; ObjectID = "x2u-C3-wz6"; */
 "x2u-C3-wz6.text" = "статус:";
@@ -135,4 +129,25 @@
 "F30-En-QkL.normalTitle" = "NFC";
 
 /* Class = "UIButton"; normalTitle = "copy logs"; ObjectID = "Irz-6P-zvD"; */
-"Irz-6P-zvD.normalTitle" = "copy logs";
+"Irz-6P-zvD.normalTitle" = "копиране на логовете";
+
+/* Class = "UILabel"; text = "New Wallet"; ObjectID = "7gb-Nc-x8C"; */
+"7gb-Nc-x8C.text" = "Нов портфейл";
+
+/* Class = "UILabel"; text = "NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected."; ObjectID = "7h3-k2-QrR"; */
+"7h3-k2-QrR.text" = "НИКОГА не пишете вашата парола за възстановяване в мениджъра на пароли или на друго място. Другите устройства могат да са заразени.";
+
+/* Class = "UILabel"; text = "DO NOT let anyone see your recovery phrase or they can spend your axe."; ObjectID = "AH2-hg-79I"; */
+"AH2-hg-79I.text" = "НЕ позволявайте на никого да вижда фразата за възстановяване или биха могли да похарчат вашият Axe";
+
+/* Class = "UIButton"; normalTitle = "Show Passphrase"; ObjectID = "FJd-qY-pGg"; */
+"FJd-qY-pGg.normalTitle" = "Покажи парола";
+
+/* Class = "UILabel"; text = "WARNING"; ObjectID = "Wym-3X-CXY"; */
+"Wym-3X-CXY.text" = "ВНИМАНИЕ";
+
+/* Class = "UIButton"; normalTitle = "Remind me later"; ObjectID = "UQm-Kc-aR1"; */
+"UQm-Kc-aR1.normalTitle" = "Напомни ми по-късно";
+
+/* Class = "UIButton"; normalTitle = "Share"; ObjectID = "Ng6-uV-YUC"; */
+"Ng6-uV-YUC.normalTitle" = "Сподели";

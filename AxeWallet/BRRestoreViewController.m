@@ -56,6 +56,7 @@
     // TODO: autocomplete based on 4 letter prefixes of mnemonic words
     
     self.textView.layer.cornerRadius = 5.0;
+    self.textView.textContainerInset = UIEdgeInsetsMake(12, 12, 12, 12);
     
     self.keyboardObserver =
         [[NSNotificationCenter defaultCenter] addObserverForName:UIKeyboardWillShowNotification object:nil queue:nil
@@ -79,14 +80,16 @@
     UILabel * titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 1, 100)];
     titleLabel.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin;
     [titleLabel setBackgroundColor:[UIColor clearColor]];
-    [titleLabel setText:(self.navigationController.viewControllers.firstObject != self)?NSLocalizedString(@"recovery phrase",@"recovery phrase"):NSLocalizedString(@"confirm",@"confirm")];
-    [titleLabel setTextColor:[UIColor blackColor]];
+    [titleLabel setText:(self.navigationController.viewControllers.firstObject != self)?NSLocalizedString(@"Recovery phrase",@"Recovery phrase"):NSLocalizedString(@"Confirm",@"Confirm")];
+    [titleLabel setTextColor:[UIColor whiteColor]];
     self.navigationItem.titleView = titleLabel;
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
+    self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
 
     [self.textView becomeFirstResponder];
 }
@@ -96,6 +99,14 @@
     self.textView.text = nil;
     
     [super viewWillDisappear:animated];
+}
+
+-(BOOL)prefersStatusBarHidden {
+    return FALSE;
+}
+
+-(UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
 }
 
 - (void)dealloc
@@ -136,7 +147,7 @@
             } else {
                 UIAlertController * actionSheet = [UIAlertController
                                                    alertControllerWithTitle:NSLocalizedString(@"This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase", nil)
-                                                   message:NSLocalizedString(@"If you still would like to wipe it please input : \"I accept that I will lose my coins if I no longer possess the recovery phrase\"", nil)
+                                                   message:[NSString stringWithFormat:NSLocalizedString(@"If you still would like to wipe it please input: \"%@\"", nil),NSLocalizedString(@"I accept that I will lose my coins if I no longer possess the recovery phrase", nil)]
                                                    preferredStyle:UIAlertControllerStyleAlert];
                 UIAlertAction* okButton = [UIAlertAction
                                              actionWithTitle:NSLocalizedString(@"ok", nil)
@@ -147,7 +158,7 @@
                 [actionSheet addAction:okButton];
                 [self presentViewController:actionSheet animated:YES completion:nil];
             }
-        } else if ([[phrase lowercaseString] isEqualToString:@"i accept that i will lose my coins if i no longer possess the recovery phrase"]) {
+        } else if ([[phrase lowercaseString] isEqualToString:[NSLocalizedString(@"I accept that I will lose my coins if I no longer possess the recovery phrase", nil) lowercaseString]]) {
                 [BREventManager saveEvent:@"restore:wipe_full_wallet"];
             UIAlertController * actionSheet = [UIAlertController
                                                alertControllerWithTitle:nil
@@ -294,7 +305,7 @@
             break;
         }
 
-        if ([phrase isEqualToString:@"wipe"] || [[phrase lowercaseString] isEqualToString:@"i accept that i will lose my coins if i no longer possess the recovery phrase"]) { // shortcut word to force the wipe option to appear
+        if ([phrase isEqualToString:@"wipe"] || [[phrase lowercaseString] isEqualToString:[NSLocalizedString(@"I accept that I will lose my coins if I no longer possess the recovery phrase", nil) lowercaseString]]) { // shortcut word to force the wipe option to appear
             [self.textView resignFirstResponder];
             [self performSelector:@selector(wipeWithPhrase:) withObject:phrase afterDelay:0.0];
         }
@@ -370,7 +381,7 @@
         }
         else if (! noWallet) {
             [self.textView resignFirstResponder];
-            [self performSelector:@selector(wipeWithPhrase:) withObject:phrase afterDelay:0.0];
+            [self performSelector:@selector(wipeWithPhrase:) withObject:phrase afterDelay:0.75];
         }
         else {
             //TODO: offer the user an option to move funds to a new seed if their wallet device was lost or stolen

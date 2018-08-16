@@ -39,7 +39,7 @@
              *filter = colorFilter;
     
     [qrFilter setValue:data forKey:@"inputMessage"];
-    [qrFilter setValue:@"L" forKey:@"inputCorrectionLevel"];
+    [qrFilter setValue:@"M" forKey:@"inputCorrectionLevel"];
 
     if (color.alpha > DBL_EPSILON) {
         [invertFilter setValue:qrFilter.outputImage forKey:@"inputImage"];
@@ -71,7 +71,7 @@
     UIImage *image = nil;
     
     if (context) {
-        CGContextSetInterpolationQuality(context, kCGInterpolationNone);
+        CGContextSetInterpolationQuality(context, quality);
         CGContextRotateCTM(context, M_PI); // flip
         CGContextScaleCTM(context, -1.0, 1.0); // mirror
         CGContextDrawImage(context, CGContextGetClipBoundingBox(context), self.CGImage);

@@ -39,6 +39,7 @@
 @interface BRSettingsViewController ()
 
 @property (nonatomic, assign) BOOL touchId;
+@property (nonatomic, assign) BOOL faceId;
 @property (nonatomic, strong) UITableViewController *selectorController;
 @property (nonatomic, strong) NSArray *selectorOptions;
 @property (nonatomic, strong) NSString *selectedOption, *noOptionsText;
@@ -55,6 +56,7 @@
 {
     [super viewDidLoad];
     self.touchId = [BRWalletManager sharedInstance].touchIdEnabled;
+    self.faceId = [BRWalletManager sharedInstance].faceIdEnabled;
 }
 
 
@@ -85,7 +87,6 @@
         self.txStatusObserver =
             [[NSNotificationCenter defaultCenter] addObserverForName:BRPeerManagerTxStatusNotification object:nil
             queue:nil usingBlock:^(NSNotification *note) {
-                //[(id)[self.navigationController.topViewController.view viewWithTag:412] setText:self.stats];
                 [(id)[self.navigationController.topViewController.view viewWithTag:412] setTitle:self.stats
                  forState:UIControlStateNormal];
             }];
@@ -94,7 +95,6 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    //[self.eaController preload];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -122,7 +122,6 @@
     _selectorController.transitioningDelegate = self.navigationController.viewControllers.firstObject;
     _selectorController.tableView.dataSource = self;
     _selectorController.tableView.delegate = self;
-    _selectorController.tableView.backgroundColor = [UIColor clearColor];
     return _selectorController;
 }
 
@@ -342,7 +341,7 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     if (tableView == self.selectorController.tableView) return 1;
-    return 3;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -350,9 +349,8 @@
     if (tableView == self.selectorController.tableView) return self.selectorOptions.count;
     
     switch (section) {
-        case 0: return 2;
-        case 1: return (self.touchId) ? 3 : 2;
-        case 2: return 3;
+        case 0: return 2 + ((self.touchId || self.faceId) ? 3 : 2);
+        case 1: return 3;
     }
     
     return 0;
@@ -384,12 +382,35 @@
             
             switch (indexPath.row) {
                 case 0:
-                    cell.textLabel.text = NSLocalizedString(@"about", nil);
+                    cell.textLabel.text = NSLocalizedString(@"About", nil);
                     break;
                     
                 case 1:
-                    cell.textLabel.text = NSLocalizedString(@"recovery phrase", nil);
+                    cell.textLabel.text = NSLocalizedString(@"Recovery phrase", nil);
                     break;
+                case 2:
+                    cell = [tableView dequeueReusableCellWithIdentifier:selectorIdent];
+                    cell.detailTextLabel.text = manager.localCurrencyCode;
+                    break;
+                    
+                case 3:
+                    if (self.touchId || self.faceId) {
+                        cell = [tableView dequeueReusableCellWithIdentifier:selectorIdent];
+                        cell.textLabel.text = (self.touchId)?NSLocalizedString(@"Touch ID limit", nil):NSLocalizedString(@"Face ID limit", nil);
+                        cell.detailTextLabel.text = [manager stringForAxeAmount:manager.spendingLimit];
+                    } else {
+                        goto _switch_cell;
+                    }
+                    break;
+                case 4:
+                {
+                _switch_cell:
+                    cell = [tableView dequeueReusableCellWithIdentifier:@"SwitchCell" forIndexPath:indexPath];
+                    BRUserDefaultsSwitchCell *switchCell = (BRUserDefaultsSwitchCell *)cell;
+                    switchCell.titleLabel.text = NSLocalizedString(@"Enable receive notifications", nil);
+                    [switchCell setUserDefaultsKey:USER_DEFAULTS_LOCAL_NOTIFICATIONS_KEY];
+                    break;
+                }
             }
             
             break;
@@ -397,38 +418,8 @@
         case 1:
             switch (indexPath.row) {
                 case 0:
-                    cell = [tableView dequeueReusableCellWithIdentifier:selectorIdent];
-                    cell.detailTextLabel.text = manager.localCurrencyCode;
-                    break;
-            
-                case 1:
-                    if (self.touchId) {
-                        cell = [tableView dequeueReusableCellWithIdentifier:selectorIdent];
-                        cell.textLabel.text = NSLocalizedString(@"touch id limit", nil);
-                        cell.detailTextLabel.text = [manager stringForAxeAmount:manager.spendingLimit];
-                    } else {
-                        goto _switch_cell;
-                    }
-                    break;
-                case 2:
-                {
-_switch_cell:
-                    cell = [tableView dequeueReusableCellWithIdentifier:@"SwitchCell" forIndexPath:indexPath];
-                    BRUserDefaultsSwitchCell *switchCell = (BRUserDefaultsSwitchCell *)cell;
-                    switchCell.titleLabel.text = NSLocalizedString(@"enable receive notifications", nil);
-                    [switchCell setUserDefaultsKey:USER_DEFAULTS_LOCAL_NOTIFICATIONS_KEY];
-                    break;
-                }
-                    
-            }
-            
-            break;
-            
-        case 2:
-            switch (indexPath.row) {
-                case 0:
                     cell = [tableView dequeueReusableCellWithIdentifier:actionIdent];
-                    cell.textLabel.text = NSLocalizedString(@"change passcode", nil);
+                    cell.textLabel.text = NSLocalizedString(@"Change passcode", nil);
                     break;
                     
                 case 1:
@@ -437,7 +428,7 @@ _switch_cell:
                     
                 case 2:
                     cell = [tableView dequeueReusableCellWithIdentifier:actionIdent];
-                    cell.textLabel.text = NSLocalizedString(@"rescan blockchain", nil);
+                    cell.textLabel.text = NSLocalizedString(@"Rescan blockchain", nil);
                     break;
 
             }
@@ -451,19 +442,19 @@ _switch_cell:
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-    if (tableView == self.selectorController.tableView && self.selectorOptions.count == 0) return self.noOptionsText;
+    if (tableView == self.selectorController.tableView) {
+        if (self.selectorOptions.count == 0) return self.noOptionsText;
+        return nil;
+    }
     
     switch (section) {
         case 0:
-            return nil;
+            return NSLocalizedString(@"GENERAL",nil);
             
         case 1:
-            return nil;
+            return NSLocalizedString(@"CRITICAL",nil);
             
         case 2:
-            return nil;
-            
-        case 3:
             return NSLocalizedString(@"rescan blockchain if you think you may have missing transactions, "
                                      "or are having trouble sending (rescanning can take several minutes)", nil);
     }
@@ -481,7 +472,7 @@ _switch_cell:
     
     CGRect textRect = [sectionTitle boundingRectWithSize:CGSizeMake(self.view.frame.size.width - 20.0, CGFLOAT_MAX)
                 options:NSStringDrawingUsesLineFragmentOrigin
-                attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:13]} context:nil];
+                attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:14]} context:nil];
     
     return textRect.size.height + 22.0 + 10.0;
 }
@@ -490,17 +481,17 @@ _switch_cell:
 {
     UIView *sectionHeader = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, self.view.frame.size.width,
                                                          [self tableView:tableView heightForHeaderInSection:section])];
-    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(15.0, 0.0, sectionHeader.frame.size.width - 20.0,
-                                                           sectionHeader.frame.size.height - 22.0)];
+    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(16.0, 10.0, sectionHeader.frame.size.width - 20.0,
+                                                           sectionHeader.frame.size.height - 12.0)];
     
     titleLabel.text = [self tableView:tableView titleForHeaderInSection:section];
     titleLabel.backgroundColor = [UIColor clearColor];
-    titleLabel.font = [UIFont systemFontOfSize:13];
+    titleLabel.font = [UIFont systemFontOfSize:14 weight:UIFontWeightMedium];
     titleLabel.textColor = [UIColor grayColor];
     titleLabel.shadowColor = [UIColor whiteColor];
     titleLabel.shadowOffset = CGSizeMake(0.0, 1.0);
     titleLabel.numberOfLines = 0;
-    sectionHeader.backgroundColor = [UIColor clearColor];
+    sectionHeader.backgroundColor = self.tableView.backgroundColor;
     [sectionHeader addSubview:titleLabel];
     
     return sectionHeader;
@@ -558,16 +549,11 @@ _switch_cell:
     UIAlertController * alert = [UIAlertController
                                  alertControllerWithTitle:NSLocalizedString(@"WARNING", nil)
                                  message:[NSString stringWithFormat:@"\n%@\n\n%@\n\n%@\n",
-                                          [NSLocalizedString(@"\nDO NOT let anyone see your recovery\n"
-                                                             "phrase or they can spend your axe.\n", nil)
+                                          [NSLocalizedString(@"DO NOT let anyone see your recovery phrase or they can spend your axe.", nil)
                                            stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]],
-                                          [NSLocalizedString(@"\nNEVER type your recovery phrase into\n"
-                                                             "password managers or elsewhere.\n"
-                                                             "Other devices may be infected.\n", nil)
+                                          [NSLocalizedString(@"NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected.", nil)
                                            stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]],
-                                          [NSLocalizedString(@"\nDO NOT take a screenshot.\n"
-                                                             "Screenshots are visible to other apps\n"
-                                                             "and devices.\n", nil)
+                                          [NSLocalizedString(@"DO NOT take a screenshot. Screenshots are visible to other apps and devices.", nil)
                                            stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]]]
                                  preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction* cancelButton = [UIAlertAction
@@ -675,26 +661,20 @@ _switch_cell:
                 case 1: // recovery phrase
                     [self showRecoveryPhrase];
                     break;
-            }
-            
-            break;
-            
-        case 1:
-            switch (indexPath.row) {
-                case 0: // local currency
+                case 2: // local currency
                     [self showCurrencySelector];
                     
                     break;
                     
-                case 1: // touch id spending limit
-                    if (self.touchId) {
+                case 3: // touch id spending limit
+                    if (self.touchId || self.faceId) {
                         [self performSelector:@selector(touchIdLimit:) withObject:nil afterDelay:0.0];
                         break;
                     } else {
                         goto _deselect_switch;
                     }
                     break;
-                case 2:
+                case 4:
 _deselect_switch:
                     {
                         [tableView deselectRowAtIndexPath:indexPath animated:YES];
@@ -704,7 +684,7 @@ _deselect_switch:
             
             break;
             
-        case 2:
+        case 1:
             switch (indexPath.row) {
                 case 0: // change passcode
                     [BREventManager saveEvent:@"settings:change_pin"];

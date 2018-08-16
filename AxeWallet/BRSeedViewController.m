@@ -28,7 +28,7 @@
 #import "BRPeerManager.h"
 #import "NSMutableData+Bitcoin.h"
 #import "BREventManager.h"
-
+#import "DWWhiteActionButton.h"
 
 #define LABEL_MARGIN       20.0
 #define WRITE_TOGGLE_DELAY 15.0
@@ -41,9 +41,7 @@
 //TODO: create a secure version of UILabel and use it for seedLabel, but make sure there's an accessibility work around
 @property (nonatomic, strong) IBOutlet UILabel *seedLabel, *writeLabel;
 @property (nonatomic, strong) IBOutlet UIButton *writeButton;
-@property (nonatomic, strong) IBOutlet UIToolbar *toolbar;
-@property (nonatomic, strong) IBOutlet UIBarButtonItem *remindButton, *doneButton;
-@property (nonatomic, strong) IBOutlet UIImageView *wallpaper;
+@property (strong, nonatomic) IBOutlet DWWhiteActionButton *doneButton;
 
 @property (nonatomic, strong) id resignActiveObserver, screenshotObserver;
 
@@ -87,15 +85,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    if (self.navigationController.viewControllers.firstObject != self) {
-        self.wallpaper.hidden = YES;
-        self.view.backgroundColor = [UIColor clearColor];
-    }
-    
-    self.doneButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"done", nil)
-                       style:UIBarButtonItemStylePlain target:self action:@selector(done:)];
     
     
 #if DEBUG
@@ -114,8 +103,8 @@
     NSTimeInterval delay = WRITE_TOGGLE_DELAY;
  
     // remove done button if we're not the root of the nav stack
-    if (self.navigationController.viewControllers.firstObject != self) {
-        self.toolbar.hidden = YES;
+    if (!self.inSetupMode) {
+        self.doneButton.hidden = YES;
     }
     else delay *= 2; // extra delay before showing toggle when starting a new wallet
     
@@ -129,6 +118,10 @@
     
     
     @autoreleasepool {  // @autoreleasepool ensures sensitive data will be dealocated immediately
+        NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+        paragraphStyle.lineSpacing = 20;
+        paragraphStyle.alignment = NSTextAlignmentCenter;
+        NSDictionary * attributes = @{NSFontAttributeName:[UIFont systemFontOfSize:16 weight:UIFontWeightMedium],NSForegroundColorAttributeName:[UIColor whiteColor],NSParagraphStyleAttributeName:paragraphStyle};
         if (self.seedPhrase.length > 0 && [self.seedPhrase characterAtIndex:0] > 0x3000) { // ideographic language
             CGRect r;
             NSMutableString *s = CFBridgingRelease(CFStringCreateMutable(SecureAllocator(), 0)),
@@ -149,10 +142,11 @@
                 
                 [s appendString:w];
             }
-            
-            self.seedLabel.text = s;
+            self.seedLabel.attributedText = [[NSAttributedString alloc] initWithString:s attributes:attributes];;
         }
-        else self.seedLabel.text = self.seedPhrase;
+        else {
+            self.seedLabel.attributedText = [[NSAttributedString alloc] initWithString:self.seedPhrase attributes:attributes];
+        }
         
         self.seedPhrase = nil;
     }
@@ -166,7 +160,7 @@
         self.resignActiveObserver =
             [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationWillResignActiveNotification
             object:nil queue:nil usingBlock:^(NSNotification *note) {
-                if (self.navigationController.viewControllers.firstObject != self) {
+                if (!self.inSetupMode) {
                     [self.navigationController popViewControllerAnimated:NO];
                 }
             }];
@@ -177,7 +171,7 @@
         self.screenshotObserver =
             [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationUserDidTakeScreenshotNotification
             object:nil queue:nil usingBlock:^(NSNotification *note) {
-                if (self.navigationController.viewControllers.firstObject != self) {
+                if (!self.inSetupMode) {
                     
                     UIAlertController * alert = [UIAlertController
                                                  alertControllerWithTitle:NSLocalizedString(@"WARNING", nil)
@@ -246,30 +240,18 @@
     }];
 }
 
-// MARK: - IBAction
-
-- (IBAction)done:(id)sender
-{
-    [BREventManager saveEvent:@"seed:dismiss"];
-    if (self.navigationController.viewControllers.firstObject != self) return;
-    
-    self.navigationController.presentingViewController.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
-    [self.navigationController.presentingViewController.presentingViewController dismissViewControllerAnimated:YES
-     completion:nil];
-}
-
 - (IBAction)toggleWrite:(id)sender
 {
     [BREventManager saveEvent:@"seed:toggle_write"];
     NSUserDefaults *defs = [NSUserDefaults standardUserDefaults];
 
     if ([defs boolForKey:WALLET_NEEDS_BACKUP_KEY]) {
-        [self.toolbar setItems:@[self.toolbar.items[0], self.doneButton] animated:YES];
+        [self.doneButton setTitle:NSLocalizedString(@"Done",nil) forState:UIControlStateNormal];
         [self.writeButton setImage:[UIImage imageNamed:@"checkbox-checked"] forState:UIControlStateNormal];
         [defs removeObjectForKey:WALLET_NEEDS_BACKUP_KEY];
     }
     else {
-        [self.toolbar setItems:@[self.toolbar.items[0], self.remindButton] animated:YES];
+        [self.doneButton setTitle:NSLocalizedString(@"Remind me later",nil) forState:UIControlStateNormal];
         [self.writeButton setImage:[UIImage imageNamed:@"checkbox-empty"] forState:UIControlStateNormal];
         [defs setBool:YES forKey:WALLET_NEEDS_BACKUP_KEY];
     }

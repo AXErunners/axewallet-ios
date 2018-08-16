@@ -28,6 +28,7 @@
 #import "BRWalletManager.h"
 #import "BREventManager.h"
 
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 @interface BRWelcomeViewController ()
 
@@ -35,7 +36,7 @@
 @property (nonatomic, strong) id foregroundObserver, backgroundObserver;
 
 @property (nonatomic, strong) IBOutlet UIView *wallpaper, *wallpaperContainer;
-@property (nonatomic, strong) IBOutlet UIButton *newwalletButton, *recoverButton;
+@property (nonatomic, strong) IBOutlet UIButton *createWalletButton, *recoverButton;
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint *logoXCenter, *walletXCenter, *restoreXCenter,
                                                            *wallpaperXLeft;
 
@@ -48,23 +49,25 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-        
+    
     self.navigationController.delegate = self;
+    
+    self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
 
-    self.newwalletButton.titleLabel.adjustsFontSizeToFitWidth = YES;
+    self.createWalletButton.titleLabel.adjustsFontSizeToFitWidth = YES;
     self.recoverButton.titleLabel.adjustsFontSizeToFitWidth = YES;
     
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
-    self.newwalletButton.titleLabel.adjustsLetterSpacingToFitWidth = YES;
+    self.createWalletButton.titleLabel.adjustsLetterSpacingToFitWidth = YES;
     self.recoverButton.titleLabel.adjustsLetterSpacingToFitWidth = YES;
 #pragma clang diagnostic pop
 
-    self.foregroundObserver =
-        [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationWillEnterForegroundNotification object:nil
-        queue:nil usingBlock:^(NSNotification *note) {
-            [self animateWallpaper];
-        }];
+//    self.foregroundObserver =
+//        [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationWillEnterForegroundNotification object:nil
+//        queue:nil usingBlock:^(NSNotification *note) {
+//            [self animateWallpaper];
+//        }];
     
     self.backgroundObserver =
         [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationDidEnterBackgroundNotification object:nil
@@ -92,15 +95,21 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    [[self navigationController] setNavigationBarHidden:YES animated:NO];
+//    if (self.hasAppeared) {
+//        //self.logoXCenter.constant = self.view.frame.size.width;
+//        self.navigationItem.titleView.hidden = NO;
+//    }
+//    else {
+//        self.walletXCenter.constant = -self.view.frame.size.width;
+//        self.restoreXCenter.constant = -self.view.frame.size.width;
+//    }
+}
 
-    if (self.hasAppeared) {
-        self.logoXCenter.constant = self.view.frame.size.width;
-        self.navigationItem.titleView.hidden = NO;
-    }
-    else {
-        self.walletXCenter.constant = -self.view.frame.size.width;
-        self.restoreXCenter.constant = -self.view.frame.size.width;
-    }
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [[self navigationController] setNavigationBarHidden:NO animated:YES];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -109,89 +118,61 @@
     [BREventManager saveEvent:@"welcome:shown"];
 
     dispatch_async(dispatch_get_main_queue(), ^{ // animation sometimes doesn't work if run directly in viewDidAppear
-#if SNAPSHOT
-        [[UIApplication sharedApplication] setStatusBarHidden:NO];
-        self.navigationItem.titleView.hidden = NO;
-        self.navigationItem.titleView.alpha = 1.0;
-        self.logoXCenter.constant = self.view.frame.size.width;
-        self.walletXCenter.constant = self.restoreXCenter.constant = 0.0;
-        return;
-#endif
 
         if (! [BRWalletManager sharedInstance].noWallet) { // sanity check
             [self.navigationController.presentingViewController dismissViewControllerAnimated:NO completion:nil];
         }
 
-        if (! self.hasAppeared) {
-            [self.wallpaperContainer removeFromSuperview];
-            [self.navigationController.view insertSubview:self.wallpaperContainer atIndex:0];
-            [self.navigationController.view
-             addConstraint:[NSLayoutConstraint constraintWithItem:self.navigationController.view
-                                                        attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.wallpaperContainer
-                                                        attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0.0]];
-            [self.navigationController.view
-             addConstraint:[NSLayoutConstraint constraintWithItem:self.navigationController.view
-                                                        attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.wallpaperContainer
-                                                        attribute:NSLayoutAttributeTop multiplier:1.0 constant:0.0]];
-            self.hasAppeared = YES;
-            self.logoXCenter.constant = self.view.frame.size.width;
-            self.walletXCenter.constant = 0.0;
-            self.restoreXCenter.constant = 0.0;
-            self.navigationItem.titleView.hidden = NO;
-            self.navigationItem.titleView.alpha = 0.0;
+//        if (! self.hasAppeared) {
+//            [self.wallpaperContainer removeFromSuperview];
+//            [self.navigationController.view insertSubview:self.wallpaperContainer atIndex:0];
+//            [self.navigationController.view
+//             addConstraint:[NSLayoutConstraint constraintWithItem:self.navigationController.view
+//                                                        attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.wallpaperContainer
+//                                                        attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0.0]];
+//            [self.navigationController.view
+//             addConstraint:[NSLayoutConstraint constraintWithItem:self.navigationController.view
+//                                                        attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.wallpaperContainer
+//                                                        attribute:NSLayoutAttributeTop multiplier:1.0 constant:0.0]];
+//            self.hasAppeared = YES;
+////            self.logoXCenter.constant = self.view.frame.size.width;
+////            self.walletXCenter.constant = 0.0;
+////            self.restoreXCenter.constant = 0.0;
+//            self.navigationItem.titleView.hidden = NO;
+//            self.navigationItem.titleView.alpha = 0.0;
+//
+//            [UIView animateWithDuration:0.35 delay:1.0 usingSpringWithDamping:0.8 initialSpringVelocity:0.0
+//            options:UIViewAnimationOptionCurveEaseOut animations:^{
+//                self.navigationItem.titleView.alpha = 1.0;
+//                [self.navigationController.view layoutIfNeeded];
+//            } completion:nil];
+//        }
 
-            [UIView animateWithDuration:0.35 delay:1.0 usingSpringWithDamping:0.8 initialSpringVelocity:0.0
-            options:UIViewAnimationOptionCurveEaseOut animations:^{
-                self.navigationItem.titleView.alpha = 1.0;
-                [self.navigationController.view layoutIfNeeded];
-            } completion:nil];
-        }
-
-        [self animateWallpaper];
+//        [self animateWallpaper];
     });
 }
 
-- (void)animateWallpaper
-{
-    if (self.animating) return;
-    self.animating = YES;
-
-    self.wallpaperXLeft.constant = -240.0;
-
-    [UIView animateWithDuration:30.0 delay:0.0
-    options:UIViewAnimationOptionCurveLinear | UIViewAnimationOptionRepeat | UIViewAnimationOptionAutoreverse
-    animations:^{
-        [self.wallpaperContainer layoutIfNeeded];
-    } completion:^(BOOL finished) {
-        self.animating = NO;
-    }];
-}
-
-// MARK: IBAction
-
-- (IBAction)start:(id)sender
-{
-    [BREventManager saveEvent:@"welcome:new_wallet"];
-    
-    UIViewController *c = [self.storyboard instantiateViewControllerWithIdentifier:@"GenerateViewController"];
-    
-    [self.navigationController pushViewController:c animated:YES];
-}
-
-- (IBAction)recover:(id)sender
-{
-    [BREventManager saveEvent:@"welcome:recover_wallet"];
-
-    UIViewController *c = [self.storyboard instantiateViewControllerWithIdentifier:@"RecoverViewController"];
-
-    [self.navigationController pushViewController:c animated:YES];
-}
+//- (void)animateWallpaper
+//{
+//    if (self.animating) return;
+//    self.animating = YES;
+//
+//    self.wallpaperXLeft.constant = -240.0;
+//
+//    [UIView animateWithDuration:30.0 delay:0.0
+//    options:UIViewAnimationOptionCurveLinear | UIViewAnimationOptionRepeat | UIViewAnimationOptionAutoreverse
+//    animations:^{
+//        [self.wallpaperContainer layoutIfNeeded];
+//    } completion:^(BOOL finished) {
+//        self.animating = NO;
+//    }];
+//}
 
 // MARK: UIViewControllerAnimatedTransitioning
 
 // This is used for percent driven interactive transitions, as well as for container controllers that have companion
 // animations that might need to synchronize with the main animation.
-- (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext
+/*- (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext
 {
     return 0.35;
 }
@@ -240,6 +221,15 @@ presentingController:(UIViewController *)presenting sourceController:(UIViewCont
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed
 {
     return self;
+}*/
+
+-(void)performSegueWithIdentifier:(NSString *)identifier sender:(id)sender {
+    if ([identifier isEqualToString:@"GenerateViewController"]) {
+        [BREventManager saveEvent:@"welcome:new_wallet"];
+
+    } else if ([identifier isEqualToString:@"RecoverViewController"]) {
+        [BREventManager saveEvent:@"welcome:recover_wallet"];
+    }
 }
 
 @end

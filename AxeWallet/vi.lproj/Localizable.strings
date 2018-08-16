@@ -54,16 +54,7 @@
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nbật tính năng truy cập chụp ảnh trong phần\nSettings->Privacy->Camera->%@";
 
 /* No comment provided by engineer. */
-"\nDO NOT let anyone see your recovery\nphrase or they can spend your axe.\n" = "\nĐỪNG để bất cứ ai nhìn thấy cụm từ phục hồi \ncủa bạn hoặc họ sẽ tiêu mất số axe của bạn.";
-
-/* No comment provided by engineer. */
-"\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\nKHÔNG NÊN chụp ảnh màn hình.\nVì ảnh chụp màn hình hiển thị cho các ứng dụng khác\nvà các thiết bị khác.\n";
-
-/* No comment provided by engineer. */
 "\nnetwork fee +%@ (%@)" = "\nphí giao dịch +%1$@ (%2$@)";
-
-/* No comment provided by engineer. */
-"\nNEVER type your recovery phrase into\npassword managers or elsewhere.\nOther devices may be infected.\n" = "\nĐỪNG BAO GIỜ nhập cụm từ phục hồi của bạn vào\ntrình quản lý mật khẩu hoặc nơi nào khác\nNhững thiết bị khác có thể bị nhiễm virus.\n";
 
 /* No comment provided by engineer. */
 "\ntry again in %@" = "\ntry again in %@";
@@ -72,7 +63,7 @@
 "\ntry again in %d %@" = "\nthử lại %1$d %2$@";
 
 /* No comment provided by engineer. */
-"about" = "giới thiệu";
+"About" = "giới thiệu";
 
 /* No comment provided by engineer. */
 "always require passcode" = "luôn cần mật khẩu";
@@ -126,7 +117,7 @@
 "change" = "thay đổi";
 
 /* No comment provided by engineer. */
-"change passcode" = "thay đổi mật khẩu";
+"Change passcode" = "thay đổi mật khẩu";
 
 /* No comment provided by engineer. */
 "change payment amount?" = "thay đổi số lượng cần chi?";
@@ -152,8 +143,8 @@
 /* No comment provided by engineer. */
 "close app" = "đóng ứng dụng";
 
-/* confirm */
-"confirm" = "xác thực";
+/* Confirm */
+"Confirm" = "xác thực";
 
 /* No comment provided by engineer. */
 "confirmed in block #%d" = "đã được xác thực trong khối #%d";
@@ -189,6 +180,9 @@
 "couldn't transmit payment to axe network" = "không thể gửi thanh toán đến mạng lưới axe";
 
 /* No comment provided by engineer. */
+"CRITICAL" = "CRITICAL";
+
+/* No comment provided by engineer. */
 "Axe address" = "Địa chỉ Axe";
 
 /* No comment provided by engineer. */
@@ -216,7 +210,13 @@
 "do it later" = "làm việc này sau";
 
 /* No comment provided by engineer. */
-"done" = "xong";
+"DO NOT let anyone see your recovery phrase or they can spend your axe." = "ĐỪNG để bất cứ ai nhìn thấy cụm từ phục hồi của bạn hoặc họ sẽ tiêu mất số axe của bạn.";
+
+/* No comment provided by engineer. */
+"DO NOT take a screenshot. Screenshots are visible to other apps and devices." = "DO NOT take a screenshot. Screenshots are visible to other apps and devices.";
+
+/* No comment provided by engineer. */
+"Done" = "Done";
 
 /* No comment provided by engineer. */
 "double spend" = "tiêu lặp";
@@ -228,7 +228,7 @@
 "enable" = "enable";
 
 /* No comment provided by engineer. */
-"enable receive notifications" = "bật thông báo khi nhận được";
+"Enable receive notifications" = "bật thông báo khi nhận được";
 
 /* No comment provided by engineer. */
 "enter" = "nhập";
@@ -246,10 +246,16 @@
 "exit" = "thoát";
 
 /* No comment provided by engineer. */
+"Face ID limit" = "Face ID limit";
+
+/* No comment provided by engineer. */
 "failed wallet update" = "không cập nhận được ví";
 
 /* No comment provided by engineer. */
 "from:" = "từ:";
+
+/* No comment provided by engineer. */
+"GENERAL" = "GENERAL";
 
 /* No comment provided by engineer. */
 "hour" = "giờ";
@@ -258,16 +264,19 @@
 "hours" = "giờ";
 
 /* No comment provided by engineer. */
+"I accept that I will lose my coins if I no longer possess the recovery phrase" = "I accept that I will lose my coins if I no longer possess the recovery phrase";
+
+/* No comment provided by engineer. */
 "id:" = "id :";
 
 /* No comment provided by engineer. */
-"If you still would like to wipe it please input : \"I accept that I will lose my coins if I no longer possess the recovery phrase\"" = "If you still would like to wipe it please input : \"I accept that I will lose my coins if I no longer possess the recovery phrase\"";
+"If you still would like to wipe it please input: \"%@\"" = "If you still would like to wipe it please input: \"%@\"";
 
 /* No comment provided by engineer. */
 "ignore" = "bỏ qua";
 
 /* No comment provided by engineer. */
-"import private key" = "nhập khoá riêng từ ngoài";
+"Import private key" = "nhập khoá riêng từ ngoài";
 
 /* No comment provided by engineer. */
 "IMPORTANT" = "QUAN TRỌNG";
@@ -276,7 +285,7 @@
 "instant payment" = "giao dịch tức thời";
 
 /* No comment provided by engineer. */
-"Instant Send requires enough inputs with 6 confirmations, send anyways as regular transaction?" = "Instant Send cần đầu vào với đủ 6 xác thực, bạn có muốn gửi đi như một giao dịch thông thường không?";
+"InstantSend requires enough inputs with 6 confirmations, send anyways as regular transaction?" = "InstantSend cần đầu vào với đủ 6 xác thực, bạn có muốn gửi đi như một giao dịch thông thường không?";
 
 /* No comment provided by engineer. */
 "insufficient funds" = "không đủ kinh phí";
@@ -303,7 +312,10 @@
 "more..." = "tiếp...";
 
 /* No comment provided by engineer. */
-"moved" = "đã di chuyển";
+"Moved" = "đã di chuyển";
+
+/* No comment provided by engineer. */
+"NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected." = "NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected.";
 
 /* No comment provided by engineer. */
 "next, write down your recovery phrase" = "tiếp theo, ghi xuống cụm từ phục hồi";
@@ -354,7 +366,7 @@
 "password protected key" = "khoá được bảo vệ bởi mật khẩu";
 
 /* No comment provided by engineer. */
-"pay" = "thanh toán";
+"Pay" = "thanh toán";
 
 /* No comment provided by engineer. */
 "payee identity isn't certified" = "thông tin về người nhận chưa được xác nhận";
@@ -381,13 +393,13 @@
 "Receive axe at this address: %@" = "Nhận axe với địa chỉ này: %@";
 
 /* No comment provided by engineer. */
-"received" = "đã nhận";
+"Received" = "đã nhận";
 
 /* No comment provided by engineer. */
 "received %@ (%@)" = "nhận %@ (%@)";
 
-/* recovery phrase */
-"recovery phrase" = "cụm từ phục hồi";
+/* Recovery phrase */
+"Recovery phrase" = "cụm từ phục hồi";
 
 /* No comment provided by engineer. */
 "recovery phrase doesn't match" = "cụm từ phục hồi không đúng";
@@ -399,7 +411,10 @@
 "reduce payment amount by\n%@ (%@)?" = "giảm số lượng thanh toán theo\n%1$@ (%2$@)?";
 
 /* No comment provided by engineer. */
-"request" = "yêu cầu";
+"Remind me later" = "Remind me later";
+
+/* No comment provided by engineer. */
+"Request" = "yêu cầu";
 
 /* No comment provided by engineer. */
 "request an amount" = "yêu cầu một khoản";
@@ -417,7 +432,7 @@
 "rescan" = "quét lại";
 
 /* No comment provided by engineer. */
-"rescan blockchain" = "quét lại blockchain";
+"Rescan blockchain" = "quét lại blockchain";
 
 /* No comment provided by engineer. */
 "rescan blockchain if you think you may have missing transactions, or are having trouble sending (rescanning can take several minutes)" = "quét lại blockchain nếu bạn nghĩ rằng mình đã thiếu các giao dịch, hoặc gặp vấn đề khi gửi (quét lại có thể mất vài phút)";
@@ -465,7 +480,7 @@
 "send request as message" = "gửi yêu cầu bằng tin nhắn";
 
 /* No comment provided by engineer. */
-"sent" = "đã gửi";
+"Sent" = "đã gửi";
 
 /* No comment provided by engineer. */
 "sent!" = "đã gửi!";
@@ -474,7 +489,7 @@
 "set a trusted node" = "thiết lập một nút tin cậy";
 
 /* No comment provided by engineer. */
-"settings" = "thiết lập";
+"Settings" = "thiết lập";
 
 /* No comment provided by engineer. */
 "shapeshift bitcoin id:" = "shapeshift bitcoin id:";
@@ -543,7 +558,7 @@
 "this private key is empty" = "khoá riêng này không có gì";
 
 /* No comment provided by engineer. */
-"This request requires an instant payment but you do not have enough inputs with 6 confirmations required by Instant Send, you may ask the merchant to accept a normal transaction or wait a few minutes." = "This request requires an instant payment but you do not have enough inputs with 6 confirmations required by Instant Send, you may ask the merchant to accept a normal transaction or wait a few minutes.";
+"This request requires an instant payment but you do not have enough inputs with 6 confirmations required by InstantSend, you may ask the merchant to accept a normal transaction or wait a few minutes." = "This request requires an instant payment but you do not have enough inputs with 6 confirmations required by InstantSend, you may ask the merchant to accept a normal transaction or wait a few minutes.";
 
 /* No comment provided by engineer. */
 "this request requires an instant payment but you have disabled instant payments" = "this request requires an instant payment but you have disabled instant payments";
@@ -561,7 +576,7 @@
 "to: %@ (via Shapeshift)" = "đến: %@ (theo Shapeshift)";
 
 /* No comment provided by engineer. */
-"touch id limit" = "chạm giới hạn id";
+"Touch ID limit" = "chạm giới hạn id";
 
 /* No comment provided by engineer. */
 "touch id spending limit" = "chạm giới hạn chi tiêu id";
@@ -573,7 +588,7 @@
 "transaction fees would cost more than the funds available on this private key (due to tiny \"dust\" deposits)" = "phí giao dịch có thể nhiều hơn số tiền có trong địa chỉ này (do nhiều các khoản gửi tí xíu)";
 
 /* No comment provided by engineer. */
-"transaction history" = " lịch sử giao dịch";
+"Transaction history" = " lịch sử giao dịch";
 
 /* No comment provided by engineer. */
 "transaction rejected" = "giao dịch bị từ chối";

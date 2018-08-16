@@ -54,16 +54,7 @@
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nlejo çasjen e kamerës në\nSettings->Privacy->Camera->%@";
 
 /* No comment provided by engineer. */
-"\nDO NOT let anyone see your recovery\nphrase or they can spend your axe.\n" = "\nMOS lejoni që askush të shoh frazën\nrikthyese ose ata mund të shpenzojnë\naxe-at e juaj.";
-
-/* No comment provided by engineer. */
-"\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n";
-
-/* No comment provided by engineer. */
 "\nnetwork fee +%@ (%@)" = "\ntarifa +%1$@ (%2$@)";
-
-/* No comment provided by engineer. */
-"\nNEVER type your recovery phrase into\npassword managers or elsewhere.\nOther devices may be infected.\n" = "\nKURRË mos e shkruani frazën rikthyese\nnë ndonjë menagjer të fjalëkalimeve apo\ndiku tjetër. Pajisjet tjera mund të infektohen.\n";
 
 /* No comment provided by engineer. */
 "\ntry again in %@" = "\ntry again in %@";
@@ -72,7 +63,7 @@
 "\ntry again in %d %@" = "\nprovoni prapë në %1$d %2$@";
 
 /* No comment provided by engineer. */
-"about" = "rreth";
+"About" = "rreth";
 
 /* No comment provided by engineer. */
 "always require passcode" = "gjithmonë kërko kodkalimin";
@@ -126,7 +117,7 @@
 "change" = "ndrysho";
 
 /* No comment provided by engineer. */
-"change passcode" = "ndrysho kodkalimin";
+"Change passcode" = "ndrysho kodkalimin";
 
 /* No comment provided by engineer. */
 "change payment amount?" = "ndrysho shumën e pagesës?";
@@ -152,8 +143,8 @@
 /* No comment provided by engineer. */
 "close app" = "mbyll aplikacionin";
 
-/* confirm */
-"confirm" = "confirm";
+/* Confirm */
+"Confirm" = "Confirm";
 
 /* No comment provided by engineer. */
 "confirmed in block #%d" = "konfirmuar në bllokun #%d";
@@ -189,6 +180,9 @@
 "couldn't transmit payment to axe network" = "nuk mund të transmetohet pagesa në rrjetin axe";
 
 /* No comment provided by engineer. */
+"CRITICAL" = "CRITICAL";
+
+/* No comment provided by engineer. */
 "Axe address" = "Axe adresa";
 
 /* No comment provided by engineer. */
@@ -216,7 +210,13 @@
 "do it later" = "bëje më vonë";
 
 /* No comment provided by engineer. */
-"done" = "përfunduar";
+"DO NOT let anyone see your recovery phrase or they can spend your axe." = "MOS lejoni që askush të shoh frazën rikthyese ose ata mund të shpenzojnë axe-at e juaj.";
+
+/* No comment provided by engineer. */
+"DO NOT take a screenshot. Screenshots are visible to other apps and devices." = "DO NOT take a screenshot. Screenshots are visible to other apps and devices.";
+
+/* No comment provided by engineer. */
+"Done" = "Done";
 
 /* No comment provided by engineer. */
 "double spend" = "shpenzim i dyfisht";
@@ -228,7 +228,7 @@
 "enable" = "enable";
 
 /* No comment provided by engineer. */
-"enable receive notifications" = "enable receive notifications";
+"Enable receive notifications" = "Enable receive notifications";
 
 /* No comment provided by engineer. */
 "enter" = "enter";
@@ -246,10 +246,16 @@
 "exit" = "exit";
 
 /* No comment provided by engineer. */
+"Face ID limit" = "Face ID limit";
+
+/* No comment provided by engineer. */
 "failed wallet update" = "failed wallet update";
 
 /* No comment provided by engineer. */
 "from:" = "nga:";
+
+/* No comment provided by engineer. */
+"GENERAL" = "GENERAL";
 
 /* No comment provided by engineer. */
 "hour" = "orë";
@@ -258,16 +264,19 @@
 "hours" = "orë";
 
 /* No comment provided by engineer. */
+"I accept that I will lose my coins if I no longer possess the recovery phrase" = "I accept that I will lose my coins if I no longer possess the recovery phrase";
+
+/* No comment provided by engineer. */
 "id:" = "id:";
 
 /* No comment provided by engineer. */
-"If you still would like to wipe it please input : \"I accept that I will lose my coins if I no longer possess the recovery phrase\"" = "If you still would like to wipe it please input : \"I accept that I will lose my coins if I no longer possess the recovery phrase\"";
+"If you still would like to wipe it please input: \"%@\"" = "If you still would like to wipe it please input: \"%@\"";
 
 /* No comment provided by engineer. */
 "ignore" = "injoro";
 
 /* No comment provided by engineer. */
-"import private key" = "importo çelës privat";
+"Import private key" = "importo çelës privat";
 
 /* No comment provided by engineer. */
 "IMPORTANT" = "E RËNDËSISHME";
@@ -276,7 +285,7 @@
 "instant payment" = "instant payment";
 
 /* No comment provided by engineer. */
-"Instant Send requires enough inputs with 6 confirmations, send anyways as regular transaction?" = "Instant Send requires enough inputs with 6 confirmations, send anyways as regular transaction?";
+"InstantSend requires enough inputs with 6 confirmations, send anyways as regular transaction?" = "InstantSend requires enough inputs with 6 confirmations, send anyways as regular transaction?";
 
 /* No comment provided by engineer. */
 "insufficient funds" = "fonde të pamjaftueshme";
@@ -303,7 +312,10 @@
 "more..." = "më shumë...";
 
 /* No comment provided by engineer. */
-"moved" = "janë zhvendosur";
+"Moved" = "janë zhvendosur";
+
+/* No comment provided by engineer. */
+"NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected." = "NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected.";
 
 /* No comment provided by engineer. */
 "next, write down your recovery phrase" = "tash, shkruaje frazën rikthyese të juaj";
@@ -354,7 +366,7 @@
 "password protected key" = "çelës i mbrojtur me fjalëkalim";
 
 /* No comment provided by engineer. */
-"pay" = "Paguaj";
+"Pay" = "Paguaj";
 
 /* No comment provided by engineer. */
 "payee identity isn't certified" = "payee identity isn't certified";
@@ -381,13 +393,13 @@
 "Receive axe at this address: %@" = "Prano axe në këtë adresë: %@";
 
 /* No comment provided by engineer. */
-"received" = "të pranuara";
+"Received" = "të pranuara";
 
 /* No comment provided by engineer. */
 "received %@ (%@)" = "pranuat %1$@ (%2$@)";
 
-/* recovery phrase */
-"recovery phrase" = "fraza rikthyese";
+/* Recovery phrase */
+"Recovery phrase" = "fraza rikthyese";
 
 /* No comment provided by engineer. */
 "recovery phrase doesn't match" = "fraza rikthyese nuk përputhet";
@@ -399,7 +411,10 @@
 "reduce payment amount by\n%@ (%@)?" = "zvogëloni shumën e pagesës për\n%1$@ (%2$@)?";
 
 /* No comment provided by engineer. */
-"request" = "kërkes";
+"Remind me later" = "Remind me later";
+
+/* No comment provided by engineer. */
+"Request" = "kërkes";
 
 /* No comment provided by engineer. */
 "request an amount" = "kërko një shumë";
@@ -417,7 +432,7 @@
 "rescan" = "riskano";
 
 /* No comment provided by engineer. */
-"rescan blockchain" = "riskano blockchain";
+"Rescan blockchain" = "riskano blockchain";
 
 /* No comment provided by engineer. */
 "rescan blockchain if you think you may have missing transactions, or are having trouble sending (rescanning can take several minutes)" = "riskano blockchain nëse mendon që po ju mungon ndonjë transaksion, ose keni probleme me dërgim të pagesës (riskanimi mund të merr kohë disa minuta)";
@@ -465,7 +480,7 @@
 "send request as message" = "dërgo kërkesën si mesazh";
 
 /* No comment provided by engineer. */
-"sent" = "dërguar";
+"Sent" = "dërguar";
 
 /* No comment provided by engineer. */
 "sent!" = "dërguar!";
@@ -474,7 +489,7 @@
 "set a trusted node" = "set a trusted node";
 
 /* No comment provided by engineer. */
-"settings" = "konfigurimet";
+"Settings" = "konfigurimet";
 
 /* No comment provided by engineer. */
 "shapeshift bitcoin id:" = "shapeshift bitcoin id:";
@@ -543,7 +558,7 @@
 "this private key is empty" = "çelësi privat është i zbrazët";
 
 /* No comment provided by engineer. */
-"This request requires an instant payment but you do not have enough inputs with 6 confirmations required by Instant Send, you may ask the merchant to accept a normal transaction or wait a few minutes." = "This request requires an instant payment but you do not have enough inputs with 6 confirmations required by Instant Send, you may ask the merchant to accept a normal transaction or wait a few minutes.";
+"This request requires an instant payment but you do not have enough inputs with 6 confirmations required by InstantSend, you may ask the merchant to accept a normal transaction or wait a few minutes." = "This request requires an instant payment but you do not have enough inputs with 6 confirmations required by InstantSend, you may ask the merchant to accept a normal transaction or wait a few minutes.";
 
 /* No comment provided by engineer. */
 "this request requires an instant payment but you have disabled instant payments" = "this request requires an instant payment but you have disabled instant payments";
@@ -561,7 +576,7 @@
 "to: %@ (via Shapeshift)" = "to: %@ (via Shapeshift)";
 
 /* No comment provided by engineer. */
-"touch id limit" = "touch id limiti";
+"Touch ID limit" = "touch id limiti";
 
 /* No comment provided by engineer. */
 "touch id spending limit" = "touch id limiti shpenzues";
@@ -573,7 +588,7 @@
 "transaction fees would cost more than the funds available on this private key (due to tiny \"dust\" deposits)" = "tarifa do të kushtoj më shumë se sa vetë fondet në dispozicion në këtë çelës privat (për shkak të depozitave tepër të vogla)";
 
 /* No comment provided by engineer. */
-"transaction history" = "historia e transaksioneve";
+"Transaction history" = "historia e transaksioneve";
 
 /* No comment provided by engineer. */
 "transaction rejected" = "transaksioni u refuzua";
