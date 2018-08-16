@@ -28,7 +28,7 @@
 #if AXE_TESTNET
 #define AXE_MAGIC_NUMBER 0xffcae2ce
 #else
-#define AXE_MAGIC_NUMBER 0xbd6b0cbf
+#define AXE_MAGIC_NUMBER 0x046bceb5
 #endif
 
 CF_IMPLICIT_BRIDGING_ENABLED
