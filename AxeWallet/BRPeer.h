@@ -27,9 +27,9 @@
 
 
 #if AXE_TESTNET
-#define AXE_STANDARD_PORT          19999
+#define AXE_STANDARD_PORT          19937
 #else
-#define AXE_STANDARD_PORT          9999
+#define AXE_STANDARD_PORT          9937
 #endif
 
 #define BITCOIN_TIMEOUT_CODE  1001
