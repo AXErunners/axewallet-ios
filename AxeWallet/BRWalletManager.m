@@ -56,7 +56,7 @@
 #define SEED_ENTROPY_LENGTH   (128/8)
 #define SEC_ATTR_SERVICE      @"org.axefoundation.axe"
 #define DEFAULT_CURRENCY_CODE @"USD"
-#define DEFAULT_SPENT_LIMIT   DUFFS
+#define DEFAULT_SPENT_LIMIT   HAKS
 
 #define LOCAL_CURRENCY_CODE_KEY @"LOCAL_CURRENCY_CODE"
 #define CURRENCY_CODES_KEY      @"CURRENCY_CODES"
@@ -1084,7 +1084,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
 - (uint64_t)spendingLimit
 {
     // it's ok to store this in userdefaults because increasing the value only takes effect after successful pin entry
-    if (! [[NSUserDefaults standardUserDefaults] objectForKey:SPEND_LIMIT_AMOUNT_KEY]) return DUFFS;
+    if (! [[NSUserDefaults standardUserDefaults] objectForKey:SPEND_LIMIT_AMOUNT_KEY]) return HAKS;
     
     return [[NSUserDefaults standardUserDefaults] doubleForKey:SPEND_LIMIT_AMOUNT_KEY];
 }
@@ -1122,7 +1122,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     self.localFormat.currencyCode = _localCurrencyCode;
     self.localFormat.maximum =
     [[NSDecimalNumber decimalNumberWithDecimal:self.localCurrencyBitcoinPrice.decimalValue]
-     decimalNumberByMultiplyingBy:(id)[NSDecimalNumber numberWithLongLong:MAX_MONEY/DUFFS]];
+     decimalNumberByMultiplyingBy:(id)[NSDecimalNumber numberWithLongLong:MAX_MONEY/HAKS]];
     
     if ([self.localCurrencyCode isEqual:[[NSLocale currentLocale] objectForKey:NSLocaleCurrencyCode]]) {
         [defs removeObjectForKey:LOCAL_CURRENCY_CODE_KEY];
@@ -1391,8 +1391,8 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
                                              }
                                          }
 #if EXCHANGE_RATES_LOGGING
-                                         NSLog(@"poloniex exchange rate updated to %@/%@", [self localCurrencyStringForAxeAmount:DUFFS],
-                                               [self stringForAxeAmount:DUFFS]);
+                                         NSLog(@"poloniex exchange rate updated to %@/%@", [self localCurrencyStringForAxeAmount:HAKS],
+                                               [self stringForAxeAmount:HAKS]);
 #endif
                                      }
       ] resume];
@@ -1439,8 +1439,8 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
                                                  [defs synchronize];
                                                  [self refreshBitcoinAxePrice];
 #if EXCHANGE_RATES_LOGGING
-                                                 NSLog(@"axe central exchange rate updated to %@/%@", [self localCurrencyStringForAxeAmount:DUFFS],
-                                                       [self stringForAxeAmount:DUFFS]);
+                                                 NSLog(@"axe central exchange rate updated to %@/%@", [self localCurrencyStringForAxeAmount:HAKS],
+                                                       [self stringForAxeAmount:HAKS]);
 #endif
                                              }
                                          }
@@ -1507,8 +1507,8 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
         [defs setObject:self.currencyPrices forKey:CURRENCY_PRICES_KEY];
         [defs synchronize];
 #if EXCHANGE_RATES_LOGGING
-        NSLog(@"bitcoin exchange rate updated to %@/%@", [self localCurrencyStringForAxeAmount:DUFFS],
-              [self stringForAxeAmount:DUFFS]);
+        NSLog(@"bitcoin exchange rate updated to %@/%@", [self localCurrencyStringForAxeAmount:HAKS],
+              [self stringForAxeAmount:HAKS]);
 #endif
     }
       
@@ -1592,7 +1592,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
                                                  ! [utxo[@"vout"] isKindOfClass:[NSNumber class]] ||
                                                  ! [utxo[@"scriptPubKey"] isKindOfClass:[NSString class]] ||
                                                  ! [utxo[@"scriptPubKey"] hexToData] ||
-                                                 (! [utxo[@"duffs"] isKindOfClass:[NSNumber class]] && ! [utxo[@"satoshis"] isKindOfClass:[NSNumber class]] && !amount)) {
+                                                 (! [utxo[@"haks"] isKindOfClass:[NSNumber class]] && ! [utxo[@"satoshis"] isKindOfClass:[NSNumber class]] && !amount)) {
                                                  completion(nil, nil, nil,
                                                             [NSError errorWithDomain:@"AxeWallet" code:417 userInfo:@{NSLocalizedDescriptionKey:
                                                                                                                            [NSString stringWithFormat:NSLocalizedString(@"unexpected response from %@", nil),
@@ -1605,8 +1605,8 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
                                              [utxos addObject:brutxo_obj(o)];
                                              if (amount) {
                                                  [amounts addObject:[amount decimalNumberByMultiplyingByPowerOf10:8]];
-                                             } else if (utxo[@"duffs"]) {
-                                                 [amounts addObject:utxo[@"duffs"]];
+                                             } else if (utxo[@"haks"]) {
+                                                 [amounts addObject:utxo[@"haks"]];
                                              }  else if (utxo[@"satoshis"]) {
                                                  [amounts addObject:utxo[@"satoshis"]];
                                              }
@@ -1851,9 +1851,9 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     overflowbits = 0, p = 10, min, max, amount;
     
     if (local == 0 || price < 1) return 0;
-    while (llabs(local) + 1 > INT64_MAX/DUFFS) local /= 2, overflowbits++; // make sure we won't overflow an int64_t
-    min = llabs(local)*DUFFS/price + 1; // minimum amount that safely matches local currency string
-    max = (llabs(local) + 1)*DUFFS/price - 1; // maximum amount that safely matches local currency string
+    while (llabs(local) + 1 > INT64_MAX/HAKS) local /= 2, overflowbits++; // make sure we won't overflow an int64_t
+    min = llabs(local)*HAKS/price + 1; // minimum amount that safely matches local currency string
+    max = (llabs(local) + 1)*HAKS/price - 1; // maximum amount that safely matches local currency string
     amount = (min + max)/2; // average min and max
     while (overflowbits > 0) local *= 2, min *= 2, max *= 2, amount *= 2, overflowbits--;
     
@@ -1875,9 +1875,9 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     int64_t local = amt + DBL_EPSILON*amt, overflowbits = 0;
     
     if (local == 0) return 0;
-    while (llabs(local) + 1 > INT64_MAX/DUFFS) local /= 2, overflowbits++; // make sure we won't overflow an int64_t
-    int64_t min = llabs(local)*DUFFS/(int64_t)(price + DBL_EPSILON*price) + 1,
-    max = (llabs(local) + 1)*DUFFS/(int64_t)(price + DBL_EPSILON*price) - 1,
+    while (llabs(local) + 1 > INT64_MAX/HAKS) local /= 2, overflowbits++; // make sure we won't overflow an int64_t
+    int64_t min = llabs(local)*HAKS/(int64_t)(price + DBL_EPSILON*price) + 1,
+    max = (llabs(local) + 1)*HAKS/(int64_t)(price + DBL_EPSILON*price) - 1,
     amount = (min + max)/2, p = 10;
     
     while (overflowbits > 0) local *= 2, min *= 2, max *= 2, amount *= 2, overflowbits--;
@@ -1895,7 +1895,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     
     NSDecimalNumber *n = [[[NSDecimalNumber decimalNumberWithDecimal:self.bitcoinAxePrice.decimalValue]
                            decimalNumberByMultiplyingBy:(id)[NSDecimalNumber numberWithLongLong:llabs(amount)]]
-                          decimalNumberByDividingBy:(id)[NSDecimalNumber numberWithLongLong:DUFFS]],
+                          decimalNumberByDividingBy:(id)[NSDecimalNumber numberWithLongLong:HAKS]],
     *min = [[NSDecimalNumber one]
             decimalNumberByMultiplyingByPowerOf10:-self.bitcoinFormat.maximumFractionDigits];
     
@@ -1921,7 +1921,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     
     NSDecimalNumber *n = [[[NSDecimalNumber decimalNumberWithDecimal:self.localCurrencyBitcoinPrice.decimalValue]
                            decimalNumberByMultiplyingBy:(id)[NSDecimalNumber numberWithLongLong:llabs(amount)]]
-                          decimalNumberByDividingBy:(id)[NSDecimalNumber numberWithLongLong:DUFFS]],
+                          decimalNumberByDividingBy:(id)[NSDecimalNumber numberWithLongLong:HAKS]],
     *min = [[NSDecimalNumber one]
             decimalNumberByMultiplyingByPowerOf10:-self.localFormat.maximumFractionDigits];
     
@@ -1944,7 +1944,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     
     NSDecimalNumber *n = [[[NSDecimalNumber decimalNumberWithDecimal:local.decimalValue]
                            decimalNumberByMultiplyingBy:(id)[NSDecimalNumber numberWithLongLong:llabs(amount)]]
-                          decimalNumberByDividingBy:(id)[NSDecimalNumber numberWithLongLong:DUFFS]],
+                          decimalNumberByDividingBy:(id)[NSDecimalNumber numberWithLongLong:HAKS]],
     *min = [[NSDecimalNumber one]
             decimalNumberByMultiplyingByPowerOf10:-self.localFormat.maximumFractionDigits];
     

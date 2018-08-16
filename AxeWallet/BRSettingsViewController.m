@@ -75,8 +75,8 @@
                 if (self.selectorType == 0) {
                     self.selectorController.title =
                         [NSString stringWithFormat:@"%@ = %@",
-                         [manager localCurrencyStringForAxeAmount:DUFFS/manager.localCurrencyAxePrice.doubleValue],
-                         [manager stringForAxeAmount:DUFFS/manager.localCurrencyAxePrice.doubleValue]];
+                         [manager localCurrencyStringForAxeAmount:HAKS/manager.localCurrencyAxePrice.doubleValue],
+                         [manager stringForAxeAmount:HAKS/manager.localCurrencyAxePrice.doubleValue]];
                 }
             }];
     }
@@ -144,8 +144,8 @@
 
    return [NSString stringWithFormat:NSLocalizedString(@"rate: %@ = %@\nupdated: %@\nblock #%d of %d\n"
                                                        "connected peers: %d\ndl peer: %@", NULL),
-           [manager localCurrencyStringForAxeAmount:DUFFS/manager.localCurrencyAxePrice.doubleValue],
-           [manager stringForAxeAmount:DUFFS/manager.localCurrencyAxePrice.doubleValue],
+           [manager localCurrencyStringForAxeAmount:HAKS/manager.localCurrencyAxePrice.doubleValue],
+           [manager stringForAxeAmount:HAKS/manager.localCurrencyAxePrice.doubleValue],
            [fmt stringFromDate:[NSDate dateWithTimeIntervalSinceReferenceDate:manager.secureTime]].lowercaseString,
            [BRPeerManager sharedInstance].lastBlockHeight,
            [BRPeerManager sharedInstance].estimatedBlockHeight,
@@ -300,13 +300,13 @@
             self.selectorType = 1;
             self.selectorOptions =
             @[NSLocalizedString(@"always require passcode", nil),
-              [NSString stringWithFormat:@"%@      (%@)", [manager stringForAxeAmount:DUFFS/10],
-               [manager localCurrencyStringForAxeAmount:DUFFS/10]],
-              [NSString stringWithFormat:@"%@   (%@)", [manager stringForAxeAmount:DUFFS],
-               [manager localCurrencyStringForAxeAmount:DUFFS]],
-              [NSString stringWithFormat:@"%@ (%@)", [manager stringForAxeAmount:DUFFS*10],
-               [manager localCurrencyStringForAxeAmount:DUFFS*10]]];
-            if (manager.spendingLimit > DUFFS*10) manager.spendingLimit = DUFFS*10;
+              [NSString stringWithFormat:@"%@      (%@)", [manager stringForAxeAmount:HAKS/10],
+               [manager localCurrencyStringForAxeAmount:HAKS/10]],
+              [NSString stringWithFormat:@"%@   (%@)", [manager stringForAxeAmount:HAKS],
+               [manager localCurrencyStringForAxeAmount:HAKS]],
+              [NSString stringWithFormat:@"%@ (%@)", [manager stringForAxeAmount:HAKS*10],
+               [manager localCurrencyStringForAxeAmount:HAKS*10]]];
+            if (manager.spendingLimit > HAKS*10) manager.spendingLimit = HAKS*10;
             self.selectedOption = self.selectorOptions[(log10(manager.spendingLimit) < 6) ? 0 :
                                                        (NSUInteger)log10(manager.spendingLimit) - 6];
             self.noOptionsText = nil;
@@ -332,8 +332,8 @@
     [[NSUserDefaults standardUserDefaults] setInteger:digits forKey:SETTINGS_MAX_DIGITS_KEY];
     manager.localCurrencyCode = manager.localCurrencyCode; // force balance notification
     self.selectorController.title = [NSString stringWithFormat:@"%@ = %@",
-                                     [manager localCurrencyStringForAxeAmount:DUFFS/manager.localCurrencyAxePrice.doubleValue],
-                                     [manager stringForAxeAmount:DUFFS/manager.localCurrencyAxePrice.doubleValue]];
+                                     [manager localCurrencyStringForAxeAmount:HAKS/manager.localCurrencyAxePrice.doubleValue],
+                                     [manager stringForAxeAmount:HAKS/manager.localCurrencyAxePrice.doubleValue]];
     [self.tableView reloadData];
 }
 
@@ -616,8 +616,8 @@ _switch_cell:
     self.noOptionsText = NSLocalizedString(@"no exchange rate data", nil);
     self.selectorController.title =
         [NSString stringWithFormat:@"%@ = %@",
-         [manager localCurrencyStringForAxeAmount:(localPrice > DBL_EPSILON) ? DUFFS/localPrice : 0],
-         [manager stringForAxeAmount:(localPrice > DBL_EPSILON) ? DUFFS/localPrice : 0]];
+         [manager localCurrencyStringForAxeAmount:(localPrice > DBL_EPSILON) ? HAKS/localPrice : 0],
+         [manager stringForAxeAmount:(localPrice > DBL_EPSILON) ? HAKS/localPrice : 0]];
     [self.navigationController pushViewController:self.selectorController animated:YES];
     [self.selectorController.tableView reloadData];
     

@@ -1154,29 +1154,29 @@
     NSArray * inputIndexes = @[@(0)];
     NSArray * inputScripts = @[script];
     NSArray * outputAddresses = @[w.receiveAddress];
-    NSArray * outputAmounts = @[@(DUFFS)];
+    NSArray * outputAmounts = @[@(HAKS)];
     BRTransaction *tx = [[BRTransaction alloc] initWithInputHashes:inputHashes inputIndexes:inputIndexes inputScripts:inputScripts
                                                    outputAddresses:outputAddresses outputAmounts:outputAmounts];
     
     [tx signWithPrivateKeys:@[k.privateKey]];
     [w registerTransaction:tx];
     
-    XCTAssertEqual(w.balance, DUFFS, @"[BRWallet registerTransaction]");
+    XCTAssertEqual(w.balance, HAKS, @"[BRWallet registerTransaction]");
     
     tx = [BRTransaction new];
     [tx addInputHash:UINT256_ZERO index:2 script:script signature:NULL sequence:UINT32_MAX - 1];
-    [tx addOutputAddress:w.receiveAddress amount:DUFFS];
+    [tx addOutputAddress:w.receiveAddress amount:HAKS];
     tx.lockTime = 1000;
     tx.blockHeight = TX_UNCONFIRMED;
     [tx signWithPrivateKeys:@[k.privateKey]];
     [w registerTransaction:tx]; // test pending tx with future lockTime
     
-    XCTAssertEqual(w.balance, DUFFS, @"[BRWallet registerTransaction]");
+    XCTAssertEqual(w.balance, HAKS, @"[BRWallet registerTransaction]");
     
     [w setBlockHeight:1000 andTimestamp:1 forTxHashes:@[uint256_obj(tx.txHash)]];
-    XCTAssertEqual(w.balance, DUFFS*2, @"[BRWallet registerTransaction]");
+    XCTAssertEqual(w.balance, HAKS*2, @"[BRWallet registerTransaction]");
     
-    tx = [w transactionFor:DUFFS/2 to:k.address withFee:NO];
+    tx = [w transactionFor:HAKS/2 to:k.address withFee:NO];
     
     XCTAssertNotNil(tx, @"[BRWallet transactionFor:to:withFee:]");
     
@@ -1188,7 +1188,7 @@
     
     [w registerTransaction:tx];
     
-    XCTAssertEqual(w.balance, DUFFS*3/2, @"[BRWallet balance]");
+    XCTAssertEqual(w.balance, HAKS*3/2, @"[BRWallet balance]");
     
 #if ! AXE_TESTNET
     

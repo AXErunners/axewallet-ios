@@ -519,12 +519,12 @@
     if ([defs integerForKey:SETTINGS_MAX_DIGITS_KEY] == 5) {
         manager.axeFormat.currencySymbol = @"m" BTC NARROW_NBSP;
         manager.axeFormat.maximumFractionDigits = 5;
-        manager.axeFormat.maximum = @((MAX_MONEY/DUFFS)*1000);
+        manager.axeFormat.maximum = @((MAX_MONEY/HAKS)*1000);
     }
     else if ([defs integerForKey:SETTINGS_MAX_DIGITS_KEY] == 8) {
         manager.axeFormat.currencySymbol = BTC NARROW_NBSP;
         manager.axeFormat.maximumFractionDigits = 8;
-        manager.axeFormat.maximum = @(MAX_MONEY/DUFFS);
+        manager.axeFormat.maximum = @(MAX_MONEY/HAKS);
     }
     
     if (manager.noWallet && manager.noOldWallet) {
@@ -1043,7 +1043,7 @@
     if ([tipView.text hasPrefix:BALANCE_TIP]) {
         BRWalletManager *m = [BRWalletManager sharedInstance];
         UINavigationBar *b = self.navigationController.navigationBar;
-        NSString *text = [NSString stringWithFormat:MAXE_TIP, m.axeFormat.currencySymbol, [m stringForAxeAmount:DUFFS]];
+        NSString *text = [NSString stringWithFormat:MAXE_TIP, m.axeFormat.currencySymbol, [m stringForAxeAmount:HAKS]];
         CGRect r = [self.navigationItem.title boundingRectWithSize:b.bounds.size options:0
                                                         attributes:b.titleTextAttributes context:nil];
         
@@ -1089,7 +1089,7 @@
         UINavigationBar *b = self.navigationController.navigationBar;
         NSString *tip;
         if (manager.bitcoinAxePrice) {
-            tip = (self.shouldShowTips) ? [NSString stringWithFormat:@"%@ \n 1%@ = %.4f%@ (%@)",BALANCE_TIP_START,AXE,manager.bitcoinAxePrice.doubleValue,BTC,[manager localCurrencyStringForAxeAmount:DUFFS]] :
+            tip = (self.shouldShowTips) ? [NSString stringWithFormat:@"%@ \n 1%@ = %.4f%@ (%@)",BALANCE_TIP_START,AXE,manager.bitcoinAxePrice.doubleValue,BTC,[manager localCurrencyStringForAxeAmount:HAKS]] :
             [NSString stringWithFormat:NSLocalizedString(@"block #%d of %d", nil),
              [[BRPeerManager sharedInstance] lastBlockHeight],
              [[BRPeerManager sharedInstance] estimatedBlockHeight]];
