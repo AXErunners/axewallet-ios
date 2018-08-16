@@ -12,10 +12,10 @@ Using [SPV](https://en.bitcoin.it/wiki/Thin_Client_Security#Header-Only_Clients)
 Axewallet is designed to protect you from malware, browser security holes, even physical theft. With AES hardware encryption, app sandboxing,
 keychain and code signatures, Axewallet represents a significant security advantage over web and desktop wallets, and other mobile platforms.
 Simplicity is Axewallet’s core design principle. A simple backup phrase is all you need to restore your wallet on another device if yours is ever lost or broken.
-Because Axewallet is [deterministic](https://axepay.atlassian.net/wiki/display/DOC/Whitepaper), your balance and transaction history can be recovered from just your backup phrase.
+Because Axewallet is deterministic, your balance and transaction history can be recovered from just your backup phrase.
 
 ## Features:
-- [“simplified payment verification”](https://axepay.atlassian.net/wiki/display/DOC/Official+Documentation) for fast mobile performance
+- [“simplified payment verification”](https://github.com/AXErunners/axe/wiki/SPV) for fast mobile performance
 - no server to get hacked or go down
 - single backup phrase that works forever
 - private keys never leave your device
