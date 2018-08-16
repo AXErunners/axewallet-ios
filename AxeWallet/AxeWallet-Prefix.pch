@@ -1,0 +1,32 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#include <Availability.h>
+#include "BRUserDefaultsConstants.h"
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#endif
+
+#ifndef __IPHONE_7_0
+#warning "This project uses features only available in iOS SDK 7.0 and later."
+#endif
+
+#ifndef AXE_TESTNET
+#define AXE_TESTNET 0
+#endif
+//#define SNAPSHOT        1
+#define PEER_LOGGING    1
+#define EVENT_LOGGING   1
+#define MESSAGE_LOGGING 0
+#define DROP_MESSAGE_LOGGING (0 & DEBUG)
+#define EXCHANGE_RATES_LOGGING 0
+
+#if ! DEBUG
+#define NSLog(...)
+#endif

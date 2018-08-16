@@ -1,0 +1,651 @@
+
+/* No comment provided by engineer. */
+" and " = " and ";
+
+/* No comment provided by engineer. */
+"%@ is for 'mAXE'. %@ = 1 AXE." = "%@ is for 'mAXE'. %@ = 1 AXE.";
+
+/* No comment provided by engineer. */
+"%@ is not allowed to access the camera" = "%@ kameraya erişmesi için izin verilmedi";
+
+/* No comment provided by engineer. */
+"%@\n\nbalance: %@ (%@)" = "%1$@\n\nbakiye: %2$@ (%3$@)";
+
+/* No comment provided by engineer. */
+"%d confirmations" = "%d onaylama";
+
+/* No comment provided by engineer. */
+", " = ", ";
+
+/* No comment provided by engineer. */
+"0 confirmations" = "0 onaylama";
+
+/* No comment provided by engineer. */
+"1 confirmation" = "1 onaylama";
+
+/* No comment provided by engineer. */
+"\"%@\" is not a recovery phrase word" = "\"%@\" kurtarma cümlesi kelimesi değil";
+
+/* No comment provided by engineer. */
+"\n         total %@ (%@)" = "\n         toplam %1$@ (%2$@)";
+
+/* No comment provided by engineer. */
+"\n%@\n\nif you ever lose your phone, you will need it to recover your wallet" = "\n%@\n\neğer telefonunuzu kaybederseniz cüzdanınızı kurtarmak için buna ihtiyacınız olacaktır";
+
+/* No comment provided by engineer. */
+"\n%d attempts remaining\n" = "\n%d deneme hakkı kaldı\n";
+
+/* No comment provided by engineer. */
+"\n(local requested amount: %@)" = "\n(local requested amount: %@)";
+
+/* No comment provided by engineer. */
+"\n1 attempt remaining\n" = "\n1 deneme hakkı kaldı\n";
+
+/* No comment provided by engineer. */
+"\n\n     amount %@ (%@)" = "\n\n     miktar %1$@ (%2$@)";
+
+/* No comment provided by engineer. */
+"\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nCüzdanınızın korunması için bir cihaz şifresi gerekmektedir. Devam etmek için Ayarlar'dan şifreyi etkinleştirin.";
+
+/* No comment provided by engineer. */
+"\nADDRESS ALREADY USED\naxe addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nADDRESS ALREADY USED\naxe addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address";
+
+/* No comment provided by engineer. */
+"\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nAyarlar->Gizlilik->Kamera->%@ \nkısmından kamera erişimine izin verin";
+
+/* No comment provided by engineer. */
+"\nDO NOT let anyone see your recovery\nphrase or they can spend your axe.\n" = "\nkimsenin kurtarma cümlenizi görmesine İZİN VERMEYİN\n      çünkü axelerinizi harcayabilirler.\n";
+
+/* No comment provided by engineer. */
+"\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\nEkran görüntüsü ALMAYIN.\nEkran görüntüleri diğer uygulamalar ve \ncihazlar tarafından görülebilir.\n";
+
+/* No comment provided by engineer. */
+"\nnetwork fee +%@ (%@)" = "\nağ ücreti +%1$@ (%2$@)";
+
+/* No comment provided by engineer. */
+"\nNEVER type your recovery phrase into\npassword managers or elsewhere.\nOther devices may be infected.\n" = "\nASLA kurtarma metninizi herhangi bir şifre yöneticisine veya başka bir yere yazmayın.\nDiğer cihazlarda güvenlik sorunu olabilir.\n";
+
+/* No comment provided by engineer. */
+"\ntry again in %@" = "\ntry again in %@";
+
+/* No comment provided by engineer. */
+"\ntry again in %d %@" = "\n%1$d %2$@ içinde tekrar deneyin";
+
+/* No comment provided by engineer. */
+"about" = "hakkında";
+
+/* No comment provided by engineer. */
+"always require passcode" = "her zaman parola gerektir";
+
+/* No comment provided by engineer. */
+"amount too small" = "miktarı çok küçük";
+
+/* No comment provided by engineer. */
+"Application %@ is requesting a payment to" = "Application %@ is requesting a payment to";
+
+/* No comment provided by engineer. */
+"Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?";
+
+/* No comment provided by engineer. */
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe.";
+
+/* No comment provided by engineer. */
+"bad password, try again" = "hatalı şifre, yeniden deneyin";
+
+/* No comment provided by engineer. */
+"bad payment request" = "hatalı ödeme talebi";
+
+/* No comment provided by engineer. */
+"bad payment request URL" = "hatalı ödeme talep linki";
+
+/* No comment provided by engineer. */
+"bad payment URL" = "hatalı ödeme linki";
+
+/* No comment provided by engineer. */
+"bad recovery phrase" = "hatalı kurtarma cümlesi";
+
+/* No comment provided by engineer. */
+"Bitcoin address (shapeshift)" = "Bitcoin address (shapeshift)";
+
+/* No comment provided by engineer. */
+"bitcoin payments can't be less than %@" = "bitcoin payments can't be less than %@";
+
+/* No comment provided by engineer. */
+"block #%d of %d" = "%2$d'in %1$d'ini engelle";
+
+/* No comment provided by engineer. */
+"Buy Axe" = "Buy Axe";
+
+/* No comment provided by engineer. */
+"Buy axe in axewallet!" = "Buy axe in axewallet!";
+
+/* No comment provided by engineer. */
+"cancel" = "iptal";
+
+/* No comment provided by engineer. */
+"change" = "değiştir";
+
+/* No comment provided by engineer. */
+"change passcode" = "şifreyi değiştir";
+
+/* No comment provided by engineer. */
+"change payment amount?" = "ödeme tutarı değişsin mi?";
+
+/* No comment provided by engineer. */
+"checking address balance..." = "adres bakiyesi denetleniyor...";
+
+/* No comment provided by engineer. */
+"checking private key balance..." = "özel anahtar bakiyesi kontrol ediliyor...";
+
+/* No comment provided by engineer. */
+"choose passcode for %@" = "%@ için şifre seçin";
+
+/* No comment provided by engineer. */
+"clear" = "clear";
+
+/* No comment provided by engineer. */
+"clear trusted node?" = "clear trusted node?";
+
+/* No comment provided by engineer. */
+"clipboard doesn't contain a valid axe or bitcoin address" = "clipboard doesn't contain a valid axe or bitcoin address";
+
+/* No comment provided by engineer. */
+"close app" = "uygulamayı kapat";
+
+/* confirm */
+"confirm" = "confirm";
+
+/* No comment provided by engineer. */
+"confirmed in block #%d" = "#%d bloğunda onaylandı";
+
+/* No comment provided by engineer. */
+"connect timeout" = "bağlantı zaman aşımı";
+
+/* No comment provided by engineer. */
+"copied" = "kopyalandı";
+
+/* No comment provided by engineer. */
+"copy" = "kopyala";
+
+/* No comment provided by engineer. */
+"copy address to clipboard" = "adresi panoya kopyala";
+
+/* No comment provided by engineer. */
+"copy request to clipboard" = "isteği panoya kopyala";
+
+/* No comment provided by engineer. */
+"copy wallet addresses to clipboard?" = "cüzdan adresleri panoya kopyalansın mı?";
+
+/* No comment provided by engineer. */
+"couldn't check address balance" = "adres bakiyesi denetlenemedi";
+
+/* No comment provided by engineer. */
+"couldn't make payment" = "ödeme yapılamadı";
+
+/* No comment provided by engineer. */
+"couldn't sweep balance" = "bakiye silinemedi";
+
+/* No comment provided by engineer. */
+"couldn't transmit payment to axe network" = "ödeme axe ağına iletilemedi";
+
+/* No comment provided by engineer. */
+"Axe address" = "axe adresi";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Axe adresleri ayrıca panoya kopyalanabilir. Bitcoin adresi her zaman 'X' veya '7' ile başlar.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "axe ağ ücreti";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "axe ödemesi %@'den az olamaz";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "axe işlemi imzalanmamış";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "axe işlemi çıkışı %@'den küçük olamaz";
+
+/* No comment provided by engineer. */
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "CİHAZ GÜVENLİĞİ ZAYIFLADI\nHerhangi bir 'jailbreak' uygulaması diğer uygulamaların verilerine erişebilir (ve axelerinizi çalabilir).";
+
+/* No comment provided by engineer. */
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe). Wipe this wallet immediately and restore on a secure device." = "CİHAZ GÜVENLİĞİ ZAYIFLADI\nHerhangi bir 'jailbreak' uygulaması diğer uygulamaların verilerine erişebilir (ve axelerinizi çalabilir). Bu cüzdanı hemen silin ve güvenli bir cihaza yükleyin.";
+
+/* No comment provided by engineer. */
+"do it later" = "daha sonra yap";
+
+/* No comment provided by engineer. */
+"done" = "bitti";
+
+/* No comment provided by engineer. */
+"double spend" = "çift ödeme";
+
+/* No comment provided by engineer. */
+"email not configured" = "e-posta yapılandırılmadı";
+
+/* No comment provided by engineer. */
+"enable" = "enable";
+
+/* No comment provided by engineer. */
+"enable receive notifications" = "enable receive notifications";
+
+/* No comment provided by engineer. */
+"enter" = "enter";
+
+/* No comment provided by engineer. */
+"enter old passcode" = "eski şifreyi giriniz";
+
+/* No comment provided by engineer. */
+"error signing axe transaction" = "axe işlem kaydı hatası";
+
+/* No comment provided by engineer. */
+"error signing transaction" = "işlem kaydı hatası";
+
+/* No comment provided by engineer. */
+"exit" = "exit";
+
+/* No comment provided by engineer. */
+"failed wallet update" = "failed wallet update";
+
+/* No comment provided by engineer. */
+"from:" = "kaynak:";
+
+/* No comment provided by engineer. */
+"hour" = "saat";
+
+/* No comment provided by engineer. */
+"hours" = "saat";
+
+/* No comment provided by engineer. */
+"id:" = "kimlik:";
+
+/* No comment provided by engineer. */
+"If you still would like to wipe it please input : \"I accept that I will lose my coins if I no longer possess the recovery phrase\"" = "If you still would like to wipe it please input : \"I accept that I will lose my coins if I no longer possess the recovery phrase\"";
+
+/* No comment provided by engineer. */
+"ignore" = "yoksay";
+
+/* No comment provided by engineer. */
+"import private key" = "özel anahtarı içe aktar";
+
+/* No comment provided by engineer. */
+"IMPORTANT" = "ÖNEMLİ";
+
+/* No comment provided by engineer. */
+"instant payment" = "instant payment";
+
+/* No comment provided by engineer. */
+"Instant Send requires enough inputs with 6 confirmations, send anyways as regular transaction?" = "Instant Send requires enough inputs with 6 confirmations, send anyways as regular transaction?";
+
+/* No comment provided by engineer. */
+"insufficient funds" = "yetersiz bakiye";
+
+/* No comment provided by engineer. */
+"insufficient funds for axe network fee" = "axe ağ ücreti için yetersiz bakiye";
+
+/* No comment provided by engineer. */
+"INVALID" = "GEÇERSİZ";
+
+/* No comment provided by engineer. */
+"Let others scan this QR code to get your axe address. Anyone can send axe to your wallet by transferring them to your address." = "Bitcoin adresinizi edinmek için diğer QR kodlarını tarayın. İsteyen herkes, axeleri cüzdanınıza adresinize transfer yoluyla gönderebilir.";
+
+/* No comment provided by engineer. */
+"minute" = "dakika";
+
+/* No comment provided by engineer. */
+"minutes" = "dakika";
+
+/* No comment provided by engineer. */
+"missing certificate" = "eksik sertifika";
+
+/* No comment provided by engineer. */
+"more..." = "daha fazla...";
+
+/* No comment provided by engineer. */
+"moved" = "taşınmış";
+
+/* No comment provided by engineer. */
+"next, write down your recovery phrase" = "sonra, kurtarma cümlenizi yazın";
+
+/* No comment provided by engineer. */
+"NFC device didn't transmit a valid axe or bitcoin address" = "NFC device didn't transmit a valid axe or bitcoin address";
+
+/* No comment provided by engineer. */
+"no exchange rate data" = "döviz kuru verisi yok";
+
+/* No comment provided by engineer. */
+"no peers found" = "eşler bulunamadı";
+
+/* No comment provided by engineer. */
+"not a axe or bitcoin QR code" = "bir axe veya bitcoin QR kodu değildir";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "geçerli bir bitcoin adresi değil";
+
+/* No comment provided by engineer. */
+"not a valid axe address" = "geçerli bir axe adresi değil";
+
+/* No comment provided by engineer. */
+"not a valid axe or bitcoin address" = "geçerli bir axe veya bitcoin adresi değil";
+
+/* No comment provided by engineer. */
+"not a valid private key" = "geçerli bir özel anahtar değil";
+
+/* No comment provided by engineer. */
+"not connected to the axe network" = "axe ağına bağlı değil";
+
+/* No comment provided by engineer. */
+"ok" = "tamam";
+
+/* No comment provided by engineer. */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"passcode" = "şifre";
+
+/* No comment provided by engineer. */
+"passcode for %@" = "%@ için şifre";
+
+/* No comment provided by engineer. */
+"password" = "şifre";
+
+/* No comment provided by engineer. */
+"password protected key" = "şifre korumalı anahtar";
+
+/* No comment provided by engineer. */
+"pay" = "Ödeme";
+
+/* No comment provided by engineer. */
+"payee identity isn't certified" = "alacaklı kimliği onaylı değil";
+
+/* No comment provided by engineer. */
+"payment address" = "ödeme adresi";
+
+/* No comment provided by engineer. */
+"payment output" = "ödeme çıktısı";
+
+/* No comment provided by engineer. */
+"pending" = "pending";
+
+/* No comment provided by engineer. */
+"please enter pin to upgrade wallet" = "please enter pin to upgrade wallet";
+
+/* No comment provided by engineer. */
+"Please place your phone near NFC device." = "Please place your phone near NFC device.";
+
+/* No comment provided by engineer. */
+"rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@" = "rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@";
+
+/* No comment provided by engineer. */
+"Receive axe at this address: %@" = "Bitcoinleri şu adresten al: %@";
+
+/* No comment provided by engineer. */
+"received" = "alındı";
+
+/* No comment provided by engineer. */
+"received %@ (%@)" = "%1$@ alındı (%2$@)";
+
+/* recovery phrase */
+"recovery phrase" = "kurtarma cümlesi";
+
+/* No comment provided by engineer. */
+"recovery phrase doesn't match" = "kurtarma cümlesi eşleşmiyor";
+
+/* No comment provided by engineer. */
+"recovery phrase must have %d words" = "kurtarma cümlesi %d kelime olmalı";
+
+/* No comment provided by engineer. */
+"reduce payment amount by\n%@ (%@)?" = "%1$@ (%2$@) ile ödeme miktarı düşürülsün mü?";
+
+/* No comment provided by engineer. */
+"request" = "istek";
+
+/* No comment provided by engineer. */
+"request an amount" = "bir miktar isteyin";
+
+/* No comment provided by engineer. */
+"request expired" = "istek süresi bitti";
+
+/* No comment provided by engineer. */
+"request is for an instant payment but you have disabled instant payments" = "request is for an instant payment but you have disabled instant payments";
+
+/* No comment provided by engineer. */
+"requested network \"%@\" instead of \"%@\"" = "\"%2$@\" yerine \"%1$@\" ağı istendi";
+
+/* No comment provided by engineer. */
+"rescan" = "yeniden tara";
+
+/* No comment provided by engineer. */
+"rescan blockchain" = "blok zincirini yeniden tara";
+
+/* No comment provided by engineer. */
+"rescan blockchain if you think you may have missing transactions, or are having trouble sending (rescanning can take several minutes)" = "kaçırdığınız bazı işlemlerin olduğunu düşünüyorsanız veya göndermede sorun yaşıyorsanız blok zincirini tekrar taratın (yeniden tarama bir kaç dakika sürebilir)";
+
+/* No comment provided by engineer. */
+"reset" = "sıfırla";
+
+/* No comment provided by engineer. */
+"retry" = "retry";
+
+/* No comment provided by engineer. */
+"Scan someone else's QR code to get their axe or bitcoin address. You can send a payment to anyone with an address." = "Başkalarının axe veya bitcoin adreslerini öğrenmek için QR kodlarını taratın. Adresi olan herkese ödeme gönderebilirsiniz.";
+
+/* No comment provided by engineer. */
+"Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Ekran görüntüleri diğer uygulamalar ve cihazlar tarafından görülebilir. Yeni bir kurtarma metni oluşturun ve gizli tutun.";
+
+/* No comment provided by engineer. */
+"Screenshots are visible to other apps and devices. Your funds are at risk. Transfer your balance to another wallet." = "Ekran görüntüleri diğer uygulamalar ve cihazlar tarafından görülebilir. Paralarınız risk altında. Bakiyenizi başka bir cüzdana aktarın.";
+
+/* No comment provided by engineer. */
+"second" = "second";
+
+/* No comment provided by engineer. */
+"seconds" = "seconds";
+
+/* No comment provided by engineer. */
+"seen by %d of %d peers" = "%2$d eşleşmenin %1$d'i tarafından görüldü";
+
+/* No comment provided by engineer. */
+"send" = "gönder";
+
+/* No comment provided by engineer. */
+"Send %@ (%@) from this private key into your wallet? The axe network will receive a fee of %@ (%@)." = "Özel anahtardan cüzdanınıza %1$@ (%2$@) gönderilsin mi? Bitcoin ağı %3$@ (%4$@) ücreti alacaktır.";
+
+/* No comment provided by engineer. */
+"send address as email" = "adresi e-posta olarak gönder";
+
+/* No comment provided by engineer. */
+"send address as message" = "adresi mesaj olarak gönder";
+
+/* No comment provided by engineer. */
+"send request as email" = "isteği e-posta olarak gönder";
+
+/* No comment provided by engineer. */
+"send request as message" = "isteği mesaj olarak gönder";
+
+/* No comment provided by engineer. */
+"sent" = "gönderilen";
+
+/* No comment provided by engineer. */
+"sent!" = "gönderildi!";
+
+/* No comment provided by engineer. */
+"set a trusted node" = "set a trusted node";
+
+/* No comment provided by engineer. */
+"settings" = "ayarlar";
+
+/* No comment provided by engineer. */
+"shapeshift bitcoin id:" = "shapeshift bitcoin id:";
+
+/* No comment provided by engineer. */
+"shapeshift failed" = "shapeshift failed";
+
+/* No comment provided by engineer. */
+"shapeshift status:" = "shapeshift status:";
+
+/* No comment provided by engineer. */
+"shapeshift succeeded" = "shapeshift succeeded";
+
+/* No comment provided by engineer. */
+"show" = "göster";
+
+/* No comment provided by engineer. */
+"show phrase" = "metni göster";
+
+/* No comment provided by engineer. */
+"sms not currently available" = "kısa mesaj şu anda kullanılabilir değil";
+
+/* No comment provided by engineer. */
+"spent address" = "harcama adresi";
+
+/* No comment provided by engineer. */
+"spent input" = "harcama girişi";
+
+/* No comment provided by engineer. */
+"Starting Shapeshift!" = "Starting Shapeshift!";
+
+/* No comment provided by engineer. */
+"status:" = "durum:";
+
+/* No comment provided by engineer. */
+"swept!" = "silindi!";
+
+/* No comment provided by engineer. */
+"Syncing:" = "Syncing:";
+
+/* No comment provided by engineer. */
+"The amount you wanted to shapeshift is too high, please input a value under %@" = "The amount you wanted to shapeshift is too high, please input a value under %@";
+
+/* No comment provided by engineer. */
+"The amount you wanted to shapeshift is too low, please input a value over %@" = "The amount you wanted to shapeshift is too low, please input a value over %@";
+
+/* No comment provided by engineer. */
+"the app will now close" = "uygulama şimdi kapatılacak";
+
+/* No comment provided by engineer. */
+"This is your axe address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Bu sizin axe adresiniz. Kopyalamak veya ister kısa mesaj ister e-posta yoluyla göndermek için dokunun. Her para alışınızda adres değişecek fakat eski adresler her zaman çalışacaktır.";
+
+/* No comment provided by engineer. */
+"This is your axe balance." = "This is your axe balance.";
+
+/* No comment provided by engineer. */
+"This is your axe balance. Axe is a currency. The exchange rate changes with the market." = "Bu sizin axe bakiyeniz. Axe bir para birimidir. Döviz kurları piyasa ile değişir.";
+
+/* No comment provided by engineer. */
+"this payment address is already in your wallet" = "ödeme adresi zaten cüzdanınızda var";
+
+/* No comment provided by engineer. */
+"this private key is already in your wallet" = "bu özel anahtar zaten cüzdanınızda var";
+
+/* No comment provided by engineer. */
+"this private key is empty" = "bu özel anahtar boş";
+
+/* No comment provided by engineer. */
+"This request requires an instant payment but you do not have enough inputs with 6 confirmations required by Instant Send, you may ask the merchant to accept a normal transaction or wait a few minutes." = "This request requires an instant payment but you do not have enough inputs with 6 confirmations required by Instant Send, you may ask the merchant to accept a normal transaction or wait a few minutes.";
+
+/* No comment provided by engineer. */
+"this request requires an instant payment but you have disabled instant payments" = "this request requires an instant payment but you have disabled instant payments";
+
+/* No comment provided by engineer. */
+"This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase" = "This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase";
+
+/* No comment provided by engineer. */
+"to:" = "hedef:";
+
+/* No comment provided by engineer. */
+"to: %@" = "hedef: %@";
+
+/* No comment provided by engineer. */
+"to: %@ (via Shapeshift)" = "to: %@ (via Shapeshift)";
+
+/* No comment provided by engineer. */
+"touch id limit" = "kimlik sınırına dokunun";
+
+/* No comment provided by engineer. */
+"touch id spending limit" = "kimlik gönderme sınırına dokunun";
+
+/* No comment provided by engineer. */
+"transaction canceled, network timeout" = "işlem iptal edildi, ağ zaman aşımına uğradı";
+
+/* No comment provided by engineer. */
+"transaction fees would cost more than the funds available on this private key (due to tiny \"dust\" deposits)" = "işlem ücretleri bu anahtarda kullanılabilir olan paradan daha pahalıya mal olabilir(küçük \"para\" deposu nedeniyle)";
+
+/* No comment provided by engineer. */
+"transaction history" = "işlem geçmişi";
+
+/* No comment provided by engineer. */
+"transaction rejected" = "işlem reddedildi";
+
+/* No comment provided by engineer. */
+"trust" = "trust";
+
+/* No comment provided by engineer. */
+"Try It!" = "Try It!";
+
+/* No comment provided by engineer. */
+"turn device passcode on" = "cihaz parolasını aç";
+
+/* No comment provided by engineer. */
+"Unable to get new qr code" = "Unable to get new qr code";
+
+/* No comment provided by engineer. */
+"unexpected response from %@" = "%@'den beklenmeyen yanıt";
+
+/* No comment provided by engineer. */
+"unknown address" = "bilinmeyen adres";
+
+/* No comment provided by engineer. */
+"unrecognized address" = "onaylanmamış adres";
+
+/* No comment provided by engineer. */
+"unsupported or corrupted document" = "desteklenmeyen veya bozuk belge";
+
+/* No comment provided by engineer. */
+"unsupported signature type" = "desteklenmeyen imza türü";
+
+/* No comment provided by engineer. */
+"unsupported url" = "desteklenmeyen bağlantı";
+
+/* No comment provided by engineer. */
+"untrusted certificate" = "güvenilir olmayan sertifika";
+
+/* No comment provided by engineer. */
+"unverified" = "doğrulanmadı";
+
+/* Updating Price */
+"Updating Price" = "Updating Price";
+
+/* No comment provided by engineer. */
+"verified, waiting for confirmation" = "doğrulandı, onaylanma için bekleniyor";
+
+/* No comment provided by engineer. */
+"verify passcode" = "şifreyi doğrulayın";
+
+/* No comment provided by engineer. */
+"wallet address" = "cüzdan adresi";
+
+/* No comment provided by engineer. */
+"wallet disabled" = "cüzdan devre dışı";
+
+/* No comment provided by engineer. */
+"WARNING" = "UYARI";
+
+/* No comment provided by engineer. */
+"wipe" = "sil";
+
+/* No comment provided by engineer. */
+"WRITE DOWN YOUR RECOVERY PHRASE" = "KURTARMA METNİNİZİ NOT EDİNİZ";
+
+/* No comment provided by engineer. */
+"You can now buy axe in\naxewallet with cash or\nbank transfer." = "You can now buy axe in\naxewallet with cash or\nbank transfer.";
+
+/* No comment provided by engineer. */
+"you must enter your pin in order to enter axewallet" = "you must enter your pin in order to enter axewallet";
+
+/* No comment provided by engineer. */
+"you received axe!" = "axe aldınız!";
+
+/* No comment provided by engineer. */
+"Your wallet may be out of sync.\nThis can often be fixed by rescanning the blockchain." = "Cüzdanınız eşitlenmemiş olabilir.\nBlok zincirini yeniden taratmak bunu sık sık düzeltebilir.";

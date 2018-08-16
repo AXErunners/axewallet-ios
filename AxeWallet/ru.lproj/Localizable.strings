@@ -1,0 +1,651 @@
+
+/* No comment provided by engineer. */
+" and " = "и";
+
+/* No comment provided by engineer. */
+"%@ is for 'mAXE'. %@ = 1 AXE." = "%@ означает «mAXE». %@ = 1 AXE.";
+
+/* No comment provided by engineer. */
+"%@ is not allowed to access the camera" = "%@ необходим доступ к камере";
+
+/* No comment provided by engineer. */
+"%@\n\nbalance: %@ (%@)" = "%1$@\n\nбаланс: %2$@ (%3$@)";
+
+/* No comment provided by engineer. */
+"%d confirmations" = "Подтверждений: %d";
+
+/* No comment provided by engineer. */
+", " = ",";
+
+/* No comment provided by engineer. */
+"0 confirmations" = "0 подтверждений";
+
+/* No comment provided by engineer. */
+"1 confirmation" = "1 подтверждение";
+
+/* No comment provided by engineer. */
+"\"%@\" is not a recovery phrase word" = "«%@» не является словом из фразы восстановления";
+
+/* No comment provided by engineer. */
+"\n         total %@ (%@)" = "\nИтого: %1$@ (%2$@)";
+
+/* No comment provided by engineer. */
+"\n%@\n\nif you ever lose your phone, you will need it to recover your wallet" = "\n%@ \n\nВам понадобится эта фраза, чтобы восстановить Ваш кошелек, если Вы потеряете свой телефон";
+
+/* No comment provided by engineer. */
+"\n%d attempts remaining\n" = "\nОсталось попыток: %d\n";
+
+/* No comment provided by engineer. */
+"\n(local requested amount: %@)" = "\n(local requested amount: %@)";
+
+/* No comment provided by engineer. */
+"\n1 attempt remaining\n" = "\nОсталась 1 попытка\n";
+
+/* No comment provided by engineer. */
+"\n\n     amount %@ (%@)" = "\n\nСумма: %1$@ (%2$@)";
+
+/* No comment provided by engineer. */
+"\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nКод доступа необходим для защиты Вашего кошелька. Перейдите в настройки и включите код доступа, чтобы продолжить.";
+
+/* No comment provided by engineer. */
+"\nADDRESS ALREADY USED\naxe addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nАДРЕС УЖЕ ИСПОЛЬЗОВАН\nАдреса Axe преднозначены для разового использования\n\nповторное использование адреса снижает приватность как для Вас, так и для получателя и может привести к потере средств, если получатель больше не контролирует этот адрес";
+
+/* No comment provided by engineer. */
+"\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nРазрешите доступ к камере:\nНастройки -> Конфиденциальность -> Камера -> %@";
+
+/* No comment provided by engineer. */
+"\nDO NOT let anyone see your recovery\nphrase or they can spend your axe.\n" = "\nНЕ ПОЗВОЛЯЕТЕ никому видеть Вашу фразу восстановления,\nиначе они смогут потратить Ваши AXE.\n";
+
+/* No comment provided by engineer. */
+"\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\nНЕ ДЕЛАЙТЕ скриншот.\nСкриншоты видны другим приложениям\nи устройствам.\n";
+
+/* No comment provided by engineer. */
+"\nnetwork fee +%@ (%@)" = "\nКомиссия сети: +%1$@ (%2$@)";
+
+/* No comment provided by engineer. */
+"\nNEVER type your recovery phrase into\npassword managers or elsewhere.\nOther devices may be infected.\n" = "\nНИКОГДА не вводите Вашу фразу восстановления\nв менеджеры паролей или другие приложения.\nДругие устройства могут быть инфицированы.\n";
+
+/* No comment provided by engineer. */
+"\ntry again in %@" = "\nПопробуйте еще раз через %@";
+
+/* No comment provided by engineer. */
+"\ntry again in %d %@" = "\nПопробуйте еще раз через %1$d %2$@";
+
+/* No comment provided by engineer. */
+"about" = "О программе";
+
+/* No comment provided by engineer. */
+"always require passcode" = "Всегда требовать код доступа";
+
+/* No comment provided by engineer. */
+"amount too small" = "Сумма слишком мала";
+
+/* No comment provided by engineer. */
+"Application %@ is requesting a payment to" = "Application %@ is requesting a payment to";
+
+/* No comment provided by engineer. */
+"Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?";
+
+/* No comment provided by engineer. */
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "Приложение %@ хочет получить Ваш основной публичный ключ. Это может быть использовано для отслеживания Вашего кошелька, но не для отправки Ваших AXE.";
+
+/* No comment provided by engineer. */
+"bad password, try again" = "Некорректный пароль, попробуйте еще раз";
+
+/* No comment provided by engineer. */
+"bad payment request" = "Некорректный платежный запрос";
+
+/* No comment provided by engineer. */
+"bad payment request URL" = "Некорректный платежный URL-запрос";
+
+/* No comment provided by engineer. */
+"bad payment URL" = "Некорректный платежный URL";
+
+/* No comment provided by engineer. */
+"bad recovery phrase" = "Некорректная фраза восстановления";
+
+/* No comment provided by engineer. */
+"Bitcoin address (shapeshift)" = "Адрес Bitcoin (ShapeShift)";
+
+/* No comment provided by engineer. */
+"bitcoin payments can't be less than %@" = "Платеж в Bitcoin не может быть меньше, чем %@";
+
+/* No comment provided by engineer. */
+"block #%d of %d" = "Блок #%1$d из %2$d";
+
+/* No comment provided by engineer. */
+"Buy Axe" = "Купить AXE";
+
+/* No comment provided by engineer. */
+"Buy axe in axewallet!" = "Купить AXE в axewallet!";
+
+/* No comment provided by engineer. */
+"cancel" = "Отменить";
+
+/* No comment provided by engineer. */
+"change" = "Изменить";
+
+/* No comment provided by engineer. */
+"change passcode" = "Изменить код доступа";
+
+/* No comment provided by engineer. */
+"change payment amount?" = "Изменить сумму платежа?";
+
+/* No comment provided by engineer. */
+"checking address balance..." = "Проверка баланса адреса...";
+
+/* No comment provided by engineer. */
+"checking private key balance..." = "Проверка баланса закрытого ключа...";
+
+/* No comment provided by engineer. */
+"choose passcode for %@" = "Придумайте код доступа для %@";
+
+/* No comment provided by engineer. */
+"clear" = "Удалить";
+
+/* No comment provided by engineer. */
+"clear trusted node?" = "Удалить доверенный узел?";
+
+/* No comment provided by engineer. */
+"clipboard doesn't contain a valid axe or bitcoin address" = "Буфер обмена не содержит корректного адреса Axe или Bitcoin";
+
+/* No comment provided by engineer. */
+"close app" = "Закрыть программу";
+
+/* confirm */
+"confirm" = "Подтвердить";
+
+/* No comment provided by engineer. */
+"confirmed in block #%d" = "Подтверждено в блоке #%d";
+
+/* No comment provided by engineer. */
+"connect timeout" = "Время ожидания подключения";
+
+/* No comment provided by engineer. */
+"copied" = "Скопировано";
+
+/* No comment provided by engineer. */
+"copy" = "Скопировать";
+
+/* No comment provided by engineer. */
+"copy address to clipboard" = "Скопировать адрес в буфер обмена";
+
+/* No comment provided by engineer. */
+"copy request to clipboard" = "Скопировать запрос в буфер обмена";
+
+/* No comment provided by engineer. */
+"copy wallet addresses to clipboard?" = "Скопировать адреса кошелька в буфер обмена?";
+
+/* No comment provided by engineer. */
+"couldn't check address balance" = "Не удалось проверить баланс";
+
+/* No comment provided by engineer. */
+"couldn't make payment" = "Не удалось совершить платёж";
+
+/* No comment provided by engineer. */
+"couldn't sweep balance" = "Не получилось перенести баланс";
+
+/* No comment provided by engineer. */
+"couldn't transmit payment to axe network" = "Не удалось передать платёж в сеть Axe";
+
+/* No comment provided by engineer. */
+"Axe address" = "Адрес Axe";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Адреса Axe также могут быть скопированы в буфер обмена. Axe-адрес всегда начинается с «X» или «7».";
+
+/* No comment provided by engineer. */
+"axe network fee" = "Комиссия сети Axe";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "Платежи в Axe не могут быть меньше, чем %@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "Транзакция не подписана";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "Выходы транзакции не могут быть меньше, чем %@";
+
+/* No comment provided by engineer. */
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "БЕЗОПАСНОСТЬ УСТРОЙСТВА ПОД УГРОЗОЙ\nЛюбое «jailbreak» приложение может получить доступ к Вашим приватным ключам (и украсть Ваши AXE).";
+
+/* No comment provided by engineer. */
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe). Wipe this wallet immediately and restore on a secure device." = "БЕЗОПАСНОСТЬ УСТРОЙСТВА ПОД УГРОЗОЙ\nЛюбое «jailbreak» приложение может получить доступ к Вашим приватным ключам (и украсть Ваши AXE). Немедленно удалите этот кошелёк и восстановите его в безопасном месте.";
+
+/* No comment provided by engineer. */
+"do it later" = "Отложить на потом";
+
+/* No comment provided by engineer. */
+"done" = "Готово";
+
+/* No comment provided by engineer. */
+"double spend" = "Двойное расходование";
+
+/* No comment provided by engineer. */
+"email not configured" = "Почта не настроена";
+
+/* No comment provided by engineer. */
+"enable" = "Включить";
+
+/* No comment provided by engineer. */
+"enable receive notifications" = "Уведомлять о получении";
+
+/* No comment provided by engineer. */
+"enter" = "Ввести";
+
+/* No comment provided by engineer. */
+"enter old passcode" = "Введите старый пароль";
+
+/* No comment provided by engineer. */
+"error signing axe transaction" = "Ошибка подписания транзакции";
+
+/* No comment provided by engineer. */
+"error signing transaction" = "Ошибка подписания транзакции";
+
+/* No comment provided by engineer. */
+"exit" = "Выход";
+
+/* No comment provided by engineer. */
+"failed wallet update" = "Не удалось обновить кошелек";
+
+/* No comment provided by engineer. */
+"from:" = "От:";
+
+/* No comment provided by engineer. */
+"hour" = "час";
+
+/* No comment provided by engineer. */
+"hours" = "часов";
+
+/* No comment provided by engineer. */
+"id:" = "id:";
+
+/* No comment provided by engineer. */
+"If you still would like to wipe it please input : \"I accept that I will lose my coins if I no longer possess the recovery phrase\"" = "If you still would like to wipe it please input : \"I accept that I will lose my coins if I no longer possess the recovery phrase\"";
+
+/* No comment provided by engineer. */
+"ignore" = "Игнорировать";
+
+/* No comment provided by engineer. */
+"import private key" = "Импортировать закрытый ключ";
+
+/* No comment provided by engineer. */
+"IMPORTANT" = "ВАЖНО";
+
+/* No comment provided by engineer. */
+"instant payment" = "Мгновенный платеж";
+
+/* No comment provided by engineer. */
+"Instant Send requires enough inputs with 6 confirmations, send anyways as regular transaction?" = "Instant Send требует достаточного количества входов с 6 подтверждениями. Отправить как обычную транзакцию?";
+
+/* No comment provided by engineer. */
+"insufficient funds" = "Недостаточно средств";
+
+/* No comment provided by engineer. */
+"insufficient funds for axe network fee" = "Недостаточно средств для оплаты комиссии сети Axe";
+
+/* No comment provided by engineer. */
+"INVALID" = "НЕКОРРЕКТНО";
+
+/* No comment provided by engineer. */
+"Let others scan this QR code to get your axe address. Anyone can send axe to your wallet by transferring them to your address." = "Другие пользователи могут сканировать этот QR-код, чтобы получить Ваш адрес Axe. Кто угодно сможет отправить AXE на Ваш кошелек путём передачи их на Ваш адрес.";
+
+/* No comment provided by engineer. */
+"minute" = "минут";
+
+/* No comment provided by engineer. */
+"minutes" = "минуты";
+
+/* No comment provided by engineer. */
+"missing certificate" = "Отсутствует сертификат";
+
+/* No comment provided by engineer. */
+"more..." = "ещё...";
+
+/* No comment provided by engineer. */
+"moved" = "Перемещено";
+
+/* No comment provided by engineer. */
+"next, write down your recovery phrase" = "Теперь запишите Вашу фразу восстановления";
+
+/* No comment provided by engineer. */
+"NFC device didn't transmit a valid axe or bitcoin address" = "NFC device didn't transmit a valid axe or bitcoin address";
+
+/* No comment provided by engineer. */
+"no exchange rate data" = "Не удалось получить курсы обмена";
+
+/* No comment provided by engineer. */
+"no peers found" = "Узлы не найдены";
+
+/* No comment provided by engineer. */
+"not a axe or bitcoin QR code" = "Не является QR-кодом для Axe или Bitcoin";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "Некорректный адрес Bitcoin";
+
+/* No comment provided by engineer. */
+"not a valid axe address" = "Некорректный адрес Axe";
+
+/* No comment provided by engineer. */
+"not a valid axe or bitcoin address" = "Некорректный адрес Axe или Bitcoin";
+
+/* No comment provided by engineer. */
+"not a valid private key" = "Некорректный закрытый ключ";
+
+/* No comment provided by engineer. */
+"not connected to the axe network" = "Нет подключения к сети Axe";
+
+/* No comment provided by engineer. */
+"ok" = "ок";
+
+/* No comment provided by engineer. */
+"OK" = "ОК";
+
+/* No comment provided by engineer. */
+"passcode" = "Код доступа";
+
+/* No comment provided by engineer. */
+"passcode for %@" = "Код доступа для %@";
+
+/* No comment provided by engineer. */
+"password" = "Пароль";
+
+/* No comment provided by engineer. */
+"password protected key" = "Защищённый паролем ключ";
+
+/* No comment provided by engineer. */
+"pay" = "Оплатить";
+
+/* No comment provided by engineer. */
+"payee identity isn't certified" = "Сертификат личности получателя некорректен";
+
+/* No comment provided by engineer. */
+"payment address" = "Адрес оплаты";
+
+/* No comment provided by engineer. */
+"payment output" = "Выход оплаты";
+
+/* No comment provided by engineer. */
+"pending" = "Ожидание";
+
+/* No comment provided by engineer. */
+"please enter pin to upgrade wallet" = "Пожалуйста, введите PIN для выполнения обновления кошелька";
+
+/* No comment provided by engineer. */
+"Please place your phone near NFC device." = "Please place your phone near NFC device.";
+
+/* No comment provided by engineer. */
+"rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@" = "Курс: %@ = %@\nОбновлено: %@\nБлок #%d из %d\nПодключенных узлов: %d\nТекущий узел: %@";
+
+/* No comment provided by engineer. */
+"Receive axe at this address: %@" = "Получить AXE на этот адрес: %@";
+
+/* No comment provided by engineer. */
+"received" = "Получено";
+
+/* No comment provided by engineer. */
+"received %@ (%@)" = "Получено %1$@ (%2$@)";
+
+/* recovery phrase */
+"recovery phrase" = "Фраза восстановления";
+
+/* No comment provided by engineer. */
+"recovery phrase doesn't match" = "Фраза восстановления не подходит";
+
+/* No comment provided by engineer. */
+"recovery phrase must have %d words" = "Фраза восстановления должна состоять из %d слов";
+
+/* No comment provided by engineer. */
+"reduce payment amount by\n%@ (%@)?" = "Уменьшить сумму платежа на\n%1$@ (%2$@)?";
+
+/* No comment provided by engineer. */
+"request" = "Запрос";
+
+/* No comment provided by engineer. */
+"request an amount" = "Запросить сумму";
+
+/* No comment provided by engineer. */
+"request expired" = "Срок действия запроса истек";
+
+/* No comment provided by engineer. */
+"request is for an instant payment but you have disabled instant payments" = "Запрос для мгновенного платежа, но Вы отключили эту опцию";
+
+/* No comment provided by engineer. */
+"requested network \"%@\" instead of \"%@\"" = "Запросить сеть «%1$@» вместо «%2$@»";
+
+/* No comment provided by engineer. */
+"rescan" = "Повторное сканирование";
+
+/* No comment provided by engineer. */
+"rescan blockchain" = "Пересканировать цепочку блоков";
+
+/* No comment provided by engineer. */
+"rescan blockchain if you think you may have missing transactions, or are having trouble sending (rescanning can take several minutes)" = "Пересканировать цепочку блоков, если вы считаете, что могли пропустить транзакцию или возникли проблемы с отправкой (повторное сканирование может занять несколько минут)";
+
+/* No comment provided by engineer. */
+"reset" = "Сбросить";
+
+/* No comment provided by engineer. */
+"retry" = "повторить";
+
+/* No comment provided by engineer. */
+"Scan someone else's QR code to get their axe or bitcoin address. You can send a payment to anyone with an address." = "Отсканируйте чей-нибудь QR-код, чтобы получить его адрес Axe или Bitcoin. Вы можете отправить платеж любому, у кого есть адрес.";
+
+/* No comment provided by engineer. */
+"Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Скриншоты видимы другими приложениями и устройствами. Создайте новую фразу восстановления и держите ее в секрете.";
+
+/* No comment provided by engineer. */
+"Screenshots are visible to other apps and devices. Your funds are at risk. Transfer your balance to another wallet." = "Скриншоты видимы другими приложениями и устройствами. Ваши средства находятся под угрозой. Переведите Ваш баланс на другой кошелёк.";
+
+/* No comment provided by engineer. */
+"second" = "секунда";
+
+/* No comment provided by engineer. */
+"seconds" = "секунды";
+
+/* No comment provided by engineer. */
+"seen by %d of %d peers" = "Видели %1$d из %2$d узлов";
+
+/* No comment provided by engineer. */
+"send" = "Отправить";
+
+/* No comment provided by engineer. */
+"Send %@ (%@) from this private key into your wallet? The axe network will receive a fee of %@ (%@)." = "Отправить %1$@ (%2$@) из этого закрытого ключа в ваш кошелёк? Сеть Axe получит комиссию в %3$@ (%4$@).";
+
+/* No comment provided by engineer. */
+"send address as email" = "Отправить адрес по почте";
+
+/* No comment provided by engineer. */
+"send address as message" = "Отправить адрес в сообщении";
+
+/* No comment provided by engineer. */
+"send request as email" = "Отправить запрос по почте";
+
+/* No comment provided by engineer. */
+"send request as message" = "Отправить запрос в сообщении";
+
+/* No comment provided by engineer. */
+"sent" = "Отправлено";
+
+/* No comment provided by engineer. */
+"sent!" = "Отправлено!";
+
+/* No comment provided by engineer. */
+"set a trusted node" = "Указать доверенный узел";
+
+/* No comment provided by engineer. */
+"settings" = "Настройки";
+
+/* No comment provided by engineer. */
+"shapeshift bitcoin id:" = "ShapeShift Bitcoin id:";
+
+/* No comment provided by engineer. */
+"shapeshift failed" = "ShapeShift завершился с ошибкой";
+
+/* No comment provided by engineer. */
+"shapeshift status:" = "Статус ShapeShift:";
+
+/* No comment provided by engineer. */
+"shapeshift succeeded" = "ShapeShift выполнен успешно";
+
+/* No comment provided by engineer. */
+"show" = "Показать";
+
+/* No comment provided by engineer. */
+"show phrase" = "Показать фразу";
+
+/* No comment provided by engineer. */
+"sms not currently available" = "Сообщения сейчас недоступны";
+
+/* No comment provided by engineer. */
+"spent address" = "Потраченный адрес";
+
+/* No comment provided by engineer. */
+"spent input" = "Потраченный ввод";
+
+/* No comment provided by engineer. */
+"Starting Shapeshift!" = "Начинаю ShapeShift!";
+
+/* No comment provided by engineer. */
+"status:" = "Cтатус:";
+
+/* No comment provided by engineer. */
+"swept!" = "Переведено!";
+
+/* No comment provided by engineer. */
+"Syncing:" = "Синхронизация:";
+
+/* No comment provided by engineer. */
+"The amount you wanted to shapeshift is too high, please input a value under %@" = "Сумма, которую Вы хотите провести через ShapeShift, слишком велика. Пожалуйста, введите сумму менее %@";
+
+/* No comment provided by engineer. */
+"The amount you wanted to shapeshift is too low, please input a value over %@" = "Сумма, которую Вы хотите провести через ShapeShift, слишком мала. Пожалуйста, введите сумму более %@";
+
+/* No comment provided by engineer. */
+"the app will now close" = "Приложение сейчас закроется";
+
+/* No comment provided by engineer. */
+"This is your axe address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Это Ваш адрес Axe. Нажмите, чтобы скопировать его или отправить его по электронной почте или SMS. Адрес будет меняться каждый раз, когда Вы получаете средства, но старые адреса останутся работоспособными.";
+
+/* No comment provided by engineer. */
+"This is your axe balance." = "Это Ваш баланс Axe.";
+
+/* No comment provided by engineer. */
+"This is your axe balance. Axe is a currency. The exchange rate changes with the market." = "Это Ваш баланс Axe. Axe является валютой. Обменный курс определяется рынком.";
+
+/* No comment provided by engineer. */
+"this payment address is already in your wallet" = "Этот адрес уже находится в вашем кошельке";
+
+/* No comment provided by engineer. */
+"this private key is already in your wallet" = "Этот закрытый ключ уже находится в вашем кошельке";
+
+/* No comment provided by engineer. */
+"this private key is empty" = "Этот закрытый ключ пустой";
+
+/* No comment provided by engineer. */
+"This request requires an instant payment but you do not have enough inputs with 6 confirmations required by Instant Send, you may ask the merchant to accept a normal transaction or wait a few minutes." = "This request requires an instant payment but you do not have enough inputs with 6 confirmations required by Instant Send, you may ask the merchant to accept a normal transaction or wait a few minutes.";
+
+/* No comment provided by engineer. */
+"this request requires an instant payment but you have disabled instant payments" = "this request requires an instant payment but you have disabled instant payments";
+
+/* No comment provided by engineer. */
+"This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase" = "This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase";
+
+/* No comment provided by engineer. */
+"to:" = "Кому:";
+
+/* No comment provided by engineer. */
+"to: %@" = "Кому: %@";
+
+/* No comment provided by engineer. */
+"to: %@ (via Shapeshift)" = "Кому: %@ (через ShapeShift)";
+
+/* No comment provided by engineer. */
+"touch id limit" = "Лимит Touch ID";
+
+/* No comment provided by engineer. */
+"touch id spending limit" = "Лимит расходов Touch ID";
+
+/* No comment provided by engineer. */
+"transaction canceled, network timeout" = "Транзакция отменена, время ожидания сети истекло";
+
+/* No comment provided by engineer. */
+"transaction fees would cost more than the funds available on this private key (due to tiny \"dust\" deposits)" = "Комиссия за эту транзакцию будет больше, чем сумма на этом приватном ключе (из-за маленьких депозитов)";
+
+/* No comment provided by engineer. */
+"transaction history" = "История транзакций";
+
+/* No comment provided by engineer. */
+"transaction rejected" = "Транзакция отклонена";
+
+/* No comment provided by engineer. */
+"trust" = "Доверять";
+
+/* No comment provided by engineer. */
+"Try It!" = "Попробовать!";
+
+/* No comment provided by engineer. */
+"turn device passcode on" = "Включить код доступа";
+
+/* No comment provided by engineer. */
+"Unable to get new qr code" = "Не удалось получить новый QR-код";
+
+/* No comment provided by engineer. */
+"unexpected response from %@" = "Неожиданный ответ от %@";
+
+/* No comment provided by engineer. */
+"unknown address" = "Неизвестный адрес";
+
+/* No comment provided by engineer. */
+"unrecognized address" = "Нераспознанный адрес";
+
+/* No comment provided by engineer. */
+"unsupported or corrupted document" = "Неподдерживаемый или поврежденный документ";
+
+/* No comment provided by engineer. */
+"unsupported signature type" = "Тип подписи не поддерживается";
+
+/* No comment provided by engineer. */
+"unsupported url" = "Неподдерживаемый URL-адрес";
+
+/* No comment provided by engineer. */
+"untrusted certificate" = "Ненадёжный сертификат";
+
+/* No comment provided by engineer. */
+"unverified" = "Неподтверждённый";
+
+/* Updating Price */
+"Updating Price" = "Обновление цены";
+
+/* No comment provided by engineer. */
+"verified, waiting for confirmation" = "Проверено, ожидание подтверждения";
+
+/* No comment provided by engineer. */
+"verify passcode" = "Подтвердите код";
+
+/* No comment provided by engineer. */
+"wallet address" = "Адрес кошелька";
+
+/* No comment provided by engineer. */
+"wallet disabled" = "Кошелек отключен";
+
+/* No comment provided by engineer. */
+"WARNING" = "ВНИМАНИЕ";
+
+/* No comment provided by engineer. */
+"wipe" = "Стереть";
+
+/* No comment provided by engineer. */
+"WRITE DOWN YOUR RECOVERY PHRASE" = "ЗАПИШИТЕ ВАШУ ФРАЗУ ВОССТАНОВЛЕНИЯ";
+
+/* No comment provided by engineer. */
+"You can now buy axe in\naxewallet with cash or\nbank transfer." = "Теперь Вы можете купить AXE\nв axewallet с помощью наличных\nили банковского перевода.";
+
+/* No comment provided by engineer. */
+"you must enter your pin in order to enter axewallet" = "Вы должны ввести PIN для входв в axewallet";
+
+/* No comment provided by engineer. */
+"you received axe!" = "Вы получили AXE!";
+
+/* No comment provided by engineer. */
+"Your wallet may be out of sync.\nThis can often be fixed by rescanning the blockchain." = "Возможно, Ваш кошелек рассинхронизирован.\nОбычно, это может быть исправлено путём повторного сканирования цепочки блоков.";
