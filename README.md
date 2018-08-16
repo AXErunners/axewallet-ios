@@ -19,8 +19,8 @@ Because Axewallet is deterministic, your balance and transaction history can be 
 - no server to get hacked or go down
 - single backup phrase that works forever
 - private keys never leave your device
-- import [password protected](https://axepay.atlassian.net/wiki/display/DOC/Official+Documentation) paper wallets
-- [“payment protocol”](https://axepay.atlassian.net/wiki/display/DOC/Official+Documentation) payee identity certification
+- import password protected paper wallets
+- "payment protocol” payee identity certification
 - Shapeshift integration (Pay any BTC Address by just scanning the BTC QR Code)
 
 ## URL scheme:
@@ -42,7 +42,3 @@ Any jailbreak app can grant itself access to every other app's keychain data
 and rob you by self-signing as described [here](http://www.saurik.com/id/8)
 and including `<key>application-identifier</key><string>*</string>` in its
 .entitlements file.
-
-## INSTALLATION:
-
-[Download Install Guide](https://axepay.atlassian.net/wiki/display/DOC/Download+-+Install+-+Guide)
