@@ -186,7 +186,7 @@
 "Axe address" = "Axe адрес";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Axe адресите могат да се копират в клип борда. Axe адресът винаги започва с 'X' или '7'.";
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe адресите могат да се копират в клип борда. Axe адресът винаги започва с 'X' или '7'.";
 
 /* No comment provided by engineer. */
 "axe network fee" = "такса на Axe мрежата";

@@ -186,7 +186,7 @@
 "Axe address" = "Địa chỉ Axe";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Địa chỉ Axe cũng có thể copy vào bộ đệm. Một địa chỉ axe luôn bắt đầu bằng chữ 'X' hoặc '7'.";
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Địa chỉ Axe cũng có thể copy vào bộ đệm. Một địa chỉ axe luôn bắt đầu bằng chữ 'X' hoặc '7'.";
 
 /* No comment provided by engineer. */
 "axe network fee" = "phí giao dịch";

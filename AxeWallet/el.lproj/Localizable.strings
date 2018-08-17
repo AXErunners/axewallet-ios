@@ -186,7 +186,7 @@
 "Axe address" = "Διεύθυνση Axe";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Οι Διευθύνσεις Axe μπορούν επίσης να αντιγραφούν στο πρόχειρο. Μια διεύθυνση axe ξεκινά πάντα με το 'X' ή το '7'.";
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Οι Διευθύνσεις Axe μπορούν επίσης να αντιγραφούν στο πρόχειρο. Μια διεύθυνση axe ξεκινά πάντα με το 'X' ή το '7'.";
 
 /* No comment provided by engineer. */
 "axe network fee" = "Bitcoin αμοιβή δικτύου";

@@ -186,7 +186,7 @@
 "Axe address" = "대쉬 주소";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "대쉬 주소를 클립보드로 복사할 수도 있습니다. 대쉬 주소는 항상 'X'이나 '7'으로 시작합니다.";
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "대쉬 주소를 클립보드로 복사할 수도 있습니다. 대쉬 주소는 항상 'X'이나 '7'으로 시작합니다.";
 
 /* No comment provided by engineer. */
 "axe network fee" = "대쉬 네트워크 수수료";

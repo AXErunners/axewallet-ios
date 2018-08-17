@@ -186,7 +186,7 @@
 "Axe address" = "Indirizzo Axe";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Gli indirizzi Axe possono anche essere copiati negli Appunti. Un indirizzo axe inizia sempre con 'X' o '7'.";
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Gli indirizzi Axe possono anche essere copiati negli Appunti. Un indirizzo axe inizia sempre con 'X' o '7'.";
 
 /* No comment provided by engineer. */
 "axe network fee" = "commissione di rete axe";

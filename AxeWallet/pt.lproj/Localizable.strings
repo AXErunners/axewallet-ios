@@ -186,7 +186,7 @@
 "Axe address" = "Endereço Axe";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Endereços Bitcoin também podem ser copiados para a área de transferência. Um endereço axe sempre começa com 'X' ou '7'.";
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Endereços Bitcoin também podem ser copiados para a área de transferência. Um endereço axe sempre começa com 'X' ou '7'.";
 
 /* No comment provided by engineer. */
 "axe network fee" = "taxa da rede Bitcoin";

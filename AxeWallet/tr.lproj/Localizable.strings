@@ -186,7 +186,7 @@
 "Axe address" = "axe adresi";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Axe adresleri ayrıca panoya kopyalanabilir. Bitcoin adresi her zaman 'X' veya '7' ile başlar.";
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe adresleri ayrıca panoya kopyalanabilir. Bitcoin adresi her zaman 'X' veya '7' ile başlar.";
 
 /* No comment provided by engineer. */
 "axe network fee" = "axe ağ ücreti";

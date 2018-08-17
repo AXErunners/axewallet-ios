@@ -186,7 +186,7 @@
 "Axe address" = "Axe cím";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Axe címeket a vágólapra is lehet másolni. Egy axe cím mindig 'X'-gyel vagy '7'-mal kezdődik.";
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe címeket a vágólapra is lehet másolni. Egy axe cím mindig 'X'-gyel vagy '7'-mal kezdődik.";
 
 /* No comment provided by engineer. */
 "axe network fee" = "axe hálózati díj";

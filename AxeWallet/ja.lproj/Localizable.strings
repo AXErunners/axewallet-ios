@@ -186,7 +186,7 @@
 "Axe address" = "ダッシュアドレス";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "ダッシュアドレスをクリップボードにコピーすることもできます。\nダッシュアドレスは\n常に 'X' または '7' で始まります。";
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "ダッシュアドレスをクリップボードにコピーすることもできます。\nダッシュアドレスは\n常に 'X' または '7' で始まります。";
 
 /* No comment provided by engineer. */
 "axe network fee" = "ダッシュネットワーク手数料";

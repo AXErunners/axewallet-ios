@@ -186,7 +186,7 @@
 "Axe address" = "Axe-adresse";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Axe-adresser kan også kopieres til udklipsholderen. En axe-adresse starter altid med \"X\" eller \"7\".";
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe-adresser kan også kopieres til udklipsholderen. En axe-adresse starter altid med \"X\" eller \"7\".";
 
 /* No comment provided by engineer. */
 "axe network fee" = "axe-netværksgebyr";

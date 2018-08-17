@@ -186,7 +186,7 @@
 "Axe address" = "达世币地址";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "达世币地址也可以复制到剪贴板。一个达世币地址总是以'X'或'7'开始。";
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "达世币地址也可以复制到剪贴板。一个达世币地址总是以'X'或'7'开始。";
 
 /* No comment provided by engineer. */
 "axe network fee" = "达世币网络手续费";

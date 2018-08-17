@@ -186,7 +186,7 @@
 "Axe address" = "عنوان داش";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "يمكن أيضًا نسخ عناوين داش إلى الحافظة. يبدأ عنوان داش دائمًا بـ \"X\" أو \"7\".";
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "يمكن أيضًا نسخ عناوين داش إلى الحافظة. يبدأ عنوان داش دائمًا بـ \"X\" أو \"7\".";
 
 /* No comment provided by engineer. */
 "axe network fee" = "رسوم شبكة داش";

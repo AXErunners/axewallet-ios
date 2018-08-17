@@ -186,7 +186,7 @@
 "Axe address" = "ที่อยู่ Axe";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "ที่อยู่ Axe สามารถคัดลอกไปยังคลิปบอร์ดได้ด้วย  ที่อยู่ axe จะขึ้นต้นด้วย 'X' or '7' เสมอ";
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "ที่อยู่ Axe สามารถคัดลอกไปยังคลิปบอร์ดได้ด้วย  ที่อยู่ axe จะขึ้นต้นด้วย 'X' or '7' เสมอ";
 
 /* No comment provided by engineer. */
 "axe network fee" = "ค่าธรรมเนียมเครือข่าย axe";

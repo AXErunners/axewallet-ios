@@ -50,7 +50,7 @@
 #define SCAN_TIP      NSLocalizedString(@"Scan someone else's QR code to get their axe or bitcoin address. "\
 "You can send a payment to anyone with an address.", nil)
 #define CLIPBOARD_TIP NSLocalizedString(@"Axe addresses can also be copied to the clipboard. "\
-"A axe address always starts with 'X' or '7'.", nil)
+"An axe address always starts with 'P' or '7'.", nil)
 
 #define LOCK @"\xF0\x9F\x94\x92" // unicode lock symbol U+1F512 (utf-8)
 #define REDX @"\xE2\x9D\x8C"     // unicode cross mark U+274C, red x emoji (utf-8)
