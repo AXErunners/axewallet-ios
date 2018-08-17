@@ -74,8 +74,8 @@
 /* Class = "UILabel"; text = "no transactions"; ObjectID = "t1j-JZ-FW0"; */
 "t1j-JZ-FW0.text" = "거래 없음";
 
-/* Class = "UILabel"; text = "AxeWallet v%ver%%net%\nCopyright © 2018 Axe Core\nForked from breadwallet.\nThis app is open source:"; ObjectID = "uvz-hk-Nr4"; */
-"uvz-hk-Nr4.text" = "AxeWallet v%ver%%net%\nCopyright © 2018 Axe Core\n\nBreadwallet으로 부터 Fork됨\n\n해당 앱은 오픈소스입니다.";
+/* Class = "UILabel"; text = "AxeWallet v%ver%%net%\nCopyright © 2018 Axe Core\nForked from dashwallet.\nThis app is open source:"; ObjectID = "uvz-hk-Nr4"; */
+"uvz-hk-Nr4.text" = "AxeWallet v%ver%%net%\nCopyright © 2018 Axe Core\n\ndashwallet으로 부터 Fork됨\n\n해당 앱은 오픈소스입니다.";
 
 /* Class = "UILabel"; text = "Start a new wallet by generating a wallet recovery phrase"; ObjectID = "wDZ-DN-szv"; */
 "wDZ-DN-szv.text" = "지갑 복구 구문을 생성하여 새 지갑을 시작하십시오.";

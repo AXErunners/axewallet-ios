@@ -74,7 +74,7 @@
 /* Class = "UILabel"; text = "no transactions"; ObjectID = "t1j-JZ-FW0"; */
 "t1j-JZ-FW0.text" = "không có giao dịch nào";
 
-/* Class = "UILabel"; text = "AxeWallet v%ver%%net%\nCopyright © 2018 Axe Core\nForked from breadwallet.\nThis app is open source:"; ObjectID = "uvz-hk-Nr4"; */
+/* Class = "UILabel"; text = "AxeWallet v%ver%%net%\nCopyright © 2018 Axe Core\nForked from dashwallet.\nThis app is open source:"; ObjectID = "uvz-hk-Nr4"; */
 "uvz-hk-Nr4.text" = "axewallet  v%ver%%net%\nBản quyền © 2018 Axe Core\n\nDựa trên ví breadwallet\n\nđây là ứng dụng mã nguồn mở";
 
 /* Class = "UILabel"; text = "Start a new wallet by generating a wallet recovery phrase"; ObjectID = "wDZ-DN-szv"; */
