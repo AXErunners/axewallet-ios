@@ -2281,7 +2281,7 @@
                                         <gestureRecognizers/>
                                         <string key="text">AxeWallet v%ver%%net%
 Copyright © 2018 Axe Core
-Forked from breadwallet.
+Forked from dashwallet.
 This app is open source:</string>
                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
                                         <nil key="highlightedColor"/>
