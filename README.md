@@ -1,6 +1,6 @@
 # Axewallet
 
-[![CI Status](https://travis-ci.com/AXErunners/axewallet.svg?branch=maste?style=flat)](https://travis-ci.com/AXErunners/axewallet)
+[![CI Status](https://travis-ci.com/AXErunners/axewallet-ios.svg?branch=maste?style=flat)](https://travis-ci.com/AXErunners/axewallet-ios)
 
 <p align="center" >
 <img src="AxeWallet/Images.xcassets/AppIcon.appiconset/icon_83.5@2x.png" alt="Axewallet" title="Axewallet">
