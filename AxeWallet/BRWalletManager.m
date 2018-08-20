@@ -605,7 +605,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     setKeychainDict(userAccount, USER_ACCOUNT_KEY, NO);
 }
 
-// true if touch id is enabled
+// true if Touch ID is enabled
 - (BOOL)isTouchIdEnabled
 {
     if (@available(iOS 11.0, *)) {
@@ -618,7 +618,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     }
 }
 
-// true if touch id is enabled
+// true if Touch ID is enabled
 - (BOOL)isFaceIdEnabled
 {
     if (@available(iOS 11.0, *)) {
@@ -669,8 +669,8 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
             if (!authenticated) {
                 completion(nil);
             } else {
-                // BUG: if user manually chooses to enter pin, the touch id spending limit is reset, but the tx being authorized
-                // still counts towards the next touch id spending limit
+                // BUG: if user manually chooses to enter pin, the Touch ID spending limit is reset, but the tx being authorized
+                // still counts towards the next Touch ID spending limit
                 if (! touchid) setKeychainInt(self.wallet.totalSent + amount + self.spendingLimit, SPEND_LIMIT_KEY, NO);
                 completion([self.mnemonic deriveKeyFromPhrase:getKeychainString(MNEMONIC_KEY, nil) withPassphrase:nil]);
             }
@@ -692,7 +692,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
 
 // MARK: - authentication
 
-// prompts user to authenticate with touch id or passcode
+// prompts user to authenticate with Touch ID or passcode
 - (void)authenticateWithPrompt:(NSString *)authprompt andTouchId:(BOOL)touchId alertIfLockout:(BOOL)alertIfLockout completion:(PinCompletionBlock)completion;
 {
     if (touchId) {
@@ -757,7 +757,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
         }
     }
     else {
-        // TODO explain reason when touch id is disabled after 30 days without pin unlock
+        // TODO explain reason when Touch ID is disabled after 30 days without pin unlock
         [self authenticatePinWithTitle:[NSString stringWithFormat:NSLocalizedString(@"passcode for %@", nil),
                                         DISPLAY_NAME] message:authprompt alertIfLockout:alertIfLockout completion:^(BOOL authenticated, BOOL cancelled) {
             if (authenticated) {
@@ -1098,7 +1098,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
 
 
 
-// amount that can be spent using touch id without pin entry
+// amount that can be spent using Touch ID without pin entry
 - (uint64_t)spendingLimit
 {
     // it's ok to store this in userdefaults because increasing the value only takes effect after successful pin entry

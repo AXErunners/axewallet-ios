@@ -249,6 +249,9 @@
 "Face ID limit" = "Face ID limit";
 
 /* No comment provided by engineer. */
+ "Face ID spending limit" = "Face ID spending limit";
+
+/* No comment provided by engineer. */
 "failed wallet update" = "misslyckades med plånboks uppdateringen";
 
 /* No comment provided by engineer. */
@@ -576,10 +579,10 @@
 "to: %@ (via Shapeshift)" = "till: %@ (via Shapeshift)";
 
 /* No comment provided by engineer. */
-"Touch ID limit" = "gräns för touch id";
+"Touch ID limit" = "gräns för Touch ID";
 
 /* No comment provided by engineer. */
-"touch id spending limit" = "touch id beloppsgräns";
+"Touch ID spending limit" = "Touch ID beloppsgräns";
 
 /* No comment provided by engineer. */
 "transaction canceled, network timeout" = "transaktionen avbruten – nätverksavbrott";
