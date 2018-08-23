@@ -419,7 +419,7 @@
     BRKey *key;
 
     //to do compressed/uncompressed BIP38Key tests
-    key = [BRKey keyWithBIP38Key:@"6PfV898iMrVs3d9gJSw5HTYyGhQRR5xRu5ji4GE6H5QdebT2YgK14Lu1E5"
+    key = [BRKey keyWithBIP38Key:@"6PRSqqFrQgJbj79X1AprHDbbmcW3QKBpqSNjpck34WisqqW8a82o2vihmb"
                    andPassphrase:@"TestingOneTwoThree"];
     NSLog(@"privKey = %@", key.privateKey);
     XCTAssertEqualObjects(@"7sErBwAJKurTqccafgPgXJTAhbFSW8JpjXm9fg6ULQnzXbLwZNj", key.privateKey,
