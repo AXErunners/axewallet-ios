@@ -1252,7 +1252,7 @@
     [w registerTransaction:tx7];
 
     // larger than 1k transaction
-    tx = [w transactionFor:25000000 to:@"XvQbGBRz8fokqot7BnnjjSLWWi41BgwujN" withFee:YES];
+    tx = [w transactionFor:25000000 to:@"PPMt266WCVhBonwQpfjbsWRGctPwQVBYHs" withFee:YES];
     NSLog(@"fee: %llu, should be %llu", [w feeForTransaction:tx], [w feeForTxSize:tx.size isInstant:FALSE inputCount:0]);
 
     int64_t amount = [w amountReceivedFromTransaction:tx] - [w amountSentByTransaction:tx],
