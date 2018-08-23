@@ -422,7 +422,7 @@
     key = [BRKey keyWithBIP38Key:@"6PfV898iMrVs3d9gJSw5HTYyGhQRR5xRu5ji4GE6H5QdebT2YgK14Lu1E5"
                    andPassphrase:@"TestingOneTwoThree"];
     NSLog(@"privKey = %@", key.privateKey);
-    XCTAssertEqualObjects(@"7sEJGJRPeGoNBsW8tKAk4JH52xbxrktPfJcNxEx3uf622ZrGR5k", key.privateKey,
+    XCTAssertEqualObjects(@"7sErBwAJKurTqccafgPgXJTAhbFSW8JpjXm9fg6ULQnzXbLwZNj", key.privateKey,
                           @"[BRKey keyWithBIP38Key:andPassphrase:]");
     XCTAssertEqualObjects([key BIP38KeyWithPassphrase:@"TestingOneTwoThree"],
                           @"6PRT3Wy4p7MZETE3n56KzyjyizMsE26WnMWpSeSoZawawEm7jaeCVa2wMu",  //not EC multiplied (todo)
