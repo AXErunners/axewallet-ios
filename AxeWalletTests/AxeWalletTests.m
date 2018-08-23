@@ -425,7 +425,7 @@
     XCTAssertEqualObjects(@"7sErBwAJKurTqccafgPgXJTAhbFSW8JpjXm9fg6ULQnzXbLwZNj", key.privateKey,
                           @"[BRKey keyWithBIP38Key:andPassphrase:]");
     XCTAssertEqualObjects([key BIP38KeyWithPassphrase:@"TestingOneTwoThree"],
-                          @"6PRT3Wy4p7MZETE3n56KzyjyizMsE26WnMWpSeSoZawawEm7jaeCVa2wMu",  //not EC multiplied (todo)
+                          @"6PRSqqFrQgJbj79X1AprHDbbmcW3QKBpqSNjpck34WisqqW8a82o2vihmb",  //not EC multiplied (todo)
                           @"[BRKey BIP38KeyWithPassphrase:]");
 
     // incorrect password test
