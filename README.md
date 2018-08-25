@@ -1,12 +1,12 @@
-# Axewallet
+# AXEwallet
 
-[![CI Status](https://travis-ci.com/AXErunners/axewallet-ios.svg?branch=maste?style=flat)](https://travis-ci.com/AXErunners/axewallet-ios)
+[![Build Status](https://travis-ci.com/AXErunners/axewallet-ios.svg?branch=master)](https://travis-ci.com/AXErunners/axewallet-ios)
 
 <p align="center" >
-<img src="AxeWallet/Images.xcassets/AppIcon.appiconset/icon_83.5@2x.png" alt="Axewallet" title="Axewallet">
+<img src="AxeWallet/Images.xcassets/AppIcon.appiconset/icon_83.5@2x.png" alt="AXE wallet logo">
 </p>
 
-Axewallet (breadwallet fork) is a real standalone Axe client. There is no server to get hacked or go down, so you can always access your money.
+Axewallet (dashwallet fork) is a real standalone Axe client. There is no server to get hacked or go down, so you can always access your money.
 Using [SPV](https://en.bitcoin.it/wiki/Thin_Client_Security#Header-Only_Clients) mode, Axewallet connects directly to the Axe network with the fast performance you need on a mobile device.
 
 Axewallet is designed to protect you from malware, browser security holes, even physical theft. With AES hardware encryption, app sandboxing,
