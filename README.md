@@ -1,9 +1,9 @@
-# Axewallet
+# AXEwallet
 
-[![CI Status](https://travis-ci.com/AXErunners/axewallet-ios.svg?branch=maste?style=flat)](https://travis-ci.com/AXErunners/axewallet-ios)
+[![Build Status](https://travis-ci.com/AXErunners/axewallet-ios.svg?branch=master)](https://travis-ci.com/AXErunners/axewallet-ios)
 
 <p align="center" >
-<img src="AxeWallet/Images.xcassets/AppIcon.appiconset/icon_83.5@2x.png" alt="Axewallet" title="Axewallet">
+<img src="AxeWallet/Images.xcassets/AppIcon.appiconset/icon_83.5@2x.png" alt="AXE wallet logo">
 </p>
 
 Axewallet (breadwallet fork) is a real standalone Axe client. There is no server to get hacked or go down, so you can always access your money.
