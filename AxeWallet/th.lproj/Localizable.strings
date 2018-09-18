@@ -81,6 +81,24 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "แอพพลิเคชั่น %@ ต้องการ Master Public Key ของคุณ มันสามารถติดตาม wallet ของคุณ, มันไม่สามารถเคลื่อนย้าย Axe ของคุณได้";
 
 /* No comment provided by engineer. */
+"Axe address" = "ที่อยู่ Axe";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "ค่าธรรมเนียมเครือข่าย axe";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "ชำระเงิน axe ไม่สามารถไม่น้อยกว่า %@ ได้";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "ธุรกรรม axe นี้ ยังไม่ถูกลงนาม";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "รายการธุรกรรม axe ไม่สามารถน้อยกว่า %@  ได้";
+
+/* No comment provided by engineer. */
 "bad password, try again" = "รหัสไม่ถูกต้อง, ลองอีกครั้ง";
 
 /* No comment provided by engineer. */
@@ -181,24 +199,6 @@
 
 /* No comment provided by engineer. */
 "CRITICAL" = "วิกฤติ";
-
-/* No comment provided by engineer. */
-"Axe address" = "ที่อยู่ Axe";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'P' or '7'." = "ที่อยู่ Axe สามารถคัดลอกไปยังคลิปบอร์ดได้ด้วย  ที่อยู่ axe จะขึ้นต้นด้วย 'P' or '7' เสมอ";
-
-/* No comment provided by engineer. */
-"axe network fee" = "ค่าธรรมเนียมเครือข่าย axe";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "ชำระเงิน axe ไม่สามารถไม่น้อยกว่า %@ ได้";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "ธุรกรรม axe นี้ ยังไม่ถูกลงนาม";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "รายการธุรกรรม axe ไม่สามารถน้อยกว่า %@  ได้";
 
 /* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "ความปลอดภัยของอุปกรณ์ \nการ 'jailbreak' แอพพลิเคชั่น  สามารถเข้าถึงข้อมูลของแอพพลิเคชั่นอื่นได้ (และสามารถขโมย axe ของคุณได้ )";
@@ -336,13 +336,13 @@
 "not a axe or bitcoin QR code" = "ไม่ใช่ โค้ด QR ของ axe  หรือ  bitcoin";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "ไม่ใช่ที่อยู่ bitcoin address ที่ถูกต้อง";
-
-/* No comment provided by engineer. */
 "not a valid axe address" = "ไม่ใช่ที่อยู่ axe ที่ถูกต้อง";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "ไม่ใช่ที่อยู่ axe หรือ bitcoin ที่ถูกต้อง";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "ไม่ใช่ที่อยู่ bitcoin address ที่ถูกต้อง";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "ไม่ใช่ใช่คีย์ส่วนตัวที่ถูกต้อง";

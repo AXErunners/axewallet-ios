@@ -81,6 +81,24 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "%@ uygulaması size ait Ana Herkese Açık Anahtarı istiyor.  Bunun sayesinde cüzdanınız takip edilebilir ama Axelerinizi başka bir yere aktarmakta kullanılamaz.";
 
 /* No comment provided by engineer. */
+"Axe address" = "axe adresi";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe adresleri ayrıca panoya kopyalanabilir. Bitcoin adresi her zaman 'X' veya '7' ile başlar.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "axe ağ ücreti";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "axe ödemesi %@ altında olamaz";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "axe işlemi imzalanmamış";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "axe işlemi çıkışı %@ altında olamaz";
+
+/* No comment provided by engineer. */
 "bad password, try again" = "hatalı şifre, yeniden deneyin";
 
 /* No comment provided by engineer. */
@@ -181,24 +199,6 @@
 
 /* No comment provided by engineer. */
 "CRITICAL" = "KRİTİK";
-
-/* No comment provided by engineer. */
-"Axe address" = "axe adresi";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe adresleri ayrıca panoya kopyalanabilir. Bitcoin adresi her zaman 'X' veya '7' ile başlar.";
-
-/* No comment provided by engineer. */
-"axe network fee" = "axe ağ ücreti";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "axe ödemesi %@ altında olamaz";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "axe işlemi imzalanmamış";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "axe işlemi çıkışı %@ altında olamaz";
 
 /* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "CİHAZ GÜVENLİĞİ ZAYIFLADI\nHerhangi bir 'jailbreak' uygulaması diğer uygulamaların verilerine erişebilir (ve axelerinizi çalabilir).";
@@ -336,13 +336,13 @@
 "not a axe or bitcoin QR code" = "bir axe veya bitcoin QR kodu değildir";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "geçerli bir bitcoin adresi değil";
-
-/* No comment provided by engineer. */
 "not a valid axe address" = "geçerli bir axe adresi değil";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "geçerli bir axe veya bitcoin adresi değil";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "geçerli bir bitcoin adresi değil";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "geçerli bir özel anahtar değil";

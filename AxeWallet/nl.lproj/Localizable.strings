@@ -81,6 +81,24 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "De applicatie %@ wil je openbare hoofdsleutel inzien. Dit kan worden gebruikt om je portemonnee in de gaten te houden; het kan niet worden gebruikt om je Axe te verplaatsen.";
 
 /* No comment provided by engineer. */
+"Axe address" = "Axe-adres";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "axe-netwerkvergoeding";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "axe-betalingen mogen niet minder bedragen dan %@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "axe-transactie is niet ondertekend";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "axe-transactierestanten mogen niet minder bedragen dan %@";
+
+/* No comment provided by engineer. */
 "bad password, try again" = "onjuist wachtwoord, probeer opnieuw";
 
 /* No comment provided by engineer. */
@@ -181,24 +199,6 @@
 
 /* No comment provided by engineer. */
 "CRITICAL" = "KRITISCH";
-
-/* No comment provided by engineer. */
-"Axe address" = "Axe-adres";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'P' or '7'." = "Axe-adressen kunnen ook worden gekopieerd naar het klembord. Een axe-adres begint altijd met een 'X' of een '7'.";
-
-/* No comment provided by engineer. */
-"axe network fee" = "axe-netwerkvergoeding";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "axe-betalingen mogen niet minder bedragen dan %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "axe-transactie is niet ondertekend";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "axe-transactierestanten mogen niet minder bedragen dan %@";
 
 /* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "BEVEILIGING VAN HET APPARAAT IN GEVAAR\nEen 'jailbreak'-app heeft toegang tot de sleutelhanger van andere apps (en de mogelijkheid om je axe te stelen).";
@@ -336,13 +336,13 @@
 "not a axe or bitcoin QR code" = "geen axe of bitcoin QR-code";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "ongeldig bitcoin-adres";
-
-/* No comment provided by engineer. */
 "not a valid axe address" = "ongeldig axe-adres";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "ongeldig axe- of bitcoinadres";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "ongeldig bitcoin-adres";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "ongeldige persoonlijke sleutel";

@@ -81,6 +81,24 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "التطبيق %@ ترغب في استلام مفتاحك الرئيسي. هذا يمكن أن تستخدم لتتبع محفظتك ، وهذا لا يمكن أن تستخدم لتحريك داش الخاص بك.";
 
 /* No comment provided by engineer. */
+"Axe address" = "عنوان داش";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "يمكن أيضًا نسخ عناوين داش إلى الحافظة. يبدأ عنوان داش دائمًا بـ \"X\" أو \"7\".";
+
+/* No comment provided by engineer. */
+"axe network fee" = "رسوم شبكة داش";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "لا يمكن أن تكون دفعات الداش أقل من %@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "صفقة داش لم توقع";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "لا يمكن أن تكون مخرجات معاملات داش أقل من %@";
+
+/* No comment provided by engineer. */
 "bad password, try again" = "كلمة المرور السيئة ، حاول مرة أخرى";
 
 /* No comment provided by engineer. */
@@ -183,24 +201,6 @@
 "CRITICAL" = "إنتقادي";
 
 /* No comment provided by engineer. */
-"Axe address" = "عنوان داش";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "يمكن أيضًا نسخ عناوين داش إلى الحافظة. يبدأ عنوان داش دائمًا بـ \"X\" أو \"7\".";
-
-/* No comment provided by engineer. */
-"axe network fee" = "رسوم شبكة داش";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "لا يمكن أن تكون دفعات الداش أقل من %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "صفقة داش لم توقع";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "لا يمكن أن تكون مخرجات معاملات داش أقل من %@";
-
-/* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "تسوية أمان الجهاز\nيمكن لأي تطبيق \"جيلبريك\" الوصول إلى بيانات التطبيق الآخر (وسرقة رصيدك في داش).";
 
 /* No comment provided by engineer. */
@@ -249,7 +249,7 @@
 "Face ID limit" = "محدد وجه التعريف";
 
 /* No comment provided by engineer. */
- "Face ID spending limit" = "Face ID spending limit";
+"Face ID spending limit" = "Face ID spending limit";
 
 /* No comment provided by engineer. */
 "failed wallet update" = "فشل تحديث المحفظة";
@@ -336,13 +336,13 @@
 "not a axe or bitcoin QR code" = "لا يوجد QR لداش او للبيتكوين";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "عنوان البيتكوين غير صالح";
-
-/* No comment provided by engineer. */
 "not a valid axe address" = "عنوان داش غير صالح";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "عنوان البيتكوين أو داش غير صالحين";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "عنوان البيتكوين غير صالح";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "مفتاح الخاص غير صالح";

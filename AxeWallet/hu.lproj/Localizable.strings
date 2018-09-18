@@ -81,6 +81,24 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe.";
 
 /* No comment provided by engineer. */
+"Axe address" = "Axe cím";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe címeket a vágólapra is lehet másolni. Egy axe cím mindig 'X'-gyel vagy '7'-mal kezdődik.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "axe hálózati díj";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "a axe fizetés összege nem lehet kevesebb, mint %@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "a axe tranzakció nincs aláírva";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "a axe tranzakció kimeneteinek összege nem lehet kisebb, mint %@";
+
+/* No comment provided by engineer. */
 "bad password, try again" = "rossz jelszó, próbáld újra";
 
 /* No comment provided by engineer. */
@@ -183,24 +201,6 @@
 "CRITICAL" = "CRITICAL";
 
 /* No comment provided by engineer. */
-"Axe address" = "Axe cím";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe címeket a vágólapra is lehet másolni. Egy axe cím mindig 'X'-gyel vagy '7'-mal kezdődik.";
-
-/* No comment provided by engineer. */
-"axe network fee" = "axe hálózati díj";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "a axe fizetés összege nem lehet kevesebb, mint %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "a axe tranzakció nincs aláírva";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "a axe tranzakció kimeneteinek összege nem lehet kisebb, mint %@";
-
-/* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "KÉSZÜLÉK BIZTONSÁGA KOMPROMITTÁLVA\nBármilyen 'jailbreak' alkalmazás hozzáférhet a többi alkalmazás kulcskarikájához (és ellophatja a axejaidat).";
 
 /* No comment provided by engineer. */
@@ -249,7 +249,7 @@
 "Face ID limit" = "Face ID limit";
 
 /* No comment provided by engineer. */
- "Face ID spending limit" = "Face ID költési limit";
+"Face ID spending limit" = "Face ID költési limit";
 
 /* No comment provided by engineer. */
 "failed wallet update" = "failed wallet update";
@@ -336,13 +336,13 @@
 "not a axe or bitcoin QR code" = "nem axe vagy bitcoin QR kód";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "nem érvényes bitcoin cím";
-
-/* No comment provided by engineer. */
 "not a valid axe address" = "nem érvényes axe cím";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "nem érvényes axe vagy bitcoin cím";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "nem érvényes bitcoin cím";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "nem érvényes privát kulcs";

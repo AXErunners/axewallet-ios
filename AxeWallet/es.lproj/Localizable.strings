@@ -81,6 +81,24 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "La aplicación %@ desea recibir su Llave Maestra Pública. Esto puede ser usado para seguir el rastro de su cartera, no puede ser utilizado para mover su Axe.";
 
 /* No comment provided by engineer. */
+"Axe address" = "Dirección de axe";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Las direcciones de axe también pueden copiarse en el portapapeles. Una dirección de axe siempre comienza por \"X\" o \"7\".";
+
+/* No comment provided by engineer. */
+"axe network fee" = "cuota de red de axe";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "los pagos en axe no pueden ser inferiores a %@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "transacción de axe no firmada";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "los resultados de la transacción de axe no pueden ser inferiores a %@";
+
+/* No comment provided by engineer. */
 "bad password, try again" = "contraseña incorrecta, prueba otra vez";
 
 /* No comment provided by engineer. */
@@ -183,24 +201,6 @@
 "CRITICAL" = "CRÍTICO";
 
 /* No comment provided by engineer. */
-"Axe address" = "Dirección de axe";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Las direcciones de axe también pueden copiarse en el portapapeles. Una dirección de axe siempre comienza por \"X\" o \"7\".";
-
-/* No comment provided by engineer. */
-"axe network fee" = "cuota de red de axe";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "los pagos en axe no pueden ser inferiores a %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "transacción de axe no firmada";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "los resultados de la transacción de axe no pueden ser inferiores a %@";
-
-/* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "DISPOSITIVO DE SEGURIDAD DUDOSA\nCualquier aplicación de 'jailbreak' puede acceder a la cadena de datos de otras aplicaciones (y robar tus axe).";
 
 /* No comment provided by engineer. */
@@ -249,7 +249,7 @@
 "Face ID limit" = "Límite de Face ID";
 
 /* No comment provided by engineer. */
- "Face ID spending limit" = "Límite de gasto de Face ID";
+"Face ID spending limit" = "Límite de gasto de Face ID";
 
 /* No comment provided by engineer. */
 "failed wallet update" = "falló actualización de cartera";
@@ -336,13 +336,13 @@
 "not a axe or bitcoin QR code" = "no es un código QR de axe o bitcoin";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "no es una dirección válida de bitcoin";
-
-/* No comment provided by engineer. */
 "not a valid axe address" = "no es una dirección válida de axe";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "no es una dirección válida de axe o bitcoin";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "no es una dirección válida de bitcoin";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "no es una clave privada válida";

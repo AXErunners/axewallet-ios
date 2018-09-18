@@ -81,6 +81,24 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe.";
 
 /* No comment provided by engineer. */
+"Axe address" = "Διεύθυνση Axe";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Οι Διευθύνσεις Axe μπορούν επίσης να αντιγραφούν στο πρόχειρο. Μια διεύθυνση axe ξεκινά πάντα με το 'X' ή το '7'.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "Bitcoin αμοιβή δικτύου";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "Οι πληρωμές Bitcoin δεν μπορεί να είναι μικρότερες από %@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "Η συναλλαγή axe δεν έχει υπογραφεί";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "Η συναλλαγή εξόδου Bitcoin δεν μπορεί να είναι μικρότερη από %@";
+
+/* No comment provided by engineer. */
 "bad password, try again" = "εσφαλμένος κωδικός πρόσβασης, προσπαθήστε ξανά";
 
 /* No comment provided by engineer. */
@@ -183,24 +201,6 @@
 "CRITICAL" = "CRITICAL";
 
 /* No comment provided by engineer. */
-"Axe address" = "Διεύθυνση Axe";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Οι Διευθύνσεις Axe μπορούν επίσης να αντιγραφούν στο πρόχειρο. Μια διεύθυνση axe ξεκινά πάντα με το 'X' ή το '7'.";
-
-/* No comment provided by engineer. */
-"axe network fee" = "Bitcoin αμοιβή δικτύου";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "Οι πληρωμές Bitcoin δεν μπορεί να είναι μικρότερες από %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "Η συναλλαγή axe δεν έχει υπογραφεί";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "Η συναλλαγή εξόδου Bitcoin δεν μπορεί να είναι μικρότερη από %@";
-
-/* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "Η ΑΣΦΑΛΕΙΑ ΤΗΣ ΣΥΣΚΕΥΗΣ ΕΧΕΙ ΤΕΘΕΙ ΣΕ ΚΙΝΔΥΝΟ\nΟποιαδήποτε 'σπασμένη' εφαρμογή μπορεί να έχει πρόσβαση σε οποιαδήποτε άλλης εφαρμογής τα δεδομένα (και να κλέψει τα axe σας).";
 
 /* No comment provided by engineer. */
@@ -249,7 +249,7 @@
 "Face ID limit" = "Face ID limit";
 
 /* No comment provided by engineer. */
- "Face ID spending limit" = "αναγνωριστικό όριο ξοδέματος αφής";
+"Face ID spending limit" = "αναγνωριστικό όριο ξοδέματος αφής";
 
 /* No comment provided by engineer. */
 "failed wallet update" = "failed wallet update";
@@ -336,13 +336,13 @@
 "not a axe or bitcoin QR code" = "δεν είναι κωδικός QR για axe ή το bitcoin";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "δεν είναι μια έγκυρη διεύθυνση bitcoin";
-
-/* No comment provided by engineer. */
 "not a valid axe address" = "δεν είναι μια έγκυρη διεύθυνση axe";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "δεν είναι μια έγκυρη διεύθυνση axe ή το bitcoin";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "δεν είναι μια έγκυρη διεύθυνση bitcoin";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "δεν είναι ενα έγκυρο ιδιωτικό κλειδί";

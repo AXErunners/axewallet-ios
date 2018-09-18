@@ -81,6 +81,24 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "Application %@ というアプリがあなたのマスターパブリックキーを要求しています。これはあなたのウォレットの記録を取るために使用されます。あなたのダッシュが他へ送金されることはありません。";
 
 /* No comment provided by engineer. */
+"Axe address" = "ダッシュアドレス";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "ダッシュアドレスをクリップボードにコピーすることもできます。\nダッシュアドレスは\n常に 'X' または '7' で始まります。";
+
+/* No comment provided by engineer. */
+"axe network fee" = "ダッシュネットワーク手数料";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "ダッシュの送金は %@ 以上でないと送れません。";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "取引が署名されていません";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "ダッシュの取引出力は %@ 以上でないといけません。";
+
+/* No comment provided by engineer. */
 "bad password, try again" = "不正なパスワード、もう一度ご入力ください。";
 
 /* No comment provided by engineer. */
@@ -183,24 +201,6 @@
 "CRITICAL" = "重要";
 
 /* No comment provided by engineer. */
-"Axe address" = "ダッシュアドレス";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "ダッシュアドレスをクリップボードにコピーすることもできます。\nダッシュアドレスは\n常に 'X' または '7' で始まります。";
-
-/* No comment provided by engineer. */
-"axe network fee" = "ダッシュネットワーク手数料";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "ダッシュの送金は %@ 以上でないと送れません。";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "取引が署名されていません";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "ダッシュの取引出力は %@ 以上でないといけません。";
-
-/* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "端末が危険な状態です！！！\n端末を脱獄してしまうと、どの脱獄アプリでもキーチェーンへのアクセスできます。(つまり、あなたのダッシュを簡単に盗めます。)";
 
 /* No comment provided by engineer. */
@@ -249,7 +249,7 @@
 "Face ID limit" = "Face IDの送金可能額";
 
 /* No comment provided by engineer. */
- "Face ID spending limit" = "Face IDの送金可能額";
+"Face ID spending limit" = "Face IDの送金可能額";
 
 /* No comment provided by engineer. */
 "failed wallet update" = "ウォレットのアップデートに失敗しました";
@@ -336,13 +336,13 @@
 "not a axe or bitcoin QR code" = "ダッシュまたはビットコインのQRコードではありません";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "有効なビットコインアドレスではありません";
-
-/* No comment provided by engineer. */
 "not a valid axe address" = "有効なダッシュアドレスではありません";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "有効なビットコインのQRコインアドレスではありません";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "有効なビットコインアドレスではありません";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "有効な秘密鍵ではありません";

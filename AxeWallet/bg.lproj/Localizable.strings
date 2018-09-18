@@ -81,6 +81,24 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "Приложението %@ иска да получи вашият Master Public Key.  Това може да бъде използване за проследяване на вашият портфейл,но не може да се използва за преместване на вашите Axe.";
 
 /* No comment provided by engineer. */
+"Axe address" = "Axe адрес";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "такса на axe мрежата";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "axe плащането не може да бъде по-малко от %@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "axe транзакцията не е подписана";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "axe изходите за транзакцията  не може да бъдат по-малко то %@";
+
+/* No comment provided by engineer. */
 "bad password, try again" = "грешна парола, опитайте отново";
 
 /* No comment provided by engineer. */
@@ -181,24 +199,6 @@
 
 /* No comment provided by engineer. */
 "CRITICAL" = "КРИТОЧНО";
-
-/* No comment provided by engineer. */
-"Axe address" = "Axe адрес";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'P' or '7'." = "Axe адресите могат да се копират в клип борда. Axe адресът винаги започва с 'X' или '7'.";
-
-/* No comment provided by engineer. */
-"axe network fee" = "такса на axe мрежата";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "axe плащането не може да бъде по-малко от %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "axe транзакцията не е подписана";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "axe изходите за транзакцията  не може да бъдат по-малко то %@";
 
 /* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "СЕКРЕТНОТО УСТРОЙСТВО Е КОМПРОМЕТИРАНО\nВсяко 'jailbreak' приложение може да достъпи всяко друго приложение с важна информация (и да открадне вашите axe).";
@@ -336,13 +336,13 @@
 "not a axe or bitcoin QR code" = "не е Axe или Bitcoin QR код";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "не е валиден Bitcoin адрес";
-
-/* No comment provided by engineer. */
 "not a valid axe address" = "не е валиден Axe адрес";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "не е валиден Axe или Bitcoin адрес";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "не е валиден Bitcoin адрес";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "не е валиден частен ключ";

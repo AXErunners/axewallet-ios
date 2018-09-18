@@ -81,6 +81,24 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe.";
 
 /* No comment provided by engineer. */
+"Axe address" = "Axe-adresse";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe-adresser kan også kopieres til utklippstavlen. En Axe-adresse starter alltid med 'X' eller '7'.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "axe nettverksavgift";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "beløp for axe-betalinger kan ikke være lavere enn %@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "axe-transaksjon ikke signert";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "output for axe-transaksjon kan ikke være lavere enn %@";
+
+/* No comment provided by engineer. */
 "bad password, try again" = "feil passord, prøv igjen";
 
 /* No comment provided by engineer. */
@@ -183,24 +201,6 @@
 "CRITICAL" = "CRITICAL";
 
 /* No comment provided by engineer. */
-"Axe address" = "Axe-adresse";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe-adresser kan også kopieres til utklippstavlen. En Axe-adresse starter alltid med 'X' eller '7'.";
-
-/* No comment provided by engineer. */
-"axe network fee" = "axe nettverksavgift";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "beløp for axe-betalinger kan ikke være lavere enn %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "axe-transaksjon ikke signert";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "output for axe-transaksjon kan ikke være lavere enn %@";
-
-/* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "SIKKERHETEN TIL ENHETEN ER KOMPROMITTERT\nEnhver 'jailbreak'-app kan få tilgang til andre appers Keychain data (og stjele dine axe).";
 
 /* No comment provided by engineer. */
@@ -249,7 +249,7 @@
 "Face ID limit" = "Face ID limit";
 
 /* No comment provided by engineer. */
- "Face ID spending limit" = "Face ID spending limit";
+"Face ID spending limit" = "Face ID spending limit";
 
 /* No comment provided by engineer. */
 "failed wallet update" = "failed wallet update";
@@ -336,13 +336,13 @@
 "not a axe or bitcoin QR code" = "ikke en Axe eller Bitcoin QR-kode";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "ikke en gyldig Bitcoin-adresse";
-
-/* No comment provided by engineer. */
 "not a valid axe address" = "ikke en gyldig Axe-adresse";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "ikke en gyldig Axe eller Bitcoin adresse";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "ikke en gyldig Bitcoin-adresse";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "ikke en gyldig privat nøkkel";

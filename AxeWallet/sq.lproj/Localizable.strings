@@ -81,6 +81,24 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe.";
 
 /* No comment provided by engineer. */
+"Axe address" = "Axe adresa";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Bitcoin adresat gjithashtu mund të kopjohen në memorje. Një axe adresë gjithmon fillon me 'X' ose '7'.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "axe tarifa";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "axe pagesa nuk mund të jetë më e pak se %@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "axe transaksioni nuk është firmosur";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "axe transaksion outputet nuk mund të jetë më pak se %@";
+
+/* No comment provided by engineer. */
 "bad password, try again" = "fjalëkalimi gabim, provoni prapë";
 
 /* No comment provided by engineer. */
@@ -183,24 +201,6 @@
 "CRITICAL" = "CRITICAL";
 
 /* No comment provided by engineer. */
-"Axe address" = "Axe adresa";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Bitcoin adresat gjithashtu mund të kopjohen në memorje. Një axe adresë gjithmon fillon me 'X' ose '7'.";
-
-/* No comment provided by engineer. */
-"axe network fee" = "axe tarifa";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "axe pagesa nuk mund të jetë më e pak se %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "axe transaksioni nuk është firmosur";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "axe transaksion outputet nuk mund të jetë më pak se %@";
-
-/* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "SIGURIA E PAJISJES ËSHTË KOMPROMETUAR\n\nÇdo aplikacion 'jailbreak' mund të ketë çasje në të dhënat e aplikacioneve tjera (dhe mund të ju vjedhin axe-at e juaj).";
 
 /* No comment provided by engineer. */
@@ -249,7 +249,7 @@
 "Face ID limit" = "Face ID limit";
 
 /* No comment provided by engineer. */
- "Face ID spending limit" = "Face ID spending limit";
+"Face ID spending limit" = "Face ID spending limit";
 
 /* No comment provided by engineer. */
 "failed wallet update" = "failed wallet update";
@@ -336,13 +336,13 @@
 "not a axe or bitcoin QR code" = "nuk është axe ose bitcoin QR kod";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "nuk është bitcoin adresë valide";
-
-/* No comment provided by engineer. */
 "not a valid axe address" = "nuk është axe adresë valide";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "nuk është axe ose bitcoin adresë valide";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "nuk është bitcoin adresë valide";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "jo një axe çelës privat valid";

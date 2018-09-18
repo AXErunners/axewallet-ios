@@ -81,6 +81,24 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "应用程序 %@ 想要获取你的公钥。它可以被用作查看你的钱包记录，但无法用来移动你钱包中的达世币。";
 
 /* No comment provided by engineer. */
+"Axe address" = "达世币地址";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "达世币地址也可以复制到剪贴板。一个达世币地址总是以'X'或'7'开始。";
+
+/* No comment provided by engineer. */
+"axe network fee" = "达世币网络手续费";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "达世币付款不能低于%@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "达世币交易尚未签名";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "达世币交易的输出不能少于%@";
+
+/* No comment provided by engineer. */
 "bad password, try again" = "密码错误，请重试";
 
 /* No comment provided by engineer. */
@@ -183,24 +201,6 @@
 "CRITICAL" = "重要";
 
 /* No comment provided by engineer. */
-"Axe address" = "达世币地址";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "达世币地址也可以复制到剪贴板。一个达世币地址总是以'X'或'7'开始。";
-
-/* No comment provided by engineer. */
-"axe network fee" = "达世币网络手续费";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "达世币付款不能低于%@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "达世币交易尚未签名";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "达世币交易的输出不能少于%@";
-
-/* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "该设备的安全性受到威胁\n任何'越狱'的应用程序都可以访问任何其他应用程序的钥匙链数据(并窃取你的达世币)。";
 
 /* No comment provided by engineer. */
@@ -249,7 +249,7 @@
 "Face ID limit" = "面容ID限制";
 
 /* No comment provided by engineer. */
- "Face ID spending limit" = "指纹解锁支出限额";
+"Face ID spending limit" = "指纹解锁支出限额";
 
 /* No comment provided by engineer. */
 "failed wallet update" = "钱包升级失败";
@@ -336,13 +336,13 @@
 "not a axe or bitcoin QR code" = "非达世币或者比特币的二维码";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "不是一个有效的比特币地址";
-
-/* No comment provided by engineer. */
 "not a valid axe address" = "不是一个有效的达世币地址";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "不是一个有效的达世币或者比特币地址";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "不是一个有效的比特币地址";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "不是一个有效的私钥";
