@@ -121,7 +121,9 @@
         NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
         paragraphStyle.lineSpacing = 20;
         paragraphStyle.alignment = NSTextAlignmentCenter;
-        NSDictionary * attributes = @{NSFontAttributeName:[UIFont systemFontOfSize:16 weight:UIFontWeightMedium],NSForegroundColorAttributeName:[UIColor whiteColor],NSParagraphStyleAttributeName:paragraphStyle};
+        NSInteger fontSize = 16;
+        NSDictionary * attributes = @{NSFontAttributeName:[UIFont systemFontOfSize:fontSize weight:UIFontWeightMedium],NSForegroundColorAttributeName:[UIColor whiteColor],NSParagraphStyleAttributeName:paragraphStyle};
+        UIEdgeInsets edgeInsets = self.seedLabel.layoutMargins;
         if (self.seedPhrase.length > 0 && [self.seedPhrase characterAtIndex:0] > 0x3000) { // ideographic language
             CGRect r;
             NSMutableString *s = CFBridgingRelease(CFStringCreateMutable(SecureAllocator(), 0)),
@@ -134,7 +136,7 @@
                 r = [l boundingRectWithSize:CGRectInfinite.size options:NSStringDrawingUsesLineFragmentOrigin
                                  attributes:@{NSFontAttributeName:self.seedLabel.font} context:nil];
 
-                if (r.size.width + LABEL_MARGIN*2.0 >= self.view.bounds.size.width) {
+                if (r.size.width >= self.view.bounds.size.width - 54*2 - edgeInsets.left - edgeInsets.right) {
                     [s appendString:@"\n"];
                     l.string = w;
                 }
@@ -142,9 +144,25 @@
 
                 [s appendString:w];
             }
-            self.seedLabel.attributedText = [[NSAttributedString alloc] initWithString:s attributes:attributes];;
+            self.seedLabel.attributedText = [[NSAttributedString alloc] initWithString:s attributes:attributes];
         }
         else {
+          NSInteger lineCount = 0;
+
+             do {
+                 attributes = @{NSFontAttributeName:[UIFont systemFontOfSize:fontSize weight:UIFontWeightMedium],NSForegroundColorAttributeName:[UIColor whiteColor],NSParagraphStyleAttributeName:paragraphStyle};
+                 CGSize labelSize = (CGSize){self.view.frame.size.width - 54*2 - edgeInsets.left - edgeInsets.right, MAXFLOAT};
+                 CGRect requiredSize = [self.seedPhrase boundingRectWithSize:labelSize  options:NSStringDrawingUsesLineFragmentOrigin attributes:attributes context:nil];
+                 int charSize = lroundf(((UIFont*)attributes[NSFontAttributeName]).lineHeight + 12);
+                 int rHeight = lroundf(requiredSize.size.height);
+                 lineCount = rHeight/charSize;
+
+                 if (lineCount > 3) {
+                     fontSize--;
+                     if (fontSize < 5) break;
+
+                 }
+             } while (lineCount > 3);
             self.seedLabel.attributedText = [[NSAttributedString alloc] initWithString:self.seedPhrase attributes:attributes];
         }
 
