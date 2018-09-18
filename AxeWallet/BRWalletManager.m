@@ -50,7 +50,9 @@
 #define FEE_PER_KB_URL       0 //not supported @"https://api.breadwallet.com/fee-per-kb"
 #define BITCOIN_TICKER_URL  @"https://bitpay.com/rates"
 #define POLONIEX_TICKER_URL  @"https://poloniex.com/public?command=returnOrderBook&currencyPair=BTC_AXE&depth=1"
+#define BITCOIN_VES_PRICE @"BITCOIN_VES_PRICE"
 #define AXECENTRAL_TICKER_URL  @"https://www.axecentral.org/api/v1/public"
+#define VES_TICKER_URL  @"https://localbitcoins.com/bitcoinaverage/ticker-all-currencies/"
 #define TICKER_REFRESH_TIME 60.0
 
 #define SEED_ENTROPY_LENGTH   (128/8)
@@ -222,6 +224,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
 @property (nonatomic, strong) NSNumber * _Nullable bitcoinAxePrice; // exchange rate in bitcoin per axe
 @property (nonatomic, strong) NSNumber * _Nullable localCurrencyBitcoinPrice; // exchange rate in local currency units per bitcoin
 @property (nonatomic, strong) NSNumber * _Nullable localCurrencyAxePrice;
+@property (nonatomic, strong) NSNumber * _Nullable bitcoinVESPrice;
 
 @end
 
@@ -323,6 +326,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
             }
         }
     }];
+    self.bitcoinVESPrice = [[NSUserDefaults standardUserDefaults] objectForKey:BITCOIN_VES_PRICE];
     if ([UIApplication sharedApplication].protectedDataAvailable) [self protectedInit];
     return self;
 }
@@ -339,6 +343,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     self.localCurrencyCode = ([defs stringForKey:LOCAL_CURRENCY_CODE_KEY]) ?
     [defs stringForKey:LOCAL_CURRENCY_CODE_KEY] : [[NSLocale currentLocale] objectForKey:NSLocaleCurrencyCode];
     dispatch_async(dispatch_get_main_queue(), ^{
+        [self updateVESExchangeRate];
         [self updateBitcoinExchangeRate];
         [self updateAxeExchangeRate];
         [self updateAxeCentralExchangeRateFallback];
@@ -605,7 +610,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     setKeychainDict(userAccount, USER_ACCOUNT_KEY, NO);
 }
 
-// true if Touch ID is enabled
+// true if touch id is enabled
 - (BOOL)isTouchIdEnabled
 {
     if (@available(iOS 11.0, *)) {
@@ -618,7 +623,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     }
 }
 
-// true if Touch ID is enabled
+// true if touch id is enabled
 - (BOOL)isFaceIdEnabled
 {
     if (@available(iOS 11.0, *)) {
@@ -692,7 +697,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
 
 // MARK: - authentication
 
-// prompts user to authenticate with Touch ID or passcode
+// prompts user to authenticate with touch id or passcode
 - (void)authenticateWithPrompt:(NSString *)authprompt andTouchId:(BOOL)touchId alertIfLockout:(BOOL)alertIfLockout completion:(PinCompletionBlock)completion;
 {
     if (touchId) {
@@ -757,7 +762,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
         }
     }
     else {
-        // TODO explain reason when Touch ID is disabled after 30 days without pin unlock
+        // TODO explain reason when touch id is disabled after 30 days without pin unlock
         [self authenticatePinWithTitle:[NSString stringWithFormat:NSLocalizedString(@"passcode for %@", nil),
                                         DISPLAY_NAME] message:authprompt alertIfLockout:alertIfLockout completion:^(BOOL authenticated, BOOL cancelled) {
             if (authenticated) {
@@ -1098,7 +1103,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
 
 
 
-// amount that can be spent using Touch ID without pin entry
+// amount that can be spent using touch id without pin entry
 - (uint64_t)spendingLimit
 {
     // it's ok to store this in userdefaults because increasing the value only takes effect after successful pin entry
@@ -1511,9 +1516,29 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
             }
 
             if ([d[@"code"] isEqual:@"BTC"]) continue;
-            [codes addObject:d[@"code"]];
-            [names addObject:d[@"name"]];
-            [rates addObject:d[@"rate"]];
+
+
+            if ([d[@"code"] isEqual:@"VEF"] || [d[@"code"] isEqual:@"VES"]) {
+
+                if (self.bitcoinVESPrice) {
+                    [codes addObject:@"VES"];
+                    [names addObject:@"Venezuelan Bolívar Soberano"];
+                    [rates addObject:self.bitcoinVESPrice];
+                } else {
+                    NSString * currencyCode = [_currencyCodes containsObject:@"VEF"]?@"VEF":([_currencyCodes containsObject:@"VES"]?@"VES":nil);
+                    if (currencyCode) {
+                        //keep same price (don't update)
+                        NSInteger index = [_currencyCodes indexOfObject:currencyCode];
+                        [codes addObject:d[@"code"]];
+                        [names addObject:@"Venezuelan Bolívar Soberano"];
+                        [rates addObject:_currencyPrices[index]];
+                    }
+                }
+            } else {
+                [codes addObject:d[@"code"]];
+                [names addObject:d[@"name"]];
+                [rates addObject:d[@"rate"]];
+            }
         }
 
         _currencyCodes = codes;
@@ -1535,6 +1560,49 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
 
 }
 
+- (void)updateVESExchangeRate
+{
+    [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(updateVESExchangeRate) object:nil];
+    [self performSelector:@selector(updateVESExchangeRate) withObject:nil afterDelay:TICKER_REFRESH_TIME];
+    if (self.reachability.currentReachabilityStatus == NotReachable) return;
+
+    NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:VES_TICKER_URL]
+                                         cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:10.0];
+
+    [[[NSURLSession sharedSession] dataTaskWithRequest:req completionHandler:^(NSData *data, NSURLResponse *response, NSError *connectionError) {
+        if (((((NSHTTPURLResponse*)response).statusCode /100) != 2) || connectionError) {
+            NSLog(@"connectionError %@ (status %ld)", connectionError,(long)((NSHTTPURLResponse*)response).statusCode);
+            return;
+        }
+
+        NSUserDefaults *defs = [NSUserDefaults standardUserDefaults];
+        NSError *error = nil;
+        NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
+        NSMutableArray *codes = [NSMutableArray array], *names = [NSMutableArray array], *rates =[NSMutableArray array];
+
+        if (error || ! [json isKindOfClass:[NSDictionary class]] || ! [json[@"VES"] isKindOfClass:[NSDictionary class]]) {
+            NSLog(@"unexpected response from %@:\n%@", req.URL.host,
+                  [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
+            return;
+        }
+        if (!self.bitcoinVESPrice) {
+            [self updateBitcoinExchangeRate];
+        }
+        NSDictionary * exchangeData = json[@"VES"];
+        if (exchangeData[@"avg_1h"]) {
+            self.bitcoinVESPrice = exchangeData[@"avg_1h"];
+        } else if (exchangeData[@"avg_6h"]) {
+            self.bitcoinVESPrice = exchangeData[@"avg_6h"];
+        } else if (exchangeData[@"avg_12h"]) {
+            self.bitcoinVESPrice = exchangeData[@"avg_12h"];
+        } else if (exchangeData[@"avg_24h"]) {
+            self.bitcoinVESPrice = exchangeData[@"avg_24h"];
+        }
+        [[NSUserDefaults standardUserDefaults] setObject:self.bitcoinVESPrice forKey:@"BITCOIN_VES_PRICE"];
+
+    }] resume];
+
+}
 
 // MARK: - query unspent outputs
 
