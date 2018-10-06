@@ -6,7 +6,7 @@
 "%@ is for 'mAXE'. %@ = 1 AXE." = "%@ es para 'mAXE'. %@ = 1 AXE.";
 
 /* No comment provided by engineer. */
-"%@ is not allowed to access the camera" = "%@ no está permitido accesar a la cámara";
+"%@ is not allowed to access the camera" = "%@ No se permite acceder a la cámara";
 
 /* No comment provided by engineer. */
 "%@\n\nbalance: %@ (%@)" = "%1$@\n\nsaldo: %2$@ (%3$@)";
@@ -15,7 +15,7 @@
 "%d confirmations" = "%d confirmaciones";
 
 /* No comment provided by engineer. */
-", " = ",";
+", " = ", ";
 
 /* No comment provided by engineer. */
 "0 confirmations" = "0 confirmaciones";
@@ -66,6 +66,9 @@
 "About" = "Acerca de";
 
 /* No comment provided by engineer. */
+"Action Needed" = "Acción Necesaria";
+
+/* No comment provided by engineer. */
 "always require passcode" = "siempre requiere el numero de seguridad";
 
 /* No comment provided by engineer. */
@@ -75,31 +78,16 @@
 "Application %@ is requesting a payment to" = "La aplicación %@ solicita un pago a";
 
 /* No comment provided by engineer. */
-"Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "La aplicación %@ solicita una dirección para pagarte. Deseas autorizarlo?";
+"Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "La aplicación %@ solicita una dirección para poder pagarte. ¿Te gustaría autorizarlo?";
 
 /* No comment provided by engineer. */
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "La aplicación %@ desea recibir su Llave Maestra Pública. Esto puede ser usado para seguir el rastro de su cartera, no puede ser utilizado para mover su Axe.";
 
 /* No comment provided by engineer. */
-"Axe address" = "Dirección de axe";
+"Are you sure?" = "¿Estas seguro?";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Las direcciones de axe también pueden copiarse en el portapapeles. Una dirección de axe siempre comienza por \"X\" o \"7\".";
-
-/* No comment provided by engineer. */
-"axe network fee" = "cuota de red de axe";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "los pagos en axe no pueden ser inferiores a %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "transacción de axe no firmada";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "los resultados de la transacción de axe no pueden ser inferiores a %@";
-
-/* No comment provided by engineer. */
-"bad password, try again" = "contraseña incorrecta, prueba otra vez";
+"bad password, try again" = "contraseña incorrecta, inténtalo de nuevo";
 
 /* No comment provided by engineer. */
 "bad payment request" = "petición de pago incorrecta";
@@ -127,6 +115,9 @@
 
 /* No comment provided by engineer. */
 "Buy axe in axewallet!" = "Compra axe en axewallet!";
+
+/* No comment provided by engineer. */
+"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code." = "Al limpiar este dispositivo, ya no tendrá acceso a los fondos en este dispositivo. Esto solo debe hacerse si ya no tiene acceso a su contraseña y también ha olvidado su código PIN.";
 
 /* No comment provided by engineer. */
 "cancel" = "cancelar";
@@ -201,6 +192,24 @@
 "CRITICAL" = "CRÍTICO";
 
 /* No comment provided by engineer. */
+"Axe address" = "Dirección de axe";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Las direcciones de axe también pueden copiarse en el portapapeles. Una dirección de axe siempre comienza por \"X\" o \"7\".";
+
+/* No comment provided by engineer. */
+"axe network fee" = "cuota de red de axe";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "los pagos en axe no pueden ser inferiores a %@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "transacción de axe no firmada";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "los resultados de la transacción de axe no pueden ser inferiores a %@";
+
+/* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "DISPOSITIVO DE SEGURIDAD DUDOSA\nCualquier aplicación de 'jailbreak' puede acceder a la cadena de datos de otras aplicaciones (y robar tus axe).";
 
 /* No comment provided by engineer. */
@@ -252,7 +261,7 @@
 "Face ID spending limit" = "Límite de gasto de Face ID";
 
 /* No comment provided by engineer. */
-"failed wallet update" = "falló actualización de cartera";
+"Failed wallet update" = "Actualización de billetera fallida";
 
 /* No comment provided by engineer. */
 "from:" = "desde:";
@@ -283,6 +292,9 @@
 
 /* No comment provided by engineer. */
 "IMPORTANT" = "IMPORTANTE";
+
+/* No comment provided by engineer. */
+"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again." = "En una versión anterior de la Axewallet, cuando inicialmente se mostraba su frase de recuperación en este dispositivo hemos determinado que esta App no muestra correctamente las 12 palabras semilla. Por favor escriba su frase de recuperación completa de nuevo.";
 
 /* No comment provided by engineer. */
 "instant payment" = "pago instantáneo";
@@ -336,13 +348,13 @@
 "not a axe or bitcoin QR code" = "no es un código QR de axe o bitcoin";
 
 /* No comment provided by engineer. */
+"not a valid bitcoin address" = "no es una dirección válida de bitcoin";
+
+/* No comment provided by engineer. */
 "not a valid axe address" = "no es una dirección válida de axe";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "no es una dirección válida de axe o bitcoin";
-
-/* No comment provided by engineer. */
-"not a valid bitcoin address" = "no es una dirección válida de bitcoin";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "no es una clave privada válida";
@@ -384,7 +396,7 @@
 "pending" = "pendiente";
 
 /* No comment provided by engineer. */
-"please enter pin to upgrade wallet" = "por favor ingrese pin para actualizar la cartera";
+"Please enter pin to upgrade wallet" = "Por favor ingrese su pin para actualizar la billetera";
 
 /* No comment provided by engineer. */
 "Please place your phone near NFC device." = "Coloca tu teléfono cerca del dispositivo NFC.";
@@ -525,7 +537,7 @@
 "Starting Shapeshift!" = "Iniciando Shapeshift!";
 
 /* No comment provided by engineer. */
-"status:" = "Estado:";
+"status:" = "estado:";
 
 /* No comment provided by engineer. */
 "swept!" = "¡barrido!";
@@ -582,7 +594,7 @@
 "Touch ID limit" = "Límite de Touch ID";
 
 /* No comment provided by engineer. */
-"Touch ID spending limit" = "límite de gasto de Touch ID";
+"Touch ID spending limit" = "Límite de gasto de Touch ID";
 
 /* No comment provided by engineer. */
 "transaction canceled, network timeout" = "transacción cancelada, excedido el tiempo de red";
@@ -660,7 +672,7 @@
 "You can now buy axe in\naxewallet with cash or\nbank transfer." = "Usted puede comprar axe en\naxewallet con efectivo o\ntransferencia bancaria.";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter axewallet" = "Debe ingresar su pin para entrar a axewallet";
+"You must enter your pin in order to enter axewallet" = "Debe ingresar su pin para ingresar a la Axewallet";
 
 /* No comment provided by engineer. */
 "you received axe!" = "¡ha recibido axe!";

@@ -33,7 +33,7 @@
 "\n%@\n\nif you ever lose your phone, you will need it to recover your wallet" = "\n%@\n\nถ้าคุณทำโทรศัพท์หาย คุณจะต้องการมันเพื่อกู้คืน wallet ของคุณ";
 
 /* No comment provided by engineer. */
-"\n%d attempts remaining\n" = "\n%d พยายามที่เหลืออยู่\n";
+"\n%d attempts remaining\n" = "\n%d พยายามที่เหลืออยู่";
 
 /* No comment provided by engineer. */
 "\n(local requested amount: %@)" = "\n(จำนวนที่ขอในบริเวณท้องถิ่น : %@ )";
@@ -66,6 +66,9 @@
 "About" = "เกี่ยวกับ";
 
 /* No comment provided by engineer. */
+"Action Needed" = "การกระทำที่จำเป็น";
+
+/* No comment provided by engineer. */
 "always require passcode" = "จำเป็นต้องใช้รหัสตลอด";
 
 /* No comment provided by engineer. */
@@ -81,22 +84,7 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "แอพพลิเคชั่น %@ ต้องการ Master Public Key ของคุณ มันสามารถติดตาม wallet ของคุณ, มันไม่สามารถเคลื่อนย้าย Axe ของคุณได้";
 
 /* No comment provided by engineer. */
-"Axe address" = "ที่อยู่ Axe";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'.";
-
-/* No comment provided by engineer. */
-"axe network fee" = "ค่าธรรมเนียมเครือข่าย axe";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "ชำระเงิน axe ไม่สามารถไม่น้อยกว่า %@ ได้";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "ธุรกรรม axe นี้ ยังไม่ถูกลงนาม";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "รายการธุรกรรม axe ไม่สามารถน้อยกว่า %@  ได้";
+"Are you sure?" = "คุณแน่ใจหรือไม่?";
 
 /* No comment provided by engineer. */
 "bad password, try again" = "รหัสไม่ถูกต้อง, ลองอีกครั้ง";
@@ -127,6 +115,9 @@
 
 /* No comment provided by engineer. */
 "Buy axe in axewallet!" = "ขาย axe ใน axewallet";
+
+/* No comment provided by engineer. */
+"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code." = "การล้างข้อมูลอุปกรณ์นี้ คุณจะไม่สามารถเข้าถึงเงินในอุปกรณ์นี้ได้อีกต่อไป   ควรล้างข้อมูลเฉพาะเมื่อคุณไม่สามารถเข้าถึงข้อความรหัสผ่านและลืมรหัสผ่านของคุณ";
 
 /* No comment provided by engineer. */
 "cancel" = "ยกเลิก";
@@ -201,6 +192,24 @@
 "CRITICAL" = "วิกฤติ";
 
 /* No comment provided by engineer. */
+"Axe address" = "ที่อยู่ Axe";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "ที่อยู่ Axe สามารถคัดลอกไปยังคลิปบอร์ดได้ด้วย  ที่อยู่ axe จะขึ้นต้นด้วย 'X' or '7' เสมอ";
+
+/* No comment provided by engineer. */
+"axe network fee" = "ค่าธรรมเนียมเครือข่าย axe";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "ชำระเงิน axe ไม่สามารถไม่น้อยกว่า %@ ได้";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "ธุรกรรม axe นี้ ยังไม่ถูกลงนาม";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "รายการธุรกรรม axe ไม่สามารถน้อยกว่า %@  ได้";
+
+/* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "ความปลอดภัยของอุปกรณ์ \nการ 'jailbreak' แอพพลิเคชั่น  สามารถเข้าถึงข้อมูลของแอพพลิเคชั่นอื่นได้ (และสามารถขโมย axe ของคุณได้ )";
 
 /* No comment provided by engineer. */
@@ -252,7 +261,7 @@
 "Face ID spending limit" = "จำกัดใช้ Face ID";
 
 /* No comment provided by engineer. */
-"failed wallet update" = "อัพเดต wallet ล้มเหลว";
+"Failed wallet update" = "อัปเดต wallet ล้มเหลว";
 
 /* No comment provided by engineer. */
 "from:" = "จาก:";
@@ -283,6 +292,9 @@
 
 /* No comment provided by engineer. */
 "IMPORTANT" = "สำคัญ";
+
+/* No comment provided by engineer. */
+"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again." = "ใน Axewallet เวอร์ชันก่อนหน้านี้ เมื่อข้อความรหัสผ่านของคุณแสดงตอนแรกบนอุปกรณ์นี้ แอปนี้ไม่ได้แสดงคำทั้งหมด 12 ตัวอย่างถูกต้อง  โปรดเขียนข้อความรหัสผ่านที่ครบถ้วนอีกครั้ง";
 
 /* No comment provided by engineer. */
 "instant payment" = "ชำระเงินด่วน";
@@ -336,13 +348,13 @@
 "not a axe or bitcoin QR code" = "ไม่ใช่ โค้ด QR ของ axe  หรือ  bitcoin";
 
 /* No comment provided by engineer. */
+"not a valid bitcoin address" = "ไม่ใช่ที่อยู่ bitcoin address ที่ถูกต้อง";
+
+/* No comment provided by engineer. */
 "not a valid axe address" = "ไม่ใช่ที่อยู่ axe ที่ถูกต้อง";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "ไม่ใช่ที่อยู่ axe หรือ bitcoin ที่ถูกต้อง";
-
-/* No comment provided by engineer. */
-"not a valid bitcoin address" = "ไม่ใช่ที่อยู่ bitcoin address ที่ถูกต้อง";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "ไม่ใช่ใช่คีย์ส่วนตัวที่ถูกต้อง";
@@ -384,7 +396,7 @@
 "pending" = "อยู่ระหว่างดำเนินการ";
 
 /* No comment provided by engineer. */
-"please enter pin to upgrade wallet" = "โปรดป้อน pin เพื่ออัพเกรด wallet";
+"Please enter pin to upgrade wallet" = "โปรดใส่รหัสเพื่ออัพเกรด wallet";
 
 /* No comment provided by engineer. */
 "Please place your phone near NFC device." = "โปรดวางมือถือของคุณใกล้กับอุปกรณ์ NFC";
@@ -465,7 +477,7 @@
 "seen by %d of %d peers" = "เห็นแล้ว %1$d ของ %2$d ผู้ปล่อย ";
 
 /* No comment provided by engineer. */
-"send" = "ส่ง";
+"send" = "send";
 
 /* No comment provided by engineer. */
 "Send %@ (%@) from this private key into your wallet? The axe network will receive a fee of %@ (%@)." = "ส่ง %1$@(%2$@) จากคีย์ส่วนตัวนี้ไปยัง wallet ของคุณหรือไม่?  เครือข่าย axe จะได้รับค่าธรรมเนียมของ %3$@ (%4$@)";
@@ -660,7 +672,7 @@
 "You can now buy axe in\naxewallet with cash or\nbank transfer." = "ขณะนี้คุณสามารถซื้อ axe \nผ่านเงินใน axe wallet หรือ \nโอนผ่านธนาคารได้";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter axewallet" = "คุณต้องป้อน pin ของคุณ เพื่อเข้าถึง axewallet";
+"You must enter your pin in order to enter axewallet" = "คุณต้องป้อนรหัสของคุณเพื่อที่จะเข้า axewallet";
 
 /* No comment provided by engineer. */
 "you received axe!" = "คุณได้รับ axe ";

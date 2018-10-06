@@ -449,7 +449,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     if (!data && oldData) {
         NSLog(@"fixing public key");
         //upgrade scenario
-        [self authenticateWithPrompt:(NSLocalizedString(@"please enter pin to upgrade wallet", nil)) andTouchId:NO alertIfLockout:NO completion:^(BOOL authenticated,BOOL cancelled) {
+        [self authenticateWithPrompt:(NSLocalizedString(@"Please enter pin to upgrade wallet", nil)) andTouchId:NO alertIfLockout:NO completion:^(BOOL authenticated,BOOL cancelled) {
             if (!authenticated) {
                 completion(NO,YES,NO,cancelled);
                 return;
@@ -480,32 +480,29 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
 }
 
 // There was an issue with passphrases not showing correctly on iPhone 5s and also on devices in Japanese
-// (^CheckPassphraseCompletionBlock)(BOOL needsCheck,BOOL authenticated,BOOL cancelled)
+// (^CheckPassphraseCompletionBlock)(BOOL needsCheck,BOOL authenticated,BOOL cancelled,NSString * _Nullable seedPhrase)
 -(void)checkPassphraseWasShownCorrectly:(CheckPassphraseCompletionBlock)completion;
 {
-    NSTimeInterval seedCreationTime = self.seedCreationTime;
+    NSTimeInterval seedCreationTime = self.seedCreationTime + NSTimeIntervalSince1970;
     NSError * error = nil;
     BOOL showedWarningForPassphrase = getKeychainInt(SHOWED_WARNING_FOR_INCOMPLETE_PASSPHRASE, &error);
-    if (seedCreationTime < 1534266000 || !showedWarningForPassphrase) {
-        completion(NO,NO,NO);
+    if (seedCreationTime < 1534266000 || showedWarningForPassphrase) {
+        completion(NO,NO,NO,nil);
         return;
     }
     NSString *language = NSBundle.mainBundle.preferredLocalizations.firstObject;
-    if ([language isEqualToString:@"japanese"]) { // there was almost always a problem in Japanese
-        completion(YES,NO,NO);
-        return;
-    }
     CGRect screenRect = [[UIScreen mainScreen] bounds];
 
-        [self authenticateWithPrompt:(NSLocalizedString(@"please enter pin to upgrade wallet", nil)) andTouchId:NO alertIfLockout:NO completion:^(BOOL authenticated,BOOL cancelled) {
+        [self authenticateWithPrompt:(NSLocalizedString(@"Please enter pin to upgrade wallet", nil)) andTouchId:NO alertIfLockout:NO completion:^(BOOL authenticated,BOOL cancelled) {
             if (!authenticated) {
-                completion(YES,NO,cancelled);
+                completion(YES,NO,cancelled,nil);
                 return;
             }
             @autoreleasepool {
                 NSString * seedPhrase = authenticated?getKeychainString(MNEMONIC_KEY, nil):nil;
                 if (!seedPhrase) {
-                    completion(YES,YES,NO);
+                    setKeychainInt(1, SHOWED_WARNING_FOR_INCOMPLETE_PASSPHRASE, NO);
+                    completion(YES,YES,NO,seedPhrase);
                     return;
                 }
 
@@ -539,7 +536,8 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
                             [s appendString:w];
                         }
                         if (lineCount > 3) {
-                            completion(YES,YES,NO);
+                            setKeychainInt(1, SHOWED_WARNING_FOR_INCOMPLETE_PASSPHRASE, NO);
+                            completion(YES,YES,NO,seedPhrase);
                             return;
                         }
                     }
@@ -555,13 +553,15 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
                         lineCount = rHeight/charSize;
 
                         if (lineCount > 3) {
-                            completion(YES,YES,NO);
+                            setKeychainInt(1, SHOWED_WARNING_FOR_INCOMPLETE_PASSPHRASE, NO);
+                            completion(YES,YES,NO,seedPhrase);
                             return;
 
                         }
 
                 }
-                completion(NO,YES,NO);
+                setKeychainInt(1, SHOWED_WARNING_FOR_INCOMPLETE_PASSPHRASE, NO);
+                completion(NO,YES,NO,seedPhrase);
 
             }
         }];
@@ -976,7 +976,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     return wait;
 }
 
--(void)showResetWalletWithCancelHandler:(ResetCancelHandlerBlock)resetCancelHandlerBlock {
+-(void)showResetWalletWithWipeHandler:(ResetWipeHandlerBlock)resetWipeHandlerBlock cancelHandler:(ResetCancelHandlerBlock)resetCancelHandlerBlock {
     UIAlertController * alertController = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Recovery phrase", nil) message:nil
                                                                        preferredStyle:UIAlertControllerStyleAlert];
     [alertController addTextFieldWithConfigurationHandler:^(UITextField * _Nonnull textField) {
@@ -985,6 +985,17 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
         textField.font = [UIFont systemFontOfSize:15.0];
         textField.delegate = self;
     }];
+    if (resetWipeHandlerBlock) {
+    UIAlertAction* wipeButton = [UIAlertAction
+                                   actionWithTitle:NSLocalizedString(@"wipe", nil)
+                                   style:UIAlertActionStyleDestructive
+                                   handler:^(UIAlertAction * action) {
+                                       if (resetWipeHandlerBlock) {
+                                           resetWipeHandlerBlock();
+                                       }
+                                   }];
+        [alertController addAction:wipeButton];
+    }
     UIAlertAction* cancelButton = [UIAlertAction
                                    actionWithTitle:NSLocalizedString(@"cancel", nil)
                                    style:UIAlertActionStyleCancel
@@ -993,6 +1004,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
                                             resetCancelHandlerBlock();
                                        }
                                    }];
+
     [alertController addAction:cancelButton];
     [self presentAlertController:alertController animated:YES completion:nil];
     self.resetAlertController = alertController;
@@ -1027,7 +1039,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
                                   actionWithTitle:NSLocalizedString(@"reset", nil)
                                   style:UIAlertActionStyleDefault
                                   handler:^(UIAlertAction * action) {
-                                      [self showResetWalletWithCancelHandler:nil];
+                                      [self showResetWalletWithWipeHandler:nil cancelHandler:nil];
                                   }];
     UIAlertAction* okButton = [UIAlertAction
                                actionWithTitle:NSLocalizedString(@"ok", nil)
@@ -2137,6 +2149,8 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range
 replacementString:(NSString *)string
 {
+    @autoreleasepool {
+
     if (textField == self.pinField) {
         NSString * currentPin = [textField.text stringByReplacingCharactersInRange:range withString:string];
         NSUInteger l = currentPin.length;
@@ -2158,6 +2172,24 @@ replacementString:(NSString *)string
                                                  [self.pinAlertController.title substringFromIndex:7]];
             }
         }
+    } else {
+        NSString * currentString = [textField.text stringByReplacingCharactersInRange:range withString:string];
+        if (![currentString isEqualToString:@""]) {
+            NSArray * actions = [self.resetAlertController actions];
+            for (UIAlertAction * action in actions) {
+                if ([action.title isEqualToString:NSLocalizedString(@"wipe", nil)]) {
+                    action.enabled = false;
+                }
+            }
+        } else {
+            NSArray * actions = [self.resetAlertController actions];
+            for (UIAlertAction * action in actions) {
+                if ([action.title isEqualToString:NSLocalizedString(@"wipe", nil)]) {
+                    action.enabled = true;
+                }
+            }
+        }
+    }
     }
     return YES;
 }

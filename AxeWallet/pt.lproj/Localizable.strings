@@ -15,7 +15,7 @@
 "%d confirmations" = "%d confirmações";
 
 /* No comment provided by engineer. */
-", " = ",";
+", " = ", ";
 
 /* No comment provided by engineer. */
 "0 confirmations" = "0 confirmações";
@@ -66,6 +66,9 @@
 "About" = "Sobre";
 
 /* No comment provided by engineer. */
+"Action Needed" = "Ação necessária";
+
+/* No comment provided by engineer. */
 "always require passcode" = "sempre exija a senha";
 
 /* No comment provided by engineer. */
@@ -81,22 +84,7 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "Aplicação %@gostaria de receber sua chave mestra pública. Isso pode ser usado para manter acompanhamento de sua carteira, ela não pode ser usada para mover seu Axe.";
 
 /* No comment provided by engineer. */
-"Axe address" = "Endereço Axe";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'.";
-
-/* No comment provided by engineer. */
-"axe network fee" = "taxa da rede Bitcoin";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "pagamentos axe não podem ser menores que %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "transação de Bitcoin não assinada";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "saídas de transação axe não podem ser inferiores a %@";
+"Are you sure?" = "Você tem certeza?";
 
 /* No comment provided by engineer. */
 "bad password, try again" = "senha incorreta, tente novamente";
@@ -127,6 +115,9 @@
 
 /* No comment provided by engineer. */
 "Buy axe in axewallet!" = "Compre Axe na axewallet!";
+
+/* No comment provided by engineer. */
+"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code." = "Ao limpar este dispositivo, você não terá mais acesso a fundos neste dispositivo. Isso só deve ser feito se você não tiver mais acesso à sua frase secreta e também tiver esquecido o código PIN.";
 
 /* No comment provided by engineer. */
 "cancel" = "cancelar";
@@ -201,6 +192,24 @@
 "CRITICAL" = "CRÍTICO";
 
 /* No comment provided by engineer. */
+"Axe address" = "Endereço Axe";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Endereços Bitcoin também podem ser copiados para a área de transferência. Um endereço axe sempre começa com 'X' ou '7'.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "taxa da rede Bitcoin";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "pagamentos axe não podem ser menores que %@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "transação de Bitcoin não assinada";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "saídas de transação axe não podem ser inferiores a %@";
+
+/* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "SEGURANÇA DO DISPOSITIVO COMPROMETIDA\nQualquer aplicativo \"jailbreak\" consegue acessar os dados de outros aplicativos (e roubar seus axe).";
 
 /* No comment provided by engineer. */
@@ -252,7 +261,7 @@
 "Face ID spending limit" = "Limite de gastos por Face ID";
 
 /* No comment provided by engineer. */
-"failed wallet update" = "atualização da carteira falhou";
+"Failed wallet update" = "Falha ao atualizar a carteira ";
 
 /* No comment provided by engineer. */
 "from:" = "de:";
@@ -283,6 +292,9 @@
 
 /* No comment provided by engineer. */
 "IMPORTANT" = "IMPORTANTE";
+
+/* No comment provided by engineer. */
+"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again." = "Em uma versão anterior do Axewallet, ao exibir inicialmente sua frase secreta neste dispositivo, determinamos que este aplicativo não exibiu corretamente todas as 12 palavras-semente. Por favor, anote sua senha completa novamente.";
 
 /* No comment provided by engineer. */
 "instant payment" = "pagamento instantâneo";
@@ -336,13 +348,13 @@
 "not a axe or bitcoin QR code" = "não é um código QR de axe ou bitcoin";
 
 /* No comment provided by engineer. */
+"not a valid bitcoin address" = "não um endereço bitcoin válido";
+
+/* No comment provided by engineer. */
 "not a valid axe address" = "não um endereço axe válido";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "não um endereço axe ou bitcoin válido";
-
-/* No comment provided by engineer. */
-"not a valid bitcoin address" = "não um endereço bitcoin válido";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "a chave privada não é válida";
@@ -384,7 +396,7 @@
 "pending" = "pendente";
 
 /* No comment provided by engineer. */
-"please enter pin to upgrade wallet" = "por favor coloque o pin para fazer a atualização da carteira";
+"Please enter pin to upgrade wallet" = "Por favor, digite pin para atualizar a carteira";
 
 /* No comment provided by engineer. */
 "Please place your phone near NFC device." = "Por favor coloque seu telefone perto do dispositivo NFC";
@@ -660,7 +672,7 @@
 "You can now buy axe in\naxewallet with cash or\nbank transfer." = "Agora você pode comprar axe em \ncarteira axe com dinheiro ou \ntransferência bancária.";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter axewallet" = "você deve inserir seu pin para entrar na carteira axe";
+"You must enter your pin in order to enter axewallet" = "Você deve inserir seu pin para entrar no axewallet";
 
 /* No comment provided by engineer. */
 "you received axe!" = "você recebeu axe!";

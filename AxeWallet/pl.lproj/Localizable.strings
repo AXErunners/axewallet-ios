@@ -66,6 +66,9 @@
 "About" = "O aplikacji";
 
 /* No comment provided by engineer. */
+"Action Needed" = "Wymagane jest działanie użytkownika";
+
+/* No comment provided by engineer. */
 "always require passcode" = "zawsze wymagaj hasła";
 
 /* No comment provided by engineer. */
@@ -81,22 +84,7 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "Aplikacja%@ chce otrzymaćdostęp do głównego publicznego klucza. Klucz ten pozwoli to na monitorowanie portfela, ale nie da możliwości ruszenia twoich monet.";
 
 /* No comment provided by engineer. */
-"Axe address" = "Adres axe";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Adresy Axe można skopiować do schowka. Adres Axe zaczyna się zawsze od 'X' lub '7'.";
-
-/* No comment provided by engineer. */
-"axe network fee" = "prowizja sieci axe";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "płatności axe nie mogą być mniejsze niż %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "transakcja axe nie podpisana";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "wyjścia transakcji axe nie mogą być mniejsze niż %@";
+"Are you sure?" = "Jesteś pewien?";
 
 /* No comment provided by engineer. */
 "bad password, try again" = "błedne hasło, spróbuj ponownie";
@@ -127,6 +115,9 @@
 
 /* No comment provided by engineer. */
 "Buy axe in axewallet!" = "Kupuj Axee w aplikacji portfela!";
+
+/* No comment provided by engineer. */
+"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code." = "Jeśli wyczyścisz to urządzenie, stracisz dostęp do funduszy na tym urządzeniu. Akcja ta powinna byc rozważana tylko w wpadku gdy nie masz dostępu do słów wymaganych do odtworzenia portfela i pinu. ";
 
 /* No comment provided by engineer. */
 "cancel" = "anuluj";
@@ -201,6 +192,24 @@
 "CRITICAL" = "KRYTYCZNY";
 
 /* No comment provided by engineer. */
+"Axe address" = "Adres axe";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Adresy Axe można skopiować do schowka. Adres Axe zaczyna się zawsze od 'X' lub '7'.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "prowizja sieci axe";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "płatności axe nie mogą być mniejsze niż %@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "transakcja axe nie podpisana";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "wyjścia transakcji axe nie mogą być mniejsze niż %@";
+
+/* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "BEZPIECZEŃSTWO URZĄDZENIA ZŁAMANE\nKażda aplikacja \"jailbreak\" ma dostęp do danych twoich kluczy w innych aplikacjach (i może ukraść twoje axee).";
 
 /* No comment provided by engineer. */
@@ -252,7 +261,7 @@
 "Face ID spending limit" = "Limit wydatków Face ID";
 
 /* No comment provided by engineer. */
-"failed wallet update" = "aktualizacja protfela nie powiodła się";
+"Failed wallet update" = "Aktualizacja protfela nie powiodła się";
 
 /* No comment provided by engineer. */
 "from:" = "od:";
@@ -283,6 +292,9 @@
 
 /* No comment provided by engineer. */
 "IMPORTANT" = "WAŻNE";
+
+/* No comment provided by engineer. */
+"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again." = "Okazuje się, że w poprzedniej wersji wyświeliliśmy błędną listę 12 słów wymaganych do odzysku portfela. Prosimy o ponowne zapisanie tej listy. ";
 
 /* No comment provided by engineer. */
 "instant payment" = "płatność natychmiastowa";
@@ -336,13 +348,13 @@
 "not a axe or bitcoin QR code" = "nieprawidłowy kod QR";
 
 /* No comment provided by engineer. */
+"not a valid bitcoin address" = "nieprawidłowy adres bitoin";
+
+/* No comment provided by engineer. */
 "not a valid axe address" = "nieprawidłowy adres axe";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "nieprawidłowy adres axe lub bitcoin";
-
-/* No comment provided by engineer. */
-"not a valid bitcoin address" = "nieprawidłowy adres bitoin";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "nieprawidłowy klucz prywatny";
@@ -384,7 +396,7 @@
 "pending" = "w toku";
 
 /* No comment provided by engineer. */
-"please enter pin to upgrade wallet" = "wprowadź pin w celu aktualizacji portfela";
+"Please enter pin to upgrade wallet" = "Wpisz pin aby zaktualizować porfel. ";
 
 /* No comment provided by engineer. */
 "Please place your phone near NFC device." = "Przyłóż telefon do urządzenia NFC ";
@@ -660,7 +672,7 @@
 "You can now buy axe in\naxewallet with cash or\nbank transfer." = "Teraz możesz kupić axe\npoprzez portfel, płacąc gotówką\nlub przelewem bankowym.";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter axewallet" = "Musisz podać swój PIN w celu otworzenia portfela";
+"You must enter your pin in order to enter axewallet" = "Musisz podać swój PIN aby otworzyć  portfel.";
 
 /* No comment provided by engineer. */
 "you received axe!" = "otrzymałeś axe!";

@@ -46,11 +46,12 @@ FOUNDATION_EXPORT NSString* _Nonnull const BRWalletManagerSeedChangedNotificatio
 @protocol BRMnemonic;
 
 typedef void (^UpgradeCompletionBlock)(BOOL success, BOOL neededUpgrade,BOOL authenticated,BOOL cancelled); //success is true is neededUpgrade is true and we upgraded, or we didn't need upgrade
-typedef void (^CheckPassphraseCompletionBlock)(BOOL needsCheck,BOOL authenticated,BOOL cancelled);
+typedef void (^CheckPassphraseCompletionBlock)(BOOL needsCheck,BOOL authenticated,BOOL cancelled,NSString * _Nullable seedPhrase);
 typedef void (^PinCompletionBlock)(BOOL authenticatedOrSuccess, BOOL cancelled);
 typedef void (^SeedPhraseCompletionBlock)(NSString * _Nullable seedPhrase);
 typedef void (^SeedCompletionBlock)(NSData * _Nullable seed);
 typedef void (^ResetCancelHandlerBlock)(void);
+typedef void (^ResetWipeHandlerBlock)(void);
 
 @interface BRWalletManager : NSObject<UIAlertViewDelegate, UITextFieldDelegate, UITextViewDelegate>
 
@@ -65,10 +66,10 @@ typedef void (^ResetCancelHandlerBlock)(void);
 @property (nonatomic, readonly) NSTimeInterval seedCreationTime; // interval since refrence date, 00:00:00 01/01/01 GMT
 @property (nonatomic, readonly) NSTimeInterval secureTime; // last known time from an ssl server connection
 @property (nonatomic ,readonly) BOOL lockedOut;
-@property (nonatomic, assign) uint64_t spendingLimit; // amount that can be spent using Touch ID without pin entry
+@property (nonatomic, assign) uint64_t spendingLimit; // amount that can be spent using touch id without pin entry
 @property (nonatomic, readonly) NSString * _Nullable authPrivateKey; // private key for signing authenticated api calls
 @property (nonatomic, copy) NSDictionary * _Nullable userAccount; // client api user id and auth token
-@property (nonatomic, readonly, getter=isTouchIdEnabled) BOOL touchIdEnabled; // true if Touch ID is enabled
+@property (nonatomic, readonly, getter=isTouchIdEnabled) BOOL touchIdEnabled; // true if touch id is enabled
 @property (nonatomic, readonly, getter=isFaceIdEnabled) BOOL faceIdEnabled; // true if face id is enabled
 @property (nonatomic, readonly, getter=isPasscodeEnabled) BOOL passcodeEnabled; // true if device passcode is enabled
 @property (nonatomic, assign) BOOL didAuthenticate; // true if the user authenticated after this was last set to false
@@ -128,7 +129,7 @@ completion:(void (^ _Nonnull)(BRTransaction * _Nonnull tx, uint64_t fee, NSError
 -(void)upgradeExtendedKeysWithCompletion:(_Nullable UpgradeCompletionBlock)completion;
 -(void)checkPassphraseWasShownCorrectly:(_Nullable CheckPassphraseCompletionBlock)completion;
 
--(void)showResetWalletWithCancelHandler:(_Nullable ResetCancelHandlerBlock)resetCancelHandlerBlock;
+-(void)showResetWalletWithWipeHandler:(_Nullable ResetWipeHandlerBlock)resetWipeHandlerBlock cancelHandler:(_Nullable ResetCancelHandlerBlock)resetCancelHandlerBlock;
 -(NSTimeInterval)lockoutWaitTime;
 
 @end

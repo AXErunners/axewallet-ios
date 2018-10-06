@@ -66,6 +66,9 @@
 "About" = "Over";
 
 /* No comment provided by engineer. */
+"Action Needed" = "Actie Benodigd";
+
+/* No comment provided by engineer. */
 "always require passcode" = "altijd toegangscode vereisen";
 
 /* No comment provided by engineer. */
@@ -81,22 +84,7 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "De applicatie %@ wil je openbare hoofdsleutel inzien. Dit kan worden gebruikt om je portemonnee in de gaten te houden; het kan niet worden gebruikt om je Axe te verplaatsen.";
 
 /* No comment provided by engineer. */
-"Axe address" = "Axe-adres";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'.";
-
-/* No comment provided by engineer. */
-"axe network fee" = "axe-netwerkvergoeding";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "axe-betalingen mogen niet minder bedragen dan %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "axe-transactie is niet ondertekend";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "axe-transactierestanten mogen niet minder bedragen dan %@";
+"Are you sure?" = "Weet je het zeker?";
 
 /* No comment provided by engineer. */
 "bad password, try again" = "onjuist wachtwoord, probeer opnieuw";
@@ -127,6 +115,9 @@
 
 /* No comment provided by engineer. */
 "Buy axe in axewallet!" = "Koop axe in axewallet!";
+
+/* No comment provided by engineer. */
+"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code." = "Door dit apparaat schoon te vegen heb je geen toegang meer tot het geld op dit apparaat. Dit zou alleen gedaan moeten worden als je de herstelzin hebt verloren en ook de pincode kwijt bent.";
 
 /* No comment provided by engineer. */
 "cancel" = "annuleer";
@@ -201,6 +192,24 @@
 "CRITICAL" = "KRITISCH";
 
 /* No comment provided by engineer. */
+"Axe address" = "Axe-adres";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Axe-adressen kunnen ook worden gekopieerd naar het klembord. Een axe-adres begint altijd met een 'X' of een '7'.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "axe-netwerkvergoeding";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "axe-betalingen mogen niet minder bedragen dan %@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "axe-transactie is niet ondertekend";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "axe-transactierestanten mogen niet minder bedragen dan %@";
+
+/* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "BEVEILIGING VAN HET APPARAAT IN GEVAAR\nEen 'jailbreak'-app heeft toegang tot de sleutelhanger van andere apps (en de mogelijkheid om je axe te stelen).";
 
 /* No comment provided by engineer. */
@@ -252,7 +261,7 @@
 "Face ID spending limit" = "Face ID uitgavelimiet";
 
 /* No comment provided by engineer. */
-"failed wallet update" = "mislukte portemonnee-update";
+"Failed wallet update" = "Mislukte update van de portemonnee";
 
 /* No comment provided by engineer. */
 "from:" = "van:";
@@ -283,6 +292,9 @@
 
 /* No comment provided by engineer. */
 "IMPORTANT" = "BELANGRIJK";
+
+/* No comment provided by engineer. */
+"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again." = "In de vorige versie van Axewallet, waar aanvankelijk de herstelzin werd getoond, hebben we geconstateerd dat de 12 herstelwoorden niet correct werden weergegeven. Schrijf daarom de herstel zin opnieuw op.";
 
 /* No comment provided by engineer. */
 "instant payment" = "directe betaling";
@@ -336,13 +348,13 @@
 "not a axe or bitcoin QR code" = "geen axe of bitcoin QR-code";
 
 /* No comment provided by engineer. */
+"not a valid bitcoin address" = "ongeldig bitcoin-adres";
+
+/* No comment provided by engineer. */
 "not a valid axe address" = "ongeldig axe-adres";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "ongeldig axe- of bitcoinadres";
-
-/* No comment provided by engineer. */
-"not a valid bitcoin address" = "ongeldig bitcoin-adres";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "ongeldige persoonlijke sleutel";
@@ -384,7 +396,7 @@
 "pending" = "in wachtrij";
 
 /* No comment provided by engineer. */
-"please enter pin to upgrade wallet" = "voer je pincode in om de wallet bij te werken";
+"Please enter pin to upgrade wallet" = "Voer je pincode in om de portemonnee bij te werken";
 
 /* No comment provided by engineer. */
 "Please place your phone near NFC device." = "Houd u uw telefoon bij een NFC apparaat";
@@ -660,7 +672,7 @@
 "You can now buy axe in\naxewallet with cash or\nbank transfer." = "Je kunt nu axe kopen in\naxewallet d.m.v. geld of\neen bankoverschrijving.";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter axewallet" = "je moet je pincode invoeren om in axewallet te komen";
+"You must enter your pin in order to enter axewallet" = "je moet je pincode invoeren om in axewallet te komen";
 
 /* No comment provided by engineer. */
 "you received axe!" = "je hebt axe ontvangen!";

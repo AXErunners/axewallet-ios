@@ -53,14 +53,14 @@
 - (instancetype)customInit
 {
     BRWalletManager *manager = [BRWalletManager sharedInstance];
-
+    
     if (manager.noWallet) {
         self.seedPhrase = [manager generateRandomSeed];
         [[BRPeerManager sharedInstance] connect];
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:WALLET_NEEDS_BACKUP_KEY];
         [[NSUserDefaults standardUserDefaults] synchronize];
     }
-
+    
     return self;
 }
 
@@ -85,8 +85,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-
+    
+    
 #if DEBUG
     self.seedLabel.userInteractionEnabled = YES; // allow clipboard copy only for debug builds
 #endif
@@ -99,24 +99,24 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-
+    
     NSTimeInterval delay = WRITE_TOGGLE_DELAY;
-
+    
     // remove done button if we're not the root of the nav stack
     if (!self.inSetupMode) {
         self.doneButton.hidden = YES;
     }
     else delay *= 2; // extra delay before showing toggle when starting a new wallet
-
+    
     if ([[NSUserDefaults standardUserDefaults] boolForKey:WALLET_NEEDS_BACKUP_KEY]) {
         [self performSelector:@selector(showWriteToggle) withObject:nil afterDelay:delay];
     }
-
+    
     [UIView animateWithDuration:0.1 animations:^{
         self.seedLabel.alpha = 1.0;
     }];
-
-
+    
+    
     @autoreleasepool {  // @autoreleasepool ensures sensitive data will be dealocated immediately
         NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
         paragraphStyle.lineSpacing = 20;
@@ -124,7 +124,7 @@
         NSInteger fontSize = 16;
         NSDictionary * attributes = @{NSFontAttributeName:[UIFont systemFontOfSize:fontSize weight:UIFontWeightMedium],NSForegroundColorAttributeName:[UIColor whiteColor],NSParagraphStyleAttributeName:paragraphStyle};
         UIEdgeInsets edgeInsets = self.seedLabel.layoutMargins;
-        if (self.seedPhrase.length > 0 && [self.seedPhrase characterAtIndex:0] > 0x3000) { // ideographic language
+        if (self.seedPhrase.length > 0 && [self.seedPhrase characterAtIndex:0] > 0x1000) { // ideographic language
             NSInteger lineCount;
             NSMutableString *s,*l;
             do {
@@ -138,20 +138,20 @@
                     [l appendString:w];
                     r = [l boundingRectWithSize:CGRectInfinite.size options:NSStringDrawingUsesLineFragmentOrigin
                                      attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:fontSize weight:UIFontWeightMedium]} context:nil];
-
+                    
                     if (r.size.width >= self.view.bounds.size.width - 54*2 - edgeInsets.left - edgeInsets.right) {
                         [s appendString:@"\n"];
                         l.string = w;
                         lineCount++;
                     }
                     else if (s.length > 0) [s appendString:IDEO_SP];
-
+                    
                     [s appendString:w];
                 }
                 if (lineCount > 3) {
                     fontSize--;
                     if (fontSize < 5) break;
-
+                    
                 }
             } while (lineCount > 3);
             attributes = @{NSFontAttributeName:[UIFont systemFontOfSize:fontSize weight:UIFontWeightMedium],NSForegroundColorAttributeName:[UIColor whiteColor],NSParagraphStyleAttributeName:paragraphStyle};
@@ -160,7 +160,7 @@
         }
         else {
             NSInteger lineCount = 0;
-
+            
             do {
                 attributes = @{NSFontAttributeName:[UIFont systemFontOfSize:fontSize weight:UIFontWeightMedium],NSForegroundColorAttributeName:[UIColor whiteColor],NSParagraphStyleAttributeName:paragraphStyle};
                 CGSize labelSize = (CGSize){self.view.frame.size.width - 54*2 - edgeInsets.left - edgeInsets.right, MAXFLOAT};
@@ -168,17 +168,17 @@
                 int charSize = lroundf(((UIFont*)attributes[NSFontAttributeName]).lineHeight + 12);
                 int rHeight = lroundf(requiredSize.size.height);
                 lineCount = rHeight/charSize;
-
+                
                 if (lineCount > 3) {
                     fontSize--;
                     if (fontSize < 5) break;
-
+                    
                 }
             } while (lineCount > 3);
-
+            
             self.seedLabel.attributedText = [[NSAttributedString alloc] initWithString:self.seedPhrase attributes:attributes];
         }
-
+        
         self.seedPhrase = nil;
     }
 }
@@ -195,14 +195,14 @@
                                                               }
                                                           }];
     }
-
+    
     //TODO: make it easy to create a new wallet and transfer balance
     if (! self.screenshotObserver) {
         self.screenshotObserver =
         [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationUserDidTakeScreenshotNotification
                                                           object:nil queue:nil usingBlock:^(NSNotification *note) {
                                                               if (!self.inSetupMode) {
-
+                                                                  
                                                                   UIAlertController * alert = [UIAlertController
                                                                                                alertControllerWithTitle:NSLocalizedString(@"WARNING", nil)
                                                                                                message:NSLocalizedString(@"Screenshots are visible to other apps and devices. "
@@ -220,7 +220,7 @@
                                                                   [[BRWalletManager sharedInstance] setSeedPhrase:nil];
                                                                   UINavigationController * navigationController = (UINavigationController*)self.presentingViewController;
                                                                   [self dismissViewControllerAnimated:TRUE completion:nil];
-
+                                                                  
                                                                   UIAlertController * alert = [UIAlertController
                                                                                                alertControllerWithTitle:NSLocalizedString(@"WARNING", nil)
                                                                                                message:NSLocalizedString(@"Screenshots are visible to other apps and devices. "
@@ -233,8 +233,8 @@
                                                                                              }];
                                                                   [alert addAction:okButton];
                                                                   [navigationController.topViewController presentViewController:alert animated:YES completion:nil];
-
-
+                                                                  
+                                                                  
                                                               }
                                                           }];
     }
@@ -243,7 +243,7 @@
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-
+    
     // don't leave the seed phrase laying around in memory any longer than necessary
     self.seedLabel.text = @"";
     [NSObject cancelPreviousPerformRequestsWithTarget:self];
@@ -264,7 +264,7 @@
 {
     self.writeLabel.alpha = self.writeButton.alpha = 0.0;
     self.writeLabel.hidden = self.writeButton.hidden = NO;
-
+    
     [UIView animateWithDuration:0.5 animations:^{
         self.writeLabel.alpha = self.writeButton.alpha = 1.0;
     }];
@@ -274,7 +274,7 @@
 {
     [BREventManager saveEvent:@"seed:toggle_write"];
     NSUserDefaults *defs = [NSUserDefaults standardUserDefaults];
-
+    
     if ([defs boolForKey:WALLET_NEEDS_BACKUP_KEY]) {
         [self.doneButton setTitle:NSLocalizedString(@"Done",nil) forState:UIControlStateNormal];
         [self.writeButton setImage:[UIImage imageNamed:@"checkbox-checked"] forState:UIControlStateNormal];
@@ -285,7 +285,7 @@
         [self.writeButton setImage:[UIImage imageNamed:@"checkbox-empty"] forState:UIControlStateNormal];
         [defs setBool:YES forKey:WALLET_NEEDS_BACKUP_KEY];
     }
-
+    
     [defs synchronize];
 }
 
