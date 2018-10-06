@@ -87,6 +87,24 @@
 "Are you sure?" = "Вы уверены?";
 
 /* No comment provided by engineer. */
+"Axe address" = "Адрес Axe";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "Комиссия сети Axe";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "Платежи в Axe не могут быть меньше, чем %@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "Транзакция не подписана";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "Выходы транзакции не могут быть меньше, чем %@";
+
+/* No comment provided by engineer. */
 "bad password, try again" = "Некорректный пароль, попробуйте ещё раз";
 
 /* No comment provided by engineer. */
@@ -190,24 +208,6 @@
 
 /* No comment provided by engineer. */
 "CRITICAL" = "РАСШИРЕННЫЕ";
-
-/* No comment provided by engineer. */
-"Axe address" = "Адрес Axe";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Адреса Axe также могут быть скопированы в буфер обмена. Axe-адрес всегда начинается с «X» или «7».";
-
-/* No comment provided by engineer. */
-"axe network fee" = "Комиссия сети Axe";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "Платежи в Axe не могут быть меньше, чем %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "Транзакция не подписана";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "Выходы транзакции не могут быть меньше, чем %@";
 
 /* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "БЕЗОПАСНОСТЬ УСТРОЙСТВА ПОД УГРОЗОЙ\nЛюбое «jailbreak» приложение может получить доступ к Вашим приватным ключам (и украсть Ваши AXE).";
@@ -348,13 +348,13 @@
 "not a axe or bitcoin QR code" = "Не является QR-кодом для Axe или Bitcoin";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "Некорректный адрес Bitcoin";
-
-/* No comment provided by engineer. */
 "not a valid axe address" = "Некорректный адрес Axe";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "Некорректный адрес Axe или Bitcoin";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "Некорректный адрес Bitcoin";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "Некорректный закрытый ключ";

@@ -87,6 +87,24 @@
 "Are you sure?" = "Sind Sie sicher?";
 
 /* No comment provided by engineer. */
+"Axe address" = "Axe-Adresse";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "Transaktionsgebühr";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "Axe-Zahlungen können nicht kleiner als %@ sein";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "Axe-Transaktion nicht signiert";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "Axe-Transaktions-Ausgänge können nicht kleiner als %@ sein";
+
+/* No comment provided by engineer. */
 "bad password, try again" = "Falsches Kennwort, bitte erneut versuchen";
 
 /* No comment provided by engineer. */
@@ -190,24 +208,6 @@
 
 /* No comment provided by engineer. */
 "CRITICAL" = "WICHTIG";
-
-/* No comment provided by engineer. */
-"Axe address" = "Axe-Adresse";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Axe-Adressen können auch in die Zwischenablage kopiert werden. Eine Axe-Adresse beginnt immer mit 'X' oder '7'.";
-
-/* No comment provided by engineer. */
-"axe network fee" = "Transaktionsgebühr";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "Axe-Zahlungen können nicht kleiner als %@ sein";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "Axe-Transaktion nicht signiert";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "Axe-Transaktions-Ausgänge können nicht kleiner als %@ sein";
 
 /* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "GERÄTESICHERHEIT KOMPROMITTIERT\nJede 'Jailbreak'-App kann auf die Schlüsselbund-Daten jeder anderen App zugreifen (und so Ihre Axe stehlen).";
@@ -348,13 +348,13 @@
 "not a axe or bitcoin QR code" = "Kein Axe oder Bitcoin QR-Code";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "Keine gültige Bitcoin-Adresse";
-
-/* No comment provided by engineer. */
 "not a valid axe address" = "Keine gültige Axe-Adresse";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "Keine gültige Axe oder Bitcoin Adresse";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "Keine gültige Bitcoin-Adresse";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "Kein gültiger privater Schlüssel";

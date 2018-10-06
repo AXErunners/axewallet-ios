@@ -87,6 +87,24 @@
 "Are you sure?" = "Sei sicuro??";
 
 /* No comment provided by engineer. */
+"Axe address" = "Indirizzo Axe";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "tassa di rete axe";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "i pagamneti in Bitcoin non possono essere inferiore a %@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "transazione axe non firmata";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "transazioni axe in uscita non possono essere inferiori a %@";
+
+/* No comment provided by engineer. */
 "bad password, try again" = "password errata, riprova";
 
 /* No comment provided by engineer. */
@@ -190,24 +208,6 @@
 
 /* No comment provided by engineer. */
 "CRITICAL" = "CRITICO";
-
-/* No comment provided by engineer. */
-"Axe address" = "Indirizzo Axe";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Gli indirizzi Axe possono anche essere copiati negli Appunti. Un indirizzo axe inizia sempre con 'X' o '7'.";
-
-/* No comment provided by engineer. */
-"axe network fee" = "tassa di rete axe";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "i pagamneti in Bitcoin non possono essere inferiore a %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "transazione axe non firmata";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "transazioni axe in uscita non possono essere inferiori a %@";
 
 /* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "SICUREZZA DEL DISPOSITIVO COMPROMESSA\nQualunque app \"jailbreak\" può accedere ai dati di altre app (e rubare i tuoi axe).";
@@ -348,13 +348,13 @@
 "not a axe or bitcoin QR code" = "non è un codice QR axe o bitcoin";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "non un indirizzo bitcoin valido";
-
-/* No comment provided by engineer. */
 "not a valid axe address" = "non un indirizzo axe valido";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "non un indirizzo axe o bitcoin valido";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "non un indirizzo bitcoin valido";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "non una chiave privata valida";

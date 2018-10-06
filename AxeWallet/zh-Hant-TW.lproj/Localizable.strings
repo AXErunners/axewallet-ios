@@ -87,6 +87,24 @@
 "Are you sure?" = "你確定嗎?";
 
 /* No comment provided by engineer. */
+"Axe address" = "達世幣位址";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "達世幣網絡費";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "達世幣付款不能低於 %@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "達世幣交易尚未簽署";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "達世幣交易的輸出不能少於 %@";
+
+/* No comment provided by engineer. */
 "bad password, try again" = "密碼錯誤，請重試";
 
 /* No comment provided by engineer. */
@@ -190,24 +208,6 @@
 
 /* No comment provided by engineer. */
 "CRITICAL" = "緊要";
-
-/* No comment provided by engineer. */
-"Axe address" = "達世幣位址";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "達世幣位址也可以複製到剪貼板。達世幣位址總是以'X' 或 '7' 開始。";
-
-/* No comment provided by engineer. */
-"axe network fee" = "達世幣網絡費";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "達世幣付款不能低於 %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "達世幣交易尚未簽署";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "達世幣交易的輸出不能少於 %@";
 
 /* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "設備的安全性已經受到損害\n任何'越獄'的應用程序可以訪問任何其他應用程序的數據鑰匙扣 (和竊取你的達世幣的)。";
@@ -348,13 +348,13 @@
 "not a axe or bitcoin QR code" = "不是一個達世幣或比特幣二維碼";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "不是一個有效的比特幣位址";
-
-/* No comment provided by engineer. */
 "not a valid axe address" = "不是一個有效的達世幣位址";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "不是一個有效的達世幣或比特幣位址";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "不是一個有效的比特幣位址";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "不是一個有效的私鑰";

@@ -87,6 +87,24 @@
 "Are you sure?" = "Bạn chắc chứ?";
 
 /* No comment provided by engineer. */
+"Axe address" = "Địa chỉ Axe";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "phí giao dịch";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "số axe thanh toán không thể nhỏ hơn %@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "giao dịch axe không được ký";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "đầu ra của giao dịch axe không thể ít hơn %@";
+
+/* No comment provided by engineer. */
 "bad password, try again" = "sai mật khẩu, hãy thử lại";
 
 /* No comment provided by engineer. */
@@ -190,24 +208,6 @@
 
 /* No comment provided by engineer. */
 "CRITICAL" = "NGHIÊM TRỌNG";
-
-/* No comment provided by engineer. */
-"Axe address" = "Địa chỉ Axe";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Địa chỉ Axe cũng có thể copy vào bộ đệm. Một địa chỉ axe luôn bắt đầu bằng chữ 'X' hoặc '7'.";
-
-/* No comment provided by engineer. */
-"axe network fee" = "phí giao dịch";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "số axe thanh toán không thể nhỏ hơn %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "giao dịch axe không được ký";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "đầu ra của giao dịch axe không thể ít hơn %@";
 
 /* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "AN NINH THIẾT BỊ BỊ  TỔN HẠI\nBất kỳ ứng dụng 'jailbreak' hay 'phá khoá' nào đều có thể truy cập vào dữ liệu chìa khoá của ứng dụng (và đánh cắp axe của bạn).";
@@ -348,13 +348,13 @@
 "not a axe or bitcoin QR code" = "đây phải là mã QR của địa chỉ axe hay bitcoin";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "không phải địa chỉ bitcoin hợp lệ";
-
-/* No comment provided by engineer. */
 "not a valid axe address" = "không phải một địa chỉ axe hợp lệ";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "không phải địa chỉ hợp lệ của axe hay bitcoin";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "không phải địa chỉ bitcoin hợp lệ";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "không phải một khoá riêng hợp lệ";

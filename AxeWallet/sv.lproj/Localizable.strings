@@ -87,6 +87,24 @@
 "Are you sure?" = "Are you sure?";
 
 /* No comment provided by engineer. */
+"Axe address" = "Axe-adress";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "transaktions kostnad";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "betalningar kan inte vara mindre än %@";
+
+/* No comment provided by engineer. */
+"axe transaction not signed" = "transaktionen ej undertecknad";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "transaktionens utflöden får ej understiga %@";
+
+/* No comment provided by engineer. */
 "bad password, try again" = "fel lösenord, försök igen";
 
 /* No comment provided by engineer. */
@@ -190,24 +208,6 @@
 
 /* No comment provided by engineer. */
 "CRITICAL" = "CRITICAL";
-
-/* No comment provided by engineer. */
-"Axe address" = "Axe-adress";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Axe-adresser kan också kopieras till klippboken. En Axe-adress startar alltid med 'X' eller '7'.";
-
-/* No comment provided by engineer. */
-"axe network fee" = "transaktions kostnad";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "betalningar kan inte vara mindre än %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "transaktionen ej undertecknad";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "transaktionens utflöden får ej understiga %@";
 
 /* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "ENHETENS SÄKERHET ÄR KOMPRIMISSAD\n\"Jailbreakade\" appar kan läsa inuti andra appar (och stjäla dina axe).";
@@ -348,13 +348,13 @@
 "not a axe or bitcoin QR code" = "inte en axe eller bitcoin QR-kod";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "inte en giltig bitcoin adress";
-
-/* No comment provided by engineer. */
 "not a valid axe address" = "inte en giltig axe adress";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "inte en giltig axe eller bitcoin adress";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "inte en giltig bitcoin adress";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "ogiltig privat nyckel";
