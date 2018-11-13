@@ -5,6 +5,9 @@
 <p align="center" >
 <img src="AxeWallet/Images.xcassets/AppIcon.appiconset/icon_83.5@2x.png" alt="AXE wallet logo">
 </p>
+<p align="center" >
+<a href="https://itunes.apple.com/us/app/axe-wallet/id1430269763"><img src="images/Download_on_the_App_Store_Badge_US-UK_135x40.png"></a>
+</p>
 
 Axewallet (dashwallet fork) is a real standalone AXE client. There is no server to get hacked or go down, so you can always access your money.
 Using [SPV](https://en.bitcoin.it/wiki/Thin_Client_Security#Header-Only_Clients) mode, Axewallet connects directly to the AXE network with the fast performance you need on a mobile device.
