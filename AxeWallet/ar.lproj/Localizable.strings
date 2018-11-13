@@ -66,6 +66,9 @@
 "About" = "عن";
 
 /* No comment provided by engineer. */
+"Action Needed" = "Action Needed";
+
+/* No comment provided by engineer. */
 "always require passcode" = "يتطلب دائما الرقم السري";
 
 /* No comment provided by engineer. */
@@ -81,10 +84,13 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "التطبيق %@ ترغب في استلام مفتاحك الرئيسي. هذا يمكن أن تستخدم لتتبع محفظتك ، وهذا لا يمكن أن تستخدم لتحريك داش الخاص بك.";
 
 /* No comment provided by engineer. */
+"Are you sure?" = "Are you sure?";
+
+/* No comment provided by engineer. */
 "Axe address" = "عنوان داش";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "يمكن أيضًا نسخ عناوين داش إلى الحافظة. يبدأ عنوان داش دائمًا بـ \"X\" أو \"7\".";
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'.";
 
 /* No comment provided by engineer. */
 "axe network fee" = "رسوم شبكة داش";
@@ -127,6 +133,9 @@
 
 /* No comment provided by engineer. */
 "Buy axe in axewallet!" = "شراء داش من محفظة داش";
+
+/* No comment provided by engineer. */
+"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code." = "By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code.";
 
 /* No comment provided by engineer. */
 "cancel" = "إلغاء";
@@ -252,7 +261,7 @@
 "Face ID spending limit" = "Face ID spending limit";
 
 /* No comment provided by engineer. */
-"failed wallet update" = "فشل تحديث المحفظة";
+"Failed wallet update" = "Failed wallet update";
 
 /* No comment provided by engineer. */
 "from:" = "من:";
@@ -283,6 +292,9 @@
 
 /* No comment provided by engineer. */
 "IMPORTANT" = "مهم";
+
+/* No comment provided by engineer. */
+"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again." = "In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again.";
 
 /* No comment provided by engineer. */
 "instant payment" = "الدفع الفوري";
@@ -384,7 +396,7 @@
 "pending" = "قيد الانتظار";
 
 /* No comment provided by engineer. */
-"please enter pin to upgrade wallet" = "يرجى إدخال رقم سري  لترقية المحفظة";
+"Please enter pin to upgrade wallet" = "Please enter pin to upgrade wallet";
 
 /* No comment provided by engineer. */
 "Please place your phone near NFC device." = "يرجى وضع هاتفك بالقرب من جهاز NFC.";
@@ -582,7 +594,7 @@
 "Touch ID limit" = "إلمس لمعرفة الحد";
 
 /* No comment provided by engineer. */
-"Touch ID spending limit" = "إلمس رقم التعريف لحد الإنفاق";
+"Touch ID spending limit" = "Touch ID spending limit";
 
 /* No comment provided by engineer. */
 "transaction canceled, network timeout" = "المعاملة ألغيت ، مهلة الشبكة";
@@ -660,7 +672,7 @@
 "You can now buy axe in\naxewallet with cash or\nbank transfer." = "يمكنك شراء داش من \nمحفظة داش بالمال او\nعن تحويل بنكي.";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter axewallet" = "يجب عليك إدخال رقم السري الشخصي الخاص بك من أجل إدخال محفظة داش";
+"You must enter your pin in order to enter axewallet" = "You must enter your pin in order to enter axewallet";
 
 /* No comment provided by engineer. */
 "you received axe!" = "لقد تلقيت داش!";

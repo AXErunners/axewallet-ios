@@ -33,7 +33,7 @@ protocol BRAWKeypadDelegate {
 class BRAWKeypadModel {
     var delegate: BRAWKeypadDelegate? = nil
     var valueInBits: String = "0"
-
+    
     init(delegate d: BRAWKeypadDelegate?) {
         delegate = d
     }
@@ -42,7 +42,7 @@ class BRAWKeypadModel {
 class BRAWKeypad: WKInterfaceController {
     var digits: [String] = [String]()
     var ctx: BRAWKeypadModel?
-
+    
     override func awake(withContext context: Any?) {
         ctx = context as? BRAWKeypadModel
         digits = [String]()
@@ -52,49 +52,49 @@ class BRAWKeypad: WKInterfaceController {
             }
         }
     }
-
+    
     override func willDisappear() {
         ctx = nil
     }
 
     @IBOutlet var display: WKInterfaceLabel!
-
+    
     @IBAction func one(_ sender: AnyObject?) { append("1") }
-
+    
     @IBAction func two(_ sender: AnyObject?) { append("2") }
-
+    
     @IBAction func three(_ sender: AnyObject?) { append("3") }
-
+    
     @IBAction func four(_ sender: AnyObject?) { append("4") }
-
+    
     @IBAction func five(_ sender: AnyObject?) { append("5") }
-
+    
     @IBAction func six(_ sender: AnyObject?) { append("6") }
-
+    
     @IBAction func seven(_ sender: AnyObject?) { append("7") }
-
+    
     @IBAction func eight(_ sender: AnyObject?) { append("8") }
-
+    
     @IBAction func nine(_ sender: AnyObject?) { append("9") }
-
+    
     @IBAction func zero(_ sender: AnyObject?) { append("0") }
-
+    
     @IBAction func del(_ sender: AnyObject?) {
         if digits.count > 0 {
             digits.removeLast()
             fmt()
         }
     }
-
+    
     @IBAction func ok(_ sender: AnyObject?) {
         ctx?.delegate?.keypadDidFinish(ctx!.valueInBits)
     }
-
+    
     func append(_ digit: String) {
         digits.append(digit)
         fmt()
     }
-
+    
     func fmt() {
         var s = "✖︎"
         var d = digits

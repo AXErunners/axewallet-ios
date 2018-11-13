@@ -507,6 +507,98 @@
     [super viewDidAppear:animated];
 }
 
+-(void)wipeAlert {
+    UIAlertController * wipeAlert = [UIAlertController
+                                     alertControllerWithTitle:NSLocalizedString(@"Are you sure?", nil)
+                                     message:NSLocalizedString(@"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code.",nil)                                             preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction* cancelButton = [UIAlertAction
+                                 actionWithTitle:NSLocalizedString(@"cancel", nil)
+                                 style:UIAlertActionStyleDefault
+                                 handler:^(UIAlertAction * action) {
+                                     [self protectedViewDidAppear];
+                                 }];
+    UIAlertAction* wipeButton = [UIAlertAction
+                                  actionWithTitle:NSLocalizedString(@"wipe", nil)
+                                  style:UIAlertActionStyleDestructive
+                                  handler:^(UIAlertAction * action) {
+
+                                      [[BRWalletManager sharedInstance] setSeedPhrase:nil];
+                                      [[NSUserDefaults standardUserDefaults] removeObjectForKey:WALLET_NEEDS_BACKUP_KEY];
+                                      [[NSUserDefaults standardUserDefaults] synchronize];
+                                      
+                                    [self presentViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"NewWalletNav"] animated:NO
+                                                        completion:nil];
+                                  }];
+    [wipeAlert addAction:cancelButton];
+    [wipeAlert addAction:wipeButton];
+    [self presentViewController:wipeAlert animated:YES completion:nil];
+}
+
+-(void)forceUpdate:(BOOL)cancelled {
+    UIAlertController * alert;
+    BRWalletManager *manager = [BRWalletManager sharedInstance];
+    if (cancelled) {
+        alert = [UIAlertController
+                 alertControllerWithTitle:NSLocalizedString(@"Failed wallet update", nil)
+                 message:NSLocalizedString(@"You must enter your pin in order to enter axewallet", nil)
+                 preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction* exitButton = [UIAlertAction
+                                     actionWithTitle:NSLocalizedString(@"exit", nil)
+                                     style:UIAlertActionStyleDefault
+                                     handler:^(UIAlertAction * action) {
+                                         exit(0);
+                                     }];
+        UIAlertAction* enterButton = [UIAlertAction
+                                      actionWithTitle:NSLocalizedString(@"enter", nil)
+                                      style:UIAlertActionStyleDefault
+                                      handler:^(UIAlertAction * action) {
+                                          [self protectedViewDidAppear];
+                                      }];
+        [alert addAction:exitButton];
+        [alert addAction:enterButton]; //ok button should be on the right side as per Apple guidelines, as reset is the less desireable option
+    } else {
+        __block NSUInteger wait = [manager lockoutWaitTime];
+        NSString * waitTime = [NSString waitTimeFromNow:wait];
+        
+        alert = [UIAlertController
+                 alertControllerWithTitle:NSLocalizedString(@"Failed wallet update", nil)
+                 message:[NSString stringWithFormat:NSLocalizedString(@"\ntry again in %@", nil),
+                          waitTime]
+                 preferredStyle:UIAlertControllerStyleAlert];
+        NSTimer * timer = [NSTimer scheduledTimerWithTimeInterval:1 repeats:YES block:^(NSTimer * _Nonnull timer) {
+            wait--;
+            alert.message = [NSString stringWithFormat:NSLocalizedString(@"\ntry again in %@", nil),
+                             [NSString waitTimeFromNow:wait]];
+            if (!wait) {
+                [timer invalidate];
+                [alert dismissViewControllerAnimated:TRUE completion:^{
+                    [self protectedViewDidAppear];
+                }];
+            }
+        }];
+        UIAlertAction* resetButton = [UIAlertAction
+                                      actionWithTitle:NSLocalizedString(@"reset", nil)
+                                      style:UIAlertActionStyleDefault
+                                      handler:^(UIAlertAction * action) {
+                                          [timer invalidate];
+                                          [manager showResetWalletWithWipeHandler:^{
+                                              [self wipeAlert];
+                                          } cancelHandler:^{
+                                              [self protectedViewDidAppear];
+                                          }];
+                                      }];
+        UIAlertAction* exitButton = [UIAlertAction
+                                     actionWithTitle:NSLocalizedString(@"exit", nil)
+                                     style:UIAlertActionStyleDefault
+                                     handler:^(UIAlertAction * action) {
+                                         exit(0);
+                                     }];
+        [alert addAction:resetButton];
+        [alert addAction:exitButton]; //ok button should be on the right side as per Apple guidelines, as reset is the less desireable option
+    }
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
 - (void)protectedViewDidAppear
 {
     NSUserDefaults *defs = [NSUserDefaults standardUserDefaults];
@@ -560,109 +652,82 @@
     else {
         [manager upgradeExtendedKeysWithCompletion:^(BOOL success, BOOL neededUpgrade, BOOL authenticated, BOOL cancelled) {
             if (!success && neededUpgrade && !authenticated) {
-                UIAlertController * alert;
-                if (cancelled) {
-                    alert = [UIAlertController
-                             alertControllerWithTitle:NSLocalizedString(@"failed wallet update", nil)
-                             message:NSLocalizedString(@"you must enter your pin in order to enter axewallet", nil)
-                             preferredStyle:UIAlertControllerStyleAlert];
-                    UIAlertAction* exitButton = [UIAlertAction
-                                                 actionWithTitle:NSLocalizedString(@"exit", nil)
-                                                 style:UIAlertActionStyleDefault
-                                                 handler:^(UIAlertAction * action) {
-                                                     exit(0);
-                                                 }];
-                    UIAlertAction* enterButton = [UIAlertAction
-                                                  actionWithTitle:NSLocalizedString(@"enter", nil)
-                                                  style:UIAlertActionStyleDefault
-                                                  handler:^(UIAlertAction * action) {
-                                                      [self protectedViewDidAppear];
-                                                  }];
-                    [alert addAction:exitButton];
-                    [alert addAction:enterButton]; //ok button should be on the right side as per Apple guidelines, as reset is the less desireable option
-                } else {
-                    __block NSUInteger wait = [manager lockoutWaitTime];
-                    NSString * waitTime = [NSString waitTimeFromNow:wait];
-                    
-                    alert = [UIAlertController
-                             alertControllerWithTitle:NSLocalizedString(@"failed wallet update", nil)
-                             message:[NSString stringWithFormat:NSLocalizedString(@"\ntry again in %@", nil),
-                                      waitTime]
-                             preferredStyle:UIAlertControllerStyleAlert];
-                    NSTimer * timer = [NSTimer scheduledTimerWithTimeInterval:1 repeats:YES block:^(NSTimer * _Nonnull timer) {
-                        wait--;
-                        alert.message = [NSString stringWithFormat:NSLocalizedString(@"\ntry again in %@", nil),
-                                         [NSString waitTimeFromNow:wait]];
-                        if (!wait) {
-                            [timer invalidate];
-                            [alert dismissViewControllerAnimated:TRUE completion:^{
-                                [self protectedViewDidAppear];
-                            }];
-                        }
-                    }];
-                    UIAlertAction* resetButton = [UIAlertAction
-                                                  actionWithTitle:NSLocalizedString(@"reset", nil)
-                                                  style:UIAlertActionStyleDefault
-                                                  handler:^(UIAlertAction * action) {
-                                                      [timer invalidate];
-                                                      [manager showResetWalletWithCancelHandler:^{
-                                                          [self protectedViewDidAppear];
-                                                      }];
-                                                  }];
-                    UIAlertAction* exitButton = [UIAlertAction
-                                                 actionWithTitle:NSLocalizedString(@"exit", nil)
-                                                 style:UIAlertActionStyleDefault
-                                                 handler:^(UIAlertAction * action) {
-                                                     exit(0);
-                                                 }];
-                    [alert addAction:resetButton];
-                    [alert addAction:exitButton]; //ok button should be on the right side as per Apple guidelines, as reset is the less desireable option
+                [self forceUpdate:cancelled];
+            }
+            [manager checkPassphraseWasShownCorrectly:^(BOOL needsCheck, BOOL authenticated, BOOL cancelled, NSString * _Nullable seedPhrase) {
+                if (needsCheck && !authenticated) {
+                    [self forceUpdate:cancelled];
                 }
-                [self presentViewController:alert animated:YES completion:nil];
-            }
-            //if (!success) exit(0);
-            if (_balance == UINT64_MAX && [defs objectForKey:BALANCE_KEY]) self.balance = [defs doubleForKey:BALANCE_KEY];
-            self.splash.hidden = YES;
-            
-            self.navigationController.navigationBar.hidden = NO;
-            self.pageViewController.view.alpha = 1.0;
-            [self.receiveViewController updateAddress];
-            if (self.reachability.currentReachabilityStatus == NotReachable) [self showErrorBar];
-            
-            if (self.navigationController.visibleViewController == self) {
-                [self setNeedsStatusBarAppearanceUpdate];
-            }
-            
-#if SNAPSHOT
-            return;
-#endif
-            if (!authenticated) {
-                if ([defs doubleForKey:PIN_UNLOCK_TIME_KEY] + WEEK_TIME_INTERVAL < [NSDate timeIntervalSinceReferenceDate]) {
-                    [manager authenticateWithPrompt:nil andTouchId:NO alertIfLockout:YES completion:^(BOOL authenticated,BOOL cancelled) {
-                        if (authenticated) {
-                            [self unlock:nil];
-                        }
-                    }];
-                }
-            }
-            
-            if (self.navigationController.visibleViewController == self) {
-                if (self.showTips) [self performSelector:@selector(tip:) withObject:nil afterDelay:0.3];
-            }
-            
-            if ([UIApplication sharedApplication].applicationState != UIApplicationStateBackground) {
-                [[BRPeerManager sharedInstance] connect];
-                [UIApplication sharedApplication].applicationIconBadgeNumber = 0; // reset app badge number
                 
-                if (self.url) {
-                    [self.sendViewController handleURL:self.url];
-                    self.url = nil;
+                if (needsCheck) {
+                    UIAlertController * alert = [UIAlertController
+                             alertControllerWithTitle:NSLocalizedString(@"Action Needed", nil)
+                             message:NSLocalizedString(@"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again.", nil)
+                             preferredStyle:UIAlertControllerStyleAlert];
+                    UIAlertAction* showButton = [UIAlertAction
+                                                 actionWithTitle:NSLocalizedString(@"show", nil)
+                                                 style:UIAlertActionStyleDefault
+                                                 handler:^(UIAlertAction * action) {
+                                                     BRSeedViewController *seedController = [self.storyboard instantiateViewControllerWithIdentifier:@"SeedViewController"];
+                                                         seedController.seedPhrase = seedPhrase;
+                                                     [self.navigationController pushViewController:seedController animated:YES];
+                                                 }];
+                    UIAlertAction* ignoreButton = [UIAlertAction
+                                                  actionWithTitle:NSLocalizedString(@"ignore", nil)
+                                                  style:UIAlertActionStyleCancel
+                                                  handler:^(UIAlertAction * action) {
+                                                      
+                                                  }];
+                    
+                    [alert addAction:ignoreButton];
+                    [alert addAction:showButton]; //ok button should be on the right side as per Apple guidelines, as reset is the less desireable option
+                    [alert setPreferredAction:showButton];
+                    [self presentViewController:alert animated:YES completion:nil];
                 }
-                else if (self.file) {
-                    [self.sendViewController handleFile:self.file];
-                    self.file = nil;
+                
+                if (_balance == UINT64_MAX && [defs objectForKey:BALANCE_KEY]) self.balance = [defs doubleForKey:BALANCE_KEY];
+                self.splash.hidden = YES;
+                
+                self.navigationController.navigationBar.hidden = NO;
+                self.pageViewController.view.alpha = 1.0;
+                [self.receiveViewController updateAddress];
+                if (self.reachability.currentReachabilityStatus == NotReachable) [self showErrorBar];
+                
+                if (self.navigationController.visibleViewController == self) {
+                    [self setNeedsStatusBarAppearanceUpdate];
                 }
-            }
+                
+#if SNAPSHOT
+                return;
+#endif
+                if (!authenticated) {
+                    if ([defs doubleForKey:PIN_UNLOCK_TIME_KEY] + WEEK_TIME_INTERVAL < [NSDate timeIntervalSinceReferenceDate]) {
+                        [manager authenticateWithPrompt:nil andTouchId:NO alertIfLockout:YES completion:^(BOOL authenticated,BOOL cancelled) {
+                            if (authenticated) {
+                                [self unlock:nil];
+                            }
+                        }];
+                    }
+                }
+                
+                if (self.navigationController.visibleViewController == self) {
+                    if (self.showTips) [self performSelector:@selector(tip:) withObject:nil afterDelay:0.3];
+                }
+                
+                if ([UIApplication sharedApplication].applicationState != UIApplicationStateBackground) {
+                    [[BRPeerManager sharedInstance] connect];
+                    [UIApplication sharedApplication].applicationIconBadgeNumber = 0; // reset app badge number
+                    
+                    if (self.url) {
+                        [self.sendViewController handleURL:self.url];
+                        self.url = nil;
+                    }
+                    else if (self.file) {
+                        [self.sendViewController handleFile:self.file];
+                        self.file = nil;
+                    }
+                }
+            }];
         }];
     }
 }

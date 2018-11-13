@@ -66,6 +66,9 @@
 "About" = "Giới thiệu";
 
 /* No comment provided by engineer. */
+"Action Needed" = "Cần bạn hành động";
+
+/* No comment provided by engineer. */
 "always require passcode" = "luôn cần mật khẩu";
 
 /* No comment provided by engineer. */
@@ -79,6 +82,9 @@
 
 /* No comment provided by engineer. */
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "Ứng dụng %@ có thể nhận Master Public Key của bạn.  Nó có thể được dùng để theo dõi ví của bạn, nhưng nó không thể dùng để chuyển Axe.";
+
+/* No comment provided by engineer. */
+"Are you sure?" = "Bạn chắc chứ?";
 
 /* No comment provided by engineer. */
 "Axe address" = "Địa chỉ Axe";
@@ -127,6 +133,9 @@
 
 /* No comment provided by engineer. */
 "Buy axe in axewallet!" = "Mua axe trong axewallet!";
+
+/* No comment provided by engineer. */
+"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code." = "Bằng việc xoá sạch thiết bị này bạn sẽ không thể truy cập đến số tiền trong thiết bị nữa. Điều này chỉ nên thực hiện nếu bạn không còn có mật khẩu và bạn cũng quên cả mã PIN.";
 
 /* No comment provided by engineer. */
 "cancel" = "huỷ bỏ";
@@ -252,7 +261,7 @@
 "Face ID spending limit" = "Giới hạn chi tiêu với Face ID";
 
 /* No comment provided by engineer. */
-"failed wallet update" = "không cập nhận được ví";
+"Failed wallet update" = "Không cập nhận được ví";
 
 /* No comment provided by engineer. */
 "from:" = "từ:";
@@ -283,6 +292,9 @@
 
 /* No comment provided by engineer. */
 "IMPORTANT" = "QUAN TRỌNG";
+
+/* No comment provided by engineer. */
+"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again." = "Trong phiên bản trước của ví Axewallet, khi lần đầu hiển thị mật khẩu của bạn trên thiết bị chúng tôi đã phát hiện rằng App đã không hiển thị một cách chính xác 12 từ khoá hạt giống. Hãy viết mật khẩu đầy đủ của bạn xuống một lần nữa.";
 
 /* No comment provided by engineer. */
 "instant payment" = "giao dịch tức thời";
@@ -384,7 +396,7 @@
 "pending" = "đang chờ";
 
 /* No comment provided by engineer. */
-"please enter pin to upgrade wallet" = "hãy nhập mã pin để nâng cấp ví";
+"Please enter pin to upgrade wallet" = "Hãy nhập mã để nâng cấp ví";
 
 /* No comment provided by engineer. */
 "Please place your phone near NFC device." = "Hãy đặt điện thoại của bạn cạnh thiết bị NFC.";
@@ -660,7 +672,7 @@
 "You can now buy axe in\naxewallet with cash or\nbank transfer." = "Bây giờ bạn có thể mua axe trong\nví axewallet hoặc\nchuyển khoản.";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter axewallet" = "bạn cần nhập mã pin của bạn để truy cập ví axewallet";
+"You must enter your pin in order to enter axewallet" = "Bạn cần nhập mã pin của bạn để truy cập ví axewallet";
 
 /* No comment provided by engineer. */
 "you received axe!" = "bạn đã nhận được axe!";

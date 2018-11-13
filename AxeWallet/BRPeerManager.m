@@ -57,10 +57,10 @@ static const struct { uint32_t height; const char *hash; uint32_t timestamp; uin
 };
 
 static const char *dns_seeds[] = {
-    "tseed1.0313370.xyz", "tseed2.0313370.xyz" //,"testnet-seed.axepay.info"
+    "tseed1.0313370.xyz", "tseed2.0313370.xyz" //,"testnet
 };
 
-#else // main net
+#else // mainnet
 
 // blockchain checkpoints - these are also used as starting points for partial chain downloads, so they need to be at
 // difficulty transition boundaries in order to verify the block difficulty at the immediately following transition
@@ -84,7 +84,9 @@ static const struct { uint32_t height; const char *hash; uint32_t timestamp; uin
     { 113924, "0000000000273f3e310e2092c4853ad1aec7094f899de16d1da98bf32c9031ed", 1535061297, 0x1b2b60a6u },
     { 125197, "0000000000037de401ac2286ca79400262d6f2d8fa1925194f5fe50cb77a7882", 1536839034, 0x1b196c52u },
     { 127782, "00000000000c357aeee1d23157db32a8d564545f79a368f4346229ddac3d1adf", 1537248807, 0x1b222a5du },
-    { 132450, "0000000000081d851d7de9909a9a833f067f2f049e32498fbe85f88082ae109b", 1537982404, 0x1b083d9du }
+    { 132450, "0000000000081d851d7de9909a9a833f067f2f049e32498fbe85f88082ae109b", 1537982404, 0x1b083d9du },
+    { 141370, "000000000001490cbdd22a570973ee6e4d8de4ccbc1e1a4f941b54efbfc0f5ce", 1539391442, 0x1b149343u },
+    { 155048, "000000000010132a7e8150242be23cad60b8455544bb4be84bc8925d02fb6842", 1541548670, 0x1b10fa98u }
 };
 
 static const char *dns_seeds[] = {
@@ -240,6 +242,7 @@ static const char *dns_seeds[] = {
 
                     freeaddrinfo(servinfo);
                 }
+                NSLog(@"DNS lookup %s done", dns_seeds[i]);
             });
 
             for (NSArray *a in peers) [_peers addObjectsFromArray:a];

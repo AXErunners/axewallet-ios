@@ -66,6 +66,9 @@
 "About" = "Hakkında";
 
 /* No comment provided by engineer. */
+"Action Needed" = "Action Needed";
+
+/* No comment provided by engineer. */
 "always require passcode" = "her zaman parola gerektir";
 
 /* No comment provided by engineer. */
@@ -81,10 +84,13 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "%@ uygulaması size ait Ana Herkese Açık Anahtarı istiyor.  Bunun sayesinde cüzdanınız takip edilebilir ama Axelerinizi başka bir yere aktarmakta kullanılamaz.";
 
 /* No comment provided by engineer. */
+"Are you sure?" = "Are you sure?";
+
+/* No comment provided by engineer. */
 "Axe address" = "axe adresi";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe adresleri ayrıca panoya kopyalanabilir. Bitcoin adresi her zaman 'X' veya '7' ile başlar.";
+"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'.";
 
 /* No comment provided by engineer. */
 "axe network fee" = "axe ağ ücreti";
@@ -127,6 +133,9 @@
 
 /* No comment provided by engineer. */
 "Buy axe in axewallet!" = "axewallet'ta axe satın al!";
+
+/* No comment provided by engineer. */
+"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code." = "By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code.";
 
 /* No comment provided by engineer. */
 "cancel" = "iptal";
@@ -252,7 +261,7 @@
 "Face ID spending limit" = "Face ID spending limit";
 
 /* No comment provided by engineer. */
-"failed wallet update" = "cüzdan güncellemesi başarısız";
+"Failed wallet update" = "cüzdan güncellemesi başarısız";
 
 /* No comment provided by engineer. */
 "from:" = "kaynak:";
@@ -283,6 +292,9 @@
 
 /* No comment provided by engineer. */
 "IMPORTANT" = "ÖNEMLİ";
+
+/* No comment provided by engineer. */
+"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again." = "In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again.";
 
 /* No comment provided by engineer. */
 "instant payment" = "anında ödeme";
@@ -384,7 +396,7 @@
 "pending" = "bekliyor";
 
 /* No comment provided by engineer. */
-"please enter pin to upgrade wallet" = "lütfen cüzdanı yükseltmek için pin girin";
+"Please enter pin to upgrade wallet" = "lütfen cüzdanı yükseltmek için pin girin";
 
 /* No comment provided by engineer. */
 "Please place your phone near NFC device." = "Lütfen telefonunuzu bir NFC cihazının yakınına yerleştirin.";
@@ -660,7 +672,7 @@
 "You can now buy axe in\naxewallet with cash or\nbank transfer." = "Şimdi axewallet üzerinden\nnakit veya banka havalesi ile\naxe satın alabilirsiniz.";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter axewallet" = "axewallet'a girmek için pin girmelisiniz";
+"You must enter your pin in order to enter axewallet" = "axewallet'a girmek için pin girmelisiniz";
 
 /* No comment provided by engineer. */
 "you received axe!" = "axe aldınız!";
