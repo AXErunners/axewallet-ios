@@ -5,7 +5,7 @@ xcode_workspace: AxeWallet.xcworkspace
 xcode_scheme: AxeWalletTests
 xcode_destination: platform=iOS Simulator,OS=11.0,name=iPhone 6s
 before_install:
-- cd .. && git clone https://github.com/AXErunners/axesync
+- git clone https://github.com/AXErunners/axesync ../
 - set -o pipefail
 
 script:
