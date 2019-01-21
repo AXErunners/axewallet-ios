@@ -1,8 +1,5 @@
 
 /* No comment provided by engineer. */
-" and " = " en ";
-
-/* No comment provided by engineer. */
 "%@ is for 'mAXE'. %@ = 1 AXE." = "%@ is voor 'mAXE'. %@ = 1 AXE.";
 
 /* No comment provided by engineer. */
@@ -15,7 +12,10 @@
 "%d confirmations" = "%d bevestigingen";
 
 /* No comment provided by engineer. */
-", " = ", ";
+"%d haks/byte" = "%d haks/byte";
+
+/* No comment provided by engineer. */
+"%d out of %d lock votes" = "%1$d out of %2$d lock votes";
 
 /* No comment provided by engineer. */
 "0 confirmations" = "0 bevestigingen";
@@ -24,25 +24,13 @@
 "1 confirmation" = "1 bevestiging";
 
 /* No comment provided by engineer. */
+"1 hak/byte" = "1 hak/byte";
+
+/* No comment provided by engineer. */
 "\"%@\" is not a recovery phrase word" = "\"%@\" is geen woord uit de herstelzin";
 
 /* No comment provided by engineer. */
-"\n         total %@ (%@)" = "\n         totaal %1$@ (%2$@)";
-
-/* No comment provided by engineer. */
 "\n%@\n\nif you ever lose your phone, you will need it to recover your wallet" = "\n%@\n\nje hebt het nodig om te portemonnee te herstellen wanneer je je telefoon bent kwijtgeraakt";
-
-/* No comment provided by engineer. */
-"\n%d attempts remaining\n" = "\nnog %d pogingen\n";
-
-/* No comment provided by engineer. */
-"\n(local requested amount: %@)" = "\n(lokaal gevraagd bedrag: %@)";
-
-/* No comment provided by engineer. */
-"\n1 attempt remaining\n" = "\nnog 1 poging\n";
-
-/* No comment provided by engineer. */
-"\n\n     amount %@ (%@)" = "\n\n     bedrag %1$@ (%2$@)";
 
 /* No comment provided by engineer. */
 "\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nEen toegangscode is nog om je portemonnee te beschermen. Ga naar de instellingen en zet de toegangscode aan om door te gaan.";
@@ -54,19 +42,16 @@
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\ngeef toegang tot de camera in\nInstellingen->Privacy->Camera->%@";
 
 /* No comment provided by engineer. */
-"\nnetwork fee +%@ (%@)" = "\nnetwerkvergoeding +%1$@ (%2$@)";
-
-/* No comment provided by engineer. */
 "\ntry again in %@" = "\nprobeer opnieuw over %@";
-
-/* No comment provided by engineer. */
-"\ntry again in %d %@" = "\nprobeer opnieuw over %1$d %2$@";
 
 /* No comment provided by engineer. */
 "About" = "Over";
 
 /* No comment provided by engineer. */
 "Action Needed" = "Actie Benodigd";
+
+/* No comment provided by engineer. */
+"ADVANCED" = "GEAVANCEERD";
 
 /* No comment provided by engineer. */
 "always require passcode" = "altijd toegangscode vereisen";
@@ -87,34 +72,7 @@
 "Are you sure?" = "Weet je het zeker?";
 
 /* No comment provided by engineer. */
-"Axe address" = "Axe-adres";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'.";
-
-/* No comment provided by engineer. */
-"axe network fee" = "axe-netwerkvergoeding";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "axe-betalingen mogen niet minder bedragen dan %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "axe-transactie is niet ondertekend";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "axe-transactierestanten mogen niet minder bedragen dan %@";
-
-/* No comment provided by engineer. */
-"bad password, try again" = "onjuist wachtwoord, probeer opnieuw";
-
-/* No comment provided by engineer. */
 "bad payment request" = "foutief betaalverzoek";
-
-/* No comment provided by engineer. */
-"bad payment request URL" = "foutieve betaalverzoek-URL";
-
-/* No comment provided by engineer. */
-"bad payment URL" = "foutieve betaal-URL";
 
 /* No comment provided by engineer. */
 "bad recovery phrase" = "onjuiste herstelzin";
@@ -156,13 +114,13 @@
 "checking private key balance..." = "bezig met controleren van balans van persoonlijke sleutel...";
 
 /* No comment provided by engineer. */
-"choose passcode for %@" = "kies toegangscode voor %@";
-
-/* No comment provided by engineer. */
 "clear" = "wis";
 
 /* No comment provided by engineer. */
 "clear trusted node?" = "vertrouwd punt wissen?";
+
+/* No comment provided by engineer. */
+"clipboard doesn't contain a valid axe address" = "het klembord bevat geen geldig Axe-adres";
 
 /* No comment provided by engineer. */
 "clipboard doesn't contain a valid axe or bitcoin address" = "het klembord bevat geen geldig axe- of bitcoinadres";
@@ -175,9 +133,6 @@
 
 /* No comment provided by engineer. */
 "confirmed in block #%d" = "bevestigd in blok #%d";
-
-/* No comment provided by engineer. */
-"connect timeout" = "verbindingstime-out";
 
 /* No comment provided by engineer. */
 "copied" = "gekopieerd";
@@ -210,6 +165,21 @@
 "CRITICAL" = "KRITISCH";
 
 /* No comment provided by engineer. */
+"Axe address" = "Axe-adres";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Axe-adressen kunnen ook worden gekopieerd naar het klembord. Een axe-adres begint altijd met een 'X' of een '7'.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "axe-netwerkvergoeding";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "axe-betalingen mogen niet minder bedragen dan %@";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "axe-transactierestanten mogen niet minder bedragen dan %@";
+
+/* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "BEVEILIGING VAN HET APPARAAT IN GEVAAR\nEen 'jailbreak'-app heeft toegang tot de sleutelhanger van andere apps (en de mogelijkheid om je axe te stelen).";
 
 /* No comment provided by engineer. */
@@ -237,19 +207,19 @@
 "enable" = "Inschakele";
 
 /* No comment provided by engineer. */
+"Enable advanced features" = "Geavanceerde functies activeren";
+
+/* No comment provided by engineer. */
+"Enable advanced features?" = "Geavanceerde functies activeren?";
+
+/* No comment provided by engineer. */
 "Enable receive notifications" = "Schakel het ontvangen van meldingen in";
 
 /* No comment provided by engineer. */
 "enter" = "voer in";
 
 /* No comment provided by engineer. */
-"enter old passcode" = "voer oude toegangscode i";
-
-/* No comment provided by engineer. */
 "error signing axe transaction" = "fout bij het ondertekenen van de axe-transactie";
-
-/* No comment provided by engineer. */
-"error signing transaction" = "fout bij het ondertekenen van de transactie";
 
 /* No comment provided by engineer. */
 "exit" = "sluit af";
@@ -264,16 +234,13 @@
 "Failed wallet update" = "Mislukte update van de portemonnee";
 
 /* No comment provided by engineer. */
+"fetching amount" = "ophalen van bedrag";
+
+/* No comment provided by engineer. */
 "from:" = "van:";
 
 /* No comment provided by engineer. */
 "GENERAL" = "ALGEMEEN";
-
-/* No comment provided by engineer. */
-"hour" = "uur";
-
-/* No comment provided by engineer. */
-"hours" = "uur";
 
 /* No comment provided by engineer. */
 "I accept that I will lose my coins if I no longer possess the recovery phrase" = "Ik ga akkoord dat ik mijn munten kwijt raak als ik de herstelzin niet meer bezit";
@@ -312,16 +279,13 @@
 "INVALID" = "ONGELDIG";
 
 /* No comment provided by engineer. */
+"IS Received" = "IS Received";
+
+/* No comment provided by engineer. */
 "Let others scan this QR code to get your axe address. Anyone can send axe to your wallet by transferring them to your address." = "Laat anderen deze QR-code scannen om jouw axe-adres te verkrijgen. Iedereen kan axe naar jouw portemonnee versturen door deze te sturen naar jouw adres.";
 
 /* No comment provided by engineer. */
-"minute" = "minuut";
-
-/* No comment provided by engineer. */
-"minutes" = "minuten";
-
-/* No comment provided by engineer. */
-"missing certificate" = "certificaat ontbreekt";
+"locked with instant send" = "locked with instant send";
 
 /* No comment provided by engineer. */
 "more..." = "meer...";
@@ -330,10 +294,16 @@
 "Moved" = "Verplaatst";
 
 /* No comment provided by engineer. */
+"Network" = "Netwerk";
+
+/* No comment provided by engineer. */
 "NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected." = "Voer je herstelzin NOOIT in in wachtwoordbeheerders of ergens anders. Andere apparaten kunnen geïnfecteerd zijn.";
 
 /* No comment provided by engineer. */
 "next, write down your recovery phrase" = "schrijf nu je herstelzin op";
+
+/* No comment provided by engineer. */
+"NFC device didn't transmit a valid axe address" = "NFC apparaat heeft geen geldig axe adres verzonden";
 
 /* No comment provided by engineer. */
 "NFC device didn't transmit a valid axe or bitcoin address" = "NFC apparaat heeft geen geldig axe of bitcoin adres verzonden";
@@ -342,10 +312,16 @@
 "no exchange rate data" = "geen beursratio-gegevens";
 
 /* No comment provided by engineer. */
-"no peers found" = "geen peers gevonden";
+"node ip" = "node IP adres";
 
 /* No comment provided by engineer. */
 "not a axe or bitcoin QR code" = "geen axe of bitcoin QR-code";
+
+/* No comment provided by engineer. */
+"not a axe QR code" = "geen axe QR-code";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "ongeldig bitcoin-adres";
 
 /* No comment provided by engineer. */
 "not a valid axe address" = "ongeldig axe-adres";
@@ -354,31 +330,13 @@
 "not a valid axe or bitcoin address" = "ongeldig axe- of bitcoinadres";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "ongeldig bitcoin-adres";
-
-/* No comment provided by engineer. */
-"not a valid private key" = "ongeldige persoonlijke sleutel";
-
-/* No comment provided by engineer. */
-"not connected to the axe network" = "niet verbonden met het axe-netwerk";
-
-/* No comment provided by engineer. */
 "ok" = "oké";
 
 /* No comment provided by engineer. */
 "OK" = "Oké";
 
 /* No comment provided by engineer. */
-"passcode" = "toegangscode";
-
-/* No comment provided by engineer. */
-"passcode for %@" = "toegangscode voor %@";
-
-/* No comment provided by engineer. */
-"password" = "wachtwoord";
-
-/* No comment provided by engineer. */
-"password protected key" = "met wachtwoord beveiligde sleutel";
+"Only enable advanced features if you are knowledgeable in blockchain technology. \nIf enabled only use advanced features that you understand." = "De geavanceerde functies alleen activeren als je kennis hebt van blockchain technologie.\nIndien geactiveerd, gebruik dan alleen de geavanceerde functies die je begrijpt.";
 
 /* No comment provided by engineer. */
 "Pay" = "Betaal";
@@ -394,6 +352,9 @@
 
 /* No comment provided by engineer. */
 "pending" = "in wachtrij";
+
+/* No comment provided by engineer. */
+"please enter pin to upgrade wallet" = "voer je pincode in om de wallet bij te werken";
 
 /* No comment provided by engineer. */
 "Please enter pin to upgrade wallet" = "Voer je pincode in om de portemonnee bij te werken";
@@ -441,12 +402,6 @@
 "request is for an instant payment but you have disabled instant payments" = "het verzoek is voor een directe betaling maar je hebt directe betalingen uitgeschakeld";
 
 /* No comment provided by engineer. */
-"requested network \"%@\" instead of \"%@\"" = "verzoek netwerk \"%1$@\" in plaats van \"%2$@\"";
-
-/* No comment provided by engineer. */
-"rescan" = "scan opnieuw";
-
-/* No comment provided by engineer. */
 "Rescan blockchain" = "Blockchain opnieuw scannen";
 
 /* No comment provided by engineer. */
@@ -459,6 +414,9 @@
 "retry" = "probeer opnieuw";
 
 /* No comment provided by engineer. */
+"Scan someone else's QR code to get their axe address. You can send a payment to anyone with an address." = "Scan de QR code van iemand anders om zijn of haar axe adres te verkrijgen. Je kan een betaling versturen naar iedereen met een adres.";
+
+/* No comment provided by engineer. */
 "Scan someone else's QR code to get their axe or bitcoin address. You can send a payment to anyone with an address." = "Scan de QR-code van iemand anders om zijn of haar axe- of bitcoinadres te verkrijgen. Je kan een betaling versturen naar iedereen met een adres.";
 
 /* No comment provided by engineer. */
@@ -466,12 +424,6 @@
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Your funds are at risk. Transfer your balance to another wallet." = "Schermafdrukken zijn zichtbaar voor andere apps en apparaten. Je tegoed loopt gevaar. Verplaats je tegoed naar een andere portemonnee.";
-
-/* No comment provided by engineer. */
-"second" = "seconde";
-
-/* No comment provided by engineer. */
-"seconds" = "seconden";
 
 /* No comment provided by engineer. */
 "seen by %d of %d peers" = "gezien door %1$d van %2$d peers";
@@ -519,10 +471,16 @@
 "shapeshift succeeded" = "shapeshift voltooid";
 
 /* No comment provided by engineer. */
+"Shapeshift!" = "Shapeshift!";
+
+/* No comment provided by engineer. */
 "show" = "toon";
 
 /* No comment provided by engineer. */
 "show phrase" = "toon zin";
+
+/* No comment provided by engineer. */
+"size:" = "grootte:";
 
 /* No comment provided by engineer. */
 "sms not currently available" = "sms is momenteel niet beschikbaar";
@@ -567,19 +525,13 @@
 "this payment address is already in your wallet" = "dit betaaladres staat al in je portemonnee";
 
 /* No comment provided by engineer. */
-"this private key is already in your wallet" = "deze persoonlijke sleutel staat al in je portemonnee";
-
-/* No comment provided by engineer. */
-"this private key is empty" = "deze persoonlijke sleutel is leeg";
-
-/* No comment provided by engineer. */
 "This request requires an instant payment but you do not have enough inputs with 6 confirmations required by InstantSend, you may ask the merchant to accept a normal transaction or wait a few minutes." = "Dit verzoek heeft een onmiddellijke betaling  nodig maar je hebt niet genoeg inputs met 6 bevestigingen die nodig zijn voor InstantSend, je mag de merchant vragen om een normale transactie te accepteren of wacht een paar minuten.";
 
 /* No comment provided by engineer. */
 "this request requires an instant payment but you have disabled instant payments" = "dit verzoek heeft een onmiddellijke betaling nodig maar onmiddellijke betalingen heb je uitgeschakeld";
 
 /* No comment provided by engineer. */
-"This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase" = "Deze portemonnee is niet leeg of sync is nog niet klaar, je mag het niet wissen zonder een herstelzin.";
+"This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase" = "Deze portemonnee is niet leeg of sync is nog niet klaar, je mag het niet wissen zonder de herstelzin.";
 
 /* No comment provided by engineer. */
 "to:" = "naar:";
@@ -597,16 +549,7 @@
 "Touch ID spending limit" = "Touch ID uitgavelimiet";
 
 /* No comment provided by engineer. */
-"transaction canceled, network timeout" = "transactie geannuleerd, netwerktime-out";
-
-/* No comment provided by engineer. */
-"transaction fees would cost more than the funds available on this private key (due to tiny \"dust\" deposits)" = "de transactievergoeding zou meer zijn dan het beschikbare tegoed op deze persoonlijke sleutel (als gevolg van kleine \"stof\"-stortingen)";
-
-/* No comment provided by engineer. */
 "Transaction history" = "transactiegeschiedenis";
-
-/* No comment provided by engineer. */
-"transaction rejected" = "transactie geweigerd";
 
 /* No comment provided by engineer. */
 "trust" = "vertrouw";
@@ -621,9 +564,6 @@
 "Unable to get new qr code" = "Verkrijgen van nieuwe QR-code is mislukt";
 
 /* No comment provided by engineer. */
-"unexpected response from %@" = "onverwacht antwoord van %@";
-
-/* No comment provided by engineer. */
 "unknown address" = "onbekend adres";
 
 /* No comment provided by engineer. */
@@ -633,40 +573,31 @@
 "unsupported or corrupted document" = "niet-ondersteund of corrupt document";
 
 /* No comment provided by engineer. */
-"unsupported signature type" = "niet-ondersteunde handtekeningsoort";
-
-/* No comment provided by engineer. */
 "unsupported url" = "niet-ondersteunde URL";
 
 /* No comment provided by engineer. */
-"untrusted certificate" = "niet-vertrouwd certificaat";
-
-/* No comment provided by engineer. */
 "unverified" = "niet geverifieerd";
-
-/* Updating Price */
-"Updating Price" = "Bezig met bijwerken van prijs";
 
 /* No comment provided by engineer. */
 "verified, waiting for confirmation" = "geverifieerd, bezig met wachten op bevestiging";
 
 /* No comment provided by engineer. */
-"verify passcode" = "verifieer toegangscode";
-
-/* No comment provided by engineer. */
 "wallet address" = "portemonnee-adres";
 
 /* No comment provided by engineer. */
-"wallet disabled" = "portemonnee uitgeschakeld";
+"WARNING" = "WAARSCHUWING";
 
 /* No comment provided by engineer. */
-"WARNING" = "WAARSCHUWING";
+"watch only" = "alleen bekijken";
 
 /* No comment provided by engineer. */
 "wipe" = "wis";
 
 /* No comment provided by engineer. */
 "WRITE DOWN YOUR RECOVERY PHRASE" = "SCHRIJF JE HERSTELZIN OP";
+
+/* No comment provided by engineer. */
+"yes" = "ja";
 
 /* No comment provided by engineer. */
 "You can now buy axe in\naxewallet with cash or\nbank transfer." = "Je kunt nu axe kopen in\naxewallet d.m.v. geld of\neen bankoverschrijving.";
@@ -676,6 +607,3 @@
 
 /* No comment provided by engineer. */
 "you received axe!" = "je hebt axe ontvangen!";
-
-/* No comment provided by engineer. */
-"Your wallet may be out of sync.\nThis can often be fixed by rescanning the blockchain." = "Je portemonnee is mogelijk niet gesynchroniseerd.\nDit kan vaak worden opgelost door de blockchain opnieuw te scannen.";
