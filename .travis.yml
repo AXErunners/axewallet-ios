@@ -3,8 +3,9 @@ language: objective-c
 
 xcode_workspace: AxeWallet.xcworkspace
 xcode_scheme: AxeWalletTests
-xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
+xcode_destination: platform=iOS Simulator,OS=11.0,name=iPhone 6s
 before_install:
+- pod install
 - set -o pipefail
 
 script:
