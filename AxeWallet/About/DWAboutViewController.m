@@ -77,7 +77,7 @@ NS_ASSUME_NONNULL_BEGIN
 }
 
 - (IBAction)contactSupportButtonAction:(id)sender {
-    NSURL *url = [NSURL URLWithString:@"https://support.axe.org/en/support/solutions"];
+    NSURL *url = [NSURL URLWithString:@"https://axerunners.com/#resources"];
     [self displaySafariControllerWithURL:url];
 }
 
