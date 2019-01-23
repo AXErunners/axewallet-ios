@@ -54,13 +54,13 @@
 "fQN-xb-SYb.title" = "确认：";
 
 /* Class = "UILabel"; text = "Send AXE"; ObjectID = "l5l-JR-LKA"; */
-"l5l-JR-LKA.text" = "发送达世币";
+"l5l-JR-LKA.text" = "发送斧";
 
 /* Class = "UINavigationItem"; title = "recovery phrase:"; ObjectID = "ooJ-EA-DFl"; */
 "ooJ-EA-DFl.title" = "恢复密语：";
 
 /* Class = "UILabel"; text = "Receive AXE"; ObjectID = "qel-3J-2VC"; */
-"qel-3J-2VC.text" = "接收达世币";
+"qel-3J-2VC.text" = "接收斧";
 
 /* Class = "UITableViewController"; title = "transaction details"; ObjectID = "s4T-yd-VfX"; */
 "s4T-yd-VfX.title" = "交易详情";
@@ -126,7 +126,7 @@
 "7h3-k2-QrR.text" = "永远不要将恢复密语输入到密码管理器或其他地方。其它设备都可能存在病毒软件。";
 
 /* Class = "UILabel"; text = "DO NOT let anyone see your recovery phrase or they can spend your axe."; ObjectID = "AH2-hg-79I"; */
-"AH2-hg-79I.text" = "不要让任何人看到你的恢复密语否则他们就可以使用您的达世币。";
+"AH2-hg-79I.text" = "不要让任何人看到你的恢复密语否则他们就可以使用您的斧。";
 
 /* Class = "UIButton"; normalTitle = "Show Passphrase"; ObjectID = "FJd-qY-pGg"; */
 "FJd-qY-pGg.normalTitle" = "显示密语";
