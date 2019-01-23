@@ -36,7 +36,7 @@
 "\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\n你需要一个密码来保护你的钱包。请转到设置并打开密码再继续。";
 
 /* No comment provided by engineer. */
-"\nADDRESS ALREADY USED\naxe addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\n该地址已被使用过\n 斧地址仅供一次性使用\n\n如果收款人不直接控制地址，重复利用钱包地址会降低你和收款人的隐私，并可能导致损失";
+"\nADDRESS ALREADY USED\naxe addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\n该地址已被使用过\n AXE地址仅供一次性使用\n\n如果收款人不直接控制地址，重复利用钱包地址会降低你和收款人的隐私，并可能导致损失";
 
 /* No comment provided by engineer. */
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\n允许照相机访问\n设置->隐私->照相机->%@";
@@ -159,7 +159,7 @@
 "couldn't sweep balance" = "无法清除余额";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to axe network" = "无法将交易发送到斧网络";
+"couldn't transmit payment to axe network" = "无法将交易发送到AXE网络";
 
 /* No comment provided by engineer. */
 "CRITICAL" = "重要";
@@ -168,16 +168,16 @@
 "Axe address" = "斧地址";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "斧地址也可以复制到剪贴板。一个斧地址总是以'X'或'7'开始。";
+"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "AXE地址也可以复制到剪贴板。一个AXE地址总是以'X'或'7'开始。";
 
 /* No comment provided by engineer. */
-"axe network fee" = "斧网络手续费";
+"axe network fee" = "AXE网络手续费";
 
 /* No comment provided by engineer. */
-"axe payments can't be less than %@" = "斧付款不能低于%@";
+"axe payments can't be less than %@" = "AXE付款不能低于%@";
 
 /* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "斧交易的输出不能少于%@";
+"axe transaction outputs can't be less than %@" = "AXE交易的输出不能少于%@";
 
 /* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "该设备的安全性受到威胁\n任何'越狱'的应用程序都可以访问任何其他应用程序的钥匙链数据(并窃取你的斧)。";
@@ -219,7 +219,7 @@
 "enter" = "进入";
 
 /* No comment provided by engineer. */
-"error signing axe transaction" = "斧交易签名错误";
+"error signing axe transaction" = "AXE交易签名错误";
 
 /* No comment provided by engineer. */
 "exit" = "退出";
@@ -261,7 +261,7 @@
 "IMPORTANT" = "重要";
 
 /* No comment provided by engineer. */
-"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again." = "在之前的斧钱包版本中，我们已确定在最初此设备显示你的恢复词组时，此App并没正确的显示全部的12个恢复词。请再次写下你的完整恢复词组。";
+"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again." = "在之前的AXE钱包版本中，我们已确定在最初此设备显示你的恢复词组时，此App并没正确的显示全部的12个恢复词。请再次写下你的完整恢复词组。";
 
 /* No comment provided by engineer. */
 "instant payment" = "即时支付";
@@ -273,7 +273,7 @@
 "insufficient funds" = "资金不足";
 
 /* No comment provided by engineer. */
-"insufficient funds for axe network fee" = "资金不足以支付斧的网络手续费";
+"insufficient funds for axe network fee" = "资金不足以支付AXE的网络手续费";
 
 /* No comment provided by engineer. */
 "INVALID" = "无效";
@@ -282,7 +282,7 @@
 "IS Received" = "IS Received";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your axe address. Anyone can send axe to your wallet by transferring them to your address." = "让别人扫描此二维码，以获得您的斧地址。任何人都可以通过这个地址将斧转移到您的钱包。";
+"Let others scan this QR code to get your axe address. Anyone can send axe to your wallet by transferring them to your address." = "让别人扫描此二维码，以获得您的斧地址。任何人都可以通过这个地址将AXE转移到您的钱包。";
 
 /* No comment provided by engineer. */
 "locked with instant send" = "locked with instant send";
@@ -324,7 +324,7 @@
 "not a valid bitcoin address" = "不是一个有效的比特币地址";
 
 /* No comment provided by engineer. */
-"not a valid axe address" = "不是一个有效的斧地址";
+"not a valid axe address" = "不是一个有效的AXE地址";
 
 /* No comment provided by engineer. */
 "not a valid axe or bitcoin address" = "not a valid axe or bitcoin address";
@@ -603,7 +603,7 @@
 "You can now buy axe in\naxewallet with cash or\nbank transfer." = "你现在可以购买斧\n在钱包中使用现金\n或者银行转账。";
 
 /* No comment provided by engineer. */
-"You must enter your pin in order to enter axewallet" = "你必须输入你的密码才能进入斧钱包";
+"You must enter your pin in order to enter axewallet" = "你必须输入你的密码才能进入AXE钱包";
 
 /* No comment provided by engineer. */
 "you received axe!" = "你收到了斧！";
