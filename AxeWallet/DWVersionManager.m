@@ -3,7 +3,7 @@
 //  axewallet
 //
 //  Created by Sam Westrich on 11/2/18.
-//  Copyright © 2018 Axe Core. All rights reserved.
+//  Copyright © 2019 Axe Core. All rights reserved.
 //
 
 #import "DWVersionManager.h"

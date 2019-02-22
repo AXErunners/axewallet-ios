@@ -3,7 +3,7 @@
 //  axewallet
 //
 //  Created by Andrew Podkovyrin on 10/11/2018.
-//  Copyright © 2018 Axe Core. All rights reserved.
+//  Copyright © 2019 Axe Core. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -14,18 +14,20 @@ typedef NS_ENUM(NSUInteger, DWMigrationViewModelState) {
     DWMigrationViewModelStateNone,
     DWMigrationViewModelStateInProgress,
     DWMigrationViewModelStateDone,
+    DWMigrationViewModelStateDoneAndRescan,
 };
 
 @interface DWMigrationViewModel : NSObject
 
 @property (readonly, assign, nonatomic) DWMigrationViewModelState state;
 @property (readonly, copy, nonatomic) NSDictionary *deferredLaunchOptions;
+@property (readonly, assign, nonatomic) BOOL applicationCrashedDuringLastMigration;
 
 - (instancetype)initWithLaunchOptions:(NSDictionary *)launchOptions;
 
 - (void)startMigration;
-
 - (void)cancelMigration;
+- (void)cancelMigrationAndRescanBlockchain;
 
 @end
 

@@ -3,7 +3,7 @@
 //  axewallet
 //
 //  Created by Andrew Podkovyrin on 30/10/2018.
-//  Copyright © 2018 Axe Core. All rights reserved.
+//  Copyright © 2019 Axe Core. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

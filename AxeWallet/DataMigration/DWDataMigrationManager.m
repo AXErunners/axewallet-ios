@@ -3,7 +3,7 @@
 //  axewallet
 //
 //  Created by Andrew Podkovyrin on 08/11/2018.
-//  Copyright © 2018 Axe Core. All rights reserved.
+//  Copyright © 2019 Axe Core. All rights reserved.
 //
 
 #import "DWDataMigrationManager.h"
@@ -22,6 +22,8 @@
 #import <AxeSync/AxeSync.h>
 
 NS_ASSUME_NONNULL_BEGIN
+
+static NSString *const APP_SUCCESSFUL_MIGRATION_KEY = @"DW_APP_SUCCESSFUL_MIGRATION";
 
 static NSUInteger const BatchSize = 100;
 
@@ -72,16 +74,31 @@ static NSArray<NSString *> *OldDataBaseFileNames(void) {
     return self;
 }
 
+- (BOOL)isMigrationSuccessful {
+    if ([[NSUserDefaults standardUserDefaults] objectForKey:APP_SUCCESSFUL_MIGRATION_KEY]) {
+        return [[NSUserDefaults standardUserDefaults] boolForKey:APP_SUCCESSFUL_MIGRATION_KEY];
+    } else {
+        return YES;
+    }
+}
+
+- (void)setMigrationSuccessful:(BOOL)migrationSuccessful {
+    [[NSUserDefaults standardUserDefaults] setBool:migrationSuccessful forKey:APP_SUCCESSFUL_MIGRATION_KEY];
+}
+
 - (void)migrate:(void (^)(BOOL completed))completion {
+    self.migrationSuccessful = NO;
     __weak __typeof__(self) weakSelf = self;
-    [self setupOldStore:^(BOOL readyToMigration) {
+    [self setupOldStore:^(BOOL readyToMigrate) {
         __strong __typeof__(weakSelf) strongSelf = weakSelf;
         if (!strongSelf) {
             return;
         }
-
-        if (readyToMigration) {
-            [strongSelf performMigration:completion];
+        if (readyToMigrate) {
+            [strongSelf performMigration:^(BOOL completed) {
+                self.migrationSuccessful = completed;
+                completion(completed);
+            }];
         }
         else {
             [strongSelf destroyOldPersistentStore];
@@ -94,6 +111,10 @@ static NSArray<NSString *> *OldDataBaseFileNames(void) {
 }
 
 - (void)destroyOldPersistentStore {
+    if (!self.oldDataBaseFileName) {
+        return;
+    }
+    
     self.persistentContainer = nil;
 
     NSURL *docURL = [[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask].lastObject;
@@ -361,7 +382,7 @@ static NSArray<NSString *> *OldDataBaseFileNames(void) {
 
     NSUInteger count = 0;
     for (BRPeerEntity *peer in objects) {
-        if (peer.port != 9937) {
+        if (peer.port != 9999) {
             continue; //don't migrate testnet
         }
         DSPeerEntity *entity = [[DSPeerEntity alloc] initWithContext:writeContext];

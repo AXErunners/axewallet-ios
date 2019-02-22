@@ -222,7 +222,7 @@
                                       actionWithTitle:NSLocalizedString(@"close app", nil)
                                       style:UIAlertActionStyleDefault
                                       handler:^(UIAlertAction * action) {
-                                          exit(0);
+                                          [[NSNotificationCenter defaultCenter] postNotificationName:DSApplicationTerminationRequestNotification object:nil];
                                       }];
         
         [alert addAction:ignoreButton];
@@ -354,7 +354,7 @@
                                                                                              actionWithTitle:NSLocalizedString(@"close app", nil)
                                                                                              style:UIAlertActionStyleDefault
                                                                                              handler:^(UIAlertAction * action) {
-                                                                                                 exit(0);
+                                                                                                 [[NSNotificationCenter defaultCenter] postNotificationName:DSApplicationTerminationRequestNotification object:nil];
                                                                                              }];
                                                                
                                                                [alert addAction:ignoreButton];
@@ -432,8 +432,15 @@
     self.seedObserver =
     [[NSNotificationCenter defaultCenter] addObserverForName:DSChainWalletsDidChangeNotification object:nil
                                                        queue:nil usingBlock:^(NSNotification *note) {
-                                                           [self.receiveViewController updateAddress];
-                                                           self.balance = [DWEnvironment sharedInstance].currentWallet.balance;
+                                                           NSDictionary * userInfo = note.userInfo;
+                                                           DSChain * chain = [DWEnvironment sharedInstance].currentChain;
+                                                           if ([userInfo objectForKey:DSChainManagerNotificationChainKey] && [userInfo objectForKey:DSChainManagerNotificationChainKey] == chain) {
+                                                               [self.receiveViewController updateAddress];
+                                                               self.balance = [DWEnvironment sharedInstance].currentWallet.balance;
+                                                               if (chain.wallets.count == 0) { //a wallet was deleted, we need to go back to wallet nav
+                                                                   [self showNewWalletController];
+                                                               }
+                                                           }
                                                        }];
     
     self.syncStartedObserver =
@@ -493,32 +500,6 @@
     [super viewDidAppear:animated];
 }
 
--(void)wipeAlert {
-    UIAlertController * wipeAlert = [UIAlertController
-                                     alertControllerWithTitle:NSLocalizedString(@"Are you sure?", nil)
-                                     message:NSLocalizedString(@"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code.",nil)                                             preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction* cancelButton = [UIAlertAction
-                                 actionWithTitle:NSLocalizedString(@"cancel", nil)
-                                 style:UIAlertActionStyleDefault
-                                 handler:^(UIAlertAction * action) {
-                                     [self protectedViewDidAppear];
-                                 }];
-    UIAlertAction* wipeButton = [UIAlertAction
-                                  actionWithTitle:NSLocalizedString(@"wipe", nil)
-                                  style:UIAlertActionStyleDestructive
-                                  handler:^(UIAlertAction * action) {
-                                      [[DWEnvironment sharedInstance] clearAllWallets];
-                                      [[NSUserDefaults standardUserDefaults] removeObjectForKey:WALLET_NEEDS_BACKUP_KEY];
-                                      [[NSUserDefaults standardUserDefaults] synchronize];
-                                      
-                                    [self presentViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"NewWalletNav"] animated:NO
-                                                        completion:nil];
-                                  }];
-    [wipeAlert addAction:cancelButton];
-    [wipeAlert addAction:wipeButton];
-    [self presentViewController:wipeAlert animated:YES completion:nil];
-}
-
 - (void)protectedViewDidAppear
 {
     [super protectedViewDidAppear];
@@ -553,7 +534,7 @@
                                           actionWithTitle:NSLocalizedString(@"close app", nil)
                                           style:UIAlertActionStyleDefault
                                           handler:^(UIAlertAction * action) {
-                                              exit(0);
+                                              [[NSNotificationCenter defaultCenter] postNotificationName:DSApplicationTerminationRequestNotification object:nil];
                                           }];
             [alert addAction:closeButton];
             [self presentViewController:alert animated:YES completion:nil];
@@ -942,12 +923,11 @@
     
     counter++;
     
-    if (![DSAuthenticationManager sharedInstance].didAuthenticate || progress > .99) {
-        self.navigationItem.titleView = self.logo;
-    }
-    else {
+    if (progress < .995) {
         self.navigationItem.titleView = nil;
         self.navigationItem.title = [NSString stringWithFormat:@"%@ %0.1f%%",NSLocalizedString(@"Syncing:", nil), (progress > 0.1 ? progress - 0.1 : 0.0)*111.0];
+    } else if (![DSAuthenticationManager sharedInstance].didAuthenticate) {
+        self.navigationItem.titleView = self.logo;
     }
 
     [self performSelector:@selector(updateProgress) withObject:nil afterDelay:0.2];
@@ -1021,7 +1001,14 @@
                                        actionWithTitle:NSLocalizedString(@"show phrase", nil)
                                        style:UIAlertActionStyleDefault
                                        handler:^(UIAlertAction * action) {
-                                           [self performSegueWithIdentifier:@"SettingsSegue" sender:self];
+                                           DSWallet * wallet = [DWEnvironment sharedInstance].currentWallet;
+                                           [wallet seedPhraseAfterAuthentication:^(NSString * _Nullable seedPhrase) {
+                                               if (seedPhrase.length > 0) {
+                                                   DWSeedViewController *seedController = [self.storyboard instantiateViewControllerWithIdentifier:@"SeedViewController"];
+                                                   seedController.seedPhrase = seedPhrase;
+                                                   [self.navigationController pushViewController:seedController animated:YES];
+                                               }
+                                           }];
                                        }];
     
     [alert addAction:doItLaterButton];

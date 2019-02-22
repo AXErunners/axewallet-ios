@@ -3,7 +3,7 @@
 //  axewallet
 //
 //  Created by Andrew Podkovyrin on 10/11/2018.
-//  Copyright © 2018 Axe Core. All rights reserved.
+//  Copyright © 2019 Axe Core. All rights reserved.
 //
 
 #import "DWBaseRootViewController.h"
@@ -24,7 +24,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol DWMigrationViewControllerDelegate <NSObject>
 
-- (void)migrationViewController:(DWMigrationViewController *)controller didFinishWithDeferredLaunchOptions:(NSDictionary *)launchOptions;
+- (void)migrationViewController:(DWMigrationViewController *)controller
+    didFinishWithDeferredLaunchOptions:(NSDictionary *)launchOptions
+                shouldRescanBlockchain:(BOOL)shouldRescanBlockchain;
 
 @end
 

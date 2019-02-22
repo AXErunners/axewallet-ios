@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		098A9F8A789D83C932323F4A /* libPods-WatchApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 242A074D267F9ACBA1527E3F /* libPods-WatchApp.a */; };
+		1FC212F0BAB5FB85C59E9CD3 /* libPods-TodayExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02771AC5DDCA0A1749C6A05B /* libPods-TodayExtension.a */; };
 		220460551BA0BEEE00D07B61 /* BREventConfirmView.m in Sources */ = {isa = PBXBuildFile; fileRef = 220460541BA0BEEE00D07B61 /* BREventConfirmView.m */; };
 		222040C61C1A1940005CE1C3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222040C51C1A1940005CE1C3 /* WebKit.framework */; };
 		222E7F561C46E9B8009AB45D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222E7F551C46E9B8009AB45D /* Security.framework */; };
@@ -40,8 +40,7 @@
 		2AC92C8A1FEB0B8B008CAEE0 /* DWQRScanViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC92C891FEB0B8B008CAEE0 /* DWQRScanViewModel.m */; };
 		31D68B531C23B6C10030FAAA /* AxeWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D68B521C23B6C10030FAAA /* AxeWalletUITests.swift */; };
 		31D68B5B1C23B6FD0030FAAA /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D68B5A1C23B6FD0030FAAA /* SnapshotHelper.swift */; };
-		69C54F0292838465E1064524 /* libPods-TodayExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4117A8F7FAD35F729CB386D3 /* libPods-TodayExtension.a */; };
-		729C933C085FC760626F6613 /* libPods-axewallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2998E3A28AE3DA85A1F78AA5 /* libPods-axewallet.a */; };
+		435AD52C799FC0B38E732134 /* libPods-WatchApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07283055DE20FE578E399BE7 /* libPods-WatchApp.a */; };
 		751B2B5C1B68911700EA87FB /* DWTxHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751B2B5B1B68911700EA87FB /* DWTxHistoryViewController.m */; };
 		7525B619192453840041C0F2 /* BRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7525B618192453840041C0F2 /* BRNavigationBar.m */; };
 		752E28F719235B3000DB5A3C /* FixedPeers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 752E28F519235B3000DB5A3C /* FixedPeers.plist */; };
@@ -69,7 +68,9 @@
 		75D5F3F3191EC270004AB296 /* AxeWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D5F3F2191EC270004AB296 /* AxeWalletTests.m */; };
 		75E2503F1B7691C900A2BB2B /* BRBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 759816E619357D6F005060EA /* BRBubbleView.m */; };
 		75E83CF61B5F997A0038FB70 /* coinflip.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 75E83CF51B5F997A0038FB70 /* coinflip.aiff */; };
+		7EE06A55AFE483FA7824B06E /* libPods-AxeWalletTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAE29AA65F429DD9EF1A1A7 /* libPods-AxeWalletTests.a */; };
 		84F68C8A1975E9E2002FC300 /* DWScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F68C891975E9E2002FC300 /* DWScanViewController.m */; };
+		9F918C4315BDF3093311A41C /* libPods-AxeWalletUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B0B9B2A5229B6E6848BD9C /* libPods-AxeWalletUITests.a */; };
 		BA4A72671BE11AFA00E39C01 /* BRAWWeakTimerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4A72661BE11AFA00E39C01 /* BRAWWeakTimerTarget.swift */; };
 		BA54D3CE1B2EA74000C9CB28 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA54D3CD1B2EA74000C9CB28 /* Media.xcassets */; };
 		BA6645961BD924EB007A6BB1 /* BRAWTransactionRowControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6645951BD924EB007A6BB1 /* BRAWTransactionRowControl.swift */; };
@@ -90,9 +91,8 @@
 		BAC7B6BE1BD9C29900165B84 /* DWPhoneWCSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC7B6BD1BD9C29900165B84 /* DWPhoneWCSessionManager.m */; };
 		BAE12BF21B2DEE7F00895CC5 /* TodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BAE12BE51B2DEE7F00895CC5 /* TodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BAE12C061B2DEEF700895CC5 /* BRTodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE12C051B2DEEF700895CC5 /* BRTodayViewController.m */; };
-		EC836AD6B2A00F0D8ADAF680 /* libPods-AxeWalletTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B37062BD9E2C110216C228EB /* libPods-AxeWalletTests.a */; };
-		F321B6BA225875A5B51763ED /* libPods-AxeWalletUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0611E1B58C24A4F194EECC4C /* libPods-AxeWalletUITests.a */; };
-		F4D0848C8E10C45E85E2407E /* libPods-WatchApp Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC421CE7F23BE3314FD96C6 /* libPods-WatchApp Extension.a */; };
+		DE3A167A235B79D705C0A962 /* libPods-axewallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 982607F21196681DAC51A074 /* libPods-axewallet.a */; };
+		EDB1F696FF79C137CE47192F /* libPods-WatchApp Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C47D5A9D319D41B450A9B96B /* libPods-WatchApp Extension.a */; };
 		FB021E561E47E17200D17638 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FB021E531E47E17200D17638 /* FBShimmeringLayer.m */; };
 		FB021E571E47E17200D17638 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB021E551E47E17200D17638 /* FBShimmeringView.m */; };
 		FB021E5B1E4DEFE800D17638 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FB021E5A1E4DEFE800D17638 /* MBProgressHUD.m */; };
@@ -255,12 +255,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		004269B6CD64B28CC7EAFD45 /* Pods-AxeWalletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeWalletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AxeWalletUITests/Pods-AxeWalletUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		05C2FA8E629DA55B63E09DFC /* Pods-AxeWalletTests.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeWalletTests.testflight.xcconfig"; path = "Pods/Target Support Files/Pods-AxeWalletTests/Pods-AxeWalletTests.testflight.xcconfig"; sourceTree = "<group>"; };
-		0611E1B58C24A4F194EECC4C /* libPods-AxeWalletUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AxeWalletUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		08B67404B56017A0FE672441 /* Pods-WatchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp/Pods-WatchApp.debug.xcconfig"; sourceTree = "<group>"; };
-		0F6F9C5BB55285EFE2F6DBFD /* Pods-WatchApp Extension.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp Extension.testflight.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp Extension/Pods-WatchApp Extension.testflight.xcconfig"; sourceTree = "<group>"; };
-		0FFA94640FDCF6999A0CA4FF /* Pods-axewallet.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-axewallet.testflight.xcconfig"; path = "Pods/Target Support Files/Pods-axewallet/Pods-axewallet.testflight.xcconfig"; sourceTree = "<group>"; };
+		02771AC5DDCA0A1749C6A05B /* libPods-TodayExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodayExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07283055DE20FE578E399BE7 /* libPods-WatchApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WatchApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0F0784925A318771D7E4C3 /* Pods-AxeWalletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeWalletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AxeWalletUITests/Pods-AxeWalletUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E1094F4EE49CA45E8288DBE /* Pods-TodayExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayExtension/Pods-TodayExtension.release.xcconfig"; sourceTree = "<group>"; };
+		1051F8887886AF689351F48A /* Pods-axewallet.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-axewallet.testflight.xcconfig"; path = "Pods/Target Support Files/Pods-axewallet/Pods-axewallet.testflight.xcconfig"; sourceTree = "<group>"; };
+		206554BC730E9F2BB594D044 /* Pods-TodayExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayExtension/Pods-TodayExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		2142023B66B3AB7DC260D9A9 /* Pods-TodayExtension.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayExtension.testflight.xcconfig"; path = "Pods/Target Support Files/Pods-TodayExtension/Pods-TodayExtension.testflight.xcconfig"; sourceTree = "<group>"; };
 		220460531BA0BEEE00D07B61 /* BREventConfirmView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREventConfirmView.h; sourceTree = "<group>"; };
 		220460541BA0BEEE00D07B61 /* BREventConfirmView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BREventConfirmView.m; sourceTree = "<group>"; };
 		222040C51C1A1940005CE1C3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -273,8 +274,8 @@
 		22F45A0C1C3326CC00B07A15 /* BRUserDefaultsSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRUserDefaultsSwitchCell.h; sourceTree = "<group>"; };
 		22F45A0D1C3326CC00B07A15 /* BRUserDefaultsSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRUserDefaultsSwitchCell.m; sourceTree = "<group>"; };
 		22F45A0F1C3329EB00B07A15 /* DWUserDefaultsConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWUserDefaultsConstants.h; sourceTree = "<group>"; };
-		242A074D267F9ACBA1527E3F /* libPods-WatchApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WatchApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2998E3A28AE3DA85A1F78AA5 /* libPods-axewallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-axewallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E32267051844E3781129E8 /* Pods-axewallet no watch.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-axewallet no watch.testflight.xcconfig"; path = "Pods/Target Support Files/Pods-axewallet no watch/Pods-axewallet no watch.testflight.xcconfig"; sourceTree = "<group>"; };
+		29B232FD70BA2EDF87F86A56 /* Pods-WatchApp Extension.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp Extension.testnet.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp Extension/Pods-WatchApp Extension.testnet.xcconfig"; sourceTree = "<group>"; };
 		2A11F58221947CBE00E7B563 /* BRTxOutputEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRTxOutputEntity.m; sourceTree = "<group>"; };
 		2A11F58321947CBE00E7B563 /* BRPeerEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRPeerEntity.m; sourceTree = "<group>"; };
 		2A11F58521947CBE00E7B563 /* BRAddressEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressEntity.h; sourceTree = "<group>"; };
@@ -333,17 +334,15 @@
 		2AC92C861FEB0AE8008CAEE0 /* DWQRScanView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWQRScanView.m; sourceTree = "<group>"; };
 		2AC92C881FEB0B8B008CAEE0 /* DWQRScanViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWQRScanViewModel.h; sourceTree = "<group>"; };
 		2AC92C891FEB0B8B008CAEE0 /* DWQRScanViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWQRScanViewModel.m; sourceTree = "<group>"; };
+		31B0B9B2A5229B6E6848BD9C /* libPods-AxeWalletUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AxeWalletUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D68B501C23B6C10030FAAA /* AxeWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxeWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D68B521C23B6C10030FAAA /* AxeWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxeWalletUITests.swift; sourceTree = "<group>"; };
 		31D68B541C23B6C10030FAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31D68B5A1C23B6FD0030FAAA /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
-		40BA4EAE9DBEFBC25C83F950 /* Pods-AxeWalletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeWalletUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AxeWalletUITests/Pods-AxeWalletUITests.release.xcconfig"; sourceTree = "<group>"; };
-		4117A8F7FAD35F729CB386D3 /* libPods-TodayExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TodayExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CEAA2F17358EBDD532B21CB /* Pods-TodayExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayExtension/Pods-TodayExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		5AF1D1BA694F4FC07D980C14 /* Pods-WatchApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp/Pods-WatchApp.release.xcconfig"; sourceTree = "<group>"; };
-		5F97E3950A6F4F313E8B17F4 /* Pods-AxeWalletUITests.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeWalletUITests.testnet.xcconfig"; path = "Pods/Target Support Files/Pods-AxeWalletUITests/Pods-AxeWalletUITests.testnet.xcconfig"; sourceTree = "<group>"; };
-		6713CAA6D2AAB5DC7247578B /* Pods-AxeWalletUITests.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeWalletUITests.testflight.xcconfig"; path = "Pods/Target Support Files/Pods-AxeWalletUITests/Pods-AxeWalletUITests.testflight.xcconfig"; sourceTree = "<group>"; };
-		70B3D7B0B80B183ABAFC0212 /* Pods-TodayExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayExtension/Pods-TodayExtension.release.xcconfig"; sourceTree = "<group>"; };
+		3410FBA3C9ECBF291385B203 /* Pods-axewallet no watch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-axewallet no watch.release.xcconfig"; path = "Pods/Target Support Files/Pods-axewallet no watch/Pods-axewallet no watch.release.xcconfig"; sourceTree = "<group>"; };
+		362213F26B43E7CB81B2FCE2 /* Pods-axewallet.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-axewallet.testnet.xcconfig"; path = "Pods/Target Support Files/Pods-axewallet/Pods-axewallet.testnet.xcconfig"; sourceTree = "<group>"; };
+		556B5EBEBAEA571D74FF69A3 /* Pods-WatchApp Extension.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp Extension.testflight.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp Extension/Pods-WatchApp Extension.testflight.xcconfig"; sourceTree = "<group>"; };
+		5FD4C91FB8EAB529E8E41227 /* Pods-axewallet no watch.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-axewallet no watch.testnet.xcconfig"; path = "Pods/Target Support Files/Pods-axewallet no watch/Pods-axewallet no watch.testnet.xcconfig"; sourceTree = "<group>"; };
 		7509C10C1AF3076000D03FD5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		7509C10E1AF3076100D03FD5 /* zh-Hans */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		7509C1101AF3720100D03FD5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
@@ -437,15 +436,22 @@
 		75FD2FB11BFAB97200D56BBA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/BREventConfirmView.strings; sourceTree = "<group>"; };
 		75FD2FB31BFAB97500D56BBA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/BREventConfirmView.strings; sourceTree = "<group>"; };
 		75FD2FB51BFAB97A00D56BBA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/BREventConfirmView.strings; sourceTree = "<group>"; };
-		7AAD210895D4D4B3667C8F07 /* Pods-WatchApp Extension.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp Extension.testnet.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp Extension/Pods-WatchApp Extension.testnet.xcconfig"; sourceTree = "<group>"; };
+		7E9BCB73BE35FC9F0B276257 /* Pods-AxeWalletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeWalletUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AxeWalletUITests/Pods-AxeWalletUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7EEDF75116E60BB9EE9C80FB /* Pods-WatchApp.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp.testnet.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp/Pods-WatchApp.testnet.xcconfig"; sourceTree = "<group>"; };
 		84F68C881975E9E2002FC300 /* DWScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWScanViewController.h; sourceTree = "<group>"; };
 		84F68C891975E9E2002FC300 /* DWScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWScanViewController.m; sourceTree = "<group>"; };
-		A15F666D2A80346B98ECB497 /* Pods-AxeWalletTests.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeWalletTests.testnet.xcconfig"; path = "Pods/Target Support Files/Pods-AxeWalletTests/Pods-AxeWalletTests.testnet.xcconfig"; sourceTree = "<group>"; };
-		A4AA8F0E65C37F40E4F57596 /* Pods-AxeWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeWalletTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AxeWalletTests/Pods-AxeWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AA7877F570F61098F08895AF /* Pods-WatchApp.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp.testnet.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp/Pods-WatchApp.testnet.xcconfig"; sourceTree = "<group>"; };
-		AF202A89F06E25FE62F3D4E7 /* Pods-WatchApp Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp Extension/Pods-WatchApp Extension.release.xcconfig"; sourceTree = "<group>"; };
-		B37062BD9E2C110216C228EB /* libPods-AxeWalletTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AxeWalletTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8F735B85CBDEE9A2E99A1D6 /* Pods-WatchApp Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp Extension/Pods-WatchApp Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		87872BF3D40B38CD0FC246AB /* Pods-AxeWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeWalletTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AxeWalletTests/Pods-AxeWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A9877BEC5093CED81768D3D /* Pods-TodayExtension.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayExtension.testnet.xcconfig"; path = "Pods/Target Support Files/Pods-TodayExtension/Pods-TodayExtension.testnet.xcconfig"; sourceTree = "<group>"; };
+		934DC791C539EABD2EE14E81 /* Pods-axewallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-axewallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-axewallet/Pods-axewallet.release.xcconfig"; sourceTree = "<group>"; };
+		982607F21196681DAC51A074 /* libPods-axewallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-axewallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A169BE797EC811F83373CCB9 /* Pods_axewallet_no_watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_axewallet_no_watch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9ADF8F00D78A593DB286203 /* Pods-AxeWalletUITests.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeWalletUITests.testflight.xcconfig"; path = "Pods/Target Support Files/Pods-AxeWalletUITests/Pods-AxeWalletUITests.testflight.xcconfig"; sourceTree = "<group>"; };
+		AA118F99071BC98E7056E3F4 /* Pods-axewallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-axewallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-axewallet/Pods-axewallet.debug.xcconfig"; sourceTree = "<group>"; };
+		AAC103D2F3C1CE8C7A598E78 /* Pods-AxeWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeWalletTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AxeWalletTests/Pods-AxeWalletTests.release.xcconfig"; sourceTree = "<group>"; };
+		B49B8EA157CD1A34396D7677 /* Pods-AxeWalletTests.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeWalletTests.testnet.xcconfig"; path = "Pods/Target Support Files/Pods-AxeWalletTests/Pods-AxeWalletTests.testnet.xcconfig"; sourceTree = "<group>"; };
+		B52496DA3D9493651DD32EE1 /* Pods-WatchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp/Pods-WatchApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B536C5666EC3C383D17D5D87 /* Pods-WatchApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp/Pods-WatchApp.release.xcconfig"; sourceTree = "<group>"; };
+		B9E5C217A0E8B1689F8307D1 /* Pods-AxeWalletTests.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeWalletTests.testflight.xcconfig"; path = "Pods/Target Support Files/Pods-AxeWalletTests/Pods-AxeWalletTests.testflight.xcconfig"; sourceTree = "<group>"; };
 		BA4A72661BE11AFA00E39C01 /* BRAWWeakTimerTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRAWWeakTimerTarget.swift; sourceTree = "<group>"; };
 		BA4EECDF1B351AE200D443A3 /* DWAppGroupConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWAppGroupConstants.h; sourceTree = "<group>"; };
 		BA54D3CD1B2EA74000C9CB28 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -478,14 +484,13 @@
 		BAE12BEA1B2DEE7F00895CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAE12C041B2DEEF700895CC5 /* BRTodayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRTodayViewController.h; sourceTree = "<group>"; };
 		BAE12C051B2DEEF700895CC5 /* BRTodayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRTodayViewController.m; sourceTree = "<group>"; };
-		BB24CEF6E909B9394641738F /* Pods-WatchApp.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp.testflight.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp/Pods-WatchApp.testflight.xcconfig"; sourceTree = "<group>"; };
-		CCC421CE7F23BE3314FD96C6 /* libPods-WatchApp Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WatchApp Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD44A1DAE42B36D66D1168A5 /* Pods-TodayExtension.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayExtension.testflight.xcconfig"; path = "Pods/Target Support Files/Pods-TodayExtension/Pods-TodayExtension.testflight.xcconfig"; sourceTree = "<group>"; };
-		D83E48B4BED708120CCC0FA6 /* Pods-axewallet.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-axewallet.testnet.xcconfig"; path = "Pods/Target Support Files/Pods-axewallet/Pods-axewallet.testnet.xcconfig"; sourceTree = "<group>"; };
-		E055C9C6D90270805FD64EEA /* Pods-axewallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-axewallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-axewallet/Pods-axewallet.release.xcconfig"; sourceTree = "<group>"; };
-		E821C56C0F39A3F03936E9E4 /* Pods-axewallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-axewallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-axewallet/Pods-axewallet.debug.xcconfig"; sourceTree = "<group>"; };
-		F5E43A2E5AAF7A311DA214E9 /* Pods-AxeWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeWalletTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AxeWalletTests/Pods-AxeWalletTests.release.xcconfig"; sourceTree = "<group>"; };
-		F8953C9E158B595179A858C0 /* Pods-TodayExtension.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayExtension.testnet.xcconfig"; path = "Pods/Target Support Files/Pods-TodayExtension/Pods-TodayExtension.testnet.xcconfig"; sourceTree = "<group>"; };
+		BEAE29AA65F429DD9EF1A1A7 /* libPods-AxeWalletTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AxeWalletTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47D5A9D319D41B450A9B96B /* libPods-WatchApp Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WatchApp Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98AA93FF5283EC6405BCE4B /* Pods-WatchApp Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp Extension/Pods-WatchApp Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		CE02413EF0C60B1D1EDE6457 /* Pods-WatchApp Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp Extension/Pods-WatchApp Extension.release.xcconfig"; sourceTree = "<group>"; };
+		D58B25CB4DC36975E05D3C0A /* Pods-axewallet no watch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-axewallet no watch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-axewallet no watch/Pods-axewallet no watch.debug.xcconfig"; sourceTree = "<group>"; };
+		E6C3F25E2C725454B6074C9E /* Pods-AxeWalletUITests.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeWalletUITests.testnet.xcconfig"; path = "Pods/Target Support Files/Pods-AxeWalletUITests/Pods-AxeWalletUITests.testnet.xcconfig"; sourceTree = "<group>"; };
+		F12049B257DDE750DE332799 /* Pods-WatchApp.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchApp.testflight.xcconfig"; path = "Pods/Target Support Files/Pods-WatchApp/Pods-WatchApp.testflight.xcconfig"; sourceTree = "<group>"; };
 		FB021E511E47E17200D17638 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
 		FB021E521E47E17200D17638 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
 		FB021E531E47E17200D17638 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
@@ -589,7 +594,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F321B6BA225875A5B51763ED /* libPods-AxeWalletUITests.a in Frameworks */,
+				9F918C4315BDF3093311A41C /* libPods-AxeWalletUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,7 +614,7 @@
 				222E7F561C46E9B8009AB45D /* Security.framework in Frameworks */,
 				222040C61C1A1940005CE1C3 /* WebKit.framework in Frameworks */,
 				22B6A4481C0E963900673913 /* libbz2.tbd in Frameworks */,
-				729C933C085FC760626F6613 /* libPods-axewallet.a in Frameworks */,
+				DE3A167A235B79D705C0A962 /* libPods-axewallet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,7 +622,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC836AD6B2A00F0D8ADAF680 /* libPods-AxeWalletTests.a in Frameworks */,
+				7EE06A55AFE483FA7824B06E /* libPods-AxeWalletTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,7 +630,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				098A9F8A789D83C932323F4A /* libPods-WatchApp.a in Frameworks */,
+				435AD52C799FC0B38E732134 /* libPods-WatchApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,7 +638,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D0848C8E10C45E85E2407E /* libPods-WatchApp Extension.a in Frameworks */,
+				EDB1F696FF79C137CE47192F /* libPods-WatchApp Extension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,44 +647,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				754119E01CDA93FF0042DC51 /* NotificationCenter.framework in Frameworks */,
-				69C54F0292838465E1064524 /* libPods-TodayExtension.a in Frameworks */,
+				1FC212F0BAB5FB85C59E9CD3 /* libPods-TodayExtension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20D1E7C862A9CCAF87CEADA0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A4AA8F0E65C37F40E4F57596 /* Pods-AxeWalletTests.debug.xcconfig */,
-				A15F666D2A80346B98ECB497 /* Pods-AxeWalletTests.testnet.xcconfig */,
-				F5E43A2E5AAF7A311DA214E9 /* Pods-AxeWalletTests.release.xcconfig */,
-				05C2FA8E629DA55B63E09DFC /* Pods-AxeWalletTests.testflight.xcconfig */,
-				004269B6CD64B28CC7EAFD45 /* Pods-AxeWalletUITests.debug.xcconfig */,
-				5F97E3950A6F4F313E8B17F4 /* Pods-AxeWalletUITests.testnet.xcconfig */,
-				40BA4EAE9DBEFBC25C83F950 /* Pods-AxeWalletUITests.release.xcconfig */,
-				6713CAA6D2AAB5DC7247578B /* Pods-AxeWalletUITests.testflight.xcconfig */,
-				4CEAA2F17358EBDD532B21CB /* Pods-TodayExtension.debug.xcconfig */,
-				F8953C9E158B595179A858C0 /* Pods-TodayExtension.testnet.xcconfig */,
-				70B3D7B0B80B183ABAFC0212 /* Pods-TodayExtension.release.xcconfig */,
-				CD44A1DAE42B36D66D1168A5 /* Pods-TodayExtension.testflight.xcconfig */,
-				08B67404B56017A0FE672441 /* Pods-WatchApp.debug.xcconfig */,
-				AA7877F570F61098F08895AF /* Pods-WatchApp.testnet.xcconfig */,
-				5AF1D1BA694F4FC07D980C14 /* Pods-WatchApp.release.xcconfig */,
-				BB24CEF6E909B9394641738F /* Pods-WatchApp.testflight.xcconfig */,
-				B8F735B85CBDEE9A2E99A1D6 /* Pods-WatchApp Extension.debug.xcconfig */,
-				7AAD210895D4D4B3667C8F07 /* Pods-WatchApp Extension.testnet.xcconfig */,
-				AF202A89F06E25FE62F3D4E7 /* Pods-WatchApp Extension.release.xcconfig */,
-				0F6F9C5BB55285EFE2F6DBFD /* Pods-WatchApp Extension.testflight.xcconfig */,
-				E821C56C0F39A3F03936E9E4 /* Pods-axewallet.debug.xcconfig */,
-				D83E48B4BED708120CCC0FA6 /* Pods-axewallet.testnet.xcconfig */,
-				E055C9C6D90270805FD64EEA /* Pods-axewallet.release.xcconfig */,
-				0FFA94640FDCF6999A0CA4FF /* Pods-axewallet.testflight.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		2A11F58021947CBE00E7B563 /* DataMigration */ = {
 			isa = PBXGroup;
 			children = (
@@ -851,7 +825,7 @@
 				BA913BEE1BD57E4D005A7C0E /* WatchApp Extension */,
 				75D5F3C0191EC270004AB296 /* Frameworks */,
 				75D5F3BF191EC270004AB296 /* Products */,
-				20D1E7C862A9CCAF87CEADA0 /* Pods */,
+				EBFC2EA47915CD4F5BA81564 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -886,12 +860,13 @@
 				22B6A4471C0E963900673913 /* libbz2.tbd */,
 				75F2E0B61BE2D5F000EAE861 /* Accelerate.framework */,
 				BAE12BE61B2DEE7F00895CC5 /* NotificationCenter.framework */,
-				B37062BD9E2C110216C228EB /* libPods-AxeWalletTests.a */,
-				0611E1B58C24A4F194EECC4C /* libPods-AxeWalletUITests.a */,
-				4117A8F7FAD35F729CB386D3 /* libPods-TodayExtension.a */,
-				242A074D267F9ACBA1527E3F /* libPods-WatchApp.a */,
-				CCC421CE7F23BE3314FD96C6 /* libPods-WatchApp Extension.a */,
-				2998E3A28AE3DA85A1F78AA5 /* libPods-axewallet.a */,
+				A169BE797EC811F83373CCB9 /* Pods_axewallet_no_watch.framework */,
+				BEAE29AA65F429DD9EF1A1A7 /* libPods-AxeWalletTests.a */,
+				31B0B9B2A5229B6E6848BD9C /* libPods-AxeWalletUITests.a */,
+				02771AC5DDCA0A1749C6A05B /* libPods-TodayExtension.a */,
+				07283055DE20FE578E399BE7 /* libPods-WatchApp.a */,
+				C47D5A9D319D41B450A9B96B /* libPods-WatchApp Extension.a */,
+				982607F21196681DAC51A074 /* libPods-axewallet.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1000,6 +975,41 @@
 				FB1212A91FFFB0F3000E407E /* axewalletTodayExtension.entitlements */,
 			);
 			path = TodayExtension;
+			sourceTree = "<group>";
+		};
+		EBFC2EA47915CD4F5BA81564 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87872BF3D40B38CD0FC246AB /* Pods-AxeWalletTests.debug.xcconfig */,
+				B49B8EA157CD1A34396D7677 /* Pods-AxeWalletTests.testnet.xcconfig */,
+				AAC103D2F3C1CE8C7A598E78 /* Pods-AxeWalletTests.release.xcconfig */,
+				B9E5C217A0E8B1689F8307D1 /* Pods-AxeWalletTests.testflight.xcconfig */,
+				0A0F0784925A318771D7E4C3 /* Pods-AxeWalletUITests.debug.xcconfig */,
+				E6C3F25E2C725454B6074C9E /* Pods-AxeWalletUITests.testnet.xcconfig */,
+				7E9BCB73BE35FC9F0B276257 /* Pods-AxeWalletUITests.release.xcconfig */,
+				A9ADF8F00D78A593DB286203 /* Pods-AxeWalletUITests.testflight.xcconfig */,
+				206554BC730E9F2BB594D044 /* Pods-TodayExtension.debug.xcconfig */,
+				8A9877BEC5093CED81768D3D /* Pods-TodayExtension.testnet.xcconfig */,
+				0E1094F4EE49CA45E8288DBE /* Pods-TodayExtension.release.xcconfig */,
+				2142023B66B3AB7DC260D9A9 /* Pods-TodayExtension.testflight.xcconfig */,
+				B52496DA3D9493651DD32EE1 /* Pods-WatchApp.debug.xcconfig */,
+				7EEDF75116E60BB9EE9C80FB /* Pods-WatchApp.testnet.xcconfig */,
+				B536C5666EC3C383D17D5D87 /* Pods-WatchApp.release.xcconfig */,
+				F12049B257DDE750DE332799 /* Pods-WatchApp.testflight.xcconfig */,
+				C98AA93FF5283EC6405BCE4B /* Pods-WatchApp Extension.debug.xcconfig */,
+				29B232FD70BA2EDF87F86A56 /* Pods-WatchApp Extension.testnet.xcconfig */,
+				CE02413EF0C60B1D1EDE6457 /* Pods-WatchApp Extension.release.xcconfig */,
+				556B5EBEBAEA571D74FF69A3 /* Pods-WatchApp Extension.testflight.xcconfig */,
+				AA118F99071BC98E7056E3F4 /* Pods-axewallet.debug.xcconfig */,
+				362213F26B43E7CB81B2FCE2 /* Pods-axewallet.testnet.xcconfig */,
+				934DC791C539EABD2EE14E81 /* Pods-axewallet.release.xcconfig */,
+				1051F8887886AF689351F48A /* Pods-axewallet.testflight.xcconfig */,
+				D58B25CB4DC36975E05D3C0A /* Pods-axewallet no watch.debug.xcconfig */,
+				5FD4C91FB8EAB529E8E41227 /* Pods-axewallet no watch.testnet.xcconfig */,
+				3410FBA3C9ECBF291385B203 /* Pods-axewallet no watch.release.xcconfig */,
+				27E32267051844E3781129E8 /* Pods-axewallet no watch.testflight.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		FB021E501E47E17200D17638 /* FBShimmering */ = {
@@ -1122,7 +1132,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31D68B591C23B6C10030FAAA /* Build configuration list for PBXNativeTarget "AxeWalletUITests" */;
 			buildPhases = (
-				13F3DC82FF6F6473B1D83154 /* [CP] Check Pods Manifest.lock */,
+				4F32946C767072BBC965A5C3 /* [CP] Check Pods Manifest.lock */,
 				31D68B4C1C23B6C10030FAAA /* Sources */,
 				31D68B4D1C23B6C10030FAAA /* Frameworks */,
 				31D68B4E1C23B6C10030FAAA /* Resources */,
@@ -1141,7 +1151,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75D5F3F6191EC270004AB296 /* Build configuration list for PBXNativeTarget "axewallet" */;
 			buildPhases = (
-				867C2DF7FF6B438FCAFA27D6 /* [CP] Check Pods Manifest.lock */,
+				1B5D1A098C1ECFC62A9E06B1 /* [CP] Check Pods Manifest.lock */,
 				2A8F420721BED08700858B91 /* Run Script - AxeSync Version */,
 				75D5F3BA191EC270004AB296 /* Sources */,
 				75D5F3BB191EC270004AB296 /* Frameworks */,
@@ -1150,7 +1160,7 @@
 				BA913C021BD57E4E005A7C0E /* Embed Watch Content */,
 				CEE253DB1E26B3B400A25B15 /* Icon Versioning */,
 				FB0ACB9A1F9A99E400F4AB52 /* ShellScript */,
-				55453EE560339718EFDE47FD /* [CP] Copy Pods Resources */,
+				F36D90CA4FBC91B010670F81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1168,7 +1178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75D5F3F9191EC270004AB296 /* Build configuration list for PBXNativeTarget "AxeWalletTests" */;
 			buildPhases = (
-				815D74B1FB844623619BF269 /* [CP] Check Pods Manifest.lock */,
+				628D858805D450E2CE9D90A0 /* [CP] Check Pods Manifest.lock */,
 				75D5F3E1191EC270004AB296 /* Sources */,
 				75D5F3E2191EC270004AB296 /* Frameworks */,
 				75D5F3E3191EC270004AB296 /* Resources */,
@@ -1187,7 +1197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA913C011BD57E4E005A7C0E /* Build configuration list for PBXNativeTarget "WatchApp" */;
 			buildPhases = (
-				22939B7D2DA34D3E2689FB83 /* [CP] Check Pods Manifest.lock */,
+				8A568AAF75ECC063AA72DD3A /* [CP] Check Pods Manifest.lock */,
 				BA913BDC1BD57E4D005A7C0E /* Resources */,
 				BA913C001BD57E4E005A7C0E /* Embed App Extensions */,
 				B361A57803894CC7C6E59498 /* Frameworks */,
@@ -1206,7 +1216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA913BFF1BD57E4E005A7C0E /* Build configuration list for PBXNativeTarget "WatchApp Extension" */;
 			buildPhases = (
-				97E52E247C3E2C8E0663837E /* [CP] Check Pods Manifest.lock */,
+				A80531A10CF1AE66138E56C3 /* [CP] Check Pods Manifest.lock */,
 				BA913BE61BD57E4D005A7C0E /* Sources */,
 				BA913BE71BD57E4D005A7C0E /* Frameworks */,
 				BA913BE81BD57E4D005A7C0E /* Resources */,
@@ -1224,7 +1234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAE12BF61B2DEE7F00895CC5 /* Build configuration list for PBXNativeTarget "TodayExtension" */;
 			buildPhases = (
-				8876D648AB8CD4D66591FE09 /* [CP] Check Pods Manifest.lock */,
+				DD2839496F426BDB0829397D /* [CP] Check Pods Manifest.lock */,
 				BAE12BE11B2DEE7F00895CC5 /* Sources */,
 				BAE12BE21B2DEE7F00895CC5 /* Frameworks */,
 				BAE12BE31B2DEE7F00895CC5 /* Resources */,
@@ -1247,7 +1257,7 @@
 				CLASSPREFIX = DW;
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = AXErunners;
+				ORGANIZATIONNAME = "Axe Core";
 				TargetAttributes = {
 					31D68B4F1C23B6C10030FAAA = {
 						CreatedOnToolsVersion = 7.2;
@@ -1456,44 +1466,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		13F3DC82FF6F6473B1D83154 /* [CP] Check Pods Manifest.lock */ = {
+		1B5D1A098C1ECFC62A9E06B1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AxeWalletUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		22939B7D2DA34D3E2689FB83 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WatchApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-axewallet-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1518,42 +1502,34 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/scripts/axesync_version.sh\"\n";
 		};
-		55453EE560339718EFDE47FD /* [CP] Copy Pods Resources */ = {
+		4F32946C767072BBC965A5C3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-axewallet/Pods-axewallet-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/AxeSync/AxeSync.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AxeSync.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-axewallet/Pods-axewallet-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		815D74B1FB844623619BF269 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AxeWalletUITests-checkManifestLockResult.txt",
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		628D858805D450E2CE9D90A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-AxeWalletTests-checkManifestLockResult.txt",
 			);
@@ -1562,64 +1538,34 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		867C2DF7FF6B438FCAFA27D6 /* [CP] Check Pods Manifest.lock */ = {
+		8A568AAF75ECC063AA72DD3A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-axewallet-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WatchApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8876D648AB8CD4D66591FE09 /* [CP] Check Pods Manifest.lock */ = {
+		A80531A10CF1AE66138E56C3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TodayExtension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		97E52E247C3E2C8E0663837E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-WatchApp Extension-checkManifestLockResult.txt",
 			);
@@ -1641,6 +1587,46 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/scripts/icon_versioning.sh\"\n";
+		};
+		DD2839496F426BDB0829397D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodayExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F36D90CA4FBC91B010670F81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-axewallet/Pods-axewallet-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/AxeSync/AxeSync.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AxeSync.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-axewallet/Pods-axewallet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FB0ACB9A1F9A99E400F4AB52 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1963,10 +1949,10 @@
 /* Begin XCBuildConfiguration section */
 		31D68B571C23B6C10030FAAA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 004269B6CD64B28CC7EAFD45 /* Pods-AxeWalletUITests.debug.xcconfig */;
+			baseConfigurationReference = 0A0F0784925A318771D7E4C3 /* Pods-AxeWalletUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = axewallet/axewallet.entitlements;
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				INFOPLIST_FILE = AxeWalletUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.axefoundation.AxeWalletUITests;
@@ -1979,10 +1965,10 @@
 		};
 		31D68B581C23B6C10030FAAA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40BA4EAE9DBEFBC25C83F950 /* Pods-AxeWalletUITests.release.xcconfig */;
+			baseConfigurationReference = 7E9BCB73BE35FC9F0B276257 /* Pods-AxeWalletUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = axewallet/axewallet.entitlements;
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				INFOPLIST_FILE = AxeWalletUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.axefoundation.AxeWalletUITests;
@@ -2130,13 +2116,13 @@
 		};
 		75D5F3F7191EC270004AB296 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E821C56C0F39A3F03936E9E4 /* Pods-axewallet.debug.xcconfig */;
+			baseConfigurationReference = AA118F99071BC98E7056E3F4 /* Pods-axewallet.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = axewallet/axewallet.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AxeWallet/AxeWallet-Prefix.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -2159,13 +2145,13 @@
 		};
 		75D5F3F8191EC270004AB296 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E055C9C6D90270805FD64EEA /* Pods-axewallet.release.xcconfig */;
+			baseConfigurationReference = 934DC791C539EABD2EE14E81 /* Pods-axewallet.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = axewallet/axewallet.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AxeWallet/AxeWallet-Prefix.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -2188,10 +2174,10 @@
 		};
 		75D5F3FA191EC270004AB296 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4AA8F0E65C37F40E4F57596 /* Pods-AxeWalletTests.debug.xcconfig */;
+			baseConfigurationReference = 87872BF3D40B38CD0FC246AB /* Pods-AxeWalletTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/axewallet.app/axewallet";
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AxeWallet/AxeWallet-Prefix.pch";
 				GCC_WARN_PEDANTIC = NO;
@@ -2206,10 +2192,10 @@
 		};
 		75D5F3FB191EC270004AB296 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5E43A2E5AAF7A311DA214E9 /* Pods-AxeWalletTests.release.xcconfig */;
+			baseConfigurationReference = AAC103D2F3C1CE8C7A598E78 /* Pods-AxeWalletTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/axewallet.app/axewallet";
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AxeWallet/AxeWallet-Prefix.pch";
 				GCC_WARN_PEDANTIC = NO;
@@ -2224,12 +2210,12 @@
 		};
 		BA913BFB1BD57E4E005A7C0E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08B67404B56017A0FE672441 /* Pods-WatchApp.debug.xcconfig */;
+			baseConfigurationReference = B52496DA3D9493651DD32EE1 /* Pods-WatchApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				IBSC_MODULE = WatchApp_Extension;
 				INFOPLIST_FILE = WatchApp/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = org.axefoundation.axe.watchkitapp;
@@ -2243,12 +2229,12 @@
 		};
 		BA913BFC1BD57E4E005A7C0E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AF1D1BA694F4FC07D980C14 /* Pods-WatchApp.release.xcconfig */;
+			baseConfigurationReference = B536C5666EC3C383D17D5D87 /* Pods-WatchApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				IBSC_MODULE = WatchApp_Extension;
 				INFOPLIST_FILE = WatchApp/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = org.axefoundation.axe.watchkitapp;
@@ -2262,10 +2248,10 @@
 		};
 		BA913BFD1BD57E4E005A7C0E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8F735B85CBDEE9A2E99A1D6 /* Pods-WatchApp Extension.debug.xcconfig */;
+			baseConfigurationReference = C98AA93FF5283EC6405BCE4B /* Pods-WatchApp Extension.debug.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.axefoundation.axe.watchkitapp.watchkitextension;
@@ -2280,10 +2266,10 @@
 		};
 		BA913BFE1BD57E4E005A7C0E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF202A89F06E25FE62F3D4E7 /* Pods-WatchApp Extension.release.xcconfig */;
+			baseConfigurationReference = CE02413EF0C60B1D1EDE6457 /* Pods-WatchApp Extension.release.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.axefoundation.axe.watchkitapp.watchkitextension;
@@ -2298,12 +2284,12 @@
 		};
 		BAE12BF31B2DEE7F00895CC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CEAA2F17358EBDD532B21CB /* Pods-TodayExtension.debug.xcconfig */;
+			baseConfigurationReference = 206554BC730E9F2BB594D044 /* Pods-TodayExtension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = axewallet/axewalletTodayExtension.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -2319,13 +2305,13 @@
 		};
 		BAE12BF51B2DEE7F00895CC5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70B3D7B0B80B183ABAFC0212 /* Pods-TodayExtension.release.xcconfig */;
+			baseConfigurationReference = 0E1094F4EE49CA45E8288DBE /* Pods-TodayExtension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = axewallet/axewalletTodayExtension.entitlements;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -2401,13 +2387,13 @@
 		};
 		CEE253D31E26A9BC00A25B15 /* Testflight */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FFA94640FDCF6999A0CA4FF /* Pods-axewallet.testflight.xcconfig */;
+			baseConfigurationReference = 1051F8887886AF689351F48A /* Pods-axewallet.testflight.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = axewallet/axewallet.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AxeWallet/AxeWallet-Prefix.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -2430,13 +2416,13 @@
 		};
 		CEE253D41E26A9BC00A25B15 /* Testflight */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD44A1DAE42B36D66D1168A5 /* Pods-TodayExtension.testflight.xcconfig */;
+			baseConfigurationReference = 2142023B66B3AB7DC260D9A9 /* Pods-TodayExtension.testflight.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = axewallet/axewalletTodayExtension.entitlements;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -2453,10 +2439,10 @@
 		};
 		CEE253D51E26A9BC00A25B15 /* Testflight */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05C2FA8E629DA55B63E09DFC /* Pods-AxeWalletTests.testflight.xcconfig */;
+			baseConfigurationReference = B9E5C217A0E8B1689F8307D1 /* Pods-AxeWalletTests.testflight.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/axewallet.app/axewallet";
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AxeWallet/AxeWallet-Prefix.pch";
 				GCC_WARN_PEDANTIC = NO;
@@ -2471,10 +2457,10 @@
 		};
 		CEE253D61E26A9BC00A25B15 /* Testflight */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6713CAA6D2AAB5DC7247578B /* Pods-AxeWalletUITests.testflight.xcconfig */;
+			baseConfigurationReference = A9ADF8F00D78A593DB286203 /* Pods-AxeWalletUITests.testflight.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = axewallet/axewallet.entitlements;
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				INFOPLIST_FILE = AxeWalletUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.axefoundation.AxeWalletUITests;
@@ -2494,12 +2480,12 @@
 		};
 		CEE253D81E26A9BC00A25B15 /* Testflight */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB24CEF6E909B9394641738F /* Pods-WatchApp.testflight.xcconfig */;
+			baseConfigurationReference = F12049B257DDE750DE332799 /* Pods-WatchApp.testflight.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				IBSC_MODULE = WatchApp_Extension;
 				INFOPLIST_FILE = WatchApp/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = org.axefoundation.axe.watchkitapp;
@@ -2513,10 +2499,10 @@
 		};
 		CEE253D91E26A9BC00A25B15 /* Testflight */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F6F9C5BB55285EFE2F6DBFD /* Pods-WatchApp Extension.testflight.xcconfig */;
+			baseConfigurationReference = 556B5EBEBAEA571D74FF69A3 /* Pods-WatchApp Extension.testflight.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.axefoundation.axe.watchkitapp.watchkitextension;
@@ -2569,7 +2555,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
-					"AXE_TESTNET=1",
+					"DASH_TESTNET=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -2585,7 +2571,7 @@
 					"-frandom-seed=$@",
 					"-Wno-gnu",
 				);
-				"OTHER_SWIFT_FLAGS[arch=*]" = "-DDebug -DAXE_TESTNET";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-DDebug -DDASH_TESTNET";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -2596,13 +2582,13 @@
 		};
 		FB9CC19B1F8511620079309F /* Testnet */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D83E48B4BED708120CCC0FA6 /* Pods-axewallet.testnet.xcconfig */;
+			baseConfigurationReference = 362213F26B43E7CB81B2FCE2 /* Pods-axewallet.testnet.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = axewallet/axewallet.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AxeWallet/AxeWallet-Prefix.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -2624,12 +2610,12 @@
 		};
 		FB9CC19C1F8511620079309F /* Testnet */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8953C9E158B595179A858C0 /* Pods-TodayExtension.testnet.xcconfig */;
+			baseConfigurationReference = 8A9877BEC5093CED81768D3D /* Pods-TodayExtension.testnet.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = axewallet/axewalletTodayExtension.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -2645,10 +2631,10 @@
 		};
 		FB9CC19D1F8511620079309F /* Testnet */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A15F666D2A80346B98ECB497 /* Pods-AxeWalletTests.testnet.xcconfig */;
+			baseConfigurationReference = B49B8EA157CD1A34396D7677 /* Pods-AxeWalletTests.testnet.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/axewallet.app/axewallet";
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AxeWallet/AxeWallet-Prefix.pch";
 				GCC_WARN_PEDANTIC = NO;
@@ -2663,10 +2649,10 @@
 		};
 		FB9CC19E1F8511620079309F /* Testnet */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F97E3950A6F4F313E8B17F4 /* Pods-AxeWalletUITests.testnet.xcconfig */;
+			baseConfigurationReference = E6C3F25E2C725454B6074C9E /* Pods-AxeWalletUITests.testnet.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = axewallet/axewallet.entitlements;
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				INFOPLIST_FILE = AxeWalletUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.axefoundation.AxeWalletUITests;
@@ -2686,12 +2672,12 @@
 		};
 		FB9CC1A01F8511620079309F /* Testnet */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA7877F570F61098F08895AF /* Pods-WatchApp.testnet.xcconfig */;
+			baseConfigurationReference = 7EEDF75116E60BB9EE9C80FB /* Pods-WatchApp.testnet.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				IBSC_MODULE = WatchApp_Extension;
 				INFOPLIST_FILE = WatchApp/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = org.axefoundation.axe.watchkitapp;
@@ -2705,10 +2691,10 @@
 		};
 		FB9CC1A11F8511620079309F /* Testnet */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AAD210895D4D4B3667C8F07 /* Pods-WatchApp Extension.testnet.xcconfig */;
+			baseConfigurationReference = 29B232FD70BA2EDF87F86A56 /* Pods-WatchApp Extension.testnet.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9D46X4M258;
+				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.axefoundation.axe.watchkitapp.watchkitextension;

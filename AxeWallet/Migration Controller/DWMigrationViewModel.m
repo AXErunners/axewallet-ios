@@ -3,7 +3,7 @@
 //  axewallet
 //
 //  Created by Andrew Podkovyrin on 10/11/2018.
-//  Copyright © 2018 Axe Core. All rights reserved.
+//  Copyright © 2019 Axe Core. All rights reserved.
 //
 
 #import "DWMigrationViewModel.h"
@@ -24,6 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
     self = [super init];
     if (self) {
         _deferredLaunchOptions = [launchOptions copy];
+        _applicationCrashedDuringLastMigration = ![DWDataMigrationManager sharedInstance].migrationSuccessful;
     }
     return self;
 }
@@ -57,6 +58,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)cancelMigration {
     [[DWDataMigrationManager sharedInstance] destroyOldPersistentStore];
     self.state = DWMigrationViewModelStateDone;
+}
+
+- (void)cancelMigrationAndRescanBlockchain {
+    [[DWDataMigrationManager sharedInstance] destroyOldPersistentStore];
+    self.state = DWMigrationViewModelStateDoneAndRescan;
 }
 
 @end

@@ -66,10 +66,17 @@
     // Override point for customization after application launch.
     NSLog(@"Axewallet has launched");
     
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(dsApplicationTerminationRequestNotification:)
+                                                 name:DSApplicationTerminationRequestNotification
+                                               object:nil];
     [self setupAxeWalletAppearance];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor blackColor];
+    
+    // start updating prices earlier than migration to update `secureTime`
+    [[DSPriceManager sharedInstance] startExchangeRateFetching];
     
     [[DSAuthenticationManager sharedInstance] setOneTimeShouldUseAuthentication:TRUE];
     
@@ -88,6 +95,7 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
+    
     // When adding any logic here mind the migration process
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
@@ -98,6 +106,7 @@
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
+    
 //    BRAPIClient *client = [BRAPIClient sharedClient];
 //    [client.kv sync:^(NSError *err) {
 //        NSLog(@"Finished syncing. err=%@", err);
@@ -230,6 +239,14 @@ performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionH
     self.window.rootViewController = controller;
     
     [self setupAxeWalletComponentsWithOptions:launchOptions];
+}
+
+- (void)dsApplicationTerminationRequestNotification:(NSNotification *)sender {
+    CFPreferencesAppSynchronize(kCFPreferencesCurrentApplication); // force NSUserDefaults to save
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        exit(0);
+    });
 }
 
 - (void)setupAxeWalletAppearance {
@@ -395,8 +412,13 @@ performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionH
 
 #pragma mark - DWMigrationViewControllerDelegate
 
-- (void)migrationViewController:(DWMigrationViewController *)controller didFinishWithDeferredLaunchOptions:(NSDictionary *)launchOptions {
+- (void)migrationViewController:(DWMigrationViewController *)controller didFinishWithDeferredLaunchOptions:(NSDictionary *)launchOptions shouldRescanBlockchain:(BOOL)shouldRescanBlockchain {
     [self performNormalStartWithLaunchOptions:launchOptions];
+    
+    if (shouldRescanBlockchain) {
+        DSChainManager *chainManager = [DWEnvironment sharedInstance].currentChainManager;
+        [chainManager rescan];
+    }
 }
 
 @end
