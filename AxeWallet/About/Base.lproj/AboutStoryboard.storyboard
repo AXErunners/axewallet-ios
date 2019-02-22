@@ -33,11 +33,11 @@
                                             <constraint firstAttribute="height" constant="0.5" id="yXN-Rb-qV4"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" clipsSubviews="YES" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="wFp-Ai-6c0" userLabel="Copyright © 2019 Axe Core Forked from breadwallet. This app is open source:">
+                                    <label opaque="NO" clipsSubviews="YES" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="wFp-Ai-6c0" userLabel="Copyright © 2019 Axe Core Forked from dashwallet. This app is open source:">
                                         <rect key="frame" x="62.5" y="74" width="250.5" height="66"/>
                                         <gestureRecognizers/>
                                         <string key="text">Copyright © 2019 Axe Core
-Forked from breadwallet.
+Forked from dashwallet.
 This app is open source:</string>
                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
                                         <nil key="highlightedColor"/>

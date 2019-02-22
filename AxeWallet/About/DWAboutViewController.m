@@ -68,19 +68,19 @@ NS_ASSUME_NONNULL_BEGIN
                                              selector:@selector(updateStatusNotification:)
                                                  name:DSTransactionManagerTransactionStatusDidChangeNotification
                                                object:nil];
-    
+
     self.chainTipBlockObserver = [[NSNotificationCenter defaultCenter] addObserverForName:DSChainNewChainTipBlockNotification object:nil queue:nil usingBlock:^(NSNotification * _Nonnull note) {
         [self updateStatusNotification:note];
     }];
-    
+
     self.downloadPeerObserver = [[NSNotificationCenter defaultCenter] addObserverForName:DSPeerManagerDownloadPeerDidChangeNotification object:nil queue:nil usingBlock:^(NSNotification * _Nonnull note) {
         [self updateStatusNotification:note];
     }];
-    
+
     self.connectedPeersObserver = [[NSNotificationCenter defaultCenter] addObserverForName:DSPeerManagerConnectedPeersDidChangeNotification object:nil queue:nil usingBlock:^(NSNotification * _Nonnull note) {
         [self updateStatusNotification:note];
     }];
-    
+
     [self updateStatusNotification:nil];
 }
 
@@ -98,7 +98,7 @@ NS_ASSUME_NONNULL_BEGIN
 }
 
 - (IBAction)contactSupportButtonAction:(id)sender {
-    NSURL *url = [NSURL URLWithString:@"https://support.axe.org/en/support/solutions"];
+    NSURL *url = [NSURL URLWithString:@"https://axerunners.com/#resources"];
     [self displaySafariControllerWithURL:url];
 }
 
