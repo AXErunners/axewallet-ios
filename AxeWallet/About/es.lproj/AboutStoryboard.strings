@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "Contact Support"; ObjectID = "HmO-ts-UI5"; */
+"HmO-ts-UI5.normalTitle" = "Suporte de contacto";
+
+/* Class = "UIButton"; normalTitle = "copy logs"; ObjectID = "IgV-bh-Mh7"; */
+"IgV-bh-Mh7.normalTitle" = "copiar escritos";
+
+/* Class = "UILabel"; text = "Exchange rate data provided by\npoloniex"; ObjectID = "JbA-bI-SeK"; */
+"JbA-bI-SeK.text" = "Intercambiar data proporcionada por\npoloniex";
+
+/* Class = "UILabel"; text = "Copyright © 2019 Axe Core\nForked from dashwallet.\nThis app is open source:"; ObjectID = "wFp-Ai-6c0"; */
+"wFp-Ai-6c0.text" = "Derechos de autor © 2019 Axe Core\nBifurcado desde breadwallet.\nEsta aplicación es de código abierto.:";

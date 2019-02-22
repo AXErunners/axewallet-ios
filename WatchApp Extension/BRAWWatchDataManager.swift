@@ -1,6 +1,6 @@
 //
 //  BRAWWatchDataManager.swift
-//  BreadWallet
+//  AxeWallet
 //
 //  Created by Henry on 10/27/15.
 //  Copyright (c) 2015 Aaron Voisine <voisine@gmail.com>
@@ -195,7 +195,7 @@ class BRAWWatchDataManager: NSObject, WCSessionDelegate {
         let attributedString = NSMutableAttributedString()
         
         attributedString.append(
-            NSAttributedString(string: "✖︎", attributes: [NSAttributedStringKey.foregroundColor : UIColor.gray]))
+            NSAttributedString(string: "Đ", attributes: [NSAttributedStringKey.foregroundColor : UIColor.gray]))
         
         attributedString.append(
             NSAttributedString(string: balance ?? "0", attributes:

@@ -3,12 +3,10 @@
 //  axewallet
 //
 //  Created by Quantum Explorer on 10/11/17.
-//  Copyright © 2018 Axe Core. All rights reserved.
+//  Copyright © 2019 Axe Core. All rights reserved.
 //
 
 #import "DWGenerateViewController.h"
-#import "BREventManager.h"
-#import "BRWalletManager.h"
 #import "DWWarningViewController.h"
 
 @interface DWGenerateViewController ()
@@ -50,8 +48,8 @@
 }
 
 -(BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender {
-    if (![BRWalletManager sharedInstance].passcodeEnabled) {
-        [BREventManager saveEvent:@"welcome:passcode_disabled"];
+    if (![[DSAuthenticationManager sharedInstance] isPasscodeEnabled]) {
+        [DSEventManager saveEvent:@"welcome:passcode_disabled"];
         UIAlertController * alert = [UIAlertController
                                      alertControllerWithTitle:NSLocalizedString(@"turn device passcode on", nil)
                                      message:NSLocalizedString(@"\nA device passcode is needed to safeguard your wallet. Go to settings and turn "
@@ -70,7 +68,7 @@
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    [BREventManager saveEvent:@"welcome:generate"];
+    [DSEventManager saveEvent:@"welcome:generate"];
 }
 
 @end

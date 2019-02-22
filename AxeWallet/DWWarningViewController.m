@@ -3,13 +3,12 @@
 //  AxeWallet
 //
 //  Created by Sam Westrich on 8/3/18.
-//  Copyright © 2018 Aaron Voisine. All rights reserved.
+//  Copyright © 2019 Aaron Voisine. All rights reserved.
 //
 
 #import "DWWarningViewController.h"
-#import "BREventManager.h"
-#import "BRWalletManager.h"
-#import "BRSeedViewController.h"
+#import <AxeSync/AxeSync.h>
+#import "DWSeedViewController.h"
 
 @interface DWWarningViewController ()
 
@@ -36,7 +35,7 @@
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    BRSeedViewController * seedViewController = segue.destinationViewController;
+    DWSeedViewController * seedViewController = segue.destinationViewController;
     seedViewController.inSetupMode = TRUE;
 }
 

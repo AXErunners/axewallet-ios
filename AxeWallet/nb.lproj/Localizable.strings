@@ -1,8 +1,5 @@
 
 /* No comment provided by engineer. */
-" and " = " and ";
-
-/* No comment provided by engineer. */
 "%@ is for 'mAXE'. %@ = 1 AXE." = "%@ is for 'mAXE'. %@ = 1 AXE.";
 
 /* No comment provided by engineer. */
@@ -15,7 +12,10 @@
 "%d confirmations" = "%d bekreftelser";
 
 /* No comment provided by engineer. */
-", " = ", ";
+"%d haks/byte" = "%d haks/byte";
+
+/* No comment provided by engineer. */
+"%d out of %d lock votes" = "%1$d out of %2$d lock votes";
 
 /* No comment provided by engineer. */
 "0 confirmations" = "0 bekreftelser";
@@ -24,25 +24,13 @@
 "1 confirmation" = "1 bekreftelse";
 
 /* No comment provided by engineer. */
+"1 hak/byte" = "1 hak/byte";
+
+/* No comment provided by engineer. */
 "\"%@\" is not a recovery phrase word" = "\"%@\" er ikke et ord i gjenopprettingsfrasen";
 
 /* No comment provided by engineer. */
-"\n         total %@ (%@)" = "\n         totalt %1$@ (%2$@)";
-
-/* No comment provided by engineer. */
 "\n%@\n\nif you ever lose your phone, you will need it to recover your wallet" = "\n%@ \n\nom du mister telefonen din vil du trenge den for å gjenopprette din lommebok";
-
-/* No comment provided by engineer. */
-"\n%d attempts remaining\n" = "\n%d forsøk igjen\n";
-
-/* No comment provided by engineer. */
-"\n(local requested amount: %@)" = "\n(local requested amount: %@)";
-
-/* No comment provided by engineer. */
-"\n1 attempt remaining\n" = "\n1 forsøk igjen\n";
-
-/* No comment provided by engineer. */
-"\n\n     amount %@ (%@)" = "\n\n     beløp %1$@ (%2$@)";
 
 /* No comment provided by engineer. */
 "\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nEn pinkode er nødvendig for å sikre lommeboken din. Gå til innstillinger og slå på pinkode for å fortsette.";
@@ -54,19 +42,16 @@
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\ntillat kameratilgang i\nInnstillinger->Personvern->Kamera->%@";
 
 /* No comment provided by engineer. */
-"\nnetwork fee +%@ (%@)" = "\nnettverksavgift +%1$@ (%2$@)";
-
-/* No comment provided by engineer. */
 "\ntry again in %@" = "\ntry again in %@";
 
 /* No comment provided by engineer. */
-"\ntry again in %d %@" = "\nprøv igjen om %1$d %2$@";
-
-/* No comment provided by engineer. */
-"About" = "om";
+"About" = "About";
 
 /* No comment provided by engineer. */
 "Action Needed" = "Action Needed";
+
+/* No comment provided by engineer. */
+"ADVANCED" = "ADVANCED";
 
 /* No comment provided by engineer. */
 "always require passcode" = "krev alltid pinkode";
@@ -87,34 +72,7 @@
 "Are you sure?" = "Are you sure?";
 
 /* No comment provided by engineer. */
-"Axe address" = "Axe-adresse";
-
-/* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'." = "Axe addresses can also be copied to the clipboard. An axe address always starts with 'P' or '7'.";
-
-/* No comment provided by engineer. */
-"axe network fee" = "axe nettverksavgift";
-
-/* No comment provided by engineer. */
-"axe payments can't be less than %@" = "beløp for axe-betalinger kan ikke være lavere enn %@";
-
-/* No comment provided by engineer. */
-"axe transaction not signed" = "axe-transaksjon ikke signert";
-
-/* No comment provided by engineer. */
-"axe transaction outputs can't be less than %@" = "output for axe-transaksjon kan ikke være lavere enn %@";
-
-/* No comment provided by engineer. */
-"bad password, try again" = "feil passord, prøv igjen";
-
-/* No comment provided by engineer. */
 "bad payment request" = "feil med betalingsforespørsel";
-
-/* No comment provided by engineer. */
-"bad payment request URL" = "feil med URL for betalingsforespørsel";
-
-/* No comment provided by engineer. */
-"bad payment URL" = "feil med betalings-URL";
 
 /* No comment provided by engineer. */
 "bad recovery phrase" = "feil gjenoppretingsfrase";
@@ -144,7 +102,7 @@
 "change" = "juster";
 
 /* No comment provided by engineer. */
-"Change passcode" = "endre pinkode";
+"Change passcode" = "Change passcode";
 
 /* No comment provided by engineer. */
 "change payment amount?" = "justere beløp?";
@@ -156,13 +114,13 @@
 "checking private key balance..." = "sjekker saldo for den private nøkkelen...";
 
 /* No comment provided by engineer. */
-"choose passcode for %@" = "velg pinkode for %@";
-
-/* No comment provided by engineer. */
 "clear" = "clear";
 
 /* No comment provided by engineer. */
 "clear trusted node?" = "clear trusted node?";
+
+/* No comment provided by engineer. */
+"clipboard doesn't contain a valid axe address" = "clipboard doesn't contain a valid axe address";
 
 /* No comment provided by engineer. */
 "clipboard doesn't contain a valid axe or bitcoin address" = "clipboard doesn't contain a valid axe or bitcoin address";
@@ -175,9 +133,6 @@
 
 /* No comment provided by engineer. */
 "confirmed in block #%d" = "bekreftet i blokk #%d";
-
-/* No comment provided by engineer. */
-"connect timeout" = "tidsavbrudd for tilkobling";
 
 /* No comment provided by engineer. */
 "copied" = "kopiert";
@@ -210,6 +165,21 @@
 "CRITICAL" = "CRITICAL";
 
 /* No comment provided by engineer. */
+"Axe address" = "Axe-adresse";
+
+/* No comment provided by engineer. */
+"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Axe-adresser kan også kopieres til utklippstavlen. En Axe-adresse starter alltid med 'X' eller '7'.";
+
+/* No comment provided by engineer. */
+"axe network fee" = "axe nettverksavgift";
+
+/* No comment provided by engineer. */
+"axe payments can't be less than %@" = "beløp for axe-betalinger kan ikke være lavere enn %@";
+
+/* No comment provided by engineer. */
+"axe transaction outputs can't be less than %@" = "output for axe-transaksjon kan ikke være lavere enn %@";
+
+/* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "SIKKERHETEN TIL ENHETEN ER KOMPROMITTERT\nEnhver 'jailbreak'-app kan få tilgang til andre appers Keychain data (og stjele dine axe).";
 
 /* No comment provided by engineer. */
@@ -219,7 +189,7 @@
 "do it later" = "gjør det senere";
 
 /* No comment provided by engineer. */
-"DO NOT let anyone see your recovery phrase or they can spend your axe." = "IKKE la noen se din gjennopprettingsfrase; de kan sende dine axe.";
+"DO NOT let anyone see your recovery phrase or they can spend your axe." = "DO NOT let anyone see your recovery phrase or they can spend your axe.";
 
 /* No comment provided by engineer. */
 "DO NOT take a screenshot. Screenshots are visible to other apps and devices." = "DO NOT take a screenshot. Screenshots are visible to other apps and devices.";
@@ -237,19 +207,19 @@
 "enable" = "enable";
 
 /* No comment provided by engineer. */
+"Enable advanced features" = "Enable advanced features";
+
+/* No comment provided by engineer. */
+"Enable advanced features?" = "Enable advanced features?";
+
+/* No comment provided by engineer. */
 "Enable receive notifications" = "Enable receive notifications";
 
 /* No comment provided by engineer. */
 "enter" = "enter";
 
 /* No comment provided by engineer. */
-"enter old passcode" = "angi eldre pinkode";
-
-/* No comment provided by engineer. */
 "error signing axe transaction" = "feil ved signering av Axe-transaksjon";
-
-/* No comment provided by engineer. */
-"error signing transaction" = "feil ved signering av transaksjon";
 
 /* No comment provided by engineer. */
 "exit" = "exit";
@@ -264,16 +234,13 @@
 "Failed wallet update" = "Failed wallet update";
 
 /* No comment provided by engineer. */
+"fetching amount" = "fetching amount";
+
+/* No comment provided by engineer. */
 "from:" = "fra:";
 
 /* No comment provided by engineer. */
 "GENERAL" = "GENERAL";
-
-/* No comment provided by engineer. */
-"hour" = "time";
-
-/* No comment provided by engineer. */
-"hours" = "timer";
 
 /* No comment provided by engineer. */
 "I accept that I will lose my coins if I no longer possess the recovery phrase" = "I accept that I will lose my coins if I no longer possess the recovery phrase";
@@ -288,7 +255,7 @@
 "ignore" = "ignorer";
 
 /* No comment provided by engineer. */
-"Import private key" = "importer privat nøkkel";
+"Import private key" = "Import private key";
 
 /* No comment provided by engineer. */
 "IMPORTANT" = "VIKTIG";
@@ -312,22 +279,22 @@
 "INVALID" = "UGYLDIG";
 
 /* No comment provided by engineer. */
+"IS Received" = "IS Received";
+
+/* No comment provided by engineer. */
 "Let others scan this QR code to get your axe address. Anyone can send axe to your wallet by transferring them to your address." = "La andre skanne QR-koden for å få din axe adresse. Alle kan sende deg axe ved å bruke din adresse.";
 
 /* No comment provided by engineer. */
-"minute" = "minutt";
-
-/* No comment provided by engineer. */
-"minutes" = "minutter";
-
-/* No comment provided by engineer. */
-"missing certificate" = "manglende sertifikat";
+"locked with instant send" = "locked with instant send";
 
 /* No comment provided by engineer. */
 "more..." = "mer...";
 
 /* No comment provided by engineer. */
-"Moved" = "flyttet";
+"Moved" = "Moved";
+
+/* No comment provided by engineer. */
+"Network" = "Network";
 
 /* No comment provided by engineer. */
 "NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected." = "NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected.";
@@ -336,16 +303,25 @@
 "next, write down your recovery phrase" = "deretter, skriv ned din gjenopprettingsfrase";
 
 /* No comment provided by engineer. */
+"NFC device didn't transmit a valid axe address" = "NFC device didn't transmit a valid axe address";
+
+/* No comment provided by engineer. */
 "NFC device didn't transmit a valid axe or bitcoin address" = "NFC device didn't transmit a valid axe or bitcoin address";
 
 /* No comment provided by engineer. */
 "no exchange rate data" = "data for valutakurs ikke tilgjengelig";
 
 /* No comment provided by engineer. */
-"no peers found" = "ingen peers funnet";
+"node ip" = "node ip";
 
 /* No comment provided by engineer. */
 "not a axe or bitcoin QR code" = "ikke en Axe eller Bitcoin QR-kode";
+
+/* No comment provided by engineer. */
+"not a axe QR code" = "not a axe QR code";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "ikke en gyldig Bitcoin-adresse";
 
 /* No comment provided by engineer. */
 "not a valid axe address" = "ikke en gyldig Axe-adresse";
@@ -354,31 +330,13 @@
 "not a valid axe or bitcoin address" = "ikke en gyldig Axe eller Bitcoin adresse";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "ikke en gyldig Bitcoin-adresse";
-
-/* No comment provided by engineer. */
-"not a valid private key" = "ikke en gyldig privat nøkkel";
-
-/* No comment provided by engineer. */
-"not connected to the axe network" = "ikke tilkoblet Axe-nettverket";
-
-/* No comment provided by engineer. */
 "ok" = "ok";
 
 /* No comment provided by engineer. */
 "OK" = "OK";
 
 /* No comment provided by engineer. */
-"passcode" = "pinkode";
-
-/* No comment provided by engineer. */
-"passcode for %@" = "pinkode for %@";
-
-/* No comment provided by engineer. */
-"password" = "passord";
-
-/* No comment provided by engineer. */
-"password protected key" = "passordbeskyttet nøkkel";
+"Only enable advanced features if you are knowledgeable in blockchain technology. \nIf enabled only use advanced features that you understand." = "Only enable advanced features if you are knowledgeable in blockchain technology. \nIf enabled only use advanced features that you understand.";
 
 /* No comment provided by engineer. */
 "Pay" = "Betal";
@@ -396,6 +354,9 @@
 "pending" = "pending";
 
 /* No comment provided by engineer. */
+"please enter pin to upgrade wallet" = "please enter pin to upgrade wallet";
+
+/* No comment provided by engineer. */
 "Please enter pin to upgrade wallet" = "Please enter pin to upgrade wallet";
 
 /* No comment provided by engineer. */
@@ -408,13 +369,13 @@
 "Receive axe at this address: %@" = "Motta axe på denne adressen: %@";
 
 /* No comment provided by engineer. */
-"Received" = "mottatt";
+"Received" = "Received";
 
 /* No comment provided by engineer. */
 "received %@ (%@)" = "mottok %1$@ (%2$@)";
 
 /* Recovery phrase */
-"Recovery phrase" = "gjenopprettingsfrase";
+"Recovery phrase" = "Recovery phrase";
 
 /* No comment provided by engineer. */
 "recovery phrase doesn't match" = "gjenopprettingsfrasen stemmer ikke";
@@ -429,7 +390,7 @@
 "Remind me later" = "Remind me later";
 
 /* No comment provided by engineer. */
-"Request" = "forespør";
+"Request" = "Request";
 
 /* No comment provided by engineer. */
 "request an amount" = "forespør et beløp";
@@ -441,13 +402,10 @@
 "request is for an instant payment but you have disabled instant payments" = "request is for an instant payment but you have disabled instant payments";
 
 /* No comment provided by engineer. */
-"requested network \"%@\" instead of \"%@\"" = "ber om nettverk \"%1$@\" i stedet for \"%2$@\"";
+"rescan" = "rescan";
 
 /* No comment provided by engineer. */
-"rescan" = "skann på nytt";
-
-/* No comment provided by engineer. */
-"Rescan blockchain" = "skann blokkjeden om igjen";
+"Rescan blockchain" = "Rescan blockchain";
 
 /* No comment provided by engineer. */
 "rescan blockchain if you think you may have missing transactions, or are having trouble sending (rescanning can take several minutes)" = "skann blokkjeden om igjen om du tror du mangler transaksjoner eller har problemer med å utføre transaksjoner (reskanning kan ta flere minutter)";
@@ -459,6 +417,9 @@
 "retry" = "retry";
 
 /* No comment provided by engineer. */
+"Scan someone else's QR code to get their axe address. You can send a payment to anyone with an address." = "Scan someone else's QR code to get their axe address. You can send a payment to anyone with an address.";
+
+/* No comment provided by engineer. */
 "Scan someone else's QR code to get their axe or bitcoin address. You can send a payment to anyone with an address." = "Scan someone else's QR code to get their axe or bitcoin address. You can send a payment to anyone with an address.";
 
 /* No comment provided by engineer. */
@@ -466,12 +427,6 @@
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Your funds are at risk. Transfer your balance to another wallet." = "Skjermbilder er synlige for andre programmer og enheter. Dine axe er ikke sikre. Overføre saldoen til en annen lommebok.";
-
-/* No comment provided by engineer. */
-"second" = "second";
-
-/* No comment provided by engineer. */
-"seconds" = "seconds";
 
 /* No comment provided by engineer. */
 "seen by %d of %d peers" = "sett av %1$d av %2$d peers";
@@ -495,7 +450,7 @@
 "send request as message" = "send forespørsel på melding";
 
 /* No comment provided by engineer. */
-"Sent" = "sendt";
+"Sent" = "Sent";
 
 /* No comment provided by engineer. */
 "sent!" = "sendt!";
@@ -504,7 +459,7 @@
 "set a trusted node" = "set a trusted node";
 
 /* No comment provided by engineer. */
-"Settings" = "innstillinger";
+"Settings" = "Innstillinger";
 
 /* No comment provided by engineer. */
 "shapeshift bitcoin id:" = "shapeshift bitcoin id:";
@@ -519,10 +474,16 @@
 "shapeshift succeeded" = "shapeshift succeeded";
 
 /* No comment provided by engineer. */
+"Shapeshift!" = "Shapeshift!";
+
+/* No comment provided by engineer. */
 "show" = "vis";
 
 /* No comment provided by engineer. */
 "show phrase" = "vis frase";
+
+/* No comment provided by engineer. */
+"size:" = "size:";
 
 /* No comment provided by engineer. */
 "sms not currently available" = "SMS utilgjengelig for øyeblikket";
@@ -567,12 +528,6 @@
 "this payment address is already in your wallet" = "denne betalingsadressen er allerede i din lommebok";
 
 /* No comment provided by engineer. */
-"this private key is already in your wallet" = "denne private nøkkelen er allerede i din lommebok";
-
-/* No comment provided by engineer. */
-"this private key is empty" = "denne private nøkkelen er tom";
-
-/* No comment provided by engineer. */
 "This request requires an instant payment but you do not have enough inputs with 6 confirmations required by InstantSend, you may ask the merchant to accept a normal transaction or wait a few minutes." = "This request requires an instant payment but you do not have enough inputs with 6 confirmations required by InstantSend, you may ask the merchant to accept a normal transaction or wait a few minutes.";
 
 /* No comment provided by engineer. */
@@ -591,25 +546,19 @@
 "to: %@ (via Shapeshift)" = "to: %@ (via Shapeshift)";
 
 /* No comment provided by engineer. */
-"Touch ID limit" = "grense for Touch ID";
+"Touch ID limit" = "Touch ID limit";
 
 /* No comment provided by engineer. */
 "Touch ID spending limit" = "Touch ID spending limit";
 
 /* No comment provided by engineer. */
-"transaction canceled, network timeout" = "transaksjon avbrutt, nettverksabrudd";
-
-/* No comment provided by engineer. */
-"transaction fees would cost more than the funds available on this private key (due to tiny \"dust\" deposits)" = "transaksjonsavgifter overstiger mengden midler tilgjengelig på denne private nøkkelen (pga. små \"støv\"-innskudd)";
-
-/* No comment provided by engineer. */
-"Transaction history" = "transaksjonshistorie";
-
-/* No comment provided by engineer. */
-"transaction rejected" = "transaksjonen er avvist";
+"Transaction history" = "Transaction history";
 
 /* No comment provided by engineer. */
 "trust" = "trust";
+
+/* No comment provided by engineer. */
+"try again" = "try again";
 
 /* No comment provided by engineer. */
 "Try It!" = "Try It!";
@@ -621,9 +570,6 @@
 "Unable to get new qr code" = "Unable to get new qr code";
 
 /* No comment provided by engineer. */
-"unexpected response from %@" = "Uventet svar fra %@";
-
-/* No comment provided by engineer. */
 "unknown address" = "ukjent adresse";
 
 /* No comment provided by engineer. */
@@ -633,40 +579,34 @@
 "unsupported or corrupted document" = "ustøttet eller korrupt dokument";
 
 /* No comment provided by engineer. */
-"unsupported signature type" = "ustøttet signatur type";
-
-/* No comment provided by engineer. */
 "unsupported url" = "ustøttet url";
 
 /* No comment provided by engineer. */
-"untrusted certificate" = "uklarert sertifikat";
-
-/* No comment provided by engineer. */
 "unverified" = "ubekreftet";
-
-/* Updating Price */
-"Updating Price" = "Updating Price";
 
 /* No comment provided by engineer. */
 "verified, waiting for confirmation" = "verifisert, venter på bekreftelse";
 
 /* No comment provided by engineer. */
-"verify passcode" = "verifiser pinkode";
-
-/* No comment provided by engineer. */
 "wallet address" = "adresse til lommebok";
 
 /* No comment provided by engineer. */
-"wallet disabled" = "lommebok deaktivert";
+"WARNING" = "ADVARSEL";
 
 /* No comment provided by engineer. */
-"WARNING" = "ADVARSEL";
+"watch only" = "watch only";
+
+/* No comment provided by engineer. */
+"We have detected that Axewallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete." = "We have detected that Axewallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete.";
 
 /* No comment provided by engineer. */
 "wipe" = "fjern";
 
 /* No comment provided by engineer. */
 "WRITE DOWN YOUR RECOVERY PHRASE" = "SKRIV NED DIN GJENOPPRETTINGSFRASE";
+
+/* No comment provided by engineer. */
+"yes" = "yes";
 
 /* No comment provided by engineer. */
 "You can now buy axe in\naxewallet with cash or\nbank transfer." = "You can now buy axe in\naxewallet with cash or\nbank transfer.";
@@ -676,6 +616,3 @@
 
 /* No comment provided by engineer. */
 "you received axe!" = "du har mottatt axe!";
-
-/* No comment provided by engineer. */
-"Your wallet may be out of sync.\nThis can often be fixed by rescanning the blockchain." = "Din lommebok er usynkronisert.\nDette kan ofte fikses ved å skanne blokkjeden om igjen.";

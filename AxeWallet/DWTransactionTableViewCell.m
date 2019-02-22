@@ -3,7 +3,7 @@
 //  AxeSync_Example
 //
 //  Created by Sam Westrich on 6/22/18.
-//  Copyright © 2018 Axe Core Group. All rights reserved.
+//  Copyright © 2019 Axe Core Group. All rights reserved.
 //
 
 #import "DWTransactionTableViewCell.h"

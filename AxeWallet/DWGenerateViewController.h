@@ -3,7 +3,7 @@
 //  axewallet
 //
 //  Created by Quantum Explorer on 10/11/17.
-//  Copyright © 2018 Axe Core. All rights reserved.
+//  Copyright © 2019 Axe Core. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
