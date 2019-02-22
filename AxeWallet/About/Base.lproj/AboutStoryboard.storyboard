@@ -54,7 +54,7 @@ This app is open source:</string>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="JbA-bI-SeK">
                                         <rect key="frame" x="76" y="181.5" width="223" height="34.5"/>
                                         <string key="text">Exchange rate data provided by
-get-spark.com</string>
+poloniex</string>
                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                         <nil key="highlightedColor"/>
                                     </label>
