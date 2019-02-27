@@ -418,10 +418,10 @@ static NSArray<NSString *> *OldDataBaseFileNames(void) {
     NSManagedObjectContext *writeContext = [NSManagedObject context];
 
     DSAccount *currentAccount = [DWEnvironment sharedInstance].currentAccount;
-    DSFundsDerivationPath *bip32DerivationPath = currentAccount.bip32DerivationPath;
+    DSDerivationPath *bip32DerivationPath = currentAccount.bip32DerivationPath;
     DSDerivationPathEntity *bip32DerivationPathEntity = [DSDerivationPathEntity derivationPathEntityMatchingDerivationPath:bip32DerivationPath];
 
-    DSFundsDerivationPath *bip44DerivationPath = currentAccount.bip44DerivationPath;
+    DSDerivationPath *bip44DerivationPath = currentAccount.bip44DerivationPath;
     DSDerivationPathEntity *bip44DerivationPathEntity = [DSDerivationPathEntity derivationPathEntityMatchingDerivationPath:bip44DerivationPath];
 
     NSMutableDictionary<NSString *, DSAddressEntity *> *addresses = [NSMutableDictionary dictionary];
