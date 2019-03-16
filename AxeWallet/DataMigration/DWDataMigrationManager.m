@@ -382,7 +382,7 @@ static NSArray<NSString *> *OldDataBaseFileNames(void) {
 
     NSUInteger count = 0;
     for (BRPeerEntity *peer in objects) {
-        if (peer.port != 9999) {
+        if (peer.port != 9937) {
             continue; //don't migrate testnet
         }
         DSPeerEntity *entity = [[DSPeerEntity alloc] initWithContext:writeContext];
