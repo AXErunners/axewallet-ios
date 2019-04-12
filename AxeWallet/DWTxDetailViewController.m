@@ -345,7 +345,7 @@
                     
                     uint32_t lastBlockHeight = [DWEnvironment sharedInstance].currentChain.lastBlockHeight;
                     if (self.transaction.instantSendReceived && ((self.transaction.blockHeight == TX_UNCONFIRMED) || (lastBlockHeight - self.transaction.blockHeight) < 6)) {
-                        cell.statusLabel.text = NSLocalizedString(@"locked with instant send", nil);
+                        cell.statusLabel.text = NSLocalizedString(@"locked with InstantSend", nil);
                         if (self.transaction.blockHeight != TX_UNCONFIRMED) {
                             cell.moreInfoLabel.text = [NSString stringWithFormat:@"%@ - %@",[NSString stringWithFormat:NSLocalizedString(@"confirmed in block #%d", nil),
                                                                                         self.transaction.blockHeight], self.txDateString];
@@ -382,10 +382,12 @@
                     uint64_t roundedFeeCostPerByte = self.transaction.roundedFeeCostPerByte;
                     if (roundedFeeCostPerByte != UINT64_MAX) { //otherwise it's being received and can't know.
                         cell.statusLabel.text = roundedFeeCostPerByte == 1?NSLocalizedString(@"1 hak/byte",nil):[NSString stringWithFormat:NSLocalizedString(@"%d haks/byte",nil), roundedFeeCostPerByte];
+                        cell.moreInfoLabel.text = [@(self.transaction.size) stringValue];
                     } else {
-                        cell.statusLabel.text = nil;
+                        cell.statusLabel.text = [@(self.transaction.size) stringValue];
+                        cell.moreInfoLabel.text = nil;
                     }
-                    cell.moreInfoLabel.text = [@(self.transaction.size) stringValue];
+                    
                     
                     return cell;
                 }
