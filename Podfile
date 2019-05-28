@@ -5,7 +5,7 @@ target 'axewallet' do
   
   pod 'KVO-MVVM', '0.5.1'
 
-  pod 'Axe-PLCrashReporter', :git => 'https://github.com/podkovyrin/plcrashreporter.git', :branch => 'axe', :commit => '41a46e6', :inhibit_warnings => true
+  pod 'Dash-PLCrashReporter', :git => 'https://github.com/podkovyrin/plcrashreporter.git', :branch => 'dash', :commit => '41a46e6', :inhibit_warnings => true
 
   # Pods for axewallet
   
