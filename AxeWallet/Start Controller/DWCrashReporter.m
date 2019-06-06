@@ -22,7 +22,7 @@
 #include <sys/sysctl.h>
 #import <sys/utsname.h>
 
-#import <Axe-PLCrashReporter/PLCrashReporter.h>
+#import <Dash-PLCrashReporter/PLCrashReporter.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
