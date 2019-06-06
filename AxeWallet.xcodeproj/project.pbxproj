@@ -1723,21 +1723,17 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-axewallet/Pods-axewallet-resources.sh",
-				"${PODS_ROOT}/Axe-PLCrashReporter/Resources/crash_report.proto",
-				"${PODS_ROOT}/Axe-PLCrashReporter/Resources/crash_report_v2.proto",
 				"${PODS_CONFIGURATION_BUILD_DIR}/AxeSync/AxeSync.bundle",
+				"${PODS_ROOT}/Dash-PLCrashReporter/Resources/crash_report.proto",
+				"${PODS_ROOT}/Dash-PLCrashReporter/Resources/crash_report_v2.proto",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AxeSync.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/crash_report.proto",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/crash_report_v2.proto",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AxeSync.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
