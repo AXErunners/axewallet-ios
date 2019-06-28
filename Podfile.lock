@@ -35,7 +35,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/podkovyrin/plcrashreporter.git
 
 SPEC CHECKSUMS:
-  AxeSync: 834bfc5b07ca656b6218d6f556c327d0c24881c2
+  AxeSync: 7d4114a190740deaf519e5b817cc22623b06c619
   bls-signatures-pod: 56adce76843f10f484ff996c33aee36cfd98ae5e
   Dash-PLCrashReporter: 48274f97b50745ea7b627d0fca3a17fb2ee5b4d0
   KVO-MVVM: 4df3afd1f7ebcb69735458b85db59c4271ada7c6
@@ -44,4 +44,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: da51592484e62d953ec42aab2d44a7f170f4b53c
 
-COCOAPODS: 1.7.0
+COCOAPODS: 1.6.2
