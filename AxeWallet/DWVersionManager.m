@@ -23,11 +23,11 @@
 {
     static id singleton = nil;
     static dispatch_once_t onceToken = 0;
-
+    
     dispatch_once(&onceToken, ^{
         singleton = [self new];
     });
-
+    
     return singleton;
 }
 
@@ -62,7 +62,7 @@ self.seedObserver =
         return;
     }
     CGRect screenRect = [[UIScreen mainScreen] bounds];
-
+    
     [authenticationManager authenticateWithPrompt:(NSLocalizedString(@"Please enter pin to upgrade wallet", nil)) andTouchId:NO alertIfLockout:NO completion:^(BOOL authenticated,BOOL cancelled) {
         if (!authenticated) {
             completion(YES,NO,cancelled,nil);
@@ -75,16 +75,16 @@ self.seedObserver =
                 completion(YES,YES,NO,seedPhrase);
                 return;
             }
-
+            
             NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
             paragraphStyle.lineSpacing = 20;
             paragraphStyle.alignment = NSTextAlignmentCenter;
             NSInteger fontSize = 16;
-
+            
             if (seedPhrase.length > 0 && [seedPhrase characterAtIndex:0] > 0x3000) { // ideographic language
                 NSInteger lineCount = 1;
                 NSMutableString *s,*l;
-
+                
                 CGRect r;
                 s = CFBridgingRelease(CFStringCreateMutable(SecureAllocator(), 0));
                 l = CFBridgingRelease(CFStringCreateMutable(SecureAllocator(), 0));
@@ -94,14 +94,14 @@ self.seedObserver =
                     [l appendString:w];
                     r = [l boundingRectWithSize:CGRectInfinite.size options:NSStringDrawingUsesLineFragmentOrigin
                                      attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:fontSize weight:UIFontWeightMedium]} context:nil];
-
+                    
                     if (r.size.width >= screenRect.size.width - 54*2 - 16) {
                         [s appendString:@"\n"];
                         l.string = w;
                         lineCount++;
                     }
                     else if (s.length > 0) [s appendString:IDEO_SP];
-
+                    
                     [s appendString:w];
                 }
                 if (lineCount > 3) {
@@ -110,31 +110,31 @@ self.seedObserver =
                     return;
                 }
             }
-
+            
             else {
                 NSInteger lineCount = 0;
-
+                
                 NSDictionary *attributes = @{NSFontAttributeName:[UIFont systemFontOfSize:fontSize weight:UIFontWeightMedium],NSForegroundColorAttributeName:[UIColor whiteColor],NSParagraphStyleAttributeName:paragraphStyle};
                 CGSize labelSize = (CGSize){screenRect.size.width - 54*2 - 16, MAXFLOAT};
                 CGRect requiredSize = [seedPhrase boundingRectWithSize:labelSize  options:NSStringDrawingUsesLineFragmentOrigin attributes:attributes context:nil];
                 long charSize = lroundf(((UIFont*)attributes[NSFontAttributeName]).lineHeight + 12);
                 long rHeight = lroundf(requiredSize.size.height);
                 lineCount = rHeight/charSize;
-
+                
                 if (lineCount > 3) {
                     setKeychainInt(1, SHOWED_WARNING_FOR_INCOMPLETE_PASSPHRASE, NO);
                     completion(YES,YES,NO,seedPhrase);
                     return;
-
+                    
                 }
-
+                
             }
             setKeychainInt(1, SHOWED_WARNING_FOR_INCOMPLETE_PASSPHRASE, NO);
             completion(NO,YES,NO,seedPhrase);
-
+            
         }
     }];
-
+    
 }
 
 
