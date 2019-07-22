@@ -72,7 +72,7 @@
 "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "应用程序 %@ 正在请求一个地址用来发送交易给您.  您是否同意?";
 
 /* No comment provided by engineer. */
-"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "应用程序 %@ 想要获取你的公钥。它可以被用作查看你的钱包记录，但无法用来移动你钱包中的斧。";
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "应用程序 %@ 想要获取你的公钥。它可以被用作查看你的钱包记录，但无法用来移动你钱包中的达世币。";
 
 /* No comment provided by engineer. */
 "Are you sure?" = "你确定吗？";
@@ -423,7 +423,7 @@
 "public key:" = "public key:";
 
 /* No comment provided by engineer. */
-"rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@" = "比率：%@ = %@\n升级版本：%@\n区块 #%d of %d\n已链接节点：%d\ndl节点：%@";
+"rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@\nquorums validated: %d/%d" = "rate: %1$@ = %2$@\nupdated: %3$@\nblock #%4$d of %5$d\nconnected peers: %6$d\ndl peer: %7$@\nquorums validated: %8$d/%9$d";
 
 /* No comment provided by engineer. */
 "Receive axe at this address: %@" = "在此地址接收斧： %@";
