@@ -1,8 +1,12 @@
 PODS:
   - AxeSync (0.1.0):
     - bls-signatures-pod (= 0.2.9)
+    - CocoaLumberjack (= 3.5.3)
     - secp256k1_axe (= 0.1.2.5)
   - bls-signatures-pod (0.2.9)
+  - CocoaLumberjack (3.5.3):
+    - CocoaLumberjack/Core (= 3.5.3)
+  - CocoaLumberjack/Core (3.5.3)
   - Dash-PLCrashReporter (1.4.0)
   - KVO-MVVM (0.5.1)
   - secp256k1_axe (0.1.2.5)
@@ -17,6 +21,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - bls-signatures-pod
+    - CocoaLumberjack
     - KVO-MVVM
     - secp256k1_axe
     - SimulatorStatusMagic
@@ -35,13 +40,14 @@ CHECKOUT OPTIONS:
     :git: https://github.com/podkovyrin/plcrashreporter.git
 
 SPEC CHECKSUMS:
-  AxeSync: 7d4114a190740deaf519e5b817cc22623b06c619
+  AxeSync: 4770fde75484543a2bcfb9daea7c5910665d56a1
   bls-signatures-pod: 56adce76843f10f484ff996c33aee36cfd98ae5e
+  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
   Dash-PLCrashReporter: 48274f97b50745ea7b627d0fca3a17fb2ee5b4d0
   KVO-MVVM: 4df3afd1f7ebcb69735458b85db59c4271ada7c6
   secp256k1_axe: bd1dc10fc294f2f0e0704f8bea578eb9ea5916d0
   SimulatorStatusMagic: 28d4a9d1a500ac7cea0b2b5a43c1c6ddb40ba56c
 
-PODFILE CHECKSUM: da51592484e62d953ec42aab2d44a7f170f4b53c
+PODFILE CHECKSUM: f793f93d9516d87255219a0375261854fd30442d
 
 COCOAPODS: 1.6.2
