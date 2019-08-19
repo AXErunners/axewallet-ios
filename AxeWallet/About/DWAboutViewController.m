@@ -17,10 +17,9 @@
 
 #import "DWAboutViewController.h"
 
-#import <SafariServices/SafariServices.h>
-
 #import "BRBubbleView.h"
 #import "DWAboutModel.h"
+#import "SFSafariViewController+AxeWallet.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -56,13 +55,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-#if DEBUG
     self.logsCopyButton.hidden = NO;
-#endif /* DEBUG */
-    
-#if SNAPSHOT
-    self.logsCopyButton.hidden = YES;
-#endif /* SNAPSHOT */
 
     self.mainTitleLabel.text = [self.model mainTitle];
 
@@ -106,20 +99,14 @@ NS_ASSUME_NONNULL_BEGIN
 }
 
 - (IBAction)contactSupportButtonAction:(id)sender {
-    NSURL *url = [NSURL URLWithString:@"https://axerunners.com/#resources"];
+    NSURL *url = [NSURL URLWithString:@"https://support.axe.org/en/support/solutions"];
     [self displaySafariControllerWithURL:url];
 }
 
 - (IBAction)logsCopyButtonAction:(id)sender {
-    [self.model performCopyLogs];
-
-    CGPoint center = CGPointMake(self.view.bounds.size.width / 2.0, self.view.bounds.size.height / 2.0);
-    BRBubbleView *popup = [[[BRBubbleView
-        viewWithText:NSLocalizedString(@"copied", nil)
-              center:center]
-        popIn]
-        popOutAfterDelay:2.0];
-    [self.view addSubview:popup];
+    NSArray *dataToShare = [self.model logFiles];
+    UIActivityViewController *activityViewController = [[UIActivityViewController alloc] initWithActivityItems:dataToShare applicationActivities:nil];
+    [self presentViewController:activityViewController animated:YES completion:nil];
 }
 
 - (IBAction)setFixedPeerButtonAction:(id)sender {
@@ -183,7 +170,7 @@ NS_ASSUME_NONNULL_BEGIN
         return;
     }
 
-    SFSafariViewController *safariViewController = [[SFSafariViewController alloc] initWithURL:url];
+    SFSafariViewController *safariViewController = [SFSafariViewController dw_controllerWithURL:url];
     [self presentViewController:safariViewController animated:YES completion:nil];
 }
 

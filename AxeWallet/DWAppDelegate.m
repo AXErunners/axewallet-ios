@@ -65,6 +65,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [DSLogger sharedInstance];
+    
     NSLog(@"Axewallet has launched");
     
     [[NSNotificationCenter defaultCenter] addObserver:self
