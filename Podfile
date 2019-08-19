@@ -1,14 +1,13 @@
 target 'axewallet' do
   platform :ios, '10.0'
-  
-  pod 'AxeSync', :path => '../AxeSync/'
-  
-  pod 'KVO-MVVM', '0.5.1'
 
+  pod 'AxeSync', :path => '../AxeSync/'
+
+  pod 'KVO-MVVM', '0.5.1'
   pod 'Dash-PLCrashReporter', :git => 'https://github.com/podkovyrin/plcrashreporter.git', :branch => 'dash', :commit => '41a46e6', :inhibit_warnings => true
 
   # Pods for axewallet
-  
+
   target 'AxeWalletTests' do
     inherit! :search_paths
     # Pods for testing
@@ -16,7 +15,7 @@ target 'axewallet' do
 
   target 'AxeWalletScreenshotsUITests' do
     inherit! :search_paths
-    
+
     pod 'SimulatorStatusMagic', '2.4.1'
   end
 
