@@ -453,7 +453,7 @@ static NSString *dateFormat(NSString *template)
             return (self.moreTx) ? self.transactions.count + 1 : self.transactions.count;
             
         case 1:
-            return (buyEnabled ? 4 : 3);
+            return (buyEnabled ? 3 : 2);
     }
     
     return 0;
@@ -508,15 +508,6 @@ static NSString *dateFormat(NSString *template)
                     break;
                 }
                 case 2:
-                {
-                    cell = [tableView dequeueReusableCellWithIdentifier:disclosureIdent];
-                    DWActionTableViewCell * actionCell = (DWActionTableViewCell *)cell;
-                    cell.textLabel.text = NSLocalizedString(@"Uphold account", nil);
-                    actionCell.imageIcon = [UIImage imageNamed:@"uphold-icon"];
-                    actionCell.selectedImageIcon = [UIImage imageNamed:@"uphold-icon-selected"];
-                    break;
-                }
-                case 3:
                 {
                     cell = [tableView dequeueReusableCellWithIdentifier:disclosureIdent];
                     DWActionTableViewCell * actionCell = (DWActionTableViewCell *)cell;
@@ -833,30 +824,14 @@ static NSString *dateFormat(NSString *template)
                     [DSEventManager saveEvent:@"tx_history:import_priv_key"];
                     [self scanQR:nil];
                     break;
-                    
-                case 2: { // uphold
-                    if ([DSAuthenticationManager sharedInstance].didAuthenticate) {
-                        UIViewController *upholdController = [DWUpholdViewController controller];
-                        [self.navigationController pushViewController:upholdController animated:YES];
-                    }
-                    else {
-                        [[DSAuthenticationManager sharedInstance] authenticateWithPrompt:nil andTouchId:YES alertIfLockout:YES completion:^(BOOL authenticatedOrSuccess, BOOL cancelled) {
-                            if (authenticatedOrSuccess) {
-                                UIViewController *upholdController = [DWUpholdViewController controller];
-                                [self.navigationController pushViewController:upholdController animated:YES];
-                            }
-                        }];
-                    }
-                    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-                    break;
-                }
-                case 3: // settings
+
+                case 2: // settings
                     [DSEventManager saveEvent:@"tx_history:settings"];
                     destinationController = [DWSettingsViewController controller];
                     [self.navigationController pushViewController:destinationController animated:YES];
                     break;
             }
-            
+
             break;
         }
     }
