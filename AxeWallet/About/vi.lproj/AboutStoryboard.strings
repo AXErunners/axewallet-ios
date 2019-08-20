@@ -5,8 +5,8 @@
 /* Class = "UIButton"; normalTitle = "copy logs"; ObjectID = "IgV-bh-Mh7"; */
 "IgV-bh-Mh7.normalTitle" = "sao chép logs";
 
-/* Class = "UILabel"; text = "Exchange rate data provided by\npoloniex"; ObjectID = "JbA-bI-SeK"; */
-"JbA-bI-SeK.text" = "Dữ liệu tỷ giá giao dịch cung cấp bởi\npoloniex";
+/* Class = "UILabel"; text = "Exchange rate data provided by"; ObjectID = "JbA-bI-SeK"; */
+"JbA-bI-SeK.text" = "Dữ liệu tỷ giá giao dịch cung cấp bởi";
 
 /* Class = "UILabel"; text = "Copyright © 2019 Axe Core\nForked from dashwallet.\nThis app is open source:"; ObjectID = "wFp-Ai-6c0"; */
 "wFp-Ai-6c0.text" = "Copyright © 2019 Axe Core\nPhát triển dựa trên breadwallet.\nĐây là ứng dụng mã nguồn mở:";
