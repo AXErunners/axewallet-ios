@@ -1,6 +1,9 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
-pushd "../AxeSync/"
-AXESYNC_COMMIT=`git rev-parse HEAD`
-popd
-echo "$AXESYNC_COMMIT" > AxeSyncCurrentCommit
+RUBY_SCRIPT=$(cat <<'END_RUBY_SCRIPT'
+data = YAML::load(STDIN.read)
+puts data['CHECKOUT OPTIONS']['AxeSync'][:'commit'] 
+END_RUBY_SCRIPT
+)
+
+cat Podfile.lock | ruby -ryaml -e "$RUBY_SCRIPT" > AxeSyncCurrentCommit
