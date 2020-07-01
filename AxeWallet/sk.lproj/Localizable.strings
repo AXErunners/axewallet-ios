@@ -1,72 +1,69 @@
 
 /* No comment provided by engineer. */
-"%@ is for 'mAXE'. %@ = 1 AXE." = "%@ znamená 'mAXE'. %@ = 1 AXE.";
+"%@ is not allowed to access Face ID" = "%@ nemá povolený prístup k Face ID";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ nemá povolený prístup ku kamere";
 
 /* No comment provided by engineer. */
-"%@\n\nbalance: %@ (%@)" = "%1$@\n\nbilancia: %2$@ (%3$@)";
+"%@ is not allowed to access Touch ID" = "%@ nemá povolený prístup k Touch ID";
 
 /* No comment provided by engineer. */
-"%d confirmations" = "%d potvrdení";
+"1 hour" = "1 hodina";
+
+/* Shorten version of minute */
+"1 min" = "1 min.";
 
 /* No comment provided by engineer. */
-"%d haks/byte" = "%d hakov/bajt";
+"24 hours" = "24 hodín";
 
-/* No comment provided by engineer. */
-"%d out of %d lock votes" = "%1$d z %2$d zamknutých hlasov";
-
-/* No comment provided by engineer. */
-"%ld used" = "%ld sa už používa";
-
-/* No comment provided by engineer. */
-"0 confirmations" = "0 potvrdení";
-
-/* No comment provided by engineer. */
-"1 confirmation" = "1 potvrdenie";
-
-/* No comment provided by engineer. */
-"1 hak/byte" = "1 hak/bajt";
+/* Shorten version of minutes */
+"5 min" = "5 min.";
 
 /* No comment provided by engineer. */
 "\"%@\" is not a recovery phrase word" = "\"%@\" nie je slovom obnovenia";
 
 /* No comment provided by engineer. */
-"\n%@\n\nif you ever lose your phone, you will need it to recover your wallet" = "\n%@\n\nak niekedy stratíte váš telefón, budete ho potrebovať pre obnovenie vašej peňaženky";
-
-/* No comment provided by engineer. */
-"\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nNa zabezpečenie vašej peňaženky je potrebný prístupový kód zariadenia. Ak chcete pokračovať, prejdite na nastavenia a zapnite prístupový kód.";
-
-/* No comment provided by engineer. */
-"\nallow camera access in\nSettings->Privacy->Camera->%@" = "\npovoliť prístup ku kamere\nNastavenia->Súkromie->Kamera->%@";
-
-/* No comment provided by engineer. */
 "\ntry again in %@" = "\nskúsiť znova za %@";
+
+/* No comment provided by engineer. */
+"A device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "Na zabezpečenie vašej peňaženky je potrebný prístupový kód zariadenia. Ak chcete pokračovať, prejdite na nastavenia a zapnite prístupový kód.";
 
 /* No comment provided by engineer. */
 "About" = "O programe";
 
-/* No comment provided by engineer. */
-"accepted by quorum" = "akceptované kvórom";
-
-/* No comment provided by engineer. */
-"Action Needed" = "Vyžaduje sa akcia";
+/* Translate it as short as possible! (24 symbols max) */
+"Add Shortcut" = "Pridať odkaz";
 
 /* No comment provided by engineer. */
 "Address" = "Adresa";
 
 /* No comment provided by engineer. */
-"ADVANCED" = "POKROČILÉ";
+"Advanced Security" = "Pokročilá bezpečnosť";
 
 /* No comment provided by engineer. */
-"always require passcode" = "vždy vyžadovať číselné heslo";
+"All" = "Všetko";
 
 /* No comment provided by engineer. */
-"Amount" = "Suma";
+"Allow camera access in Settings" = "Povoliť prístup ku kamere v nastaveniach";
 
 /* No comment provided by engineer. */
-"amount too small" = "príliš malá suma";
+"Allow Face ID access in Settings" = "Povoliť prístup k Face ID v nastaveniach";
+
+/* No comment provided by engineer. */
+"Allow Touch ID access in Settings" = "Povoliť prístup k Touch ID v nastaveniach";
+
+/* No comment provided by engineer. */
+"Amount Received" = "Prijatá suma";
+
+/* No comment provided by engineer. */
+"Amount Sent" = "Odoslaná suma";
+
+/* No comment provided by engineer. */
+"Amount too small" = "Príliš malá suma";
+
+/* No comment provided by engineer. */
+"An intuitive and familiar experience across all your devices" = "Intuitívny a známy zážitok vo všetkých vašich zariadeniach";
 
 /* No comment provided by engineer. */
 "Application %@ is requesting a payment to" = "Aplikácia %@ požaduje platbu pre";
@@ -81,178 +78,181 @@
 "Are you sure?" = "Ste si istý?";
 
 /* No comment provided by engineer. */
+"Authentication is unvailable" = "Autentifikácia nie je k dispozícii";
+
+/* No comment provided by engineer. */
+"Auto Logout" = "Automatické odhlásenie";
+
+/* No comment provided by engineer. */
+"Autohide Balance" = "Automaticky skryť zostatok";
+
+/* lowercase, ex. 4 Axe available */
 "available" = "dostupné";
 
 /* No comment provided by engineer. */
-"bad recovery phrase" = "zlá fráza pre obnovenie";
+"Available balance" = "Dostupný zostatok";
+
+/* A noun. Used as a title. */
+"Backup Wallet" = "Zálohovať peňaženku";
 
 /* No comment provided by engineer. */
-"Bitcoin address (shapeshift)" = "Bitcoin adresa (shapeshift)";
+"Bad recovery phrase" = "Zlá fráza pre obnovenie";
+
+/* No comment provided by engineer. */
+"Balance hidden" = "Zostatok skrytý";
 
 /* No comment provided by engineer. */
 "block #%d of %d" = "blok #%1$d z %2$d";
 
 /* No comment provided by engineer. */
-"Buy Axe" = "Kúpiť Axe";
+"Block #%d of %d" = "Blok #%1$d z %2$d";
 
 /* No comment provided by engineer. */
-"Buy axe in axewallet!" = "Kúpiť Axe v Axe peňaženke!";
+"Buy & Sell Axe" = "Kúpiť a predať Axe";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Buy / Sell Axe" = "Kúpiť/Predať Axe";
+
+/* No comment provided by engineer. */
+"Buy Axe" = "Kúpiť Axe";
 
 /* No comment provided by engineer. */
 "Buy Axe with Uphold account" = "Kúpiť Axe s účtom na Upholde";
 
 /* No comment provided by engineer. */
-"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code." = "Vyčistením tohto zariadenia už nebudete mať prístup k prostriedkom na tomto zariadení. Toto by sa malo robiť len vtedy, ak už nemáte prístup k vašej prístupovej fráze a zabudli ste aj váš PIN kód.";
-
-/* No comment provided by engineer. */
-"cancel" = "zrušiť";
+"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your PIN code." = "Vyčistením tohto zariadenia už nebudete mať prístup k prostriedkom na tomto zariadení. Toto by sa malo robiť len vtedy, ak už nemáte prístup k vašej prístupovej fráze a zabudli ste aj váš PIN kód.";
 
 /* No comment provided by engineer. */
 "Cancel" = "Zrušiť";
 
-/* No comment provided by engineer. */
-"change" = "zmeniť";
+/* A verb. Action button title for an alert 'Change payment amount?' */
+"Change" = "Zmeniť";
 
 /* No comment provided by engineer. */
-"Change passcode" = "Zmeniť prístupový kód";
+"Change payment amount?" = "Zmeniť sumu platby?";
 
 /* No comment provided by engineer. */
-"change payment amount?" = "zmeniť sumu platby?";
+"Change PIN" = "Zmeniť PIN";
 
 /* No comment provided by engineer. */
-"checking address balance..." = "kontrola zostatku adresy...";
+"Check your connection" = "Skontrolujte pripojenie";
 
 /* No comment provided by engineer. */
-"checking private key balance..." = "kontrola zostatku súkromného kľúča...";
+"Clear" = "Vymazať";
 
 /* No comment provided by engineer. */
-"Classical Transaction" = "Klasická transakcia";
+"Clear trusted node?" = "Zmazať dôveryhodný uzol?";
 
 /* No comment provided by engineer. */
-"clear" = "vymazať";
+"Clipboard doesn't contain a valid Axe address" = "Schránka neobsahuje platnú Axe adresu";
 
 /* No comment provided by engineer. */
-"clear trusted node?" = "zmazať dôveryhodný uzol?";
+"Close" = "Ukončiť";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid axe address" = "schránka neobsahuje platnú axe adresu";
+"Close App" = "Ukončiť Applikáciu";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid axe or bitcoin address" = "schránka neobsahuje platnú axe alebo bitcoin adresu";
-
-/* No comment provided by engineer. */
-"close app" = "ukončiť applikáciu";
-
-/* No comment provided by engineer. */
-"Coinbase Transaction" = "Coinbase transakcia";
-
-/* Confirm */
 "Confirm" = "Potvrdiť";
 
 /* No comment provided by engineer. */
-"confirm" = "potvrdiť:";
+"Confirm PIN" = "Potvrdiť PIN";
 
 /* No comment provided by engineer. */
-"Confirm transaction" = "Potvrdiť transakciu";
+"Confirming" = "Potvrdzuje sa";
 
 /* No comment provided by engineer. */
-"confirmed in block #%d" = "potvrdené v bloku #%d";
+"Connect with third party exchanges" = "Spojiť s burzami tretích strán";
 
 /* No comment provided by engineer. */
-"copied" = "skopírované";
+"Connected peers: %d" = "Pripojené uzle: %d";
 
 /* No comment provided by engineer. */
-"copy" = "skopírovať";
+"Connecting to payment server" = "Connecting to payment server";
 
 /* No comment provided by engineer. */
-"copy address to clipboard" = "kopírovať adresu do systémovej schránky";
+"Contact Support" = "Kontaktovať Podporu";
 
 /* No comment provided by engineer. */
-"copy request to clipboard" = "kopírovať požiadavok do systémovej schránky";
+"Continue" = "Pokračovať";
 
 /* No comment provided by engineer. */
-"copy wallet addresses to clipboard?" = "kopírovať adresy peňaženky do systémovej schránky?";
+"Copied" = "Skopírované";
 
 /* No comment provided by engineer. */
-"couldn't check address balance" = "nedá sa skontrolovať zostatok na adrese";
+"Copy" = "Kopírovať";
 
 /* No comment provided by engineer. */
-"couldn't make payment" = "platba sa nedá uskutočniť ";
+"Copy Logs" = "Skopírovať Záznamy";
 
 /* No comment provided by engineer. */
-"couldn't sweep balance" = "nedá sa nečítať zostatok";
+"Copyright © 2020 Axe Core" = "Autorské práva © 2020 Axe Core";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to axe network" = "platba sa nedá preniesť do axe siete";
+"Couldn't make payment" = "Platba sa nedá uskutočniť ";
 
 /* No comment provided by engineer. */
-"CRITICAL" = "KRITICKĚ";
+"Couldn't sweep balance" = "Nedá sa nečítať zostatok";
 
 /* No comment provided by engineer. */
-"Axe address" = "Axe adresa";
+"Couldn't transmit payment to Axe network" = "Platba sa nedá preniesť do axe siete";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Axe adresy môžu byť tiež skopírovať do schránky. Axe adresa začína vždy \"X\" alebo \"7\".";
+"Create a New Wallet" = "Vytvoriť novú peňaženku";
 
 /* No comment provided by engineer. */
-"axe network fee" = "sieťový poplatok Axe";
+"Axe payments can't be less than %@" = "Axe platby nemôžu byť menšie ako %@";
 
 /* No comment provided by engineer. */
-"axe payments can't be less than %@" = "axe platby nemôžu byť menšie ako %@";
+"Date" = "Dátum";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "ZABEZPEČENIE ZARIADENIA KOMPROMITOVANÉ\nKaždá \"jailbreak\" aplikácia môže pristupovať k údajom o kľúčových reťazcoch každej inej aplikácie (a ukradnúť vaše axee).";
+"Default currency, shortcuts, about…" = "Predvolená mena, skratky, o programe...";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe). Wipe this wallet immediately and restore on a secure device." = "ZABEZPEČENIE ZARIADENIA KOMPROMITOVANÉ\nKaždá \"jailbreak\" aplikácia môže pristupovať k údajom o kľúčových reťazcoch každej inej aplikácie (a ukradnúť vaše axe). Zmažte urýchlene túto peňaženku a obnovte zabezpečenie zariadenia.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe)." = "ZABEZPEČENIE ZARIADENIA KOMPROMITOVANÉ\nKaždá \"jailbreak\" aplikácia môže pristupovať k údajom o kľúčových reťazcoch každej inej aplikácie (a ukradnúť vaše Axe).";
 
 /* No comment provided by engineer. */
-"do it later" = "vykonať neskôr";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe). Wipe this wallet immediately and restore on a secure device." = "ZABEZPEČENIE ZARIADENIA KOMPROMITOVANÉ\nKaždá \"jailbreak\" aplikácia môže pristupovať k údajom o kľúčových reťazcoch každej inej aplikácie (a ukradnúť vaše Axe). Zmažte urýchlene túto peňaženku a obnovte zabezpečenie zariadenia.";
 
 /* No comment provided by engineer. */
-"DO NOT let anyone see your recovery phrase or they can spend your axe." = "NEDOVOĽTE, aby niekto videl vašu frázu pre obnovenie, lebo by mohol minúť vaše Axee.";
-
-/* No comment provided by engineer. */
-"DO NOT take a screenshot. Screenshots are visible to other apps and devices." = "Nepoužívajte snímku obrazovky. Snímky obrazovky sú viditeľné pre iné aplikácie a zariadenia.";
+"Do not take a screenshot" = "Do not take a screenshot";
 
 /* No comment provided by engineer. */
 "Done" = "Hotovo";
 
-/* No comment provided by engineer. */
-"double spend" = "dvojité minutie";
+/* ex., Download peer: 127.0.0.1:9999 */
+"Download peer: %@" = "Uzol na sťahovanie: %@";
 
 /* No comment provided by engineer. */
-"Email client is not configured. Please add your email account in Settings" = "E-mailový klient nie je nakonfigurovaný. Pridajte váš e-mailový účet v časti Nastavenia";
+"Enable Face ID" = "Povoliť Face ID";
 
 /* No comment provided by engineer. */
-"email not configured" = "email nie je nastavený";
+"Enable Receive Notifications" = "Povoliť upozornenia pri prijatí";
 
 /* No comment provided by engineer. */
-"Enable advanced features" = "Povoliť rozšírené funkcie";
+"Enable Touch ID" = "Povoliť Touch ID";
 
 /* No comment provided by engineer. */
-"Enable advanced features?" = "Povoliť rozšírené funkcie?";
+"Enter" = "Zadať";
 
 /* No comment provided by engineer. */
-"Enable receive notifications" = "Povoliť upozornenia pri prijatí";
+"Enter PIN" = "Zadať PIN";
 
 /* No comment provided by engineer. */
-"enter" = "zadať";
+"Enter Recovery Phrase" = "Zadať frázu pre obnovenie";
 
 /* No comment provided by engineer. */
-"Enter the amount to transfer below" = "Nižšie zadajte sumu, ktorú chcete previesť";
+"Enter the amount to transfer" = "Zadajte sumu, ktorú chcete previesť";
 
 /* No comment provided by engineer. */
 "Enter your 2FA code below" = "Nižšie zadajte váš 2FA kód";
 
 /* No comment provided by engineer. */
-"exit" = "ukončiť";
+"Exit" = "Ukončiť";
 
 /* No comment provided by engineer. */
 "Face ID limit" = "Limit pre Face ID";
-
-/* No comment provided by engineer. */
-"Face ID spending limit" = "Limit na míňanie cez Face ID";
 
 /* No comment provided by engineer. */
 "Failed wallet update" = "Zlyhala aktualizácia peňaženky";
@@ -264,55 +264,79 @@
 "Fee is greater than balance" = "Poplatok je väčší ako zostatok";
 
 /* No comment provided by engineer. */
-"Fee will be deducted from requested amount" = "Poplatok bude odpočítaný z požadovanej sumy";
+"Fee will be deducted from requested amount." = "Poplatok bude odpočítaný z požadovanej sumy.";
 
 /* No comment provided by engineer. */
-"from:" = "od:";
+"Filter Transactions" = "Filtrovať transakcie";
 
 /* No comment provided by engineer. */
-"GENERAL" = "VŠEOBECNÉ";
+"Forgot PIN?" = "Zabudli ste PIN?";
+
+/* No comment provided by engineer. */
+"Get Started" = "Začať";
 
 /* No comment provided by engineer. */
 "Go to Website" = "Prejsť na webovú stránku";
 
 /* No comment provided by engineer. */
-"holding funds index:" = "index držania zdrojov:";
+"Have complete control and customize your wallet based on your needs" = "Majte úplnú kontrolu a prispôsobte si vašu peňaženku podľa svojich potrieb";
+
+/* No comment provided by engineer. */
+"Help us improve your experience" = "Pomôžte nám vylepšiť váš zážitok";
+
+/* adjective, security level */
+"High" = "Vysoké";
+
+/* No comment provided by engineer. */
+"History" = "História";
 
 /* No comment provided by engineer. */
 "I accept that I will lose my coins if I no longer possess the recovery phrase" = "Akceptujem, že stratím svoje mince v prípade, že už nedržím frázu pre obnovenie";
 
 /* No comment provided by engineer. */
-"id:" = "id:";
+"I wrote it down" = "Zapísal som si to";
+
+/* No comment provided by engineer. */
+"If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device." = "Ak toto zariadenie stratíte, stratíte vaše prostriedky. Získajte frázu pre obnovenie, aby ste mohli peňaženku obnoviť na inom zariadení.";
 
 /* No comment provided by engineer. */
 "If you still would like to wipe it please input: \"%@\"" = "Ak si ju stále prajete zmazať, prosím zadajte: \"%@\"";
 
 /* No comment provided by engineer. */
-"ignore" = "ignorovať";
+"Ignore" = "Ignorovať";
 
 /* No comment provided by engineer. */
-"Import private key" = "Importovať privátny kľúč";
+"Immediately" = "Hneď";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Import Private Key" = "Importovať Privátny Kľúč";
 
 /* No comment provided by engineer. */
-"IMPORTANT" = "DÔLEŽITÉ ";
+"Import private key…" = "Importovať privátny kľúč…";
 
 /* No comment provided by engineer. */
-"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again." = "V predchádzajúcej verzii Axe peňaženky, keď sme na začiatku zobrazovali prístupovú frázu na tomto zariadení, sme zistili, že táto aplikácia nesprávne zobrazila všetkých 12 slov. Znova zadajte úplnú prístupovú frázu.";
+"Insufficient funds" = "Nedostatok prostriedkov";
+
+/* Transaction within the wallet, transfer of own funds */
+"Internal Transfer" = "Interný prevod";
 
 /* No comment provided by engineer. */
-"Insufficient Funds" = "Nedostatok prostriedkov";
+"Internally moved to" = "Interne presunuté do";
+
+/* Invalid transaction */
+"Invalid" = "Neplatná";
 
 /* No comment provided by engineer. */
-"INVALID" = "NEPLATNÉ";
+"Invalid Payment Request" = "Invalid Payment Request";
 
 /* No comment provided by engineer. */
-"Invalid amount" = "Neplatná suma";
+"Invalid QR Code" = "Invalid QR Code";
 
 /* No comment provided by engineer. */
-"IP address/port:" = "IP adresa/port:";
+"It's Important" = "Je to dôležité";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your axe address. Anyone can send axe to your wallet by transferring them to your address." = "Umožnite ostatným skenovať tento QR kód, aby získali vašu axe adresu. Ktokoľvek môže poslať axe do peňaženky tým, že ho presunie na vašu adresu.";
+"Keypair %ld" = "Pár kľúčov %ld";
 
 /* No comment provided by engineer. */
 "Link Uphold Account" = "Pripojiť Uphold účet";
@@ -320,14 +344,14 @@
 /* No comment provided by engineer. */
 "Load more" = "Načítať viac";
 
+/* Translate it as short as possible! (24 symbols max) */
+"Local Currency" = "Miestna mena";
+
 /* No comment provided by engineer. */
-"Local currency" = "Miestna mena";
+"Local requested amount: %@" = "Miestna vyžadovaná suma: %@";
 
 /* No comment provided by engineer. */
 "Locked" = "Uzamknuté";
-
-/* No comment provided by engineer. */
-"locked with InstantSend" = "uzamknutá cez InstantSend";
 
 /* No comment provided by engineer. */
 "Log Out" = "Odhlásiť";
@@ -336,94 +360,94 @@
 "Log out from Uphold" = "Odhlásiť s Upholdu";
 
 /* No comment provided by engineer. */
-"masternode holding address" = "adresa držiteľa masternódu";
+"Login with Face ID" = "Prihláste sa pomocou Face ID";
 
 /* No comment provided by engineer. */
-"Masternode Registration Transaction" = "Registračná transakcia Masternódu";
+"Login with Touch ID" = "Prihláste sa pomocou Touch ID";
+
+/* a verb, Logout Immediately */
+"Logout" = "Odhlásiť sa";
+
+/* Logout after 5 min */
+"Logout after" = "Odhlásiť sa po";
 
 /* No comment provided by engineer. */
-"Masternode Update Registrar Transaction" = "Registračná transakcia aktualizácie Masternódu";
+"Long press to copy ID" = "Dlhým stlačením kopírovať ID";
+
+/* adjective, security level */
+"Low" = "Nízke";
 
 /* No comment provided by engineer. */
-"Masternode Update Service Transaction" = "Servisná transakcia aktualizácie Masternódu";
+"Manage Trusted Node" = "Spravovať dôveryhodný uzol";
 
 /* No comment provided by engineer. */
-"more..." = "viac...";
+"Masternode Registration" = "Registracia masternódu";
 
 /* No comment provided by engineer. */
-"Moved" = "Presunuté";
+"Masternode Revocation" = "Zrušenie masternódu";
+
+/* No comment provided by engineer. */
+"Masternode Update" = "Aktualizácia masternódu";
+
+/* Contracted variant of 'Maximum' word */
+"Max" = "Max";
+
+/* adjective, security level */
+"Medium" = "Stredné";
+
+/* No comment provided by engineer. */
+"More" = "Viac";
+
+/* No comment provided by engineer. */
+"More Control" = "Viac kontroly";
+
+/* No comment provided by engineer. */
+"Moved from" = "Presunuté z";
+
+/* No comment provided by engineer. */
+"Moved to Address" = "Presunuté k adrese";
 
 /* No comment provided by engineer. */
 "Network" = "Sieť";
 
 /* No comment provided by engineer. */
-"NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected." = "NIKDY nezadávajte frázu pre obnovenie do správcov hesiel alebo inde. Iné zariadenia môžu byť infikované.";
+"Network fee" = "Sieťový poplatok ";
 
 /* No comment provided by engineer. */
-"new public key:" = "nový verejný kľúč:";
+"NFC device" = "NFC zariadenie";
 
 /* No comment provided by engineer. */
-"next, write down your recovery phrase" = "ako ďalšie si zapíšte svoju frázu pre obnovenie";
+"NFC device didn't transmit a valid Axe address" = "NFC zariadenie nevyslalo validnú Axe adresu";
 
 /* No comment provided by engineer. */
-"NFC device didn't transmit a valid axe address" = "NFC zariadenie nevyslalo validnú axe adresu";
+"No address copied" = "Nebola skopírovaná žiadna adresa";
 
 /* No comment provided by engineer. */
-"NFC device didn't transmit a valid axe or bitcoin address" = "NFC zariadenie nevyslalo validnú axe alebo bitcoin adresu";
+"Node IP" = "IP uzla";
+
+/* adjective, security level */
+"None" = "Žiadne";
 
 /* No comment provided by engineer. */
-"no exchange rate data" = "žiadne údaje o výmenných kurzoch";
+"Not a Axe QR code" = "Nie je Axe QR kód";
 
 /* No comment provided by engineer. */
-"node ip" = "ip uzla";
+"Not a Axe URL" = "Nie je Axe URL";
 
 /* No comment provided by engineer. */
-"not a axe or bitcoin QR code" = "nie je to axe alebo bitcoin QR kód";
+"Not a valid Axe address" = "Nie je to platná Axe adresa";
 
 /* No comment provided by engineer. */
-"not a axe QR code" = "nie je axe QR kód";
-
-/* No comment provided by engineer. */
-"not a valid bitcoin address" = "nie je to platná bitcoinová adresa";
-
-/* No comment provided by engineer. */
-"not a valid axe address" = "nie je to platná axe adresa";
-
-/* No comment provided by engineer. */
-"not a valid axe or bitcoin address" = "nie je to platná axe alebo bitcoinová adresa";
-
-/* No comment provided by engineer. */
-"not operator" = "nie je operátor";
-
-/* No comment provided by engineer. */
-"not owner" = "nie je vlastník";
-
-/* No comment provided by engineer. */
-"not voter" = "nehlasuje";
+"Not yet used" = "Zatiaľ nepoužité";
 
 /* No comment provided by engineer. */
 "OK" = "OK";
 
 /* No comment provided by engineer. */
-"ok" = "ok";
-
-/* No comment provided by engineer. */
-"Only enable advanced features if you are knowledgeable in blockchain technology. \nIf enabled only use advanced features that you understand." = "Povolte pokročilé funkcie, iba ak ste oboznámení s technológiou blockchainu.\nAk sú povolené, používajte iba pokročilé funkcie, ktorým rozumiete.";
-
-/* No comment provided by engineer. */
-"operator key index:" = "index kľúča operátora:";
-
-/* No comment provided by engineer. */
-"operator key:" = "kľúč operátora:";
-
-/* No comment provided by engineer. */
 "Operator Keys" = "Kľúče operátora";
 
 /* No comment provided by engineer. */
-"owner key hash:" = "hash kľúča vlastníka:";
-
-/* No comment provided by engineer. */
-"owner key index:" = "index kľúča vlastníka:";
+"Owner Address" = "Adresa vlastníka";
 
 /* No comment provided by engineer. */
 "Owner Keys" = "Kľúče vlastníka";
@@ -432,211 +456,307 @@
 "Pay" = "Zaplatiť";
 
 /* No comment provided by engineer. */
-"payload:" = "zaťaženie:";
+"Pay and get paid instantly with easy to use payment flows" = "Plaťte a dostaňte okamžite zaplatené pomocou ľahko použiteľných platobných tokov";
 
 /* No comment provided by engineer. */
-"payment address" = "platobná adresa";
+"Pay with Ease" = "Plaťte jednoducho";
+
+/* 1 out of 4 in the Paying Animation */
+"Paying" = "Paying";
+
+/* 2 out of 4 in the Paying Animation */
+"Paying." = "Paying.";
+
+/* 3 out of 4 in the Paying Animation */
+"Paying.." = "Paying..";
+
+/* 4 out of 4 in the Paying Animation */
+"Paying..." = "Paying...";
 
 /* No comment provided by engineer. */
-"payment output" = "platobný výstup";
+"Payments" = "Platby";
 
 /* No comment provided by engineer. */
-"payout Address" = "Adresa platby";
+"PIN is always required to make a payment" = "Na vykonanie platby je vždy potrebný PIN";
 
 /* No comment provided by engineer. */
-"payout address:" = "adresa platby:";
-
-/* No comment provided by engineer. */
-"Pending" = "Čakajúce";
-
-/* No comment provided by engineer. */
-"pending" = "čakajúce";
-
-/* No comment provided by engineer. */
-"Please enter pin to upgrade wallet" = "Pre inováciu peňaženky zadajte pin";
-
-/* No comment provided by engineer. */
-"please enter pin to upgrade wallet" = "pre inováciu peňaženky zadajte pin";
+"Please enter PIN to upgrade wallet" = "Pre inováciu peňaženky zadajte PIN";
 
 /* No comment provided by engineer. */
 "Please place your phone near NFC device." = "Umiestnite váš telefón blízko NFC zariadenia.";
 
 /* No comment provided by engineer. */
-"Private key" = "Privátny kľúč";
+"Please tap on the words from your recovery phrase in the right order" = "Klepnite na slová z obnovovacej frázy v správnom poradí";
 
 /* No comment provided by engineer. */
-"processing" = "spracováva sa";
+"Please try again" = "Prosím skúste znova";
+
+/* No comment provided by engineer. */
+"Please try scanning again" = "Please try scanning again";
+
+/* No comment provided by engineer. */
+"Please Wait" = "Please Wait";
+
+/* No comment provided by engineer. */
+"Please wait for the sync to complete" = "Počkajte na dokončenie synchronizácie";
+
+/* No comment provided by engineer. */
+"Please write it down" = "Prosím, zapíšte si ju";
+
+/* No comment provided by engineer. */
+"Previously used at IP address" = "Predtým použité na IP adrese";
+
+/* No comment provided by engineer. */
+"Private key" = "Privátny kľúč";
 
 /* No comment provided by engineer. */
 "Processing" = "Spracováva sa";
 
 /* No comment provided by engineer. */
+"Provider Address" = "Adresa poskytovateľa";
+
+/* No comment provided by engineer. */
 "Public key" = "Verejný kľúč";
 
 /* No comment provided by engineer. */
-"public key:" = "verejný kľúč:";
+"Quick Receive" = "Rýchlo prijať";
 
 /* No comment provided by engineer. */
-"rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@\nquorums validated: %d/%d" = "rýchlosť: %1$@ = %2$@\naktualizované: %3$@\nblok #%4$d z %5$d\npripojených uzlov: %6$d\ndl uzol: %7$@\npotvrdené kvórami: %8$d/%9$d";
+"Quorums validated: %d/%d" = "Overené kvórami: %1$d/%2$d";
+
+/* ex., Rate 1 US $ = 0.000009 Axe */
+"Rate: %@ = %@" = "Kurz: %1$@ = %2$@";
 
 /* No comment provided by engineer. */
-"Receive axe at this address: %@" = "Prijať axe na tejto adrese: %@";
+"Receive" = "Prijať";
 
-/* No comment provided by engineer. */
+/* Received transaction */
 "Received" = "Prijté";
 
 /* No comment provided by engineer. */
-"received %@ (%@)" = "prijaté %1$@ (%2$@)";
+"Received %@ (%@)" = "Prijaté %1$@ (%2$@)";
 
 /* No comment provided by engineer. */
-"recently mined (locked)" = "nedávno vyťažené (zamknuté)";
-
-/* Recovery phrase */
-"Recovery phrase" = "Fráza pre obnovenie";
+"Received at" = "Prijaté o";
 
 /* No comment provided by engineer. */
-"recovery phrase doesn't match" = "fráza pre obnovenie sa nezhoduje";
+"Received from" = "Prijaté od";
 
 /* No comment provided by engineer. */
-"recovery phrase must have %d words" = "fráza pre obnovenie musí mať %d slov";
+"Recover Wallet" = "Obnoviť peňaženku";
 
 /* No comment provided by engineer. */
-"registration tx:" = "registračná tx:";
+"Recovery Phrase" = "Fráza pre obnovenie";
 
 /* No comment provided by engineer. */
-"Remind me later" = "Pripomenúť neskôr";
+"Recovery phrase doesn't match" = "Fráza pre obnovenie sa nezhoduje";
 
 /* No comment provided by engineer. */
-"Request" = "Požiadavok";
+"Recovery phrase must have %d words" = "Fráza pre obnovenie musí mať %d slov";
 
 /* No comment provided by engineer. */
-"request an amount" = "požiadať o čiastku";
+"Registered from" = "Registrované z";
 
 /* No comment provided by engineer. */
-"rescan" = "pre-skenovať";
+"Registered Masternode" = "Registrovaný masternód";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Report an Issue" = "Nahlásiť problém";
+
+/* An action */
+"Rescan" = "Pre-skenovať";
 
 /* No comment provided by engineer. */
-"Rescan blockchain" = "Znova prehľadať blockchain";
+"Rescan Blockchain" = "Znova prehľadať blockchain";
 
 /* No comment provided by engineer. */
-"reset" = "vynulovať";
+"Reset" = "Obnoviť";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their axe address. You can send a payment to anyone with an address." = "Skenovať niekoho iného QR kód, aby ste získali ich axe adresu. Platbu môžete poslať komukoľvek kto má adresu.";
+"Reset to Default" = "Obnoviť pôvodné nastavenia";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their axe or bitcoin address. You can send a payment to anyone with an address." = "Skenovať QR kód niekoho iného, aby ste získali ich axe alebo bitcoinovú adresu. Platbu môžete poslať komukoľvek, kto má adresu.";
+"Reset Wallet" = "Resetovať Peňaženku";
+
+/* No comment provided by engineer. */
+"Retry" = "Znovu";
+
+/* No comment provided by engineer. */
+"Review & Rate the app" = "Ohodnotiť aplikáciu";
+
+/* No comment provided by engineer. */
+"Reward" = "Odmena";
+
+/* No comment provided by engineer. */
+"Rewards" = "Odmeny";
+
+/* No comment provided by engineer. */
+"Scan" = "Skenovať";
+
+/* No comment provided by engineer. */
+"Scan Private Key" = "Skenovať privátny kľúč";
+
+/* No comment provided by engineer. */
+"Scan QR Code" = "Skenovať QR kód";
+
+/* A title of the quick receive screen */
+"Scan this to Pay" = "Skenovať toto pre platbu";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Scan to Pay" = "Skenovať pre platbu";
+
+/* No comment provided by engineer. */
+"Scan to Send" = "Skenovať pre poslanie";
+
+/* (Send by) Scanning QR code */
+"Scanning QR code" = "Skenuje sa QR kód";
+
+/* No comment provided by engineer. */
+"Screenshot detected. New recovery phrase:" = "Snímka obrazovky detekovaná. Nová fráza pre obnovenie účtu:";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Snímky obrazovky sú viditeľné pre iné aplikácie a zariadenia. Vytvorte novú frázu obnovenia a držte ju v tajnosti.";
 
 /* No comment provided by engineer. */
-"Screenshots are visible to other apps and devices. Your funds are at risk. Transfer your balance to another wallet." = "Snímky obrazovky sú viditeľné pre iné aplikácie a zariadenia. Vaše finančné prostriedky sú ohrozené. Preneste svoj zostatok do inej peňaženky.";
+"Secure now" = "Teraz zabezbečiť";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Secure Wallet Now" = "Zabezpečiť peňaženku teraz";
+
+/* No comment provided by engineer. */
+"Security" = "Bezpečnosť";
+
+/* No comment provided by engineer. */
+"Security Level" = "Úroveň zabezpečenia";
 
 /* No comment provided by engineer. */
 "See on Uphold" = "Ukázať na Upholde";
 
 /* No comment provided by engineer. */
-"seen by %d of %d peers" = "videné %1$d z %2$d rovesníkov";
+"Send" = "Poslať";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The axe network will receive a fee of %@ (%@)." = "Odoslať %1$@ (%2$@) z tohto privátneho kľúča do peňaženky? Sieť axe obdrží poplatok %3$@ (%4$@).";
+"Send %@ (%@) from this private key into your wallet? The Axe network will receive a fee of %@ (%@)." = "Odoslať %1$@ (%2$@) z tohto privátneho kľúča do peňaženky? Sieť Axe obdrží poplatok %3$@ (%4$@).";
+
+/* Send by (scanning QR code) */
+"Send by" = "Poslať od";
 
 /* No comment provided by engineer. */
-"send address as email" = "odoslať adresu ako e-mail";
+"Send to" = "Poslať ku";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Send to Address" = "Poslať na adresu";
 
 /* No comment provided by engineer. */
-"send address as message" = "odoslať adresu ako správu";
+"Send to copied address" = "Poslať na skopírovanú adresu";
 
-/* No comment provided by engineer. */
-"send crash report" = "poslať správu o chybe";
+/* Translate it as short as possible! (24 symbols max) */
+"Send with NFC" = "Poslať s NFC";
 
-/* No comment provided by engineer. */
-"send request as email" = "odoslať žiadosť ako e-mail";
+/* 1 out of 4 in the Sending Animation */
+"Sending" = "Odosielam";
 
-/* No comment provided by engineer. */
-"send request as message" = "odoslať žiadosť ako správu";
+/* 2 out of 4 in the Sending Animation */
+"Sending." = "Odosielam.";
 
-/* No comment provided by engineer. */
+/* 3 out of 4 in the Sending Animation */
+"Sending.." = "Odosielam..";
+
+/* 4 out of 4 in the Sending Animation */
+"Sending..." = "Odosielam...";
+
+/* Sent transaction */
 "Sent" = "Poslané";
 
 /* No comment provided by engineer. */
-"sent!" = "poslané!";
+"Sent from" = "Poslané od";
 
 /* No comment provided by engineer. */
-"set a trusted node" = "nastaviť dôveryhodný uzol";
+"Sent successfully" = "Úspešne poslané";
+
+/* No comment provided by engineer. */
+"Sent to" = "Poslané ku";
+
+/* No comment provided by engineer. */
+"Set a trusted node" = "Nastaviť dôveryhodný uzol";
+
+/* No comment provided by engineer. */
+"Set PIN" = "Nastaviť PIN";
 
 /* No comment provided by engineer. */
 "Settings" = "Nastavenia";
 
 /* No comment provided by engineer. */
-"shapeshift bitcoin id:" = "shapeshift bitcoin id:";
+"Setup Wallet" = "Nastaviť peňaženku";
 
 /* No comment provided by engineer. */
-"shapeshift status:" = "shapeshift status:";
+"Share" = "Zdieľať";
 
 /* No comment provided by engineer. */
-"shapeshift succeeded" = "shapeshift úspešný";
+"Show Masternode Keys" = "Zobraziť kľúče masternódu";
 
 /* No comment provided by engineer. */
-"show" = "zobraziť";
+"Show Recovery Phrase" = "Zobraziť frázu obnovenia";
 
 /* No comment provided by engineer. */
-"Show masternode keys" = "Zobraziť kľúče masternódu";
+"Skip" = "Preskočiť";
 
 /* No comment provided by engineer. */
-"show phrase" = "ukázať frázu";
-
-/* No comment provided by engineer. */
-"size:" = "veľkosť:";
-
-/* No comment provided by engineer. */
-"sms not currently available" = "sms nie je momentálne dostupná";
+"skip" = "preskočiť";
 
 /* No comment provided by engineer. */
 "Something went wrong" = "Niečo sa pokazilo";
 
 /* No comment provided by engineer. */
-"spent address" = "adresa pre míňanie";
+"Specify Amount" = "Zadať množstvo";
 
 /* No comment provided by engineer. */
-"spent input" = "minutý vstup";
+"Spending Confirmation" = "Potvrdenie minutia";
 
 /* No comment provided by engineer. */
-"Start / Recover another wallet" = "Spustiť/obnoviť ďalšiu peňaženku";
+"Support" = "Support";
 
 /* No comment provided by engineer. */
-"status:" = "stav:";
+"Swept!" = "Načítať!";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Switch to Mainnet" = "Prepnúť na hlavnú sieť";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Switch to Testnet" = "Prepnúť na testovaciu sieť";
 
 /* No comment provided by engineer. */
-"Steps to reproduce the crash" = "Kroky na reprodukciu chyby";
+"Sync Failed" = "Synchronizácia zlyhala";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Sync Now" = "Synchronizovať teraz";
 
 /* No comment provided by engineer. */
-"Success" = "Úspešné";
+"Syncing" = "Synchronizuje sa";
+
+/* Pay using NFC (should be as short as possible) */
+"Tap" = "Klepnúť";
 
 /* No comment provided by engineer. */
-"swept!" = "načítať!";
+"Tap to hide balance" = "Klepnutím skryť zostatok";
 
 /* No comment provided by engineer. */
-"Syncing:" = "Synchronizuje sa:";
+"Tap to unhide balance" = "Klepnutím odkryť zostatok";
 
 /* No comment provided by engineer. */
-"the app will now close" = "aplikácia sa teraz ukončí";
+"There are no transactions to display" = "Žiadne transakcie na zobrazenie";
 
 /* No comment provided by engineer. */
-"This is your axe address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Toto je vaša axe adresa. Klepnutím ju skopírujete, alebo ju pošlite e-mailom či cez sms. Adresa sa zmení vždy, keď dostanete finančné prostriedky, ale staré adresy vždy ostanú funkčné.";
+"This app is open source:" = "Táto aplikácia má otvorený zdrojový kód:";
 
 /* No comment provided by engineer. */
-"This is your axe balance." = "Toto je vaša axe bilancia";
+"This PIN will be required to unlock your app every time when you use it." = "Tento PIN bude potrebný na odomknutie aplikácie pri každom použití.";
 
 /* No comment provided by engineer. */
-"This is your axe balance. Axe is a currency. The exchange rate changes with the market." = "Toto je vaša axe bilancia. Axe je mena. Výmenný kurz sa mení podla situácie na trhu.";
+"This recovery phrase is your access to the funds in this wallet." = "Táto fráza pre obnovenie predstavuje váš prístup k finančným prostriedkom v tejto peňaženke.";
 
 /* No comment provided by engineer. */
 "This transaction may take several minutes to settle." = "Táto transakcia môže trvať niekoľko minút.";
-
-/* No comment provided by engineer. */
-"This transaction may take several minutes to settle. Complete instantly for an extra %@?" = "Táto transakcia môže trvať niekoľko minút. Dokončiť okamžite za extra %@?";
 
 /* No comment provided by engineer. */
 "This transaction should settle instantly at no extra fee" = "Táto transakcia by sa mala okamžite vyrovnať bez ďalších poplatkov";
@@ -645,13 +765,10 @@
 "This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase" = "Táto peňaženka nie je prázdna, alebo synchronizácia nie je dokončená. Nemali by ste ju vymazať bez frázy na obnovenie";
 
 /* No comment provided by engineer. */
-"to:" = "komu:";
+"This will move all coins from that wallet to your wallet on this device." = "Týmto presuniete všetky mince z tej peňaženky do vašej peňaženky na tomto zariadení.";
 
 /* No comment provided by engineer. */
-"to: %@" = "komu: %@";
-
-/* No comment provided by engineer. */
-"topup amount:" = "suma dobitia:";
+"Tools" = "Nástroje";
 
 /* No comment provided by engineer. */
 "Total" = "Celkovo";
@@ -660,15 +777,9 @@
 "Touch ID limit" = "Limit pre Touch ID";
 
 /* No comment provided by engineer. */
-"Touch ID spending limit" = "Limit na míňanie cez Touch ID";
-
-/* No comment provided by engineer. */
-"Transaction history" = "História transakcií";
-
-/* No comment provided by engineer. */
 "Transaction id" = "Id transakcie";
 
-/* No comment provided by engineer. */
+/* A verb, button title. */
 "Transfer" = "Presun";
 
 /* No comment provided by engineer. */
@@ -677,110 +788,131 @@
 /* No comment provided by engineer. */
 "Transfer from Uphold" = "Presunúť s Upholdu";
 
-/* No comment provided by engineer. */
-"trust" = "dôverovať";
+/* An action */
+"Try again" = "Skúsiť znova";
+
+/* Alert title */
+"Turn device passcode on" = "Zapnúť prístupový kód";
 
 /* No comment provided by engineer. */
-"try again" = "skúsiť znova";
+"Unable to connect" = "Nedá sa pripojiť";
 
 /* No comment provided by engineer. */
-"Try It!" = "Vyskúšajte!";
+"Unable to get new QR code" = "Nepodarilo sa získať nový QR kód";
 
 /* No comment provided by engineer. */
-"turn device passcode on" = "zapnúť prístupový kód";
+"Unsupported or corrupted document" = "Nepodporovaný alebo poškodený dokument";
 
 /* No comment provided by engineer. */
-"type:" = "typ:";
+"Unsupported URL" = "Nepodporovaná URL";
 
-/* No comment provided by engineer. */
-"Unable to get new qr code" = "Nepodarilo sa získať nový qr kód";
-
-/* No comment provided by engineer. */
-"unknown address" = "neznáma adresa";
-
-/* No comment provided by engineer. */
-"unsupported or corrupted document" = "nepodporovaný alebo poškodený dokument";
-
-/* No comment provided by engineer. */
-"unsupported url" = "nepodporovaná url";
-
-/* No comment provided by engineer. */
-"Unverified" = "Neoverené";
+/* ex., Updated: 27.12, 8:30 */
+"Updated: %@" = "Aktualizované: %@";
 
 /* No comment provided by engineer. */
 "Uphold" = "Uphold";
 
 /* No comment provided by engineer. */
-"Uphold account" = "Účet na Upholde";
+"Used" = "Použité";
 
 /* No comment provided by engineer. */
-"User Registration Transaction" = "Používateľove registračné transakcie";
+"Used at IP address" = "Použité na IP adrese";
 
 /* No comment provided by engineer. */
-"User Reset Transaction" = "Používateľove resetovacie transakcie";
+"Verified Successfully" = "Úspešne overené";
 
 /* No comment provided by engineer. */
-"User Topup Transaction" = "Používateľove dobíjacie transakcie";
+"Verify" = "Overiť";
+
+/* adjective, security level */
+"Very High" = "Veľmi vysoké";
 
 /* No comment provided by engineer. */
-"username:" = "meno používateľa:";
+"View in Block Explorer" = "Zobraziť v prehliadači blokov";
 
 /* No comment provided by engineer. */
-"verified, waiting for confirmation" = "overené, čaká sa na potvrdenie";
+"View passphrase, backup wallet…" = "Zobraziť prístupové heslo, zálohovať peňaženku...";
 
 /* No comment provided by engineer. */
-"verifying quorum" = "overovacie kvórum";
+"View Recovery Phrase" = "Zobraziť frázu pre obnovenie";
 
 /* No comment provided by engineer. */
-"voting key hash:" = "hash hlasovacieho kľúča:";
-
-/* No comment provided by engineer. */
-"voting key index:" = "index hlasovacieho kľúča:";
+"Voting Address" = "Adresa pre hlasovanie";
 
 /* No comment provided by engineer. */
 "Voting Keys" = "Hlasovacie kľúče";
 
 /* No comment provided by engineer. */
-"wallet address" = "adresa peňaženky";
+"Wallet disabled" = "Peňaženka neaktívna";
 
 /* No comment provided by engineer. */
 "Wallet Keys" = "Kľúče peňaženky";
 
 /* No comment provided by engineer. */
+"Warning" = "Upozornenie";
+
+/* No comment provided by engineer. */
 "WARNING" = "UPOZORNENIE";
 
 /* No comment provided by engineer. */
-"watch only" = "iba sledovať";
+"We are about to show you the secret key to your wallet." = "Chystáme sa vám ukázať tajný kľúč k vašej peňaženke.";
 
 /* No comment provided by engineer. */
-"We have detected that Axewallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete." = "Zistili sme, že Axewallet zlyhal počas migrácie. Opätovné skenovanie blockchainu tento problém vyrieši, prípadne môžete skúsiť znova. Opätovné skenovanie by sa malo prednostne vykonávať na wifi a môže trvať zhruba pol hodiny. Vaše prostriedky budú k dispozícii po dokončení procesu synchronizácie.";
+"We do not store this recovery phrase." = "Túto frázu pre obnovenie neuchovávame.";
 
 /* No comment provided by engineer. */
-"We have detected that Axewallet crashed last time it was opened. Would you like to help us solve the issue by sending us the crash report data? Your transaction history and any other private information WILL NOT be shared." = "Zistili sme, že program Axewallet sa naposledy neukončil správne. Chceli by ste nám pomôcť vyriešiť problém odoslaním údajov o zlyhaní? Vaša história transakcií ani akékoľvek ďalšie súkromné informácie NEBUDÚ zdieľané.";
+"We have detected that Axe Wallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete." = "Zistili sme, že Axe Wallet zlyhal počas migrácie. Opätovné skenovanie blockchainu tento problém vyrieši, prípadne môžete skúsiť znova. Opätovné skenovanie by sa malo prednostne vykonávať na wifi a môže trvať zhruba pol hodiny. Vaše prostriedky budú k dispozícii po dokončení procesu synchronizácie.";
 
 /* No comment provided by engineer. */
-"wipe" = "vymazať";
+"We Upgraded" = "Aktualizovali sme";
 
 /* No comment provided by engineer. */
-"WRITE DOWN YOUR RECOVERY PHRASE" = "ZAPÍŠTE SI VAŠU FRÁZU PRE OBNOVENIE";
+"Welcome" = "Vitajte";
 
 /* No comment provided by engineer. */
-"yes" = "áno";
+"When the transaction is confirmed, the other wallet will be worthless and should not be re-used for safety reasons." = "Po potvrdení transakcie bude druhá peňaženka bezcenná a z bezpečnostných dôvodov by sa nemala znovu používať.";
 
 /* No comment provided by engineer. */
-"You can now buy axe in\naxewallet with cash or\nbank transfer." = "Teraz si môžete zakúpiť axe cez\naxewallet s hotovosťou alebo\nbankovým prevodom.";
+"Why I should not take a screenshot?" = "Why I should not take a screenshot?";
 
 /* No comment provided by engineer. */
-"You must enter your pin in order to enter axewallet" = "Aby ste sprístupnili axe peňaženku, musíte zadať PIN";
+"Wipe" = "Vymazať";
 
 /* No comment provided by engineer. */
-"you received axe!" = "obdržali ste axe!";
+"Wipe Wallet" = "Vymazať Peňaženku";
+
+/* No comment provided by engineer. */
+"with Axe blockchain" = "s Axe blockchainom";
+
+/* No comment provided by engineer. */
+"You are about to sweep funds from another Axe Wallet." = "Chystáte sa získať prostriedky z inej Axe peňaženky.";
+
+/* No comment provided by engineer. */
+"You are about to wipe this wallet from this device. Funds associated with this wallet can only be retrieved if you have your recovery phrase." = "Chystáte sa vymazať túto peňaženku z tohto zariadenia. Prostriedky spojené s touto peňaženkou je možné získať iba v prípade, že máte frázu pre obnovenie.";
+
+/* No comment provided by engineer. */
+"You can authenticate with Face ID for payments below" = "Platby nižšie môžete overiť pomocou Face ID";
+
+/* No comment provided by engineer. */
+"You can authenticate with Touch ID for payments below" = "Platby nižšie môžete overiť pomocou Touch ID";
+
+/* No comment provided by engineer. */
+"You must enter your PIN in order to enter Axe Wallet" = "Aby ste sprístupnili Axe Wallet, musíte zadať PIN";
+
+/* No comment provided by engineer. */
+"You received Axe! If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device." = "Obdržali ste Axe. Ak toto zariadenie stratíte, stratíte vaše prostriedky. Získajte frázu pre obnovenie, aby ste mohli peňaženku obnoviť na inom zariadení.";
 
 /* No comment provided by engineer. */
 "You will also need to log out from the Uphold website using your browser" = "Budete sa tiež musieť odhlásiť z webovej stránky Upholdu pomocou svojho prehliadača";
+
+/* No comment provided by engineer. */
+"You will need this recovery phrase to access your funds if this device is lost, damaged or if Axe Wallet ever is accidentally uninstalled from this device." = "Túto frázu pre obnovenie budete potrebovať na prístup k vašim finančným prostriedkom, ak dôjde k strate či poškodeniu tohto zariadenia alebo k náhodnému odinštalovaniu Axe Wallet z tohto zariadenia.";
 
 /* No comment provided by engineer. */
 "Your transaction was sent and the amount should appear in your wallet in a few minutes." = "Vaša transakcia bola odoslaná a čiastka by sa mala objaviť vo vašej peňaženke v priebehu niekoľkých minút.";
 
 /* No comment provided by engineer. */
 "Your Uphold account Axe balance is" = "Zostatok na vašom Uphold účte je";
+
+/* No comment provided by engineer. */
+"Your wallet is secured now. You can use your recovery phrase anytime to recover your account on another device." = "Vaša peňaženka je zabezpečená. Frázu pre obnovenie môžete kedykoľvek použiť na obnovenie svojho účtu na inom zariadení.";

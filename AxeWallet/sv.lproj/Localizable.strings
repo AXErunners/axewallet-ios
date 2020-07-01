@@ -1,72 +1,69 @@
 
 /* No comment provided by engineer. */
-"%@ is for 'mAXE'. %@ = 1 AXE." = "%@ är för 'mAXE'. %@ = 1 AXE";
+"%@ is not allowed to access Face ID" = "%@ is not allowed to access Face ID";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ har ej tillåtelse att använda kameran";
 
 /* No comment provided by engineer. */
-"%@\n\nbalance: %@ (%@)" = "%1$@\n\nbalans: %2$@ (%3$@)";
+"%@ is not allowed to access Touch ID" = "%@ is not allowed to access Touch ID";
 
 /* No comment provided by engineer. */
-"%d confirmations" = "%d bekräftelser";
+"1 hour" = "1 timme";
+
+/* Shorten version of minute */
+"1 min" = "1 min";
 
 /* No comment provided by engineer. */
-"%d haks/byte" = "%d haks/byte";
+"24 hours" = "24 timmar";
 
-/* No comment provided by engineer. */
-"%d out of %d lock votes" = "%1$d out of %2$d lock votes";
-
-/* No comment provided by engineer. */
-"%ld used" = "%ld used";
-
-/* No comment provided by engineer. */
-"0 confirmations" = "0 bekräftelser";
-
-/* No comment provided by engineer. */
-"1 confirmation" = "1 bekräftelse";
-
-/* No comment provided by engineer. */
-"1 hak/byte" = "1 hak/byte";
+/* Shorten version of minutes */
+"5 min" = "5 min";
 
 /* No comment provided by engineer. */
 "\"%@\" is not a recovery phrase word" = "\"%@\" ingår inte i återställningsfrasen";
 
 /* No comment provided by engineer. */
-"\n%@\n\nif you ever lose your phone, you will need it to recover your wallet" = "\n%@\n\nifall du förlorar din mobil behöver du frasen för att återställa plånboken";
-
-/* No comment provided by engineer. */
-"\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nEtt lösenord krävs för att skydda din plånbok. Gå till Inställningar och aktivera lösenord för att fortsätta.";
-
-/* No comment provided by engineer. */
-"\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nbevilja kameraåtkomst i Inställningar->Personligt->Kamera->%@";
-
-/* No comment provided by engineer. */
 "\ntry again in %@" = "\nförsök igen om %@";
 
 /* No comment provided by engineer. */
-"About" = "About";
+"A device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "A device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue.";
 
 /* No comment provided by engineer. */
-"accepted by quorum" = "accepted by quorum";
+"About" = "Om";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Add Shortcut" = "Lägg till genväg";
 
 /* No comment provided by engineer. */
-"Action Needed" = "Action Needed";
+"Address" = "Adress";
 
 /* No comment provided by engineer. */
-"Address" = "Address";
+"Advanced Security" = "Advanced Security";
 
 /* No comment provided by engineer. */
-"ADVANCED" = "ADVANCED";
+"All" = "Alla";
 
 /* No comment provided by engineer. */
-"always require passcode" = "kräv alltid lösenord";
+"Allow camera access in Settings" = "Allow camera access in Settings";
 
 /* No comment provided by engineer. */
-"Amount" = "Amount";
+"Allow Face ID access in Settings" = "Allow Face ID access in Settings";
 
 /* No comment provided by engineer. */
-"amount too small" = "beloppet är för litet";
+"Allow Touch ID access in Settings" = "Allow Touch ID access in Settings";
+
+/* No comment provided by engineer. */
+"Amount Received" = "Mängd mottagen";
+
+/* No comment provided by engineer. */
+"Amount Sent" = "Mängd skickad";
+
+/* No comment provided by engineer. */
+"Amount too small" = "Amount too small";
+
+/* No comment provided by engineer. */
+"An intuitive and familiar experience across all your devices" = "An intuitive and familiar experience across all your devices";
 
 /* No comment provided by engineer. */
 "Application %@ is requesting a payment to" = "Applikation  %@ begär en betalning till";
@@ -78,241 +75,268 @@
 "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Axe." = "Applikation %@ skulle vilja motta din Master Public Key. Detta kan användas för att hålla reda på din plånbok, detta kan inte användas för att flytta på dina Axe.";
 
 /* No comment provided by engineer. */
-"Are you sure?" = "Are you sure?";
+"Are you sure?" = "Är du säker?";
 
 /* No comment provided by engineer. */
-"available" = "available";
+"Authentication is unvailable" = "Authentication is unvailable";
 
 /* No comment provided by engineer. */
-"bad recovery phrase" = "fel återställningsfras";
+"Auto Logout" = "Auto Logout";
 
 /* No comment provided by engineer. */
-"Bitcoin address (shapeshift)" = "Bitcoin address (shapeshift)";
+"Autohide Balance" = "Autodölj Belopp";
+
+/* lowercase, ex. 4 Axe available */
+"available" = "tillgängligt";
+
+/* No comment provided by engineer. */
+"Available balance" = "Tillgängligt belopp";
+
+/* A noun. Used as a title. */
+"Backup Wallet" = "Backup Wallet";
+
+/* No comment provided by engineer. */
+"Bad recovery phrase" = "Bad recovery phrase";
+
+/* No comment provided by engineer. */
+"Balance hidden" = "Belopp dolt";
 
 /* No comment provided by engineer. */
 "block #%d of %d" = "block #%1$d av %2$d";
 
 /* No comment provided by engineer. */
-"Buy Axe" = "Köp Axe";
+"Block #%d of %d" = "Block #%1$d of %2$d";
 
 /* No comment provided by engineer. */
-"Buy axe in axewallet!" = "Köp axe i axeplånboken!";
+"Buy & Sell Axe" = "Köp & Sälj Axe";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Buy / Sell Axe" = "Köp / Sälj Axe";
+
+/* No comment provided by engineer. */
+"Buy Axe" = "Köp Axe";
 
 /* No comment provided by engineer. */
 "Buy Axe with Uphold account" = "Buy Axe with Uphold account";
 
 /* No comment provided by engineer. */
-"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code." = "By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code.";
-
-/* No comment provided by engineer. */
-"cancel" = "avbryt";
+"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your PIN code." = "By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your PIN code.";
 
 /* No comment provided by engineer. */
 "Cancel" = "Ångra";
 
-/* No comment provided by engineer. */
-"change" = "ändra";
+/* A verb. Action button title for an alert 'Change payment amount?' */
+"Change" = "Ändra";
 
 /* No comment provided by engineer. */
-"Change passcode" = "Change passcode";
+"Change payment amount?" = "Change payment amount?";
 
 /* No comment provided by engineer. */
-"change payment amount?" = "ändra belopp?";
+"Change PIN" = "Change PIN";
 
 /* No comment provided by engineer. */
-"checking address balance..." = "kollar address balansen..";
+"Check your connection" = "Kontrollera din anslutning";
 
 /* No comment provided by engineer. */
-"checking private key balance..." = "uppdaterar saldo för den privata nyckeln...";
+"Clear" = "Clear";
 
 /* No comment provided by engineer. */
-"Classical Transaction" = "Classical Transaction";
+"Clear trusted node?" = "Clear trusted node?";
 
 /* No comment provided by engineer. */
-"clear" = "rensa";
+"Clipboard doesn't contain a valid Axe address" = "Clipboard doesn't contain a valid Axe address";
 
 /* No comment provided by engineer. */
-"clear trusted node?" = "glöm pålitbar nod?";
+"Close" = "Stäng";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid axe address" = "clipboard doesn't contain a valid axe address";
+"Close App" = "Close App";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid axe or bitcoin address" = "Urklipp innehåller inte en giltig axe eller bitcoin address";
-
-/* No comment provided by engineer. */
-"close app" = "stäng app";
-
-/* No comment provided by engineer. */
-"Coinbase Transaction" = "Coinbase Transaction";
-
-/* Confirm */
 "Confirm" = "Bekräfta";
 
 /* No comment provided by engineer. */
-"confirm" = "bekräfta";
+"Confirm PIN" = "Bekräfta PIN";
 
 /* No comment provided by engineer. */
-"Confirm transaction" = "Confirm transaction";
+"Confirming" = "Confirming";
 
 /* No comment provided by engineer. */
-"confirmed in block #%d" = "bekräftad i block #%d";
+"Connect with third party exchanges" = "Connect with third party exchanges";
 
 /* No comment provided by engineer. */
-"copied" = "kopierade";
+"Connected peers: %d" = "Connected peers: %d";
 
 /* No comment provided by engineer. */
-"copy" = "kopiera";
+"Connecting to payment server" = "Connecting to payment server";
 
 /* No comment provided by engineer. */
-"copy address to clipboard" = "kopiera adress till urklipp";
+"Contact Support" = "Contact Support";
 
 /* No comment provided by engineer. */
-"copy request to clipboard" = "kopiera begäran till urklipp";
+"Continue" = "Fortsätt";
 
 /* No comment provided by engineer. */
-"copy wallet addresses to clipboard?" = "kopiera plånbok adresserna till urklipp?";
+"Copied" = "Copied";
 
 /* No comment provided by engineer. */
-"couldn't check address balance" = "Kunde inte kolla upp balansen";
+"Copy" = "Kopiera";
 
 /* No comment provided by engineer. */
-"couldn't make payment" = "kunde inte genomföra betalning";
+"Copy Logs" = "Kopiera Loggar";
 
 /* No comment provided by engineer. */
-"couldn't sweep balance" = "kunde inte importera saldo";
+"Copyright © 2020 Axe Core" = "Copyright © 2020 Axe Core";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to axe network" = "kunde inte skicka betalningen till axe-nätverket";
+"Couldn't make payment" = "Couldn't make payment";
 
 /* No comment provided by engineer. */
-"CRITICAL" = "CRITICAL";
+"Couldn't sweep balance" = "Couldn't sweep balance";
 
 /* No comment provided by engineer. */
-"Axe address" = "Axe-adress";
+"Couldn't transmit payment to Axe network" = "Couldn't transmit payment to Axe network";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Axe-adresser kan också kopieras till klippboken. En Axe-adress startar alltid med 'X' eller '7'.";
+"Create a New Wallet" = "Skapa en ny Plånbok";
 
 /* No comment provided by engineer. */
-"axe network fee" = "transaktions kostnad";
+"Axe payments can't be less than %@" = "Axe payments can't be less than %@";
 
 /* No comment provided by engineer. */
-"axe payments can't be less than %@" = "betalningar kan inte vara mindre än %@";
+"Date" = "Datum";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "ENHETENS SÄKERHET ÄR KOMPRIMISSAD\n\"Jailbreakade\" appar kan läsa inuti andra appar (och stjäla dina axe).";
+"Default currency, shortcuts, about…" = "Default currency, shortcuts, about…";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe). Wipe this wallet immediately and restore on a secure device." = "ENHETENS SÄKERHET ÄR KOMPRIMISSAD\n\"Jailbreakade\" appar kan läsa inuti andra appar (och stjäla dina axe). Radera omedelbart denna plånbok och återskapa den på en annan (säker) enhet.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe)." = "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe).";
 
 /* No comment provided by engineer. */
-"do it later" = "gör det senare";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe). Wipe this wallet immediately and restore on a secure device." = "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe). Wipe this wallet immediately and restore on a secure device.";
 
 /* No comment provided by engineer. */
-"DO NOT let anyone see your recovery phrase or they can spend your axe." = "DO NOT let anyone see your recovery phrase or they can spend your axe.";
-
-/* No comment provided by engineer. */
-"DO NOT take a screenshot. Screenshots are visible to other apps and devices." = "DO NOT take a screenshot. Screenshots are visible to other apps and devices.";
+"Do not take a screenshot" = "Do not take a screenshot";
 
 /* No comment provided by engineer. */
 "Done" = "Done";
 
-/* No comment provided by engineer. */
-"double spend" = "dubbelbetalning";
+/* ex., Download peer: 127.0.0.1:9999 */
+"Download peer: %@" = "Download peer: %@";
 
 /* No comment provided by engineer. */
-"Email client is not configured. Please add your email account in Settings" = "Email client is not configured. Please add your email account in Settings";
+"Enable Face ID" = "Enable Face ID";
 
 /* No comment provided by engineer. */
-"email not configured" = "e-post inte konfigurerad";
+"Enable Receive Notifications" = "Enable Receive Notifications";
 
 /* No comment provided by engineer. */
-"Enable advanced features" = "Enable advanced features";
+"Enable Touch ID" = "Enable Touch ID";
 
 /* No comment provided by engineer. */
-"Enable advanced features?" = "Enable advanced features?";
+"Enter" = "Enter";
 
 /* No comment provided by engineer. */
-"Enable receive notifications" = "Enable receive notifications";
+"Enter PIN" = "Ange PIN";
 
 /* No comment provided by engineer. */
-"enter" = "enter";
+"Enter Recovery Phrase" = "Enter Recovery Phrase";
 
 /* No comment provided by engineer. */
-"Enter the amount to transfer below" = "Enter the amount to transfer below";
+"Enter the amount to transfer" = "Enter the amount to transfer";
 
 /* No comment provided by engineer. */
 "Enter your 2FA code below" = "Enter your 2FA code below";
 
 /* No comment provided by engineer. */
-"exit" = "gå ur";
+"Exit" = "Avsluta";
 
 /* No comment provided by engineer. */
 "Face ID limit" = "Face ID limit";
 
 /* No comment provided by engineer. */
-"Face ID spending limit" = "Face ID spending limit";
-
-/* No comment provided by engineer. */
 "Failed wallet update" = "Failed wallet update";
 
 /* No comment provided by engineer. */
-"Fee" = "Fee";
+"Fee" = "Avgift";
 
 /* No comment provided by engineer. */
 "Fee is greater than balance" = "Fee is greater than balance";
 
 /* No comment provided by engineer. */
-"Fee will be deducted from requested amount" = "Fee will be deducted from requested amount";
+"Fee will be deducted from requested amount." = "Fee will be deducted from requested amount.";
 
 /* No comment provided by engineer. */
-"from:" = "från:";
+"Filter Transactions" = "Filter Transactions";
 
 /* No comment provided by engineer. */
-"GENERAL" = "GENERAL";
+"Forgot PIN?" = "Forgot PIN?";
 
 /* No comment provided by engineer. */
-"Go to Website" = "Go to Website";
+"Get Started" = "Get Started";
 
 /* No comment provided by engineer. */
-"holding funds index:" = "holding funds index:";
+"Go to Website" = "Gå till Hemsida";
+
+/* No comment provided by engineer. */
+"Have complete control and customize your wallet based on your needs" = "Have complete control and customize your wallet based on your needs";
+
+/* No comment provided by engineer. */
+"Help us improve your experience" = "Help us improve your experience";
+
+/* adjective, security level */
+"High" = "High";
+
+/* No comment provided by engineer. */
+"History" = "Historik";
 
 /* No comment provided by engineer. */
 "I accept that I will lose my coins if I no longer possess the recovery phrase" = "I accept that I will lose my coins if I no longer possess the recovery phrase";
 
 /* No comment provided by engineer. */
-"id:" = "id:";
+"I wrote it down" = "Jag har skrivit ned den";
+
+/* No comment provided by engineer. */
+"If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device." = "If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device.";
 
 /* No comment provided by engineer. */
 "If you still would like to wipe it please input: \"%@\"" = "If you still would like to wipe it please input: \"%@\"";
 
 /* No comment provided by engineer. */
-"ignore" = "ignorera";
+"Ignore" = "Ignorera";
 
 /* No comment provided by engineer. */
-"Import private key" = "Import private key";
+"Immediately" = "Omedelbart";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Import Private Key" = "Importera Privat Nyckel";
 
 /* No comment provided by engineer. */
-"IMPORTANT" = "VIKTIGT";
+"Import private key…" = "Importera privat nyckel...";
 
 /* No comment provided by engineer. */
-"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again." = "In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again.";
+"Insufficient funds" = "Insufficient funds";
+
+/* Transaction within the wallet, transfer of own funds */
+"Internal Transfer" = "Internal Transfer";
 
 /* No comment provided by engineer. */
-"Insufficient Funds" = "Insufficient Funds";
+"Internally moved to" = "Internally moved to";
+
+/* Invalid transaction */
+"Invalid" = "Invalid";
 
 /* No comment provided by engineer. */
-"INVALID" = "OGILTIG";
+"Invalid Payment Request" = "Invalid Payment Request";
 
 /* No comment provided by engineer. */
-"Invalid amount" = "Invalid amount";
+"Invalid QR Code" = "Invalid QR Code";
 
 /* No comment provided by engineer. */
-"IP address/port:" = "IP address/port:";
+"It's Important" = "It's Important";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your axe address. Anyone can send axe to your wallet by transferring them to your address." = "Via denna QR-kod kan andra läsa av din axeadress. Vem som helst kan skicka axe till din plånbok genom att överföra dem till din adress.";
+"Keypair %ld" = "Keypair %ld";
 
 /* No comment provided by engineer. */
 "Link Uphold Account" = "Link Uphold Account";
@@ -320,110 +344,110 @@
 /* No comment provided by engineer. */
 "Load more" = "Load more";
 
-/* No comment provided by engineer. */
-"Local currency" = "Local currency";
+/* Translate it as short as possible! (24 symbols max) */
+"Local Currency" = "Local Currency";
 
 /* No comment provided by engineer. */
-"Locked" = "Locked";
+"Local requested amount: %@" = "Local requested amount: %@";
 
 /* No comment provided by engineer. */
-"locked with InstantSend" = "locked with InstantSend";
+"Locked" = "Låst";
 
 /* No comment provided by engineer. */
-"Log Out" = "Log Out";
+"Log Out" = "Logga ut";
 
 /* No comment provided by engineer. */
 "Log out from Uphold" = "Log out from Uphold";
 
 /* No comment provided by engineer. */
-"masternode holding address" = "masternode holding address";
+"Login with Face ID" = "Login with Face ID";
 
 /* No comment provided by engineer. */
-"Masternode Registration Transaction" = "Masternode Registration Transaction";
+"Login with Touch ID" = "Login with Touch ID";
+
+/* a verb, Logout Immediately */
+"Logout" = "Logout";
+
+/* Logout after 5 min */
+"Logout after" = "Logga ut efter";
 
 /* No comment provided by engineer. */
-"Masternode Update Registrar Transaction" = "Masternode Update Registrar Transaction";
+"Long press to copy ID" = "Long press to copy ID";
+
+/* adjective, security level */
+"Low" = "Låg";
 
 /* No comment provided by engineer. */
-"Masternode Update Service Transaction" = "Masternode Update Service Transaction";
+"Manage Trusted Node" = "Manage Trusted Node";
 
 /* No comment provided by engineer. */
-"more..." = "mer...";
+"Masternode Registration" = "Masternode Registration";
 
 /* No comment provided by engineer. */
-"Moved" = "Moved";
+"Masternode Revocation" = "Masternode Revocation";
 
 /* No comment provided by engineer. */
-"Network" = "Network";
+"Masternode Update" = "Masternode Update";
+
+/* Contracted variant of 'Maximum' word */
+"Max" = "Max";
+
+/* adjective, security level */
+"Medium" = "Medium";
 
 /* No comment provided by engineer. */
-"NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected." = "NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected.";
+"More" = "More";
 
 /* No comment provided by engineer. */
-"new public key:" = "new public key:";
+"More Control" = "More Control";
 
 /* No comment provided by engineer. */
-"next, write down your recovery phrase" = "nästa, skriv ner din återhämtning fras";
+"Moved from" = "Moved from";
 
 /* No comment provided by engineer. */
-"NFC device didn't transmit a valid axe address" = "NFC device didn't transmit a valid axe address";
+"Moved to Address" = "Moved to Address";
 
 /* No comment provided by engineer. */
-"NFC device didn't transmit a valid axe or bitcoin address" = "NFC device didn't transmit a valid axe or bitcoin address";
+"Network" = "Nätverk";
 
 /* No comment provided by engineer. */
-"no exchange rate data" = "ingen växlingskurs data";
+"Network fee" = "Nätverksavgift";
 
 /* No comment provided by engineer. */
-"node ip" = "node ip";
+"NFC device" = "NFC enhet";
 
 /* No comment provided by engineer. */
-"not a axe or bitcoin QR code" = "inte en axe eller bitcoin QR-kod";
+"NFC device didn't transmit a valid Axe address" = "NFC device didn't transmit a valid Axe address";
 
 /* No comment provided by engineer. */
-"not a axe QR code" = "not a axe QR code";
+"No address copied" = "No address copied";
 
 /* No comment provided by engineer. */
-"not a valid bitcoin address" = "inte en giltig bitcoin adress";
+"Node IP" = "Node IP";
+
+/* adjective, security level */
+"None" = "None";
 
 /* No comment provided by engineer. */
-"not a valid axe address" = "inte en giltig axe adress";
+"Not a Axe QR code" = "Not a Axe QR code";
 
 /* No comment provided by engineer. */
-"not a valid axe or bitcoin address" = "inte en giltig axe eller bitcoin adress";
+"Not a Axe URL" = "Not a Axe URL";
 
 /* No comment provided by engineer. */
-"not operator" = "not operator";
+"Not a valid Axe address" = "Not a valid Axe address";
 
 /* No comment provided by engineer. */
-"not owner" = "not owner";
-
-/* No comment provided by engineer. */
-"not voter" = "not voter";
+"Not yet used" = "Not yet used";
 
 /* No comment provided by engineer. */
 "OK" = "OK";
 
 /* No comment provided by engineer. */
-"ok" = "OK";
-
-/* No comment provided by engineer. */
-"Only enable advanced features if you are knowledgeable in blockchain technology. \nIf enabled only use advanced features that you understand." = "Only enable advanced features if you are knowledgeable in blockchain technology. \nIf enabled only use advanced features that you understand.";
-
-/* No comment provided by engineer. */
-"operator key index:" = "operator key index:";
-
-/* No comment provided by engineer. */
-"operator key:" = "operator key:";
-
-/* No comment provided by engineer. */
 "Operator Keys" = "Operator Keys";
 
 /* No comment provided by engineer. */
-"owner key hash:" = "owner key hash:";
-
-/* No comment provided by engineer. */
-"owner key index:" = "owner key index:";
+"Owner Address" = "Owner Address";
 
 /* No comment provided by engineer. */
 "Owner Keys" = "Owner Keys";
@@ -432,211 +456,307 @@
 "Pay" = "Betala";
 
 /* No comment provided by engineer. */
-"payload:" = "payload:";
+"Pay and get paid instantly with easy to use payment flows" = "Pay and get paid instantly with easy to use payment flows";
 
 /* No comment provided by engineer. */
-"payment address" = "betaladress";
+"Pay with Ease" = "Pay with Ease";
+
+/* 1 out of 4 in the Paying Animation */
+"Paying" = "Paying";
+
+/* 2 out of 4 in the Paying Animation */
+"Paying." = "Paying.";
+
+/* 3 out of 4 in the Paying Animation */
+"Paying.." = "Paying..";
+
+/* 4 out of 4 in the Paying Animation */
+"Paying..." = "Paying...";
 
 /* No comment provided by engineer. */
-"payment output" = "betalutgång";
+"Payments" = "Betalningar";
 
 /* No comment provided by engineer. */
-"payout Address" = "payout Address";
+"PIN is always required to make a payment" = "PIN is always required to make a payment";
 
 /* No comment provided by engineer. */
-"payout address:" = "payout address:";
-
-/* No comment provided by engineer. */
-"Pending" = "Pending";
-
-/* No comment provided by engineer. */
-"pending" = "bearbetar";
-
-/* No comment provided by engineer. */
-"Please enter pin to upgrade wallet" = "Please enter pin to upgrade wallet";
-
-/* No comment provided by engineer. */
-"please enter pin to upgrade wallet" = "skriv in din pin-kod för att uppdatera plånboken";
+"Please enter PIN to upgrade wallet" = "Please enter PIN to upgrade wallet";
 
 /* No comment provided by engineer. */
 "Please place your phone near NFC device." = "Please place your phone near NFC device.";
 
 /* No comment provided by engineer. */
-"Private key" = "Private key";
+"Please tap on the words from your recovery phrase in the right order" = "Please tap on the words from your recovery phrase in the right order";
 
 /* No comment provided by engineer. */
-"processing" = "processing";
+"Please try again" = "Please try again";
+
+/* No comment provided by engineer. */
+"Please try scanning again" = "Please try scanning again";
+
+/* No comment provided by engineer. */
+"Please Wait" = "Please Wait";
+
+/* No comment provided by engineer. */
+"Please wait for the sync to complete" = "Please wait for the sync to complete";
+
+/* No comment provided by engineer. */
+"Please write it down" = "Please write it down";
+
+/* No comment provided by engineer. */
+"Previously used at IP address" = "Previously used at IP address";
+
+/* No comment provided by engineer. */
+"Private key" = "Private key";
 
 /* No comment provided by engineer. */
 "Processing" = "Processing";
 
 /* No comment provided by engineer. */
+"Provider Address" = "Provider Address";
+
+/* No comment provided by engineer. */
 "Public key" = "Public key";
 
 /* No comment provided by engineer. */
-"public key:" = "public key:";
+"Quick Receive" = "Quick Receive";
 
 /* No comment provided by engineer. */
-"rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@\nquorums validated: %d/%d" = "rate: %1$@ = %2$@\nupdated: %3$@\nblock #%4$d of %5$d\nconnected peers: %6$d\ndl peer: %7$@\nquorums validated: %8$d/%9$d";
+"Quorums validated: %d/%d" = "Quorums validated: %1$d/%2$d";
+
+/* ex., Rate 1 US $ = 0.000009 Axe */
+"Rate: %@ = %@" = "Rate: %1$@ = %2$@";
 
 /* No comment provided by engineer. */
-"Receive axe at this address: %@" = "Ta emot axe på denna adress: %@";
+"Receive" = "Receive";
 
-/* No comment provided by engineer. */
+/* Received transaction */
 "Received" = "Received";
 
 /* No comment provided by engineer. */
-"received %@ (%@)" = "tog emot %1$@ (%2$@)";
+"Received %@ (%@)" = "Received %1$@ (%2$@)";
 
 /* No comment provided by engineer. */
-"recently mined (locked)" = "recently mined (locked)";
-
-/* Recovery phrase */
-"Recovery phrase" = "Recovery phrase";
+"Received at" = "Received at";
 
 /* No comment provided by engineer. */
-"recovery phrase doesn't match" = "återställningsfrasen stämmer inte";
+"Received from" = "Received from";
 
 /* No comment provided by engineer. */
-"recovery phrase must have %d words" = "återställningsfrasen måste ha %d ord";
+"Recover Wallet" = "Recover Wallet";
 
 /* No comment provided by engineer. */
-"registration tx:" = "registration tx:";
+"Recovery Phrase" = "Recovery Phrase";
 
 /* No comment provided by engineer. */
-"Remind me later" = "Remind me later";
+"Recovery phrase doesn't match" = "Recovery phrase doesn't match";
 
 /* No comment provided by engineer. */
-"Request" = "Request";
+"Recovery phrase must have %d words" = "Recovery phrase must have %d words";
 
 /* No comment provided by engineer. */
-"request an amount" = "begär ett belopp";
+"Registered from" = "Registered from";
 
 /* No comment provided by engineer. */
-"rescan" = "återläs";
+"Registered Masternode" = "Registered Masternode";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Report an Issue" = "Report an Issue";
+
+/* An action */
+"Rescan" = "Rescan";
 
 /* No comment provided by engineer. */
-"Rescan blockchain" = "Rescan blockchain";
+"Rescan Blockchain" = "Rescan Blockchain";
 
 /* No comment provided by engineer. */
-"reset" = "återställ";
+"Reset" = "Återställ";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their axe address. You can send a payment to anyone with an address." = "Scan someone else's QR code to get their axe address. You can send a payment to anyone with an address.";
+"Reset to Default" = "Reset to Default";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their axe or bitcoin address. You can send a payment to anyone with an address." = "Läs in någon annans axeadress eller bitcoinadress via QR-kod. Du kan göra överföringar till alla som har en adress.";
+"Reset Wallet" = "Reset Wallet";
+
+/* No comment provided by engineer. */
+"Retry" = "Försök igen";
+
+/* No comment provided by engineer. */
+"Review & Rate the app" = "Review & Rate the app";
+
+/* No comment provided by engineer. */
+"Reward" = "Reward";
+
+/* No comment provided by engineer. */
+"Rewards" = "Rewards";
+
+/* No comment provided by engineer. */
+"Scan" = "Skanna";
+
+/* No comment provided by engineer. */
+"Scan Private Key" = "Scan Private Key";
+
+/* No comment provided by engineer. */
+"Scan QR Code" = "läs av QR-kod";
+
+/* A title of the quick receive screen */
+"Scan this to Pay" = "Scan this to Pay";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Scan to Pay" = "Scan to Pay";
+
+/* No comment provided by engineer. */
+"Scan to Send" = "Scan to Send";
+
+/* (Send by) Scanning QR code */
+"Scanning QR code" = "Skannar QR kod";
+
+/* No comment provided by engineer. */
+"Screenshot detected. New recovery phrase:" = "Screenshot detected. New recovery phrase:";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Skärmbilder är synliga för andra appar och enheter. Skapa en ny återställningsfras och håll den hemlig.";
 
 /* No comment provided by engineer. */
-"Screenshots are visible to other apps and devices. Your funds are at risk. Transfer your balance to another wallet." = "Skärmbilder är synliga för andra appar och enheter. Dina tillgångar är riskerade. Flytta dem till en annan plånbok.";
+"Secure now" = "Secure now";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Secure Wallet Now" = "Secure Wallet Now";
+
+/* No comment provided by engineer. */
+"Security" = "Security";
+
+/* No comment provided by engineer. */
+"Security Level" = "Security Level";
 
 /* No comment provided by engineer. */
 "See on Uphold" = "See on Uphold";
 
 /* No comment provided by engineer. */
-"seen by %d of %d peers" = "sett av %1$d av %2$d likar";
+"Send" = "Skicka";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The axe network will receive a fee of %@ (%@)." = "Skicka %1$@ (%2$@) från denna privata nyckel till din plånbok? Bitcoin-nätverket erhåller en avgift på %3$@ (%4$@).";
+"Send %@ (%@) from this private key into your wallet? The Axe network will receive a fee of %@ (%@)." = "Send %1$@ (%2$@) from this private key into your wallet? The Axe network will receive a fee of %3$@ (%4$@).";
+
+/* Send by (scanning QR code) */
+"Send by" = "Send by";
 
 /* No comment provided by engineer. */
-"send address as email" = "skicka adressen som e-post";
+"Send to" = "Send to";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Send to Address" = "Send to Address";
 
 /* No comment provided by engineer. */
-"send address as message" = "skicka adress som meddelande";
+"Send to copied address" = "Send to copied address";
 
-/* No comment provided by engineer. */
-"send crash report" = "send crash report";
+/* Translate it as short as possible! (24 symbols max) */
+"Send with NFC" = "Send with NFC";
 
-/* No comment provided by engineer. */
-"send request as email" = "skicka begäran som e-post";
+/* 1 out of 4 in the Sending Animation */
+"Sending" = "Sending";
 
-/* No comment provided by engineer. */
-"send request as message" = "skicka begäran som meddelande";
+/* 2 out of 4 in the Sending Animation */
+"Sending." = "Sending.";
 
-/* No comment provided by engineer. */
+/* 3 out of 4 in the Sending Animation */
+"Sending.." = "Sending..";
+
+/* 4 out of 4 in the Sending Animation */
+"Sending..." = "Sending...";
+
+/* Sent transaction */
 "Sent" = "Sent";
 
 /* No comment provided by engineer. */
-"sent!" = "skickat!";
+"Sent from" = "Sent from";
 
 /* No comment provided by engineer. */
-"set a trusted node" = "lägg till som en pålitlig node";
+"Sent successfully" = "Sent successfully";
+
+/* No comment provided by engineer. */
+"Sent to" = "Sent to";
+
+/* No comment provided by engineer. */
+"Set a trusted node" = "Set a trusted node";
+
+/* No comment provided by engineer. */
+"Set PIN" = "Set PIN";
 
 /* No comment provided by engineer. */
 "Settings" = "Inställningar";
 
 /* No comment provided by engineer. */
-"shapeshift bitcoin id:" = "shapeshift bitcoin id:";
+"Setup Wallet" = "Setup Wallet";
 
 /* No comment provided by engineer. */
-"shapeshift status:" = "shapeshift status:";
+"Share" = "Dela";
 
 /* No comment provided by engineer. */
-"shapeshift succeeded" = "shapeshift lyckades";
+"Show Masternode Keys" = "Show Masternode Keys";
 
 /* No comment provided by engineer. */
-"show" = "visa";
+"Show Recovery Phrase" = "Show Recovery Phrase";
 
 /* No comment provided by engineer. */
-"Show masternode keys" = "Show masternode keys";
+"Skip" = "Skip";
 
 /* No comment provided by engineer. */
-"show phrase" = "visa fras";
-
-/* No comment provided by engineer. */
-"size:" = "size:";
-
-/* No comment provided by engineer. */
-"sms not currently available" = "sms är inte tillgängligt för tillfället";
+"skip" = "skip";
 
 /* No comment provided by engineer. */
 "Something went wrong" = "Something went wrong";
 
 /* No comment provided by engineer. */
-"spent address" = "förbrukad adress";
+"Specify Amount" = "Specify Amount";
 
 /* No comment provided by engineer. */
-"spent input" = "förbrukat inflöde";
+"Spending Confirmation" = "Spending Confirmation";
 
 /* No comment provided by engineer. */
-"Start / Recover another wallet" = "Start / Recover another wallet";
+"Support" = "Support";
 
 /* No comment provided by engineer. */
-"status:" = "status:";
+"Swept!" = "Swept!";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Switch to Mainnet" = "Switch to Mainnet";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Switch to Testnet" = "Switch to Testnet";
 
 /* No comment provided by engineer. */
-"Steps to reproduce the crash" = "Steps to reproduce the crash";
+"Sync Failed" = "Sync Failed";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Sync Now" = "Sync Now";
 
 /* No comment provided by engineer. */
-"Success" = "Success";
+"Syncing" = "Syncing";
+
+/* Pay using NFC (should be as short as possible) */
+"Tap" = "Tap";
 
 /* No comment provided by engineer. */
-"swept!" = "inläst!";
+"Tap to hide balance" = "Tap to hide balance";
 
 /* No comment provided by engineer. */
-"Syncing:" = "synkroniserar:";
+"Tap to unhide balance" = "Tap to unhide balance";
 
 /* No comment provided by engineer. */
-"the app will now close" = "appen kommer nu avslutas";
+"There are no transactions to display" = "There are no transactions to display";
 
 /* No comment provided by engineer. */
-"This is your axe address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Detta är din axeadress. Nudda för att kopiera eller skicka till andra via e-post eller sms. Adressen ändras varje gång du tar emot en betalning, men gamla adresser fungerar även i framtiden.";
+"This app is open source:" = "This app is open source:";
 
 /* No comment provided by engineer. */
-"This is your axe balance." = "Detta är din axe balans.";
+"This PIN will be required to unlock your app every time when you use it." = "This PIN will be required to unlock your app every time when you use it.";
 
 /* No comment provided by engineer. */
-"This is your axe balance. Axe is a currency. The exchange rate changes with the market." = "Detta är ditt axealdo. Axe är en valuta. Växelkursen ändras av marknaden.";
+"This recovery phrase is your access to the funds in this wallet." = "This recovery phrase is your access to the funds in this wallet.";
 
 /* No comment provided by engineer. */
 "This transaction may take several minutes to settle." = "This transaction may take several minutes to settle.";
-
-/* No comment provided by engineer. */
-"This transaction may take several minutes to settle. Complete instantly for an extra %@?" = "This transaction may take several minutes to settle. Complete instantly for an extra %@?";
 
 /* No comment provided by engineer. */
 "This transaction should settle instantly at no extra fee" = "This transaction should settle instantly at no extra fee";
@@ -645,13 +765,10 @@
 "This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase" = "Denna plånbok är inte tom eller så är den inte färdigsynkroniserad, du kan inte radera den utan att ha din återställningsfras";
 
 /* No comment provided by engineer. */
-"to:" = "till:";
+"This will move all coins from that wallet to your wallet on this device." = "This will move all coins from that wallet to your wallet on this device.";
 
 /* No comment provided by engineer. */
-"to: %@" = "till: %@";
-
-/* No comment provided by engineer. */
-"topup amount:" = "topup amount:";
+"Tools" = "Tools";
 
 /* No comment provided by engineer. */
 "Total" = "Total";
@@ -660,15 +777,9 @@
 "Touch ID limit" = "Touch ID limit";
 
 /* No comment provided by engineer. */
-"Touch ID spending limit" = "Touch ID spending limit";
-
-/* No comment provided by engineer. */
-"Transaction history" = "Transaction history";
-
-/* No comment provided by engineer. */
 "Transaction id" = "Transaction id";
 
-/* No comment provided by engineer. */
+/* A verb, button title. */
 "Transfer" = "Transfer";
 
 /* No comment provided by engineer. */
@@ -677,110 +788,131 @@
 /* No comment provided by engineer. */
 "Transfer from Uphold" = "Transfer from Uphold";
 
-/* No comment provided by engineer. */
-"trust" = "lita på";
+/* An action */
+"Try again" = "Try again";
+
+/* Alert title */
+"Turn device passcode on" = "Turn device passcode on";
 
 /* No comment provided by engineer. */
-"try again" = "try again";
+"Unable to connect" = "Unable to connect";
 
 /* No comment provided by engineer. */
-"Try It!" = "Testa det!";
+"Unable to get new QR code" = "Unable to get new QR code";
 
 /* No comment provided by engineer. */
-"turn device passcode on" = "aktivera pinkod för enheten";
+"Unsupported or corrupted document" = "Unsupported or corrupted document";
 
 /* No comment provided by engineer. */
-"type:" = "type:";
+"Unsupported URL" = "Unsupported URL";
 
-/* No comment provided by engineer. */
-"Unable to get new qr code" = "Kunde inte få en ny qr kod";
-
-/* No comment provided by engineer. */
-"unknown address" = "okänd adress";
-
-/* No comment provided by engineer. */
-"unsupported or corrupted document" = "okänd dokumenttyp eller skadat dokument";
-
-/* No comment provided by engineer. */
-"unsupported url" = "stöd saknas för URL:en";
-
-/* No comment provided by engineer. */
-"Unverified" = "Unverified";
+/* ex., Updated: 27.12, 8:30 */
+"Updated: %@" = "Updated: %@";
 
 /* No comment provided by engineer. */
 "Uphold" = "Uphold";
 
 /* No comment provided by engineer. */
-"Uphold account" = "Uphold account";
+"Used" = "Used";
 
 /* No comment provided by engineer. */
-"User Registration Transaction" = "User Registration Transaction";
+"Used at IP address" = "Used at IP address";
 
 /* No comment provided by engineer. */
-"User Reset Transaction" = "User Reset Transaction";
+"Verified Successfully" = "Verified Successfully";
 
 /* No comment provided by engineer. */
-"User Topup Transaction" = "User Topup Transaction";
+"Verify" = "Verify";
+
+/* adjective, security level */
+"Very High" = "Very High";
 
 /* No comment provided by engineer. */
-"username:" = "username:";
+"View in Block Explorer" = "View in Block Explorer";
 
 /* No comment provided by engineer. */
-"verified, waiting for confirmation" = "verifierad, inväntar bekräftelse";
+"View passphrase, backup wallet…" = "View passphrase, backup wallet…";
 
 /* No comment provided by engineer. */
-"verifying quorum" = "verifying quorum";
+"View Recovery Phrase" = "View Recovery Phrase";
 
 /* No comment provided by engineer. */
-"voting key hash:" = "voting key hash:";
-
-/* No comment provided by engineer. */
-"voting key index:" = "voting key index:";
+"Voting Address" = "Voting Address";
 
 /* No comment provided by engineer. */
 "Voting Keys" = "Voting Keys";
 
 /* No comment provided by engineer. */
-"wallet address" = "plånbok adress";
+"Wallet disabled" = "Wallet disabled";
 
 /* No comment provided by engineer. */
 "Wallet Keys" = "Wallet Keys";
 
 /* No comment provided by engineer. */
+"Warning" = "Warning";
+
+/* No comment provided by engineer. */
 "WARNING" = "VARNING";
 
 /* No comment provided by engineer. */
-"watch only" = "watch only";
+"We are about to show you the secret key to your wallet." = "We are about to show you the secret key to your wallet.";
 
 /* No comment provided by engineer. */
-"We have detected that Axewallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete." = "We have detected that Axewallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete.";
+"We do not store this recovery phrase." = "We do not store this recovery phrase.";
 
 /* No comment provided by engineer. */
-"We have detected that Axewallet crashed last time it was opened. Would you like to help us solve the issue by sending us the crash report data? Your transaction history and any other private information WILL NOT be shared." = "We have detected that Axewallet crashed last time it was opened. Would you like to help us solve the issue by sending us the crash report data? Your transaction history and any other private information WILL NOT be shared.";
+"We have detected that Axe Wallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete." = "We have detected that Axe Wallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete.";
 
 /* No comment provided by engineer. */
-"wipe" = "rensa";
+"We Upgraded" = "We Upgraded";
 
 /* No comment provided by engineer. */
-"WRITE DOWN YOUR RECOVERY PHRASE" = "skriv ner din återställnings fras";
+"Welcome" = "Welcome";
 
 /* No comment provided by engineer. */
-"yes" = "yes";
+"When the transaction is confirmed, the other wallet will be worthless and should not be re-used for safety reasons." = "When the transaction is confirmed, the other wallet will be worthless and should not be re-used for safety reasons.";
 
 /* No comment provided by engineer. */
-"You can now buy axe in\naxewallet with cash or\nbank transfer." = "Du kan nu köpa axe i\naxeplånboken med kontanter eller\nbank överföring.";
+"Why I should not take a screenshot?" = "Why I should not take a screenshot?";
 
 /* No comment provided by engineer. */
-"You must enter your pin in order to enter axewallet" = "You must enter your pin in order to enter axewallet";
+"Wipe" = "Wipe";
 
 /* No comment provided by engineer. */
-"you received axe!" = "du har fått axe!";
+"Wipe Wallet" = "Wipe Wallet";
+
+/* No comment provided by engineer. */
+"with Axe blockchain" = "with Axe blockchain";
+
+/* No comment provided by engineer. */
+"You are about to sweep funds from another Axe Wallet." = "You are about to sweep funds from another Axe Wallet.";
+
+/* No comment provided by engineer. */
+"You are about to wipe this wallet from this device. Funds associated with this wallet can only be retrieved if you have your recovery phrase." = "You are about to wipe this wallet from this device. Funds associated with this wallet can only be retrieved if you have your recovery phrase.";
+
+/* No comment provided by engineer. */
+"You can authenticate with Face ID for payments below" = "You can authenticate with Face ID for payments below";
+
+/* No comment provided by engineer. */
+"You can authenticate with Touch ID for payments below" = "You can authenticate with Touch ID for payments below";
+
+/* No comment provided by engineer. */
+"You must enter your PIN in order to enter Axe Wallet" = "You must enter your PIN in order to enter Axe Wallet";
+
+/* No comment provided by engineer. */
+"You received Axe! If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device." = "You received Axe! If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device.";
 
 /* No comment provided by engineer. */
 "You will also need to log out from the Uphold website using your browser" = "You will also need to log out from the Uphold website using your browser";
+
+/* No comment provided by engineer. */
+"You will need this recovery phrase to access your funds if this device is lost, damaged or if Axe Wallet ever is accidentally uninstalled from this device." = "You will need this recovery phrase to access your funds if this device is lost, damaged or if Axe Wallet ever is accidentally uninstalled from this device.";
 
 /* No comment provided by engineer. */
 "Your transaction was sent and the amount should appear in your wallet in a few minutes." = "Your transaction was sent and the amount should appear in your wallet in a few minutes.";
 
 /* No comment provided by engineer. */
 "Your Uphold account Axe balance is" = "Your Uphold account Axe balance is";
+
+/* No comment provided by engineer. */
+"Your wallet is secured now. You can use your recovery phrase anytime to recover your account on another device." = "Your wallet is secured now. You can use your recovery phrase anytime to recover your account on another device.";

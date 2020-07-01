@@ -1,72 +1,69 @@
 
 /* No comment provided by engineer. */
-"%@ is for 'mAXE'. %@ = 1 AXE." = "%@ is voor 'mAXE'. %@ = 1 AXE.";
+"%@ is not allowed to access Face ID" = "%@ heeft geen toegang tot gezichtsherkenning";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ heeft geen toegang tot de camera";
 
 /* No comment provided by engineer. */
-"%@\n\nbalance: %@ (%@)" = "%1$@\n\nsaldo: %2$@ (%3$@)";
+"%@ is not allowed to access Touch ID" = "%@ heeft geen toegang tot vingeridentificatie";
 
 /* No comment provided by engineer. */
-"%d confirmations" = "%d bevestigingen";
+"1 hour" = "1 uur";
+
+/* Shorten version of minute */
+"1 min" = "1 min";
 
 /* No comment provided by engineer. */
-"%d haks/byte" = "%d haks/byte";
+"24 hours" = "24 uur";
 
-/* No comment provided by engineer. */
-"%d out of %d lock votes" = "%1$d van de %2$d grendelstemmen";
-
-/* No comment provided by engineer. */
-"%ld used" = "%ld gebruikt";
-
-/* No comment provided by engineer. */
-"0 confirmations" = "0 bevestigingen";
-
-/* No comment provided by engineer. */
-"1 confirmation" = "1 bevestiging";
-
-/* No comment provided by engineer. */
-"1 hak/byte" = "1 hak/byte";
+/* Shorten version of minutes */
+"5 min" = "5 min";
 
 /* No comment provided by engineer. */
 "\"%@\" is not a recovery phrase word" = "\"%@\" is geen woord uit de herstelzin";
 
 /* No comment provided by engineer. */
-"\n%@\n\nif you ever lose your phone, you will need it to recover your wallet" = "\n%@\n\nje hebt het nodig om te portemonnee te herstellen wanneer je je telefoon bent kwijtgeraakt";
-
-/* No comment provided by engineer. */
-"\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nEen toegangscode is nog om je portemonnee te beschermen. Ga naar de instellingen en zet de toegangscode aan om door te gaan.";
-
-/* No comment provided by engineer. */
-"\nallow camera access in\nSettings->Privacy->Camera->%@" = "\ngeef toegang tot de camera in\nInstellingen->Privacy->Camera->%@";
-
-/* No comment provided by engineer. */
 "\ntry again in %@" = "\nprobeer opnieuw over %@";
+
+/* No comment provided by engineer. */
+"A device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "Een toegangscode is nog om je portemonnee te beschermen. Ga naar de instellingen en zet de toegangscode aan om door te gaan.";
 
 /* No comment provided by engineer. */
 "About" = "Over";
 
-/* No comment provided by engineer. */
-"accepted by quorum" = "geaccepteerd door quorum";
-
-/* No comment provided by engineer. */
-"Action Needed" = "Actie Benodigd";
+/* Translate it as short as possible! (24 symbols max) */
+"Add Shortcut" = "Voeg snelkoppeling toe";
 
 /* No comment provided by engineer. */
 "Address" = "Adres";
 
 /* No comment provided by engineer. */
-"ADVANCED" = "GEAVANCEERD";
+"Advanced Security" = "Geavanceerde Beveiliging";
 
 /* No comment provided by engineer. */
-"always require passcode" = "altijd toegangscode vereisen";
+"All" = "Alles";
 
 /* No comment provided by engineer. */
-"Amount" = "Bedrag";
+"Allow camera access in Settings" = "Camera toegang in Instellingen toestaan";
 
 /* No comment provided by engineer. */
-"amount too small" = "bedrag is te klein";
+"Allow Face ID access in Settings" = "Gezichtsherkenning in Instellingen toestaan";
+
+/* No comment provided by engineer. */
+"Allow Touch ID access in Settings" = "Vingeridentificatie toegang in Instellingen toestaan";
+
+/* No comment provided by engineer. */
+"Amount Received" = "Ontvangen bedrag";
+
+/* No comment provided by engineer. */
+"Amount Sent" = "Verzonden bedrag";
+
+/* No comment provided by engineer. */
+"Amount too small" = "Bedrag te klein";
+
+/* No comment provided by engineer. */
+"An intuitive and familiar experience across all your devices" = "Een intuïtieve en vertrouwde ervaring op al uw apparaten";
 
 /* No comment provided by engineer. */
 "Application %@ is requesting a payment to" = "Applicatie %@ verzoekt een betaling aan";
@@ -81,178 +78,181 @@
 "Are you sure?" = "Weet je het zeker?";
 
 /* No comment provided by engineer. */
+"Authentication is unvailable" = "Authenticatie is niet beschikbaar";
+
+/* No comment provided by engineer. */
+"Auto Logout" = "Automatisch uitloggen";
+
+/* No comment provided by engineer. */
+"Autohide Balance" = "Automatisch saldo verbergen";
+
+/* lowercase, ex. 4 Axe available */
 "available" = "beschikbaar";
 
 /* No comment provided by engineer. */
-"bad recovery phrase" = "onjuiste herstelzin";
+"Available balance" = "Beschikbaar saldo";
+
+/* A noun. Used as a title. */
+"Backup Wallet" = "Backup portemonnee";
 
 /* No comment provided by engineer. */
-"Bitcoin address (shapeshift)" = "Bitcoin-adres (shapeshift)";
+"Bad recovery phrase" = "Incorrecte herstelzin";
+
+/* No comment provided by engineer. */
+"Balance hidden" = "Saldo verborgen";
 
 /* No comment provided by engineer. */
 "block #%d of %d" = "blok #%1$d van %2$d";
 
 /* No comment provided by engineer. */
-"Buy Axe" = "Koop Axe";
+"Block #%d of %d" = "Blok #%1$d van %2$d";
 
 /* No comment provided by engineer. */
-"Buy axe in axewallet!" = "Koop axe in axewallet!";
+"Buy & Sell Axe" = "Koop & verkoop Axe";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Buy / Sell Axe" = "Koop / verkoop Axe";
+
+/* No comment provided by engineer. */
+"Buy Axe" = "Koop Axe";
 
 /* No comment provided by engineer. */
 "Buy Axe with Uphold account" = "Koop Axe met een Uphold account";
 
 /* No comment provided by engineer. */
-"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code." = "Door dit apparaat schoon te vegen heb je geen toegang meer tot het geld op dit apparaat. Dit zou alleen gedaan moeten worden als je de herstelzin hebt verloren en ook de pincode kwijt bent.";
-
-/* No comment provided by engineer. */
-"cancel" = "annuleer";
+"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your PIN code." = "Door dit apparaat schoon te vegen heb je geen toegang meer tot het geld op dit apparaat. Dit zou alleen gedaan moeten worden als je de herstelzin hebt verloren en ook de pincode kwijt bent.";
 
 /* No comment provided by engineer. */
 "Cancel" = "Annuleer";
 
-/* No comment provided by engineer. */
-"change" = "wijzig";
+/* A verb. Action button title for an alert 'Change payment amount?' */
+"Change" = "Wissel";
 
 /* No comment provided by engineer. */
-"Change passcode" = "Wijzig toegangscode";
+"Change payment amount?" = "Wijzig betalingsbedrag?";
 
 /* No comment provided by engineer. */
-"change payment amount?" = "bedrag aanpassen?";
+"Change PIN" = "Wijzig pin";
 
 /* No comment provided by engineer. */
-"checking address balance..." = "bezig met controleren van saldo...";
+"Check your connection" = "Controleer je verbinding";
 
 /* No comment provided by engineer. */
-"checking private key balance..." = "bezig met controleren van balans van persoonlijke sleutel...";
+"Clear" = "Wis";
 
 /* No comment provided by engineer. */
-"Classical Transaction" = "Klassieke Transactie";
+"Clear trusted node?" = "Wis vertrouwde node?";
 
 /* No comment provided by engineer. */
-"clear" = "wis";
+"Clipboard doesn't contain a valid Axe address" = "Het klembord bevat geen geldig Axe-adres";
 
 /* No comment provided by engineer. */
-"clear trusted node?" = "vertrouwd punt wissen?";
+"Close" = "Sluit af";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid axe address" = "het klembord bevat geen geldig Axe-adres";
+"Close App" = "Sluit app af";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid axe or bitcoin address" = "het klembord bevat geen geldig axe- of bitcoinadres";
-
-/* No comment provided by engineer. */
-"close app" = "sluit app";
-
-/* No comment provided by engineer. */
-"Coinbase Transaction" = "Coinbase Transaction";
-
-/* Confirm */
 "Confirm" = "Bevestig";
 
 /* No comment provided by engineer. */
-"confirm" = "bevestig";
+"Confirm PIN" = "Bevestig pin";
 
 /* No comment provided by engineer. */
-"Confirm transaction" = "Bevestig transactie";
+"Confirming" = "Aan het bevestigen";
 
 /* No comment provided by engineer. */
-"confirmed in block #%d" = "bevestigd in blok #%d";
+"Connect with third party exchanges" = "Verbind met beurzen van derden";
 
 /* No comment provided by engineer. */
-"copied" = "gekopieerd";
+"Connected peers: %d" = "Verbonden peers %d";
 
 /* No comment provided by engineer. */
-"copy" = "kopieer";
+"Connecting to payment server" = "Verbinding maken met betalingsserver";
 
 /* No comment provided by engineer. */
-"copy address to clipboard" = "kopieer adres naar klembord";
+"Contact Support" = "Contacteer ondersteuning";
 
 /* No comment provided by engineer. */
-"copy request to clipboard" = "kopieer adres naar klembord";
+"Continue" = "Ga door";
 
 /* No comment provided by engineer. */
-"copy wallet addresses to clipboard?" = "wilt u het portemonnee-adres kopiëren naar het klembord?";
+"Copied" = "Is gekopieerd";
 
 /* No comment provided by engineer. */
-"couldn't check address balance" = "het controleren van het saldo is mislukt";
+"Copy" = "Kopieer";
 
 /* No comment provided by engineer. */
-"couldn't make payment" = "de betaling is mislukt";
+"Copy Logs" = "Kopieer logs";
 
 /* No comment provided by engineer. */
-"couldn't sweep balance" = "het uitvegen van het saldo is mislukt";
+"Copyright © 2020 Axe Core" = "Copyright © 2020 Axe Core";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to axe network" = "de betaling kan niet worden verstuurd naar het axe-netwerk";
+"Couldn't make payment" = "Kon betaling niet maken";
 
 /* No comment provided by engineer. */
-"CRITICAL" = "KRITISCH";
+"Couldn't sweep balance" = "Het uitvegen van het saldo is mislukt";
 
 /* No comment provided by engineer. */
-"Axe address" = "Axe-adres";
+"Couldn't transmit payment to Axe network" = "De betaling kan niet worden verstuurd naar het Axe-netwerk";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Axe-adressen kunnen ook worden gekopieerd naar het klembord. Een axe-adres begint altijd met een 'X' of een '7'.";
+"Create a New Wallet" = "Maak een nieuwe portemonnee aan";
 
 /* No comment provided by engineer. */
-"axe network fee" = "axe-netwerkvergoeding";
+"Axe payments can't be less than %@" = "Axe-betalingen mogen niet kleiner zijn dan %@";
 
 /* No comment provided by engineer. */
-"axe payments can't be less than %@" = "axe-betalingen mogen niet minder bedragen dan %@";
+"Date" = "Datum";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "BEVEILIGING VAN HET APPARAAT IN GEVAAR\nEen 'jailbreak'-app heeft toegang tot de sleutelhanger van andere apps (en de mogelijkheid om je axe te stelen).";
+"Default currency, shortcuts, about…" = "Standaard valuta, snelkoppelingen, over... ";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe). Wipe this wallet immediately and restore on a secure device." = "BEVEILIGING VAN HET APPARAAT IN GEVAAR\nEen 'jailbreak'-app heeft toegang tot de sleutelhanger van andere apps (en de mogelijkheid om je axe te stelen). Verwijder deze portemonnee direct en herstel op een veilig apparaat.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe)." = "BEVEILIGING VAN HET APPARAAT IN GEVAAR\nEen 'jailbreak'-app heeft toegang tot de sleutelhanger van andere apps (en de mogelijkheid om je axe te stelen).";
 
 /* No comment provided by engineer. */
-"do it later" = "voer later uit";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe). Wipe this wallet immediately and restore on a secure device." = "BEVEILIGING VAN HET APPARAAT IN GEVAAR\nEen 'jailbreak'-app heeft toegang tot de sleutelhanger van andere apps (en de mogelijkheid om je axe te stelen). Verwijder deze portemonnee direct en herstel op een veilig apparaat.";
 
 /* No comment provided by engineer. */
-"DO NOT let anyone see your recovery phrase or they can spend your axe." = "Laat jeherstel zin aan NIEMAND zien, anders hebben zij de mogelijkheid om jouw axe uit te geven.";
-
-/* No comment provided by engineer. */
-"DO NOT take a screenshot. Screenshots are visible to other apps and devices." = "Maak GEEN schermafbeelding. Schermafbeeldingen zijn zichtbaar voor andere apps en apparaten.";
+"Do not take a screenshot" = "Do not take a screenshot";
 
 /* No comment provided by engineer. */
 "Done" = "Klaar";
 
-/* No comment provided by engineer. */
-"double spend" = "dubbel uitgegeven";
+/* ex., Download peer: 127.0.0.1:9999 */
+"Download peer: %@" = "Download peer: %@";
 
 /* No comment provided by engineer. */
-"Email client is not configured. Please add your email account in Settings" = "E-mailprogramma is niet geconfigureerd. Voer a.u.b. je e-mailaccount toe aan Instellingen";
+"Enable Face ID" = "Gezichtsherkenning inschakelen";
 
 /* No comment provided by engineer. */
-"email not configured" = "e-mail is niet ingesteld";
+"Enable Receive Notifications" = "Schakel het ontvangen van meldingen in";
 
 /* No comment provided by engineer. */
-"Enable advanced features" = "Geavanceerde functies activeren";
+"Enable Touch ID" = "Vingeridentificatie inschakelen";
 
 /* No comment provided by engineer. */
-"Enable advanced features?" = "Geavanceerde functies activeren?";
+"Enter" = "Enter";
 
 /* No comment provided by engineer. */
-"Enable receive notifications" = "Schakel het ontvangen van meldingen in";
+"Enter PIN" = "Voer PIN in";
 
 /* No comment provided by engineer. */
-"enter" = "voer in";
+"Enter Recovery Phrase" = "Voer herstelzin in";
 
 /* No comment provided by engineer. */
-"Enter the amount to transfer below" = "Voer hieronder het bedrag in dat moet worden overgemaakt";
+"Enter the amount to transfer" = "Voer het bedrag in om te verplaatsen";
 
 /* No comment provided by engineer. */
 "Enter your 2FA code below" = "Voer hieronder uw 2FA code in";
 
 /* No comment provided by engineer. */
-"exit" = "sluit af";
+"Exit" = "Afsluiten";
 
 /* No comment provided by engineer. */
 "Face ID limit" = "Face ID limiet";
-
-/* No comment provided by engineer. */
-"Face ID spending limit" = "Face ID uitgavelimiet";
 
 /* No comment provided by engineer. */
 "Failed wallet update" = "Mislukte update van de portemonnee";
@@ -261,58 +261,82 @@
 "Fee" = "Transactiekosten";
 
 /* No comment provided by engineer. */
-"Fee is greater than balance" = "Fee is greater than balance";
+"Fee is greater than balance" = "De transactievergoeding is hoger dan het saldo";
 
 /* No comment provided by engineer. */
-"Fee will be deducted from requested amount" = "Transactiekosten worden van het gevraagde bedrag afgetrokken";
+"Fee will be deducted from requested amount." = "Kosten worden ingehouden van het gevraagde bedrag.";
 
 /* No comment provided by engineer. */
-"from:" = "van:";
+"Filter Transactions" = "Transacties filteren";
 
 /* No comment provided by engineer. */
-"GENERAL" = "ALGEMEEN";
+"Forgot PIN?" = "PIN vergeten?";
+
+/* No comment provided by engineer. */
+"Get Started" = "Ga aan de slag";
 
 /* No comment provided by engineer. */
 "Go to Website" = "Ga naar website";
 
 /* No comment provided by engineer. */
-"holding funds index:" = "index van saldo:";
+"Have complete control and customize your wallet based on your needs" = "Heb volledige controle en pas uw portemonnee aan op basis van uw behoeften";
+
+/* No comment provided by engineer. */
+"Help us improve your experience" = "Help ons uw ervaring te verbeteren";
+
+/* adjective, security level */
+"High" = "Hoog";
+
+/* No comment provided by engineer. */
+"History" = "Geschiedenis";
 
 /* No comment provided by engineer. */
 "I accept that I will lose my coins if I no longer possess the recovery phrase" = "Ik ga akkoord dat ik mijn munten kwijt raak als ik de herstelzin niet meer bezit";
 
 /* No comment provided by engineer. */
-"id:" = "id:";
+"I wrote it down" = "ik heb het opgeschreven";
+
+/* No comment provided by engineer. */
+"If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device." = "Als u dit apparaat verliest, verliest u uw Axe. Download de herstelzin zodat u uw portemonnee op een ander apparaat kunt herstellen.";
 
 /* No comment provided by engineer. */
 "If you still would like to wipe it please input: \"%@\"" = "Als je het nog steeds wilt wissen, voer a.u.b. in: \"%@\"";
 
 /* No comment provided by engineer. */
-"ignore" = "negeer";
+"Ignore" = "Negeer";
 
 /* No comment provided by engineer. */
-"Import private key" = "importeer persoonlijke sleutel";
+"Immediately" = "Onmiddellijk";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Import Private Key" = "Importeer prive-sleutel";
 
 /* No comment provided by engineer. */
-"IMPORTANT" = "BELANGRIJK";
+"Import private key…" = "Importeer prive-sleutel";
 
 /* No comment provided by engineer. */
-"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again." = "In de vorige versie van Axewallet, waar aanvankelijk de herstelzin werd getoond, hebben we geconstateerd dat de 12 herstelwoorden niet correct werden weergegeven. Schrijf daarom de herstel zin opnieuw op.";
+"Insufficient funds" = "Ontoereikende fondsen";
+
+/* Transaction within the wallet, transfer of own funds */
+"Internal Transfer" = "Interne transfer";
 
 /* No comment provided by engineer. */
-"Insufficient Funds" = "Saldo niet toereikend";
+"Internally moved to" = "Intern verplaatst naar";
+
+/* Invalid transaction */
+"Invalid" = "Ongeldig";
 
 /* No comment provided by engineer. */
-"INVALID" = "ONGELDIG";
+"Invalid Payment Request" = "Ongeldig betalingsverzoek";
 
 /* No comment provided by engineer. */
-"Invalid amount" = "Ongeldig bedrag";
+"Invalid QR Code" = "Invalid QR Code";
 
 /* No comment provided by engineer. */
-"IP address/port:" = "IP adres/port:";
+"It's Important" = "Het is belangrijk";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your axe address. Anyone can send axe to your wallet by transferring them to your address." = "Laat anderen deze QR-code scannen om jouw axe-adres te verkrijgen. Iedereen kan axe naar jouw portemonnee versturen door deze te sturen naar jouw adres.";
+"Keypair %ld" = "Sleutelpaar %ld";
 
 /* No comment provided by engineer. */
 "Link Uphold Account" = "Koppel Uphold account";
@@ -320,14 +344,14 @@
 /* No comment provided by engineer. */
 "Load more" = "Laad meer";
 
+/* Translate it as short as possible! (24 symbols max) */
+"Local Currency" = "Lokale munteenheid";
+
 /* No comment provided by engineer. */
-"Local currency" = "lokale valuta";
+"Local requested amount: %@" = "Lokaal verzocht bedrag: %@";
 
 /* No comment provided by engineer. */
 "Locked" = "Vergrendeld";
-
-/* No comment provided by engineer. */
-"locked with InstantSend" = "vergrendeld met InstantSend";
 
 /* No comment provided by engineer. */
 "Log Out" = "Uitloggen";
@@ -336,94 +360,94 @@
 "Log out from Uphold" = "Bij Uphold uitloggen";
 
 /* No comment provided by engineer. */
-"masternode holding address" = "adres met saldo van masternode";
+"Login with Face ID" = "Inloggen met gezichtsherkenning";
 
 /* No comment provided by engineer. */
-"Masternode Registration Transaction" = "Masternode registratie transactie";
+"Login with Touch ID" = "Inloggen met vingeridentificatie";
+
+/* a verb, Logout Immediately */
+"Logout" = "Uitloggen";
+
+/* Logout after 5 min */
+"Logout after" = "Uitloggen na";
 
 /* No comment provided by engineer. */
-"Masternode Update Registrar Transaction" = "Masternode registratie update transactie";
+"Long press to copy ID" = "Lang drukken om ID te kopiëren";
+
+/* adjective, security level */
+"Low" = "Laag";
 
 /* No comment provided by engineer. */
-"Masternode Update Service Transaction" = "Masternode service update transactie";
+"Manage Trusted Node" = "Beheer vertrouwde Node";
 
 /* No comment provided by engineer. */
-"more..." = "meer...";
+"Masternode Registration" = "Masternode registratie";
 
 /* No comment provided by engineer. */
-"Moved" = "Verplaatst";
+"Masternode Revocation" = "Masternode herroeping";
+
+/* No comment provided by engineer. */
+"Masternode Update" = "Masternode updaten";
+
+/* Contracted variant of 'Maximum' word */
+"Max" = "Max";
+
+/* adjective, security level */
+"Medium" = "Medium";
+
+/* No comment provided by engineer. */
+"More" = "Meer";
+
+/* No comment provided by engineer. */
+"More Control" = "Meer controle";
+
+/* No comment provided by engineer. */
+"Moved from" = "Verplaatst van";
+
+/* No comment provided by engineer. */
+"Moved to Address" = "Verplaatst naar adres";
 
 /* No comment provided by engineer. */
 "Network" = "Netwerk";
 
 /* No comment provided by engineer. */
-"NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected." = "Voer je herstelzin NOOIT in in wachtwoordbeheerders of ergens anders. Andere apparaten kunnen geïnfecteerd zijn.";
+"Network fee" = "Netwerkkosten";
 
 /* No comment provided by engineer. */
-"new public key:" = "nieuwe publieke sleutel:";
+"NFC device" = "NFC apparaat";
 
 /* No comment provided by engineer. */
-"next, write down your recovery phrase" = "schrijf nu je herstelzin op";
+"NFC device didn't transmit a valid Axe address" = "NFC apparaat heeft geen geldig Axe-adres verzonden";
 
 /* No comment provided by engineer. */
-"NFC device didn't transmit a valid axe address" = "NFC apparaat heeft geen geldig axe adres verzonden";
+"No address copied" = "Geen adres gekopieerd";
 
 /* No comment provided by engineer. */
-"NFC device didn't transmit a valid axe or bitcoin address" = "NFC apparaat heeft geen geldig axe of bitcoin adres verzonden";
+"Node IP" = "Node IP";
+
+/* adjective, security level */
+"None" = "Geen";
 
 /* No comment provided by engineer. */
-"no exchange rate data" = "geen beursratio-gegevens";
+"Not a Axe QR code" = "Geen axe QR-code";
 
 /* No comment provided by engineer. */
-"node ip" = "node IP adres";
+"Not a Axe URL" = "Geen AXE URL";
 
 /* No comment provided by engineer. */
-"not a axe or bitcoin QR code" = "geen axe of bitcoin QR-code";
+"Not a valid Axe address" = "ongeldig Axe-adres";
 
 /* No comment provided by engineer. */
-"not a axe QR code" = "geen axe QR-code";
-
-/* No comment provided by engineer. */
-"not a valid bitcoin address" = "ongeldig bitcoin-adres";
-
-/* No comment provided by engineer. */
-"not a valid axe address" = "ongeldig axe-adres";
-
-/* No comment provided by engineer. */
-"not a valid axe or bitcoin address" = "ongeldig axe- of bitcoinadres";
-
-/* No comment provided by engineer. */
-"not operator" = "geen operator";
-
-/* No comment provided by engineer. */
-"not owner" = "geen eigenaar";
-
-/* No comment provided by engineer. */
-"not voter" = "geen stemrecht";
+"Not yet used" = "Nog niet gebruikt";
 
 /* No comment provided by engineer. */
 "OK" = "Oké";
 
 /* No comment provided by engineer. */
-"ok" = "oké";
-
-/* No comment provided by engineer. */
-"Only enable advanced features if you are knowledgeable in blockchain technology. \nIf enabled only use advanced features that you understand." = "De geavanceerde functies alleen activeren als je kennis hebt van blockchain technologie.\nIndien geactiveerd, gebruik dan alleen de geavanceerde functies die je begrijpt.";
-
-/* No comment provided by engineer. */
-"operator key index:" = "index van operator sleutel:";
-
-/* No comment provided by engineer. */
-"operator key:" = "operator sleutel:";
-
-/* No comment provided by engineer. */
 "Operator Keys" = "Operator sleutels";
 
 /* No comment provided by engineer. */
-"owner key hash:" = "hash van eigenaar sleutel:";
-
-/* No comment provided by engineer. */
-"owner key index:" = "index van eigenaar sleutel:";
+"Owner Address" = "Adres eigenaar";
 
 /* No comment provided by engineer. */
 "Owner Keys" = "Eigenaar sleutels";
@@ -432,211 +456,307 @@
 "Pay" = "Betaal";
 
 /* No comment provided by engineer. */
-"payload:" = "lading:";
+"Pay and get paid instantly with easy to use payment flows" = "Betaal en word betaald met eenvoudig te gebruiken betaalverkeer";
 
 /* No comment provided by engineer. */
-"payment address" = "betaaladres";
+"Pay with Ease" = "Betaal met gemak";
+
+/* 1 out of 4 in the Paying Animation */
+"Paying" = "Paying";
+
+/* 2 out of 4 in the Paying Animation */
+"Paying." = "Paying.";
+
+/* 3 out of 4 in the Paying Animation */
+"Paying.." = "Paying..";
+
+/* 4 out of 4 in the Paying Animation */
+"Paying..." = "Paying...";
 
 /* No comment provided by engineer. */
-"payment output" = "betaaluitgang";
+"Payments" = "Betalingen";
 
 /* No comment provided by engineer. */
-"payout Address" = "uitbetalingsadres";
+"PIN is always required to make a payment" = "De PIN is altijd vereist om een betaling uit te voeren";
 
 /* No comment provided by engineer. */
-"payout address:" = "uitbetalingsadres:";
-
-/* No comment provided by engineer. */
-"Pending" = "Wachtende";
-
-/* No comment provided by engineer. */
-"pending" = "in wachtrij";
-
-/* No comment provided by engineer. */
-"Please enter pin to upgrade wallet" = "Voer je pincode in om de portemonnee bij te werken";
-
-/* No comment provided by engineer. */
-"please enter pin to upgrade wallet" = "voer je pincode in om de wallet bij te werken";
+"Please enter PIN to upgrade wallet" = "Voer PIN in om de portemonnee bij te werken";
 
 /* No comment provided by engineer. */
 "Please place your phone near NFC device." = "Houd u uw telefoon bij een NFC apparaat";
 
 /* No comment provided by engineer. */
-"Private key" = "persoonlijke sleutel";
+"Please tap on the words from your recovery phrase in the right order" = "Tik op de woorden van uw herstelzin in de juiste volgorde";
 
 /* No comment provided by engineer. */
-"processing" = "verwerken";
+"Please try again" = "Probeer opnieuw";
+
+/* No comment provided by engineer. */
+"Please try scanning again" = "Please try scanning again";
+
+/* No comment provided by engineer. */
+"Please Wait" = "Even wachten aub";
+
+/* No comment provided by engineer. */
+"Please wait for the sync to complete" = "Wacht tot de synchronisatie is voltooid";
+
+/* No comment provided by engineer. */
+"Please write it down" = "schrijf het alsjeblieft op";
+
+/* No comment provided by engineer. */
+"Previously used at IP address" = "Eerder gebruikt op IP-adres";
+
+/* No comment provided by engineer. */
+"Private key" = "persoonlijke sleutel";
 
 /* No comment provided by engineer. */
 "Processing" = "Verwerken";
 
 /* No comment provided by engineer. */
+"Provider Address" = "Provider adres";
+
+/* No comment provided by engineer. */
 "Public key" = "Publieke sleutel";
 
 /* No comment provided by engineer. */
-"public key:" = "publieke sleutel:";
+"Quick Receive" = "Snel Ontvangen";
 
 /* No comment provided by engineer. */
-"rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@\nquorums validated: %d/%d" = "koers: %1$@ = %2$@\nbijgewerkt: %3$@\nblok #%4$d van %5$d\nverbonden peers: %6$d\ndl peer: %7$@\nquorums gevalideerd: %8$d/%9$d";
+"Quorums validated: %d/%d" = "Quorums gevalideerd: %1$d/%2$d";
+
+/* ex., Rate 1 US $ = 0.000009 Axe */
+"Rate: %@ = %@" = "Tarief: %1$@ = %2$@";
 
 /* No comment provided by engineer. */
-"Receive axe at this address: %@" = "Ontvang axe op dit adres: %@";
+"Receive" = "Ontvangen";
 
-/* No comment provided by engineer. */
+/* Received transaction */
 "Received" = "Ontvangen";
 
 /* No comment provided by engineer. */
-"received %@ (%@)" = "ontvangen %1$@ (%2$@)";
+"Received %@ (%@)" = "Ontvangen %1$@ (%2$@)";
 
 /* No comment provided by engineer. */
-"recently mined (locked)" = "Recentelijk geminet (vergrendeld)";
-
-/* Recovery phrase */
-"Recovery phrase" = "Herstelzin";
+"Received at" = "Ontvangen met";
 
 /* No comment provided by engineer. */
-"recovery phrase doesn't match" = "de herstelzin komt niet overeen";
+"Received from" = "Ontvangen van";
 
 /* No comment provided by engineer. */
-"recovery phrase must have %d words" = "de herstelzin moet %d woorden bevatten";
+"Recover Wallet" = "Herstel portemonnee";
 
 /* No comment provided by engineer. */
-"registration tx:" = "Registratie tx:";
+"Recovery Phrase" = "Herstelzin";
 
 /* No comment provided by engineer. */
-"Remind me later" = "Herinner me later";
+"Recovery phrase doesn't match" = "De herstelzin komt niet overeen";
 
 /* No comment provided by engineer. */
-"Request" = "Verzoek";
+"Recovery phrase must have %d words" = "De herstelzin moet %d woorden bevatten";
 
 /* No comment provided by engineer. */
-"request an amount" = "verzoek een bedrag";
+"Registered from" = "Geregistreerd van";
 
 /* No comment provided by engineer. */
-"rescan" = "scan opnieuw";
+"Registered Masternode" = "Geregistreerde Masternode";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Report an Issue" = "Meld een probleem";
+
+/* An action */
+"Rescan" = "Scan opnieuw";
 
 /* No comment provided by engineer. */
-"Rescan blockchain" = "Blockchain opnieuw scannen";
+"Rescan Blockchain" = "Blockchain opnieuw scannen";
 
 /* No comment provided by engineer. */
-"reset" = "herstel";
+"Reset" = "Reset";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their axe address. You can send a payment to anyone with an address." = "Scan de QR code van iemand anders om zijn of haar axe adres te verkrijgen. Je kan een betaling versturen naar iedereen met een adres.";
+"Reset to Default" = "Reset naar standaard";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their axe or bitcoin address. You can send a payment to anyone with an address." = "Scan de QR-code van iemand anders om zijn of haar axe- of bitcoinadres te verkrijgen. Je kan een betaling versturen naar iedereen met een adres.";
+"Reset Wallet" = "Portemonnee resetten";
+
+/* No comment provided by engineer. */
+"Retry" = "Probeer opnieuw";
+
+/* No comment provided by engineer. */
+"Review & Rate the app" = "Schrijf een recensie & beoordeel de app";
+
+/* No comment provided by engineer. */
+"Reward" = "Beloning";
+
+/* No comment provided by engineer. */
+"Rewards" = "Beloningen";
+
+/* No comment provided by engineer. */
+"Scan" = "Scan";
+
+/* No comment provided by engineer. */
+"Scan Private Key" = "Scan persoonlijke sleutel";
+
+/* No comment provided by engineer. */
+"Scan QR Code" = "Scan QR Code";
+
+/* A title of the quick receive screen */
+"Scan this to Pay" = "Scan dit om te betalen";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Scan to Pay" = "Scan om te betalen";
+
+/* No comment provided by engineer. */
+"Scan to Send" = "Scan om te verzenden";
+
+/* (Send by) Scanning QR code */
+"Scanning QR code" = "QR Code scannen";
+
+/* No comment provided by engineer. */
+"Screenshot detected. New recovery phrase:" = "Schermafbeelding gedetecteerd.  Nieuwe herstelzin:";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Schermafdrukken zijn zichtbaar voor andere apps en apparaten. Genereer een nieuwe herstelzin en houdt deze geheim.";
 
 /* No comment provided by engineer. */
-"Screenshots are visible to other apps and devices. Your funds are at risk. Transfer your balance to another wallet." = "Schermafdrukken zijn zichtbaar voor andere apps en apparaten. Je tegoed loopt gevaar. Verplaats je tegoed naar een andere portemonnee.";
+"Secure now" = "Beveilig nu";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Secure Wallet Now" = "Beveilig portemonnee nu";
+
+/* No comment provided by engineer. */
+"Security" = "Beveiliging";
+
+/* No comment provided by engineer. */
+"Security Level" = "Beveiligingsniveau";
 
 /* No comment provided by engineer. */
 "See on Uphold" = "Bekijk op Uphold";
 
 /* No comment provided by engineer. */
-"seen by %d of %d peers" = "gezien door %1$d van %2$d peers";
+"Send" = "Verstuur";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The axe network will receive a fee of %@ (%@)." = "%1$@ (%2$@) verstueren van deze persoonlijke sleutel naar jouw portemonnee? Het axe-netwerk zal een vergoeding krijgen van %3$@ (%4$@).";
+"Send %@ (%@) from this private key into your wallet? The Axe network will receive a fee of %@ (%@)." = "%1$@ (%2$@) versturen van deze persoonlijke sleutel naar jouw portemonnee? Het Axe-netwerk zal een vergoeding krijgen van %3$@ (%4$@).";
+
+/* Send by (scanning QR code) */
+"Send by" = "Verstuurd door";
 
 /* No comment provided by engineer. */
-"send address as email" = "verstuur adres als e-mail";
+"Send to" = "Verstuur naar";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Send to Address" = "Versturen naar adres";
 
 /* No comment provided by engineer. */
-"send address as message" = "verstuur adres als bericht";
+"Send to copied address" = "Versturen naar gekopieerd adres";
 
-/* No comment provided by engineer. */
-"send crash report" = "verstuur crashrapport";
+/* Translate it as short as possible! (24 symbols max) */
+"Send with NFC" = "Versturen met NFC";
 
-/* No comment provided by engineer. */
-"send request as email" = "verstuur verzoek als e-mail";
+/* 1 out of 4 in the Sending Animation */
+"Sending" = "Bezig met verzenden";
 
-/* No comment provided by engineer. */
-"send request as message" = "verstuur verzoek als bericht";
+/* 2 out of 4 in the Sending Animation */
+"Sending." = "Bezig met verzenden.";
 
-/* No comment provided by engineer. */
+/* 3 out of 4 in the Sending Animation */
+"Sending.." = "Bezig met verzenden.";
+
+/* 4 out of 4 in the Sending Animation */
+"Sending..." = "Bezig met verzenden.";
+
+/* Sent transaction */
 "Sent" = "Verstuurd";
 
 /* No comment provided by engineer. */
-"sent!" = "verstuurd!";
+"Sent from" = "Verzonden vanaf";
 
 /* No comment provided by engineer. */
-"set a trusted node" = "stel een vertrouwd punt in";
+"Sent successfully" = "Succesvol verzonden";
+
+/* No comment provided by engineer. */
+"Sent to" = "Verstuur naar";
+
+/* No comment provided by engineer. */
+"Set a trusted node" = "stel een vertrouwde node in";
+
+/* No comment provided by engineer. */
+"Set PIN" = "Stel PIN in";
 
 /* No comment provided by engineer. */
 "Settings" = "Instellingen";
 
 /* No comment provided by engineer. */
-"shapeshift bitcoin id:" = "shapeshift bitcoin-id:";
+"Setup Wallet" = "Portemonnee instellen";
 
 /* No comment provided by engineer. */
-"shapeshift status:" = "shapeshift-status:";
+"Share" = "Delen";
 
 /* No comment provided by engineer. */
-"shapeshift succeeded" = "shapeshift voltooid";
+"Show Masternode Keys" = "Toon Masternode sleutels";
 
 /* No comment provided by engineer. */
-"show" = "toon";
+"Show Recovery Phrase" = "Toon herstelzin";
 
 /* No comment provided by engineer. */
-"Show masternode keys" = "Toon masternode sleutels";
+"Skip" = "Overslaan";
 
 /* No comment provided by engineer. */
-"show phrase" = "toon zin";
-
-/* No comment provided by engineer. */
-"size:" = "grootte:";
-
-/* No comment provided by engineer. */
-"sms not currently available" = "sms is momenteel niet beschikbaar";
+"skip" = "Overslaan";
 
 /* No comment provided by engineer. */
 "Something went wrong" = "Er is iets verkeerd gegaan";
 
 /* No comment provided by engineer. */
-"spent address" = "spent adres";
+"Specify Amount" = "Specificeer bedrag";
 
 /* No comment provided by engineer. */
-"spent input" = "spent invoer";
+"Spending Confirmation" = "Bevestiging van de uitgaven";
 
 /* No comment provided by engineer. */
-"Start / Recover another wallet" = "Start / Herstel een andere portemonnee";
+"Support" = "Support";
 
 /* No comment provided by engineer. */
-"status:" = "status:";
+"Swept!" = "Geveegd!";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Switch to Mainnet" = "Wissel naar Mainnet";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Switch to Testnet" = "Wissel naar Testnet";
 
 /* No comment provided by engineer. */
-"Steps to reproduce the crash" = "Steppen om crash te reproduceren";
+"Sync Failed" = "Sync mislukt";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Sync Now" = "Nu synchroniseren";
 
 /* No comment provided by engineer. */
-"Success" = "Succes";
+"Syncing" = "Aan het synchroniseren";
+
+/* Pay using NFC (should be as short as possible) */
+"Tap" = "Tik";
 
 /* No comment provided by engineer. */
-"swept!" = "geveegd!";
+"Tap to hide balance" = "Tik om saldo te verbergen";
 
 /* No comment provided by engineer. */
-"Syncing:" = "Bezig met synchroniseren:";
+"Tap to unhide balance" = "Tik om saldo te zien";
 
 /* No comment provided by engineer. */
-"the app will now close" = "de app zal nu worden afgesloten";
+"There are no transactions to display" = "Er zijn geen transacties om weer te geven";
 
 /* No comment provided by engineer. */
-"This is your axe address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Dit is je axe-adres. Raak aan om te kopiëren of verstuur het per e-mail of sms. Het adres wijzigt iedere keer dat je geld hebt ontvangen, maar oude adressen blijven altijd werken.";
+"This app is open source:" = "Deze app is open source:";
 
 /* No comment provided by engineer. */
-"This is your axe balance." = "Dit is je axe-saldo.";
+"This PIN will be required to unlock your app every time when you use it." = "Deze PIN is vereist om uw app elke keer te ontgrendelen wanneer u deze gebruikt.";
 
 /* No comment provided by engineer. */
-"This is your axe balance. Axe is a currency. The exchange rate changes with the market." = "Dit is je axe-saldo. Axe is een valuta. De wisselkoers wijzigt conform de markt.";
+"This recovery phrase is your access to the funds in this wallet." = "Deze herstelzin is uw toegang tot het saldo in deze portemonnee.";
 
 /* No comment provided by engineer. */
 "This transaction may take several minutes to settle." = "De afhandeling van deze transactie kan enkele minuten duren.";
-
-/* No comment provided by engineer. */
-"This transaction may take several minutes to settle. Complete instantly for an extra %@?" = "De afhandeling van deze transactie kan enkele minuten duren. Direct afhandelen voor een extra %@?";
 
 /* No comment provided by engineer. */
 "This transaction should settle instantly at no extra fee" = "Deze transactie wordt direct afgehandeld en zonder extra transactiekosten";
@@ -645,13 +765,10 @@
 "This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase" = "Deze portemonnee is niet leeg of sync is nog niet klaar, je mag het niet wissen zonder de herstelzin.";
 
 /* No comment provided by engineer. */
-"to:" = "naar:";
+"This will move all coins from that wallet to your wallet on this device." = "Hiermee worden het saldo van die portemonnee naar uw portemonnee op dit apparaat verplaatst.";
 
 /* No comment provided by engineer. */
-"to: %@" = "naar: %@";
-
-/* No comment provided by engineer. */
-"topup amount:" = "top-up bedrag:";
+"Tools" = "Gereedschap";
 
 /* No comment provided by engineer. */
 "Total" = "Totaal";
@@ -660,15 +777,9 @@
 "Touch ID limit" = "touch ID limiet";
 
 /* No comment provided by engineer. */
-"Touch ID spending limit" = "Touch ID uitgavelimiet";
-
-/* No comment provided by engineer. */
-"Transaction history" = "transactiegeschiedenis";
-
-/* No comment provided by engineer. */
 "Transaction id" = "Transactie id";
 
-/* No comment provided by engineer. */
+/* A verb, button title. */
 "Transfer" = "overdracht";
 
 /* No comment provided by engineer. */
@@ -677,110 +788,131 @@
 /* No comment provided by engineer. */
 "Transfer from Uphold" = "Verstuur vanaf Uphold";
 
-/* No comment provided by engineer. */
-"trust" = "vertrouw";
+/* An action */
+"Try again" = "Probeer opnieuw";
+
+/* Alert title */
+"Turn device passcode on" = "Zet apparaat-toegangscode aan";
 
 /* No comment provided by engineer. */
-"try again" = "probeer opnieuw";
+"Unable to connect" = "Kan geen verbinding maken";
 
 /* No comment provided by engineer. */
-"Try It!" = "Probeer het!";
+"Unable to get new QR code" = "Verkrijgen van nieuwe QR-code is mislukt";
 
 /* No comment provided by engineer. */
-"turn device passcode on" = "zet apparaat-toegangscode aan";
+"Unsupported or corrupted document" = "Niet-ondersteund of corrupt document";
 
 /* No comment provided by engineer. */
-"type:" = "type:";
+"Unsupported URL" = "Niet-ondersteunde URL";
 
-/* No comment provided by engineer. */
-"Unable to get new qr code" = "Verkrijgen van nieuwe QR-code is mislukt";
-
-/* No comment provided by engineer. */
-"unknown address" = "onbekend adres";
-
-/* No comment provided by engineer. */
-"unsupported or corrupted document" = "niet-ondersteund of corrupt document";
-
-/* No comment provided by engineer. */
-"unsupported url" = "niet-ondersteunde URL";
-
-/* No comment provided by engineer. */
-"Unverified" = "Ongeverifieerd";
+/* ex., Updated: 27.12, 8:30 */
+"Updated: %@" = "Bijgewerkt: %@";
 
 /* No comment provided by engineer. */
 "Uphold" = "Uphold";
 
 /* No comment provided by engineer. */
-"Uphold account" = "Uphold account";
+"Used" = "Gebruikt";
 
 /* No comment provided by engineer. */
-"User Registration Transaction" = "Gebruiker registratie transactie";
+"Used at IP address" = "Gebruikt op IP-adres";
 
 /* No comment provided by engineer. */
-"User Reset Transaction" = "Gebruiker reset transactie";
+"Verified Successfully" = "Succesvol geverifieerd";
 
 /* No comment provided by engineer. */
-"User Topup Transaction" = "Gebruiker top-up transactie";
+"Verify" = "Verifiëren";
+
+/* adjective, security level */
+"Very High" = "Heel hoog";
 
 /* No comment provided by engineer. */
-"username:" = "gebruikersnaam:";
+"View in Block Explorer" = "Bekijk in Block Explorer";
 
 /* No comment provided by engineer. */
-"verified, waiting for confirmation" = "geverifieerd, bezig met wachten op bevestiging";
+"View passphrase, backup wallet…" = "Bekijk wachtwoord, maak backup portemonnee ...";
 
 /* No comment provided by engineer. */
-"verifying quorum" = "quorum aan het verifiëren";
+"View Recovery Phrase" = "Toon herstelzin";
 
 /* No comment provided by engineer. */
-"voting key hash:" = "hash van stem-sleutel:";
-
-/* No comment provided by engineer. */
-"voting key index:" = "index van stem sleutel:";
+"Voting Address" = "Stem adres";
 
 /* No comment provided by engineer. */
 "Voting Keys" = "Stem sleutels";
 
 /* No comment provided by engineer. */
-"wallet address" = "portemonnee-adres";
+"Wallet disabled" = "Portemonnee is uitgeschakeld";
 
 /* No comment provided by engineer. */
 "Wallet Keys" = "Portemonnee sleutels";
 
 /* No comment provided by engineer. */
+"Warning" = "Waarschuwing";
+
+/* No comment provided by engineer. */
 "WARNING" = "WAARSCHUWING";
 
 /* No comment provided by engineer. */
-"watch only" = "alleen bekijken";
+"We are about to show you the secret key to your wallet." = "We gaan u de geheime sleutel van uw portemonnee laten zien.";
 
 /* No comment provided by engineer. */
-"We have detected that Axewallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete." = "We detecteerden dat Axewallet tijdens de migratie is gecrashed. Opnieuw scannen van de blokketen zal het issue oplossen of je moet opnieuw proberen. Opnieuw scannen dient bij voorkeur met wifi te worden gedaan en duurt ongeveer een half uur. Je tegoeden worden beschikbaar zodra het synchronisatieproces is afgerond.";
+"We do not store this recovery phrase." = "We slaan deze herstelzin niet op.";
 
 /* No comment provided by engineer. */
-"We have detected that Axewallet crashed last time it was opened. Would you like to help us solve the issue by sending us the crash report data? Your transaction history and any other private information WILL NOT be shared." = "We hebben gedetecteerd dat Axewallet is gecrasht toen het voor de laatste keer werd gebruikt. Wil je ons helpen dat issue op te lossen door een crashrapport in te sturen? Je transactiegeschiedenis en andere privé-informatie WORDT NIET gedeeld.";
+"We have detected that Axe Wallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete." = "We detecteerden dat de Axe portemonnee tijdens de migratie is gecrasht. Opnieuw scannen van de blockchain zal dit probleem oplossen of uw kan het opnieuw proberen. Opnieuw scannen dient bij voorkeur met wifi te worden gedaan en duurt ongeveer een half uur. Uw saldo zal pas beschikbaar zijn zodra het synchronisatieproces is afgerond.";
 
 /* No comment provided by engineer. */
-"wipe" = "wis";
+"We Upgraded" = "We hebben een upgrade uitgevoerd";
 
 /* No comment provided by engineer. */
-"WRITE DOWN YOUR RECOVERY PHRASE" = "SCHRIJF JE HERSTELZIN OP";
+"Welcome" = "Welkom";
 
 /* No comment provided by engineer. */
-"yes" = "ja";
+"When the transaction is confirmed, the other wallet will be worthless and should not be re-used for safety reasons." = "Wanneer de transactie is bevestigd, is de andere portemonnee waardeloos en mag deze om veiligheidsredenen niet opnieuw worden gebruikt.";
 
 /* No comment provided by engineer. */
-"You can now buy axe in\naxewallet with cash or\nbank transfer." = "Je kunt nu axe kopen in\naxewallet d.m.v. geld of\neen bankoverschrijving.";
+"Why I should not take a screenshot?" = "Why I should not take a screenshot?";
 
 /* No comment provided by engineer. */
-"You must enter your pin in order to enter axewallet" = "je moet je pincode invoeren om in axewallet te komen";
+"Wipe" = "Verwijderen";
 
 /* No comment provided by engineer. */
-"you received axe!" = "je hebt axe ontvangen!";
+"Wipe Wallet" = "Portemonnee Verwijderen";
+
+/* No comment provided by engineer. */
+"with Axe blockchain" = "met Axe blockchain";
+
+/* No comment provided by engineer. */
+"You are about to sweep funds from another Axe Wallet." = "U staat op het punt het saldo van een andere Axe portemonnee op te nemen";
+
+/* No comment provided by engineer. */
+"You are about to wipe this wallet from this device. Funds associated with this wallet can only be retrieved if you have your recovery phrase." = "U staat op het punt deze portemonnee van dit apparaat te wissen. Het saldo dat aan deze portemonnee is gekoppeld, kan alleen worden opgehaald als u uw herstelzin hebt.";
+
+/* No comment provided by engineer. */
+"You can authenticate with Face ID for payments below" = "U kunt authenticeren met gezichtsherkenning voor onderstaande betalingen";
+
+/* No comment provided by engineer. */
+"You can authenticate with Touch ID for payments below" = "U kunt authenticeren met vingerafdruk voor onderstaande betalingen";
+
+/* No comment provided by engineer. */
+"You must enter your PIN in order to enter Axe Wallet" = "PIN invoeren om in de Axe portemonnee te komen";
+
+/* No comment provided by engineer. */
+"You received Axe! If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device." = "Je hebt Axe ontvangen! Als u dit apparaat verliest, verliest u uw Axe. Download de herstelzin zodat u uw portemonnee op een ander apparaat kunt herstellen.";
 
 /* No comment provided by engineer. */
 "You will also need to log out from the Uphold website using your browser" = "Je dient ook nog uit te loggen bij Uphold website in je webbrowser.";
+
+/* No comment provided by engineer. */
+"You will need this recovery phrase to access your funds if this device is lost, damaged or if Axe Wallet ever is accidentally uninstalled from this device." = "U hebt deze herstelzin nodig om toegang te krijgen tot uw saldo als dit apparaat is verloren of beschadigd, of als Axe Wallet ooit per ongeluk van dit apparaat wordt verwijderd.";
 
 /* No comment provided by engineer. */
 "Your transaction was sent and the amount should appear in your wallet in a few minutes." = "De transactie is verzonden en het bedrag verschijnt binnen een paar minuten in je de portemonnee.";
 
 /* No comment provided by engineer. */
 "Your Uphold account Axe balance is" = "Je saldo in Axe bij Uphold is";
+
+/* No comment provided by engineer. */
+"Your wallet is secured now. You can use your recovery phrase anytime to recover your account on another device." = "Uw portemonnee is nu beveiligd. U kunt uw herstelzin op elk gewenst moment gebruiken om uw account op een ander apparaat te herstellen.";

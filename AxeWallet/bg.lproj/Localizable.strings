@@ -1,72 +1,69 @@
 
 /* No comment provided by engineer. */
-"%@ is for 'mAXE'. %@ = 1 AXE." = "%@ е за 'mAXE'. %@ = 1 AXE.";
+"%@ is not allowed to access Face ID" = "%@ не е разрешен достъпа до Face ID";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ не е позволен достъп до камерата";
 
 /* No comment provided by engineer. */
-"%@\n\nbalance: %@ (%@)" = "%1$@\n\nбаланс: %2$@ (%3$@)";
+"%@ is not allowed to access Touch ID" = "%@ не е разрешен достъпа до Touch ID";
 
 /* No comment provided by engineer. */
-"%d confirmations" = "%d потвърждения";
+"1 hour" = "1 час";
+
+/* Shorten version of minute */
+"1 min" = "1 мин";
 
 /* No comment provided by engineer. */
-"%d haks/byte" = "%d haks/byte";
+"24 hours" = "24 часа";
 
-/* No comment provided by engineer. */
-"%d out of %d lock votes" = "%1$d извън %2$d заключени гласове";
-
-/* No comment provided by engineer. */
-"%ld used" = "%ld използван";
-
-/* No comment provided by engineer. */
-"0 confirmations" = "0 потвърждения";
-
-/* No comment provided by engineer. */
-"1 confirmation" = "1 потвърждение";
-
-/* No comment provided by engineer. */
-"1 hak/byte" = "1 hak/byte";
+/* Shorten version of minutes */
+"5 min" = "5 мин";
 
 /* No comment provided by engineer. */
 "\"%@\" is not a recovery phrase word" = "\"%@\" не е фраза за възстановяване";
 
 /* No comment provided by engineer. */
-"\n%@\n\nif you ever lose your phone, you will need it to recover your wallet" = "\n%@\n\nако някога загубите телефона си, ще се нуждаете от него, за да възстановите портфейла си";
-
-/* No comment provided by engineer. */
-"\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nНеобходима е парола на устройството за опазване на портфейла Ви. Отидете в настройки и включете използването на парола, за да продължите.";
-
-/* No comment provided by engineer. */
-"\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nразрешава достъпа до камерата\nНастройки->Неприкосновеност->Камера->%@";
-
-/* No comment provided by engineer. */
 "\ntry again in %@" = "\nопитай отново в %@";
+
+/* No comment provided by engineer. */
+"A device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "Необходима е парола на устройството за опазване на портфейла Ви. Отидете в настройки и включете използването на парола, за да продължите.";
 
 /* No comment provided by engineer. */
 "About" = "Относно";
 
-/* No comment provided by engineer. */
-"accepted by quorum" = "приета от кворума";
-
-/* No comment provided by engineer. */
-"Action Needed" = "Необходимо е действие";
+/* Translate it as short as possible! (24 symbols max) */
+"Add Shortcut" = "Добави пряк път";
 
 /* No comment provided by engineer. */
 "Address" = "Адрес";
 
 /* No comment provided by engineer. */
-"ADVANCED" = "РАЗШИРЕНИ";
+"Advanced Security" = "Разширена сигурност";
 
 /* No comment provided by engineer. */
-"always require passcode" = "винаги изисквайте парола";
+"All" = "Всички";
 
 /* No comment provided by engineer. */
-"Amount" = "Количество";
+"Allow camera access in Settings" = "Разреши достъпа до камерата в Настройки";
 
 /* No comment provided by engineer. */
-"amount too small" = "твърде малко количество";
+"Allow Face ID access in Settings" = "Разреши достъпа до Face ID в Настройки";
+
+/* No comment provided by engineer. */
+"Allow Touch ID access in Settings" = "Разреши достъпа до Touch ID в Настройки";
+
+/* No comment provided by engineer. */
+"Amount Received" = "Получени суми";
+
+/* No comment provided by engineer. */
+"Amount Sent" = "Изпратени суми";
+
+/* No comment provided by engineer. */
+"Amount too small" = "Твърде малка сума";
+
+/* No comment provided by engineer. */
+"An intuitive and familiar experience across all your devices" = "Интуитивно и познато преживяване на всичките Ви устройства";
 
 /* No comment provided by engineer. */
 "Application %@ is requesting a payment to" = "Приложението %@ изисква плащане към";
@@ -81,178 +78,181 @@
 "Are you sure?" = "Сигурен ли си ?";
 
 /* No comment provided by engineer. */
+"Authentication is unvailable" = "Удостоверяването не е налично";
+
+/* No comment provided by engineer. */
+"Auto Logout" = "Автоматично излизане";
+
+/* No comment provided by engineer. */
+"Autohide Balance" = "Автоматично скриване на баланса";
+
+/* lowercase, ex. 4 Axe available */
 "available" = "налично";
 
 /* No comment provided by engineer. */
-"bad recovery phrase" = "грешна фраза за възстановяване";
+"Available balance" = "Наличен баланс";
+
+/* A noun. Used as a title. */
+"Backup Wallet" = "Архивиране на портфейла";
 
 /* No comment provided by engineer. */
-"Bitcoin address (shapeshift)" = "Bitcoin адрес (shapeshift)";
+"Bad recovery phrase" = "Грешна възстановяваща фраза";
+
+/* No comment provided by engineer. */
+"Balance hidden" = "Скрит баланс";
 
 /* No comment provided by engineer. */
 "block #%d of %d" = "блок #%1$d от %2$d";
 
 /* No comment provided by engineer. */
-"Buy Axe" = "Купи Axe";
+"Block #%d of %d" = "Блок #%1$d от %2$d";
 
 /* No comment provided by engineer. */
-"Buy axe in axewallet!" = "Купи axe в axewallet!";
+"Buy & Sell Axe" = "Купи & Продай Axe";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Buy / Sell Axe" = "Купи/Продай Axe";
+
+/* No comment provided by engineer. */
+"Buy Axe" = "Купи Axe";
 
 /* No comment provided by engineer. */
 "Buy Axe with Uphold account" = "Купи Axe с Uphold акаунт";
 
 /* No comment provided by engineer. */
-"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code." = "Чрез изтриването на това устройство вече няма да имате достъп до средства на това устройство. Това трябва да се направи само, ако вече нямате достъп до фразата за възстановяване си и сте забравили своя ПИН код.";
-
-/* No comment provided by engineer. */
-"cancel" = "отказ";
+"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your PIN code." = "Чрез изтриването на това устройство вече няма да имате достъп до средства на това устройство. Това трябва да се направи само, ако вече нямате достъп до фразата за възстановяване си и сте забравили своя ПИН код.";
 
 /* No comment provided by engineer. */
 "Cancel" = "Отказ";
 
-/* No comment provided by engineer. */
-"change" = "промяна";
+/* A verb. Action button title for an alert 'Change payment amount?' */
+"Change" = "Промяна";
 
 /* No comment provided by engineer. */
-"Change passcode" = "Смяна на парола";
+"Change payment amount?" = "Промяна сумата за плащане?";
 
 /* No comment provided by engineer. */
-"change payment amount?" = "промяна сумата на плащането?";
+"Change PIN" = "Промяна на ПИН";
 
 /* No comment provided by engineer. */
-"checking address balance..." = "проверка баланса на адреса...";
+"Check your connection" = "Проверете връзката";
 
 /* No comment provided by engineer. */
-"checking private key balance..." = "проверка баланса на частния ключ...";
+"Clear" = "Изчисти";
 
 /* No comment provided by engineer. */
-"Classical Transaction" = "Класическа транзакция";
+"Clear trusted node?" = "Изчистване на познатите нодове?";
 
 /* No comment provided by engineer. */
-"clear" = "изчистване";
+"Clipboard doesn't contain a valid Axe address" = "Клипборда не съдържа валиден Axe адрес";
 
 /* No comment provided by engineer. */
-"clear trusted node?" = "изчистване на познатите нодове?";
+"Close" = "Затвори";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid axe address" = "клипборда на съдържа валиден Axe адрес";
+"Close App" = "Затвори приложението";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid axe or bitcoin address" = "клипборда не съдържа валиден axe или bitcoin адрес";
-
-/* No comment provided by engineer. */
-"close app" = "затвори приложението";
-
-/* No comment provided by engineer. */
-"Coinbase Transaction" = "Coinbase транзакция";
-
-/* Confirm */
 "Confirm" = "Потвърди";
 
 /* No comment provided by engineer. */
-"confirm" = "потвърждавам";
+"Confirm PIN" = "Потвърди ПИН";
 
 /* No comment provided by engineer. */
-"Confirm transaction" = "Потвърдете трнзакцията";
+"Confirming" = "Потвърждаване";
 
 /* No comment provided by engineer. */
-"confirmed in block #%d" = "потвърдено в блок #%d";
+"Connect with third party exchanges" = "Свързване към трета страна за обмяна";
 
 /* No comment provided by engineer. */
-"copied" = "копирано";
+"Connected peers: %d" = "Свързани пиъри: %d";
 
 /* No comment provided by engineer. */
-"copy" = "копиране";
+"Connecting to payment server" = "Свързване към сървъра за разплащане";
 
 /* No comment provided by engineer. */
-"copy address to clipboard" = "копирай адреса в клипборда";
+"Contact Support" = "Връзка с поддръжката";
 
 /* No comment provided by engineer. */
-"copy request to clipboard" = "копирай искането в клипборда";
+"Continue" = "Продължи";
 
 /* No comment provided by engineer. */
-"copy wallet addresses to clipboard?" = "копирахте ли адреса на портфейла в клипборда?";
+"Copied" = "Копирано";
 
 /* No comment provided by engineer. */
-"couldn't check address balance" = "не може да провери баланса на адреса";
+"Copy" = "Копирай";
 
 /* No comment provided by engineer. */
-"couldn't make payment" = "не може да се направи плащане";
+"Copy Logs" = "Копирай логовете";
 
 /* No comment provided by engineer. */
-"couldn't sweep balance" = "не може да изчисти баланса";
+"Copyright © 2020 Axe Core" = "Copyright © 2020 Axe Core";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to axe network" = "плащането не може да бъде предадено към мрежата на axe";
+"Couldn't make payment" = "Плащането не може да се изпълни";
 
 /* No comment provided by engineer. */
-"CRITICAL" = "КРИТОЧНО";
+"Couldn't sweep balance" = "Не може да бъде усвоен баланса";
 
 /* No comment provided by engineer. */
-"Axe address" = "Axe адрес";
+"Couldn't transmit payment to Axe network" = "Не може да бъде излъчено плащането към Axe мрежата";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Axe адресите могат да се копират в клип борда. Axe адресът винаги започва с 'X' или '7'.";
+"Create a New Wallet" = "Създай нов портфейл";
 
 /* No comment provided by engineer. */
-"axe network fee" = "такса на axe мрежата";
+"Axe payments can't be less than %@" = "Axe плащанията не могат да бъдат по-малки от %@";
 
 /* No comment provided by engineer. */
-"axe payments can't be less than %@" = "axe плащането не може да бъде по-малко от %@";
+"Date" = "Дата";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "СЕКРЕТНОТО УСТРОЙСТВО Е КОМПРОМЕТИРАНО\nВсяко 'jailbreak' приложение може да достъпи всяко друго приложение с важна информация (и да открадне вашите axe).";
+"Default currency, shortcuts, about…" = "Валута по подразбиране,преки пътища, относно...";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe). Wipe this wallet immediately and restore on a secure device." = "СЕКРЕТНОТО УСТРОЙСТВО Е КОМПРОМЕТИРАНО\nВсяко 'jailbreak' приложение може да достъпи всяко друго приложение с важна информация (и да открадне вашите axe). Изтрийте този портфейл веднага и го възстановете на защитено устройство. ";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe)." = "КОМПРОМОМЕТИРАНА Е СИГУРНОСТТА НА УСТРОЙСТВОТО\nВсякакви 'jailbreak' приложения могат да получат ключови данни на други приложения (и да откраднат вашият Axe).";
 
 /* No comment provided by engineer. */
-"do it later" = "направете го по-късно";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe). Wipe this wallet immediately and restore on a secure device." = "СИГУРНОСТТА НА УСТРОЙСТВОТО Е КОМПРОМЕТИРАНА\nВсяко 'jailbreak' приложение може да достъпи всяко друго приложение с важна информация (и да открадне вашите Axe). Изтрийте този портфейл веднага и го възстановете на защитено устройство. ";
 
 /* No comment provided by engineer. */
-"DO NOT let anyone see your recovery phrase or they can spend your axe." = "НЕ позволявайте на никого да вижда фразата за възстановяване или биха могли да похарчат вашият Axe.";
-
-/* No comment provided by engineer. */
-"DO NOT take a screenshot. Screenshots are visible to other apps and devices." = "НЕ правете снимка на екрана. Снимките са видими за другите приложения и устройства.";
+"Do not take a screenshot" = "Do not take a screenshot";
 
 /* No comment provided by engineer. */
 "Done" = "Завършено";
 
-/* No comment provided by engineer. */
-"double spend" = "двойно похарчени";
+/* ex., Download peer: 127.0.0.1:9999 */
+"Download peer: %@" = "Изтеглени пиъри: %@";
 
 /* No comment provided by engineer. */
-"Email client is not configured. Please add your email account in Settings" = "Електронната поща не е конфигурирана. Моля добавете вашата ел.поща в Настройки";
+"Enable Face ID" = "Включи Face ID";
 
 /* No comment provided by engineer. */
-"email not configured" = "имейл адресът не е конфигуриран ";
+"Enable Receive Notifications" = "Включи получаване на известия ";
 
 /* No comment provided by engineer. */
-"Enable advanced features" = "Включване на разширените функции";
+"Enable Touch ID" = "Включи Touch ID";
 
 /* No comment provided by engineer. */
-"Enable advanced features?" = "Включване на разширените функции?";
+"Enter" = "Вход";
 
 /* No comment provided by engineer. */
-"Enable receive notifications" = "Включи получаване на известия ";
+"Enter PIN" = "Въведи ПИН";
 
 /* No comment provided by engineer. */
-"enter" = "вход";
+"Enter Recovery Phrase" = "Въведи фразата за възстановяване";
 
 /* No comment provided by engineer. */
-"Enter the amount to transfer below" = "Въведете сумата за трансфер по-долу";
+"Enter the amount to transfer" = "Въведи сумата за прехвърляне ";
 
 /* No comment provided by engineer. */
 "Enter your 2FA code below" = "Въведете вашият 2FA код по-долу";
 
 /* No comment provided by engineer. */
-"exit" = "изход";
+"Exit" = "Изход";
 
 /* No comment provided by engineer. */
 "Face ID limit" = "Лимит на лицева идентификация";
-
-/* No comment provided by engineer. */
-"Face ID spending limit" = "Face ID лимит за похарчване";
 
 /* No comment provided by engineer. */
 "Failed wallet update" = "Неуспешно актуализиране на портфейла";
@@ -261,58 +261,82 @@
 "Fee" = "Такса";
 
 /* No comment provided by engineer. */
-"Fee is greater than balance" = "Fee is greater than balance";
+"Fee is greater than balance" = "Таксата е повече от баланса";
 
 /* No comment provided by engineer. */
-"Fee will be deducted from requested amount" = "Таксата ще бъде приспадната от заявената сума";
+"Fee will be deducted from requested amount." = "Таксата ще бъде взета от заявената сума";
 
 /* No comment provided by engineer. */
-"from:" = "от:";
+"Filter Transactions" = "Филтър на транзакциите ";
 
 /* No comment provided by engineer. */
-"GENERAL" = "ОСНОВЕН";
+"Forgot PIN?" = "Забравен ПИН?";
+
+/* No comment provided by engineer. */
+"Get Started" = "Първи стъпки";
 
 /* No comment provided by engineer. */
 "Go to Website" = "Отидете на уебсайта";
 
 /* No comment provided by engineer. */
-"holding funds index:" = "списък на притежаваните средства:";
+"Have complete control and customize your wallet based on your needs" = "Имате пълен контрол и персонализиране на портфейла според  нужди Ви";
+
+/* No comment provided by engineer. */
+"Help us improve your experience" = "Помогнете ни да подобрим вашето преживяване";
+
+/* adjective, security level */
+"High" = "Високо";
+
+/* No comment provided by engineer. */
+"History" = "История";
 
 /* No comment provided by engineer. */
 "I accept that I will lose my coins if I no longer possess the recovery phrase" = "Приемам, че ще загубя монетите си, ако вече не притежавам фразата за възстановяване";
 
 /* No comment provided by engineer. */
-"id:" = "id:";
+"I wrote it down" = "Написах го долу";
+
+/* No comment provided by engineer. */
+"If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device." = "Ако загубите това устройство, ще загубите средствата си. Вземете своята фраза за възстановяване, така че да можете да възстановите портфейла си на друго устройство.";
 
 /* No comment provided by engineer. */
 "If you still would like to wipe it please input: \"%@\"" = "Ако все още искате да го изтриете, моля въведете: \"%@\"";
 
 /* No comment provided by engineer. */
-"ignore" = "игнорирай";
+"Ignore" = "Игнорирай";
 
 /* No comment provided by engineer. */
-"Import private key" = "Импортиране на частен ключ.";
+"Immediately" = "Незабавно";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Import Private Key" = "Импортиране на частен ключ.";
 
 /* No comment provided by engineer. */
-"IMPORTANT" = "ВАЖНО";
+"Import private key…" = "Импортиране на частен ключ...";
 
 /* No comment provided by engineer. */
-"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again." = "В предишната версия на Axewallet, когато първоначално се показва фразата за възстановяване на това устройство, установихме, че това приложение не показва правилно всичките 12 думи за възстановяване. Моля, запишете отново пълната си фраза за възстановяване.";
+"Insufficient funds" = "Недостатъчно средства";
+
+/* Transaction within the wallet, transfer of own funds */
+"Internal Transfer" = "Вътрешен трансфер";
 
 /* No comment provided by engineer. */
-"Insufficient Funds" = "Недостатъчни средства";
+"Internally moved to" = "Вътрешно преместени към";
+
+/* Invalid transaction */
+"Invalid" = "Невалиден";
 
 /* No comment provided by engineer. */
-"INVALID" = "НЕВАЛИДЕН";
+"Invalid Payment Request" = "Невалидно искане за плащанеt";
 
 /* No comment provided by engineer. */
-"Invalid amount" = "Невалидна сума";
+"Invalid QR Code" = "Invalid QR Code";
 
 /* No comment provided by engineer. */
-"IP address/port:" = "IP адрес/порт:";
+"It's Important" = "Важно е";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your axe address. Anyone can send axe to your wallet by transferring them to your address." = "Нека другите да сканират този QR код, за да получат вашия axe адрес. Всеки може да изпрати axe до портфейла Ви, като ги прехвърли на Вашия адрес.";
+"Keypair %ld" = "Ключова фраза %ld";
 
 /* No comment provided by engineer. */
 "Link Uphold Account" = "Свързване на Uphold акаунт";
@@ -320,14 +344,14 @@
 /* No comment provided by engineer. */
 "Load more" = "Зареди още";
 
+/* Translate it as short as possible! (24 symbols max) */
+"Local Currency" = "Местна валута";
+
 /* No comment provided by engineer. */
-"Local currency" = "Местна валута";
+"Local requested amount: %@" = "Локална заявка за сума: %@";
 
 /* No comment provided by engineer. */
 "Locked" = "Заключена";
-
-/* No comment provided by engineer. */
-"locked with InstantSend" = "заключена с InstantSend";
 
 /* No comment provided by engineer. */
 "Log Out" = "Излез от профила";
@@ -336,94 +360,94 @@
 "Log out from Uphold" = "Излез от Uphold";
 
 /* No comment provided by engineer. */
-"masternode holding address" = "masternode притежаван адрес";
+"Login with Face ID" = "Влизане с Face ID";
 
 /* No comment provided by engineer. */
-"Masternode Registration Transaction" = "Masternode регистрираща транзакция";
+"Login with Touch ID" = "Влизане с Touch ID";
+
+/* a verb, Logout Immediately */
+"Logout" = "Излизане";
+
+/* Logout after 5 min */
+"Logout after" = "Излизане след";
 
 /* No comment provided by engineer. */
-"Masternode Update Registrar Transaction" = "Masternode актуализира регистрационната транзакция ";
+"Long press to copy ID" = "Дълго натискане за копиране на ID";
+
+/* adjective, security level */
+"Low" = "Ниско";
 
 /* No comment provided by engineer. */
-"Masternode Update Service Transaction" = "Masternode актуализира обслужващата транзакция";
+"Manage Trusted Node" = "Управление на доверен нод";
 
 /* No comment provided by engineer. */
-"more..." = "още...";
+"Masternode Registration" = "Masternode регистрация";
 
 /* No comment provided by engineer. */
-"Moved" = "Преместен";
+"Masternode Revocation" = "Masternode отменяне";
+
+/* No comment provided by engineer. */
+"Masternode Update" = "Masternode обновяване";
+
+/* Contracted variant of 'Maximum' word */
+"Max" = "Максимум";
+
+/* adjective, security level */
+"Medium" = "Средно";
+
+/* No comment provided by engineer. */
+"More" = "Още";
+
+/* No comment provided by engineer. */
+"More Control" = "Повече контрол";
+
+/* No comment provided by engineer. */
+"Moved from" = "Преместено от";
+
+/* No comment provided by engineer. */
+"Moved to Address" = "Преместено в адрес";
 
 /* No comment provided by engineer. */
 "Network" = "Мрежа";
 
 /* No comment provided by engineer. */
-"NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected." = "НИКОГА не пишете вашата парола за възстановяване в мениджъра на пароли или на друго място. Другите устройства може да са заразени.";
+"Network fee" = "Мрежова такса";
 
 /* No comment provided by engineer. */
-"new public key:" = "нов публичен ключ:";
+"NFC device" = "NFC устройство";
 
 /* No comment provided by engineer. */
-"next, write down your recovery phrase" = "следва, напиши отдолу своята фраза за възстановяване";
+"NFC device didn't transmit a valid Axe address" = "NFC устройството не предава валиден Axe адрес";
 
 /* No comment provided by engineer. */
-"NFC device didn't transmit a valid axe address" = "NFC не предава валиден Axe адрес";
+"No address copied" = "Няма копиран адрес";
 
 /* No comment provided by engineer. */
-"NFC device didn't transmit a valid axe or bitcoin address" = "NFC не предава валиден Axe или Bitcoin адрес";
+"Node IP" = "Нод IP";
+
+/* adjective, security level */
+"None" = "Никакъв";
 
 /* No comment provided by engineer. */
-"no exchange rate data" = "няма данни за обменния курс";
+"Not a Axe QR code" = "Не е Axe QR код";
 
 /* No comment provided by engineer. */
-"node ip" = "нод ip";
+"Not a Axe URL" = "Не е Axe URL";
 
 /* No comment provided by engineer. */
-"not a axe or bitcoin QR code" = "не е Axe или Bitcoin QR код";
+"Not a valid Axe address" = "Не е валиден Axe адрес";
 
 /* No comment provided by engineer. */
-"not a axe QR code" = "не е Axe QR код";
-
-/* No comment provided by engineer. */
-"not a valid bitcoin address" = "не е валиден Bitcoin адрес";
-
-/* No comment provided by engineer. */
-"not a valid axe address" = "не е валиден Axe адрес";
-
-/* No comment provided by engineer. */
-"not a valid axe or bitcoin address" = "не е валиден Axe или Bitcoin адрес";
-
-/* No comment provided by engineer. */
-"not operator" = "не оператор";
-
-/* No comment provided by engineer. */
-"not owner" = "не собственик";
-
-/* No comment provided by engineer. */
-"not voter" = "не гласуващ";
+"Not yet used" = "Неизползван досега";
 
 /* No comment provided by engineer. */
 "OK" = "OK";
 
 /* No comment provided by engineer. */
-"ok" = "ок";
-
-/* No comment provided by engineer. */
-"Only enable advanced features if you are knowledgeable in blockchain technology. \nIf enabled only use advanced features that you understand." = "Използвайте разширените функции само ако сте добре запознат с блокчейн технологиите . \nАко са активирани използвайте само разширени функции, които разбирате.";
-
-/* No comment provided by engineer. */
-"operator key index:" = "индекс на операторски ключ:";
-
-/* No comment provided by engineer. */
-"operator key:" = "операторски ключ:";
-
-/* No comment provided by engineer. */
 "Operator Keys" = "Операторски ключове";
 
 /* No comment provided by engineer. */
-"owner key hash:" = "Хеш на ключа на собственика:";
-
-/* No comment provided by engineer. */
-"owner key index:" = "индекс за ключа на собственика:";
+"Owner Address" = "Адрес на собственика";
 
 /* No comment provided by engineer. */
 "Owner Keys" = "Ключове на собственика";
@@ -432,211 +456,307 @@
 "Pay" = "Плати";
 
 /* No comment provided by engineer. */
-"payload:" = "payload:";
+"Pay and get paid instantly with easy to use payment flows" = "Платете и вземете плащане незабавно с лесни за използване потоци на плащане";
 
 /* No comment provided by engineer. */
-"payment address" = "адрес за плащане";
+"Pay with Ease" = "Платете с лекота";
+
+/* 1 out of 4 in the Paying Animation */
+"Paying" = "Paying";
+
+/* 2 out of 4 in the Paying Animation */
+"Paying." = "Paying.";
+
+/* 3 out of 4 in the Paying Animation */
+"Paying.." = "Paying..";
+
+/* 4 out of 4 in the Paying Animation */
+"Paying..." = "Paying...";
 
 /* No comment provided by engineer. */
-"payment output" = "изходящо плащане";
+"Payments" = "Плащания";
 
 /* No comment provided by engineer. */
-"payout Address" = "адрес за заплащане";
+"PIN is always required to make a payment" = "ПИН се изисква винаги при правене на плащания";
 
 /* No comment provided by engineer. */
-"payout address:" = "адрес за заплащане:";
-
-/* No comment provided by engineer. */
-"Pending" = "Изчакване";
-
-/* No comment provided by engineer. */
-"pending" = "изчакване";
-
-/* No comment provided by engineer. */
-"Please enter pin to upgrade wallet" = "Моля въведете ПИН за обновяването на портфейла";
-
-/* No comment provided by engineer. */
-"please enter pin to upgrade wallet" = "моля въведете ПИН за надграждане на портфейла";
+"Please enter PIN to upgrade wallet" = "Моля въведете ПИН за обновяване на портфейла";
 
 /* No comment provided by engineer. */
 "Please place your phone near NFC device." = "Моля поставете вашият телефон близо до NFC устройство.";
 
 /* No comment provided by engineer. */
-"Private key" = "Частен ключ";
+"Please tap on the words from your recovery phrase in the right order" = "Моля, докоснете думите от фразата за възстановяване в правилния ред";
 
 /* No comment provided by engineer. */
-"processing" = "обработване";
+"Please try again" = "Моля опитай отново";
+
+/* No comment provided by engineer. */
+"Please try scanning again" = "Please try scanning again";
+
+/* No comment provided by engineer. */
+"Please Wait" = "Моля изчакайте";
+
+/* No comment provided by engineer. */
+"Please wait for the sync to complete" = "Моля изчакайте синхронизирането да приключи";
+
+/* No comment provided by engineer. */
+"Please write it down" = "Моля запишете го долу";
+
+/* No comment provided by engineer. */
+"Previously used at IP address" = "Преди използван на IP адрес";
+
+/* No comment provided by engineer. */
+"Private key" = "Частен ключ";
 
 /* No comment provided by engineer. */
 "Processing" = "Обработване";
 
 /* No comment provided by engineer. */
+"Provider Address" = "Адрес на досавчика";
+
+/* No comment provided by engineer. */
 "Public key" = "Публичен адрес";
 
 /* No comment provided by engineer. */
-"public key:" = "публичен адрес:";
+"Quick Receive" = "Бързо получаване";
 
 /* No comment provided by engineer. */
-"rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@\nquorums validated: %d/%d" = "стойност: %1$@ = %2$@\nобновени: %3$@\nблок #%4$d of %5$d\nсвързани пиъри: %6$d\ndl пиър: %7$@\nвалидирани кворуми: %8$d/%9$d";
+"Quorums validated: %d/%d" = "Кворумите са утвърдени: %1$d/%2$d";
+
+/* ex., Rate 1 US $ = 0.000009 Axe */
+"Rate: %@ = %@" = "Цена: %1$@ = %2$@";
 
 /* No comment provided by engineer. */
-"Receive axe at this address: %@" = "Получавате axe на този адрес: %@";
+"Receive" = "Получаване";
 
-/* No comment provided by engineer. */
+/* Received transaction */
 "Received" = "Получени";
 
 /* No comment provided by engineer. */
-"received %@ (%@)" = "получени %1$@ (%2$@)";
+"Received %@ (%@)" = "Получени %1$@ (%2$@)";
 
 /* No comment provided by engineer. */
-"recently mined (locked)" = "наскоро добит (заключен)";
-
-/* Recovery phrase */
-"Recovery phrase" = "Фраза за възстановяване";
+"Received at" = "Получени в";
 
 /* No comment provided by engineer. */
-"recovery phrase doesn't match" = "фразата за възстановяване не съвпада";
+"Received from" = "Получени от";
 
 /* No comment provided by engineer. */
-"recovery phrase must have %d words" = "фразата за възстановяване трябва да има %d думи";
+"Recover Wallet" = "Възстанови портфейл";
 
 /* No comment provided by engineer. */
-"registration tx:" = "регистрирана tx:";
+"Recovery Phrase" = "Фраза за възстановяване";
 
 /* No comment provided by engineer. */
-"Remind me later" = "Напомни ми по-късно";
+"Recovery phrase doesn't match" = "Фразата за възстановяване не съвпада";
 
 /* No comment provided by engineer. */
-"Request" = "Искане";
+"Recovery phrase must have %d words" = "Фразата за възстановяване трябва да има %d думи";
 
 /* No comment provided by engineer. */
-"request an amount" = "искане на сума";
+"Registered from" = "Регистриран от";
 
 /* No comment provided by engineer. */
-"rescan" = "повторно сканиране";
+"Registered Masternode" = "Регистриран Masternode";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Report an Issue" = "Докладвай проблем";
+
+/* An action */
+"Rescan" = "Повторно сканиране";
 
 /* No comment provided by engineer. */
-"Rescan blockchain" = "Повторно сканиране на блок-веригата";
+"Rescan Blockchain" = "Повторно сканиране на блок-веригата";
 
 /* No comment provided by engineer. */
-"reset" = "изчистване";
+"Reset" = "Нулиране";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their axe address. You can send a payment to anyone with an address." = "Сканирайте някой друг QR код за да получите техният axe адрес. Можете да изпратите плащане към всеки с наличен адрес.";
+"Reset to Default" = "Нулиране по подразбиране";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their axe or bitcoin address. You can send a payment to anyone with an address." = "Сканирайте някой друг QR код за да получите техният axe или bitcoin адрес. Можете да изпратите плащане към всеки с наличен адрес.";
+"Reset Wallet" = "Нулиране на портфейл";
+
+/* No comment provided by engineer. */
+"Retry" = "Отново";
+
+/* No comment provided by engineer. */
+"Review & Rate the app" = "Ревю & Оценка на приложението";
+
+/* No comment provided by engineer. */
+"Reward" = "Възнаграждение";
+
+/* No comment provided by engineer. */
+"Rewards" = "Възнаграждения";
+
+/* No comment provided by engineer. */
+"Scan" = "Сканирай";
+
+/* No comment provided by engineer. */
+"Scan Private Key" = "Сканирай частен ключ";
+
+/* No comment provided by engineer. */
+"Scan QR Code" = "Сканирай QR кода";
+
+/* A title of the quick receive screen */
+"Scan this to Pay" = "Сканирай това на Pay";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Scan to Pay" = "Сканирай на Pay";
+
+/* No comment provided by engineer. */
+"Scan to Send" = "Сканиране за изпращане";
+
+/* (Send by) Scanning QR code */
+"Scanning QR code" = "Сканиране на QR код";
+
+/* No comment provided by engineer. */
+"Screenshot detected. New recovery phrase:" = "Засечен е Screenshot. Нова фраза за възстановяване:";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Снимките на екрана са видими от други приложения и устройства. Генерирайте нова фраза за възстановяване и го запазете в тайна.";
 
 /* No comment provided by engineer. */
-"Screenshots are visible to other apps and devices. Your funds are at risk. Transfer your balance to another wallet." = "Снимките на екрана са видими от други приложения и устройства. Вашите средства са изложени на риск. Прехвърлете средствата си в друг портфейл.";
+"Secure now" = "Подсигури сега";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Secure Wallet Now" = "Подсигури портфейл сега";
+
+/* No comment provided by engineer. */
+"Security" = "Сигурност";
+
+/* No comment provided by engineer. */
+"Security Level" = "Ниво на сигурност";
 
 /* No comment provided by engineer. */
 "See on Uphold" = "Виж Uphold";
 
 /* No comment provided by engineer. */
-"seen by %d of %d peers" = "видян от %1$d от%2$d пиъра";
+"Send" = "Изпрати";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The axe network will receive a fee of %@ (%@)." = "Изпрати %1$@ (%2$@) от този частен ключ в твоят портфейл? Axe мрежата ще получи такса от %3$@ (%4$@).";
+"Send %@ (%@) from this private key into your wallet? The Axe network will receive a fee of %@ (%@)." = "Изпрати %1$@ (%2$@) от този частен ключ в твоят портфейл? Axe мрежата ще получи такса от %3$@ (%4$@).";
+
+/* Send by (scanning QR code) */
+"Send by" = "Изпращане от";
 
 /* No comment provided by engineer. */
-"send address as email" = "изпрати адреса като имейл";
+"Send to" = "Изпрати на";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Send to Address" = "Изпрати до адрес";
 
 /* No comment provided by engineer. */
-"send address as message" = "изпрати адреса като съобщение";
+"Send to copied address" = "Изпрати до копираният адрес";
 
-/* No comment provided by engineer. */
-"send crash report" = "изпрати доклад при срив";
+/* Translate it as short as possible! (24 symbols max) */
+"Send with NFC" = "Изпрати с NFC";
 
-/* No comment provided by engineer. */
-"send request as email" = "изпрати искане като имейл";
+/* 1 out of 4 in the Sending Animation */
+"Sending" = "Изпраща";
 
-/* No comment provided by engineer. */
-"send request as message" = "изпрати искане като съобщение";
+/* 2 out of 4 in the Sending Animation */
+"Sending." = "Изпраща.";
 
-/* No comment provided by engineer. */
+/* 3 out of 4 in the Sending Animation */
+"Sending.." = "Изпраща..";
+
+/* 4 out of 4 in the Sending Animation */
+"Sending..." = "Изпраща...";
+
+/* Sent transaction */
 "Sent" = "Изпратено";
 
 /* No comment provided by engineer. */
-"sent!" = "изпратено!";
+"Sent from" = "Изпрати от";
 
 /* No comment provided by engineer. */
-"set a trusted node" = "задаване на познат нод";
+"Sent successfully" = "Изпратено успешно";
+
+/* No comment provided by engineer. */
+"Sent to" = "Изпратени на";
+
+/* No comment provided by engineer. */
+"Set a trusted node" = "Задаване на доверен нод";
+
+/* No comment provided by engineer. */
+"Set PIN" = "Постави ПИН";
 
 /* No comment provided by engineer. */
 "Settings" = "Настройки";
 
 /* No comment provided by engineer. */
-"shapeshift bitcoin id:" = "shapeshift bitcoin id:";
+"Setup Wallet" = "Конфигуриране на портфейла";
 
 /* No comment provided by engineer. */
-"shapeshift status:" = "shapeshift статус:";
+"Share" = "Сподели";
 
 /* No comment provided by engineer. */
-"shapeshift succeeded" = "shapeshift успешен";
+"Show Masternode Keys" = "Покажи Masternode ключове";
 
 /* No comment provided by engineer. */
-"show" = "покажи";
+"Show Recovery Phrase" = "Покажи фраза за възстановяване";
 
 /* No comment provided by engineer. */
-"Show masternode keys" = "Покажи masternode ключове";
+"Skip" = "Пропусни";
 
 /* No comment provided by engineer. */
-"show phrase" = "покажи фраза";
-
-/* No comment provided by engineer. */
-"size:" = "размер:";
-
-/* No comment provided by engineer. */
-"sms not currently available" = "sms не е наличен в момента";
+"skip" = "пропусни";
 
 /* No comment provided by engineer. */
 "Something went wrong" = "Нещо се обърка";
 
 /* No comment provided by engineer. */
-"spent address" = "изразходен адрес";
+"Specify Amount" = "Посочете сума";
 
 /* No comment provided by engineer. */
-"spent input" = "изразходен вход";
+"Spending Confirmation" = "Потвърждение за похарчване";
 
 /* No comment provided by engineer. */
-"Start / Recover another wallet" = "Старт/възстановяване на друг портфейл";
+"Support" = "Support";
 
 /* No comment provided by engineer. */
-"status:" = "статус:";
+"Swept!" = "Изчистен!";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Switch to Mainnet" = "Превключи към Mainnet";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Switch to Testnet" = "Превключи към Testnet";
 
 /* No comment provided by engineer. */
-"Steps to reproduce the crash" = "Стъпки за възпроизвеждане на срива";
+"Sync Failed" = "Неуспешно синхронизиране";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Sync Now" = "Синхронизирай сега";
 
 /* No comment provided by engineer. */
-"Success" = "Успех";
+"Syncing" = "Синхронизиране";
+
+/* Pay using NFC (should be as short as possible) */
+"Tap" = "Докосни";
 
 /* No comment provided by engineer. */
-"swept!" = "изчистен!";
+"Tap to hide balance" = "Докоснете, за да скриете баланса";
 
 /* No comment provided by engineer. */
-"Syncing:" = "Синхронизиране:";
+"Tap to unhide balance" = "Докоснете, за да покажете баланса";
 
 /* No comment provided by engineer. */
-"the app will now close" = "приложението ще се затвори сега";
+"There are no transactions to display" = "Няма транзакции за показване";
 
 /* No comment provided by engineer. */
-"This is your axe address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Това е вашият axe адрес. Докоснете, за да го копирате или да го изпратите по имейл или SMS. Адресът ще се променя всеки път, когато получават средства, но старите адреси винаги работят.";
+"This app is open source:" = "Това приложение е с отворен код:";
 
 /* No comment provided by engineer. */
-"This is your axe balance." = "Това е вашият axe баланс.";
+"This PIN will be required to unlock your app every time when you use it." = "Този ПИН ще бъде необходим за отключване на приложението ви всеки път, когато го използвате.";
 
 /* No comment provided by engineer. */
-"This is your axe balance. Axe is a currency. The exchange rate changes with the market." = "Това е твоят axe баланс. Axe е валута. Валутните курсове се променят с пазара.";
+"This recovery phrase is your access to the funds in this wallet." = "Тази фраза за възстановяване Ви дава достъп до средствата в този портфейл.";
 
 /* No comment provided by engineer. */
 "This transaction may take several minutes to settle." = "Тази транзакция може да отнеме няколко минути, за да приключи.";
-
-/* No comment provided by engineer. */
-"This transaction may take several minutes to settle. Complete instantly for an extra %@?" = "Тази трнзакция може да отнеме няколко минути, за да приключи. Завършете я веднага за още %@?";
 
 /* No comment provided by engineer. */
 "This transaction should settle instantly at no extra fee" = "Тази транзакция ще бъде уредена мигновено без допълнителна такса";
@@ -645,13 +765,10 @@
 "This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase" = "Този портфейл не е празен или синхронизирането не е приключило, не можете да го изтриете без фразата за възстановяване";
 
 /* No comment provided by engineer. */
-"to:" = "до:";
+"This will move all coins from that wallet to your wallet on this device." = "Това ще премести всички монети от него в портфейлът Ви на това устройство.";
 
 /* No comment provided by engineer. */
-"to: %@" = "до: %@";
-
-/* No comment provided by engineer. */
-"topup amount:" = "супа за презареждане:";
+"Tools" = "Инструменти";
 
 /* No comment provided by engineer. */
 "Total" = "Общо";
@@ -660,15 +777,9 @@
 "Touch ID limit" = "Touch ID лимит";
 
 /* No comment provided by engineer. */
-"Touch ID spending limit" = "Touch ID лимит за похарчване";
-
-/* No comment provided by engineer. */
-"Transaction history" = "История на транзакциите";
-
-/* No comment provided by engineer. */
 "Transaction id" = "Транзакция id";
 
-/* No comment provided by engineer. */
+/* A verb, button title. */
 "Transfer" = "Прехвърляне";
 
 /* No comment provided by engineer. */
@@ -677,110 +788,131 @@
 /* No comment provided by engineer. */
 "Transfer from Uphold" = "прехвърляне от Uphold";
 
-/* No comment provided by engineer. */
-"trust" = "доверен";
+/* An action */
+"Try again" = "Опитай отново";
+
+/* Alert title */
+"Turn device passcode on" = "Включи парола за устройството";
 
 /* No comment provided by engineer. */
-"try again" = "опитай отново";
+"Unable to connect" = "Не може да се свърже";
 
 /* No comment provided by engineer. */
-"Try It!" = "Опитай!";
+"Unable to get new QR code" = "Не може да получи нов QR код";
 
 /* No comment provided by engineer. */
-"turn device passcode on" = "включи устройство за паролата";
+"Unsupported or corrupted document" = "Неподдържан или повреден документ";
 
 /* No comment provided by engineer. */
-"type:" = "вид:";
+"Unsupported URL" = "Неподдържан url";
 
-/* No comment provided by engineer. */
-"Unable to get new qr code" = "Не може да се получи нов qr код";
-
-/* No comment provided by engineer. */
-"unknown address" = "неизвестен адрес";
-
-/* No comment provided by engineer. */
-"unsupported or corrupted document" = "неподдържан или повреден документ";
-
-/* No comment provided by engineer. */
-"unsupported url" = "неподдържан url";
-
-/* No comment provided by engineer. */
-"Unverified" = "Непроверен";
+/* ex., Updated: 27.12, 8:30 */
+"Updated: %@" = "Обновено: %@";
 
 /* No comment provided by engineer. */
 "Uphold" = "Uphold";
 
 /* No comment provided by engineer. */
-"Uphold account" = "Uphold акаунт";
+"Used" = "Използван";
 
 /* No comment provided by engineer. */
-"User Registration Transaction" = "Регистриране на транзакция от потребителя";
+"Used at IP address" = "Използван от IP адрес";
 
 /* No comment provided by engineer. */
-"User Reset Transaction" = "Възстановяване на транзакция от потребителя";
+"Verified Successfully" = "Проверено успешно";
 
 /* No comment provided by engineer. */
-"User Topup Transaction" = "Зареждане на транзакция от потребителя";
+"Verify" = "Провери";
+
+/* adjective, security level */
+"Very High" = "Много високо";
 
 /* No comment provided by engineer. */
-"username:" = "потребителско име:";
+"View in Block Explorer" = "Преглед в Block Explorer";
 
 /* No comment provided by engineer. */
-"verified, waiting for confirmation" = "проверен, в очакване на потвърждение";
+"View passphrase, backup wallet…" = "Преглед на парола, резервен портфейл ...";
 
 /* No comment provided by engineer. */
-"verifying quorum" = "проверка на кворума";
+"View Recovery Phrase" = "Виж фразата за възстановяване";
 
 /* No comment provided by engineer. */
-"voting key hash:" = "хеш на ключа за гласуване:";
-
-/* No comment provided by engineer. */
-"voting key index:" = "индекс на ключа за гласуване:";
+"Voting Address" = "Адрес за гласуване";
 
 /* No comment provided by engineer. */
 "Voting Keys" = "Ключове за гласуване";
 
 /* No comment provided by engineer. */
-"wallet address" = "адрес на портфейла";
+"Wallet disabled" = "Портфейлът е изключен";
 
 /* No comment provided by engineer. */
 "Wallet Keys" = "Ключове на портфейла";
 
 /* No comment provided by engineer. */
+"Warning" = "Внимание";
+
+/* No comment provided by engineer. */
 "WARNING" = "ВНИМАНИЕ";
 
 /* No comment provided by engineer. */
-"watch only" = "режим на гледане";
+"We are about to show you the secret key to your wallet." = "Предстои да Ви покажем секретния ключ на портфейла ви.";
 
 /* No comment provided by engineer. */
-"We have detected that Axewallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete." = "Устоановихме, че Axewallet се е повредил по време на миграцията. Повторното сканиране на блок веригата може да реши този проблем или опитайте отново. Повторното сканиране е препоръчително да се извърши чрез wifi и може да отнеме до половин час. Вашите средства ще бъдат налични след като синхронизацията приключи. ";
+"We do not store this recovery phrase." = "Ние не съхраняваме тази фраза за възстановяване.";
 
 /* No comment provided by engineer. */
-"We have detected that Axewallet crashed last time it was opened. Would you like to help us solve the issue by sending us the crash report data? Your transaction history and any other private information WILL NOT be shared." = "Установихме, че е имало срив в Axewallet , когато е бил отворен последно. Искате ли да ни помогнете да разрешим проблема, като ни изпратите данните от доклада за сривове? Историята на транзакциите ви и всяка друга лична информация НЯМА ДА БЪДАТ споделяни.";
+"We have detected that Axe Wallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete." = "Устоановихме, че Axe Wallet се е повредил по време на миграцията. Повторното сканиране на блок веригата може да реши този проблем или опитайте отново. Повторното сканиране е препоръчително да се извърши чрез wifi и може да отнеме до половин час. Вашите средства ще бъдат налични след като синхронизацията приключи. ";
 
 /* No comment provided by engineer. */
-"wipe" = "изчисти";
+"We Upgraded" = "Надградихме";
 
 /* No comment provided by engineer. */
-"WRITE DOWN YOUR RECOVERY PHRASE" = "ЗАПИШИ ОТДОЛУ СВОЯТА ФРАЗА ЗА ВЪЗСТАНОВЯВАНЕ";
+"Welcome" = "Добре дошли";
 
 /* No comment provided by engineer. */
-"yes" = "да";
+"When the transaction is confirmed, the other wallet will be worthless and should not be re-used for safety reasons." = "Когато транзакцията бъде потвърдена, другият портфейл ще бъде безполезен и не бива да се използва повторно от съображения за безопасност.";
 
 /* No comment provided by engineer. */
-"You can now buy axe in\naxewallet with cash or\nbank transfer." = "Вече може да купите axe в\naxewallet в брой или с\nбанков превод.";
+"Why I should not take a screenshot?" = "Why I should not take a screenshot?";
 
 /* No comment provided by engineer. */
-"You must enter your pin in order to enter axewallet" = "Трябва да въведете своя ПИН, за да влезете в axewallet";
+"Wipe" = "Изчисти";
 
 /* No comment provided by engineer. */
-"you received axe!" = "ти получи axe!";
+"Wipe Wallet" = "Изпразни портфейла";
+
+/* No comment provided by engineer. */
+"with Axe blockchain" = "с Axe блок верига";
+
+/* No comment provided by engineer. */
+"You are about to sweep funds from another Axe Wallet." = "На път сте да усвоите средства от друг Axe Wallet.";
+
+/* No comment provided by engineer. */
+"You are about to wipe this wallet from this device. Funds associated with this wallet can only be retrieved if you have your recovery phrase." = "На път сте да изпразните този портфейл от това устройство. Средствата, свързани с този портфейл, могат да бъдат изтеглени само ако имате фраза за възстановяване.";
+
+/* No comment provided by engineer. */
+"You can authenticate with Face ID for payments below" = "Можете да се удостоверите с Face ID за плащания по-долу";
+
+/* No comment provided by engineer. */
+"You can authenticate with Touch ID for payments below" = "Можете да се удостоверите с Touch ID за плащания по-долу";
+
+/* No comment provided by engineer. */
+"You must enter your PIN in order to enter Axe Wallet" = "Трябва да въведете своя ПИН, за да влезете в Axe Wallet";
+
+/* No comment provided by engineer. */
+"You received Axe! If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device." = "Вие получихте Axe! Ако загубите това устройство, ще загубите средствата си. Вземете своята фраза за възстановяване, така че да можете да възстановите портфейла си на друго устройство.";
 
 /* No comment provided by engineer. */
 "You will also need to log out from the Uphold website using your browser" = "Необходимо е също да излезете от уебсайта на Uphold, чрез вашият браузър";
+
+/* No comment provided by engineer. */
+"You will need this recovery phrase to access your funds if this device is lost, damaged or if Axe Wallet ever is accidentally uninstalled from this device." = "Тази фраза за възстановяване ще ви трябва за достъп до вашите средства, ако това устройство е загубено, повредено или ако Axe Wallet някога случайно бъде деинсталиран от това устройство.";
 
 /* No comment provided by engineer. */
 "Your transaction was sent and the amount should appear in your wallet in a few minutes." = "Вашата транзакция беше изпратена и сумата би трябвало да се появи във вашият портфейл до няколко минути.";
 
 /* No comment provided by engineer. */
 "Your Uphold account Axe balance is" = "Вашият Axe баланс в Uphold  е";
+
+/* No comment provided by engineer. */
+"Your wallet is secured now. You can use your recovery phrase anytime to recover your account on another device." = "Вашият портфейл сега е защитен. Можете да използвате вашата фраза за възстановяване по всяко време, за да възстановите акаунта си на друго устройство.";

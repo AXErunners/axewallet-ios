@@ -1,72 +1,69 @@
 
 /* No comment provided by engineer. */
-"%@ is for 'mAXE'. %@ = 1 AXE." = "%@ adalah untuk 'mAXE'. %@ = 1 AXE.";
+"%@ is not allowed to access Face ID" = "%@ tidak diizinkan mengakses Pengenal Wajah";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ tidak diizinkan mengakses kamera";
 
 /* No comment provided by engineer. */
-"%@\n\nbalance: %@ (%@)" = "%1$@\n\nsaldo: %2$@ (%3$@)";
+"%@ is not allowed to access Touch ID" = "%@ tidak diizinkan mengakses Pengenal Sentuh";
 
 /* No comment provided by engineer. */
-"%d confirmations" = "%d konfirmasi";
+"1 hour" = "1 jam";
+
+/* Shorten version of minute */
+"1 min" = "1 menit";
 
 /* No comment provided by engineer. */
-"%d haks/byte" = "%dhaks/byte ";
+"24 hours" = "24 jam";
 
-/* No comment provided by engineer. */
-"%d out of %d lock votes" = "%1$ddari %2$d kunci suara";
-
-/* No comment provided by engineer. */
-"%ld used" = "%ld digunakan";
-
-/* No comment provided by engineer. */
-"0 confirmations" = "0 konfirmasi";
-
-/* No comment provided by engineer. */
-"1 confirmation" = "1 konfirmasi";
-
-/* No comment provided by engineer. */
-"1 hak/byte" = "1 hak/byte";
+/* Shorten version of minutes */
+"5 min" = "5 menit";
 
 /* No comment provided by engineer. */
 "\"%@\" is not a recovery phrase word" = "\"%@\" bukan kata frasa pemulihan";
 
 /* No comment provided by engineer. */
-"\n%@\n\nif you ever lose your phone, you will need it to recover your wallet" = "\n%@\n\njika Anda kehilangan ponsel, Anda akan membutuhkannya untuk memulihkan dompet Anda";
-
-/* No comment provided by engineer. */
-"\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nKode akses perangkat diperlukan untuk melindungi dompet Anda. Buka pengaturan dan aktifkan kode akses untuk melanjutkan.";
-
-/* No comment provided by engineer. */
-"\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nizinkan akses kamera masuk\nPengaturan-> Privasi-> Kamera->%@";
-
-/* No comment provided by engineer. */
 "\ntry again in %@" = "\ncoba lagi dalam %@";
+
+/* No comment provided by engineer. */
+"A device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "Kode akses perangkat diperlukan untuk melindungi dompet Anda. Buka pengaturan dan aktifkan kode akses untuk melanjutkan.";
 
 /* No comment provided by engineer. */
 "About" = "Tentang";
 
-/* No comment provided by engineer. */
-"accepted by quorum" = "diterima oleh kuorum";
-
-/* No comment provided by engineer. */
-"Action Needed" = "Tindakan diperlukan";
+/* Translate it as short as possible! (24 symbols max) */
+"Add Shortcut" = "Tambah Pintasan";
 
 /* No comment provided by engineer. */
 "Address" = "Alamat";
 
 /* No comment provided by engineer. */
-"ADVANCED" = "TINGKAT LANJUT";
+"Advanced Security" = "Keamanan Tingkat Lanjut";
 
 /* No comment provided by engineer. */
-"always require passcode" = "selalu membutuhkan kode sandi";
+"All" = "Semua";
 
 /* No comment provided by engineer. */
-"Amount" = "Jumlah";
+"Allow camera access in Settings" = "Izinkan akses kamera di Pengaturan";
 
 /* No comment provided by engineer. */
-"amount too small" = "jumlah terlalu kecil";
+"Allow Face ID access in Settings" = "Izinkan akses Pengenal Wajah di Pengaturan";
+
+/* No comment provided by engineer. */
+"Allow Touch ID access in Settings" = "Izinkan akses Pengenal Sentuh di Pengaturan";
+
+/* No comment provided by engineer. */
+"Amount Received" = "Jumlah Diterima";
+
+/* No comment provided by engineer. */
+"Amount Sent" = "Jumlah Dikirim";
+
+/* No comment provided by engineer. */
+"Amount too small" = "Jumlah terlalu kecil";
+
+/* No comment provided by engineer. */
+"An intuitive and familiar experience across all your devices" = "Pengalaman intuitif dan akrab di semua perangkat Anda";
 
 /* No comment provided by engineer. */
 "Application %@ is requesting a payment to" = "Aplikasi %@ meminta pembayaran kepada";
@@ -81,178 +78,181 @@
 "Are you sure?" = "Apakah anda yakin?";
 
 /* No comment provided by engineer. */
+"Authentication is unvailable" = "Otentikasi tidak tersedia";
+
+/* No comment provided by engineer. */
+"Auto Logout" = "Keluar Otomatis";
+
+/* No comment provided by engineer. */
+"Autohide Balance" = "Otomatis sembunyikan saldo";
+
+/* lowercase, ex. 4 Axe available */
 "available" = "tersedia";
 
 /* No comment provided by engineer. */
-"bad recovery phrase" = "frasa pemulihan yang buruk";
+"Available balance" = "Saldo tersedia";
+
+/* A noun. Used as a title. */
+"Backup Wallet" = "Cadangkan Dompet";
 
 /* No comment provided by engineer. */
-"Bitcoin address (shapeshift)" = "Alamat Bitcoin (shapeshift)";
+"Bad recovery phrase" = "Frasa pemulihan yang buruk";
 
 /* No comment provided by engineer. */
-"block #%d of %d" = "blok #%1$d of %2$d";
+"Balance hidden" = "Saldo disembunyikan";
+
+/* No comment provided by engineer. */
+"block #%d of %d" = "blok #%1$d dari %2$d";
+
+/* No comment provided by engineer. */
+"Block #%d of %d" = "Blok #%1$d dari %2$d";
+
+/* No comment provided by engineer. */
+"Buy & Sell Axe" = "Beli & Jual Axe";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Buy / Sell Axe" = "Beli / Jual Axe";
 
 /* No comment provided by engineer. */
 "Buy Axe" = "Beli Axe";
 
 /* No comment provided by engineer. */
-"Buy axe in axewallet!" = "Beli axe di dompet axe!";
-
-/* No comment provided by engineer. */
 "Buy Axe with Uphold account" = "Beli Axe dengan akun Uphold";
 
 /* No comment provided by engineer. */
-"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code." = "Dengan menghapus perangkat ini, Anda tidak lagi memiliki akses ke dana di perangkat ini. Ini hanya boleh dilakukan jika Anda tidak lagi memiliki akses ke kata sandi Anda dan lupa kode pin Anda.";
-
-/* No comment provided by engineer. */
-"cancel" = "batalkan";
+"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your PIN code." = "Dengan menghapus perangkat ini, Anda tidak lagi memiliki akses ke dana di perangkat ini. Ini hanya boleh dilakukan jika Anda tidak lagi memiliki akses ke kata sandi Anda dan lupa kode PIN Anda.";
 
 /* No comment provided by engineer. */
 "Cancel" = "Batalkan";
 
-/* No comment provided by engineer. */
-"change" = "ganti";
+/* A verb. Action button title for an alert 'Change payment amount?' */
+"Change" = "Ubah";
 
 /* No comment provided by engineer. */
-"Change passcode" = "Ubah kode sandi";
+"Change payment amount?" = "Ubah jumlah pembayaran?";
 
 /* No comment provided by engineer. */
-"change payment amount?" = "ubah jumlah pembayaran?";
+"Change PIN" = "Ubah PIN";
 
 /* No comment provided by engineer. */
-"checking address balance..." = "memeriksa saldo alamat...";
+"Check your connection" = "Periksa koneksi anda";
 
 /* No comment provided by engineer. */
-"checking private key balance..." = "memeriksa saldo kunci pribadi...";
+"Clear" = "Bersihkan";
 
 /* No comment provided by engineer. */
-"Classical Transaction" = "Transaksi Klasik";
+"Clear trusted node?" = "Bersihkan node terpercaya?";
 
 /* No comment provided by engineer. */
-"clear" = "bersih";
+"Clipboard doesn't contain a valid Axe address" = "Papan klip tidak mengandung alamat Axe yang valid";
 
 /* No comment provided by engineer. */
-"clear trusted node?" = "hapus node tepercaya?";
+"Close" = "Tutup";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid axe address" = "papan klip tidak berisi alamat axe yang valid";
+"Close App" = "Tutup aplikasi";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid axe or bitcoin address" = "papan klip tidak berisi alamat axe atau bitcoin yang valid";
-
-/* No comment provided by engineer. */
-"close app" = "tutup aplikasi";
-
-/* No comment provided by engineer. */
-"Coinbase Transaction" = "Transaksi Coinbase";
-
-/* Confirm */
 "Confirm" = "Memastikan";
 
 /* No comment provided by engineer. */
-"confirm" = "Memastikan";
+"Confirm PIN" = "Pastikan PIN";
 
 /* No comment provided by engineer. */
-"Confirm transaction" = "Konfirmasi transaksi";
+"Confirming" = "Mengkonfirmasikan";
 
 /* No comment provided by engineer. */
-"confirmed in block #%d" = "dikonfirmasi dalam blok #%d";
+"Connect with third party exchanges" = "Terhubung dengan pertukaran pihak ketiga";
 
 /* No comment provided by engineer. */
-"copied" = "disalin";
+"Connected peers: %d" = "Peers yang terhubung: %d";
 
 /* No comment provided by engineer. */
-"copy" = "salin";
+"Connecting to payment server" = "Mengghubungkan ke server pembayaran";
 
 /* No comment provided by engineer. */
-"copy address to clipboard" = "salin alamat ke papan klip";
+"Contact Support" = "Hubungi Dukungan";
 
 /* No comment provided by engineer. */
-"copy request to clipboard" = "salin permintaan ke papan klip";
+"Continue" = "Teruskan";
 
 /* No comment provided by engineer. */
-"copy wallet addresses to clipboard?" = "salin alamat dompet ke papan klip?";
+"Copied" = "Disalin";
 
 /* No comment provided by engineer. */
-"couldn't check address balance" = "tidak bisa memeriksa saldo alamat";
+"Copy" = "Salin";
 
 /* No comment provided by engineer. */
-"couldn't make payment" = "tidak dapat melakukan pembayaran";
+"Copy Logs" = "Salin Log";
 
 /* No comment provided by engineer. */
-"couldn't sweep balance" = "tidak dapat membersihkan saldo";
+"Copyright © 2020 Axe Core" = "Hak Cipta © 2020 Axe Core";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to axe network" = "tidak dapat mengirim pembayaran ke jaringan axe";
+"Couldn't make payment" = "Tidak dapat melakukan pembayaran";
 
 /* No comment provided by engineer. */
-"CRITICAL" = "KRITIS";
+"Couldn't sweep balance" = "Tidak dapat membersihkan saldo";
 
 /* No comment provided by engineer. */
-"Axe address" = "Alamat axe";
+"Couldn't transmit payment to Axe network" = "Tidak dapat mengirim pembayaran ke jaringan Axe";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Alamat-alamat axe juga bisa disalin ke papan klip. Alamat axe selalu diawali dengan 'X' atau '7'.";
+"Create a New Wallet" = "Buat Dompet Baru";
 
 /* No comment provided by engineer. */
-"axe network fee" = "biaya jaringan axe";
+"Axe payments can't be less than %@" = "pembayaran axe tidak boleh kurang dari %@";
 
 /* No comment provided by engineer. */
-"axe payments can't be less than %@" = "pembayaran axe tidak boleh kurang dari %@";
+"Date" = "Tanggal";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "KEAMANAN PERANGKAT MEMBAHAYAKAN\nAplikasi 'jailbreak' apa pun dapat mengakses data keychain aplikasi lain (dan mencuri axe Anda).";
+"Default currency, shortcuts, about…" = "Mata uang standar, pintasan, tentang ...";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe). Wipe this wallet immediately and restore on a secure device." = "KEAMANAN PERANGKAT MEMBAHAYAKAN\nAplikasi 'jailbreak' apa pun dapat mengakses data keychain aplikasi lain (dan mencuri axe Anda). Bersihkan dompet ini segera dan kembalikan pada perangkat yang aman.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe)." = "KEAMANAN PERANGKAT MEMBAHAYAKAN\nAplikasi 'jailbreak' apa pun dapat mengakses data keychain aplikasi lain (dan mencuri Axe Anda).";
 
 /* No comment provided by engineer. */
-"do it later" = "lakukan nanti";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe). Wipe this wallet immediately and restore on a secure device." = "KEAMANAN PERANGKAT MEMBAHAYAKAN\nAplikasi 'jailbreak' apa pun dapat mengakses data keychain aplikasi lain (dan mencuri Axe Anda). Bersihkan dompet ini segera dan kembalikan pada perangkat yang aman.";
 
 /* No comment provided by engineer. */
-"DO NOT let anyone see your recovery phrase or they can spend your axe." = "JANGAN biarkan siapa pun melihat frasa pemulihan Anda atau mereka dapat menghabiskan axe Anda.";
-
-/* No comment provided by engineer. */
-"DO NOT take a screenshot. Screenshots are visible to other apps and devices." = "JANGAN ambil tangkapan layar. Tangkapan layar terlihat oleh aplikasi dan perangkat lain.";
+"Do not take a screenshot" = "Do not take a screenshot";
 
 /* No comment provided by engineer. */
 "Done" = "Selesai";
 
-/* No comment provided by engineer. */
-"double spend" = "pengiriman ganda";
+/* ex., Download peer: 127.0.0.1:9999 */
+"Download peer: %@" = "Unduh peer: %@";
 
 /* No comment provided by engineer. */
-"Email client is not configured. Please add your email account in Settings" = "Klien email tidak dikonfigurasikan. Silakan tambahkan akun email Anda di Pengaturan";
+"Enable Face ID" = "Aktifkan Pengenal Wajah";
 
 /* No comment provided by engineer. */
-"email not configured" = "email tidak dikonfigurasi";
+"Enable Receive Notifications" = "Aktifkan Terima Pemberitahuan";
 
 /* No comment provided by engineer. */
-"Enable advanced features" = "Aktifkan fitur lanjutan";
+"Enable Touch ID" = "Aktifkan Pengenal sentuh";
 
 /* No comment provided by engineer. */
-"Enable advanced features?" = "Aktifkan fitur lanjutan?";
+"Enter" = "Masuk";
 
 /* No comment provided by engineer. */
-"Enable receive notifications" = "Aktifkan menerima pemberitahuan";
+"Enter PIN" = "Masukkan PIN";
 
 /* No comment provided by engineer. */
-"enter" = "masuk";
+"Enter Recovery Phrase" = "Masukkan Frasa pemulihan";
 
 /* No comment provided by engineer. */
-"Enter the amount to transfer below" = "Masukkan jumlah yang akan ditransfer di bawah ini";
+"Enter the amount to transfer" = "Masukkan jumlah yang akan ditransfer";
 
 /* No comment provided by engineer. */
 "Enter your 2FA code below" = "Masukkan kode 2FA Anda di bawah ini";
 
 /* No comment provided by engineer. */
-"exit" = "keluar";
+"Exit" = "Keluar";
 
 /* No comment provided by engineer. */
 "Face ID limit" = "Identitas wajah terbatas";
-
-/* No comment provided by engineer. */
-"Face ID spending limit" = "Identitas wajah pengiriman terbatas";
 
 /* No comment provided by engineer. */
 "Failed wallet update" = "Pembaruan dompet gagal";
@@ -261,58 +261,82 @@
 "Fee" = "biaya";
 
 /* No comment provided by engineer. */
-"Fee is greater than balance" = "Fee is greater than balance";
+"Fee is greater than balance" = "Biaya lebih besar dari saldo";
 
 /* No comment provided by engineer. */
-"Fee will be deducted from requested amount" = "Biaya akan dikurangkan dari jumlah yang diminta";
+"Fee will be deducted from requested amount." = "Biaya akan dipotong dari jumlah yang diminta.";
 
 /* No comment provided by engineer. */
-"from:" = "dari:";
+"Filter Transactions" = "Saring Transaksi";
 
 /* No comment provided by engineer. */
-"GENERAL" = "UMUM";
+"Forgot PIN?" = "Lupa PIN?";
+
+/* No comment provided by engineer. */
+"Get Started" = "Memulai";
 
 /* No comment provided by engineer. */
 "Go to Website" = "Pergi ke Situs Web";
 
 /* No comment provided by engineer. */
-"holding funds index:" = "memegang dana indeks:";
+"Have complete control and customize your wallet based on your needs" = "Memiliki kendali penuh dan sesuaikan dompet Anda berdasarkan kebutuhan Anda";
+
+/* No comment provided by engineer. */
+"Help us improve your experience" = "Bantu kami meningkatkan pengalaman Anda";
+
+/* adjective, security level */
+"High" = "Tinggi";
+
+/* No comment provided by engineer. */
+"History" = "Riwayat";
 
 /* No comment provided by engineer. */
 "I accept that I will lose my coins if I no longer possess the recovery phrase" = "Saya menerima bahwa saya akan kehilangan koin saya jika saya tidak lagi memiliki frasa pemulihan";
 
 /* No comment provided by engineer. */
-"id:" = "id:";
+"I wrote it down" = "Saya telah mencatat";
+
+/* No comment provided by engineer. */
+"If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device." = "Jika Anda kehilangan perangkat ini, Anda akan kehilangan dana Anda. Dapatkan UniqueSecretKey Anda sehingga Anda dapat memulihkan dompet di perangkat lain.";
 
 /* No comment provided by engineer. */
 "If you still would like to wipe it please input: \"%@\"" = "Jika Anda masih ingin menghapusnya, silakan masukkan: \"%@\"";
 
 /* No comment provided by engineer. */
-"ignore" = "abaikan";
+"Ignore" = "Abaikan";
 
 /* No comment provided by engineer. */
-"Import private key" = "Impor kunci pribadi";
+"Immediately" = "Segera";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Import Private Key" = "Impor kunci pribadi";
 
 /* No comment provided by engineer. */
-"IMPORTANT" = "PENTING";
+"Import private key…" = "Impor kunci pribadi…";
 
 /* No comment provided by engineer. */
-"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again." = "Dalam versi dompet Axe sebelumnya, ketika awalnya menampilkan kata sandi Anda di perangkat ini, kami telah menetapkan bahwa Aplikasi ini tidak menampilkan semua 12 kata benih dengan benar. Silakan tuliskan kata sandi lengkap Anda lagi.";
+"Insufficient funds" = "Dana tidak mencukupi";
+
+/* Transaction within the wallet, transfer of own funds */
+"Internal Transfer" = "Transfer Internal";
 
 /* No comment provided by engineer. */
-"Insufficient Funds" = "Dana tidak mencukupi";
+"Internally moved to" = "Pindah ke internal";
+
+/* Invalid transaction */
+"Invalid" = "Tidak valid";
 
 /* No comment provided by engineer. */
-"INVALID" = "INVALID";
+"Invalid Payment Request" = "Permintaan pembayaran tidak valid";
 
 /* No comment provided by engineer. */
-"Invalid amount" = "Jumlah tidak valid";
+"Invalid QR Code" = "Invalid QR Code";
 
 /* No comment provided by engineer. */
-"IP address/port:" = "Alamat IP/port:";
+"It's Important" = "Ini penting";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your axe address. Anyone can send axe to your wallet by transferring them to your address." = "Biarkan orang lain memindai kode QR ini untuk mendapatkan alamat axe Anda. Siapa pun dapat mengirim axe ke dompet Anda dengan mentransfernya ke alamat Anda.";
+"Keypair %ld" = "Keypair %ld";
 
 /* No comment provided by engineer. */
 "Link Uphold Account" = "Tautkan Akun Uphold";
@@ -320,14 +344,14 @@
 /* No comment provided by engineer. */
 "Load more" = "Muat lebih";
 
+/* Translate it as short as possible! (24 symbols max) */
+"Local Currency" = "Mata uang lokal";
+
 /* No comment provided by engineer. */
-"Local currency" = "Mata uang lokal";
+"Local requested amount: %@" = "Jumlah lokal yang diminta: %@";
 
 /* No comment provided by engineer. */
 "Locked" = "Terkunci";
-
-/* No comment provided by engineer. */
-"locked with InstantSend" = "dikunci dengan InstantSend";
 
 /* No comment provided by engineer. */
 "Log Out" = "Keluar";
@@ -336,94 +360,94 @@
 "Log out from Uphold" = "Keluar dari Uphold";
 
 /* No comment provided by engineer. */
-"masternode holding address" = "alamat pemegang masternode";
+"Login with Face ID" = "Masuk dengan Pengenal Wajah";
 
 /* No comment provided by engineer. */
-"Masternode Registration Transaction" = "Transaksi Pendaftaran Masternode";
+"Login with Touch ID" = "Masuk dengan Pengenal Sentuh";
+
+/* a verb, Logout Immediately */
+"Logout" = "Keluar";
+
+/* Logout after 5 min */
+"Logout after" = "Keluar setelah";
 
 /* No comment provided by engineer. */
-"Masternode Update Registrar Transaction" = "Perbarui Registrasi Pendaftar Masternode";
+"Long press to copy ID" = "Tekan lama untuk menyalin ID";
+
+/* adjective, security level */
+"Low" = "Rendah";
 
 /* No comment provided by engineer. */
-"Masternode Update Service Transaction" = "Transaksi Layanan Pembaruan Masternode";
+"Manage Trusted Node" = "Kelola Node Tepercaya";
 
 /* No comment provided by engineer. */
-"more..." = "lebih...";
+"Masternode Registration" = "Pendaftaran Masternode";
 
 /* No comment provided by engineer. */
-"Moved" = "Terpindah";
+"Masternode Revocation" = "Cabut Masternode";
+
+/* No comment provided by engineer. */
+"Masternode Update" = "Pembaruan Masternode";
+
+/* Contracted variant of 'Maximum' word */
+"Max" = "Max";
+
+/* adjective, security level */
+"Medium" = "Sedang";
+
+/* No comment provided by engineer. */
+"More" = "Lebih";
+
+/* No comment provided by engineer. */
+"More Control" = "Kontrol lebih lanjut";
+
+/* No comment provided by engineer. */
+"Moved from" = "Pindah dari";
+
+/* No comment provided by engineer. */
+"Moved to Address" = "Terpindah ke Alamat";
 
 /* No comment provided by engineer. */
 "Network" = "Jaringan";
 
 /* No comment provided by engineer. */
-"NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected." = "JANGAN PERNAH mengetikkan frasa pemulihan Anda ke pengelola atau kata sandi lainnya. Perangkat lain mungkin terinfeksi.";
+"Network fee" = "Biaya jaringan";
 
 /* No comment provided by engineer. */
-"new public key:" = "kunci publik baru:";
+"NFC device" = "Perangkat NFC";
 
 /* No comment provided by engineer. */
-"next, write down your recovery phrase" = "selanjutnya, tuliskan frasa pemulihan Anda";
+"NFC device didn't transmit a valid Axe address" = "Perangkat NFC tidak mengirimkan alamat Axe yang valid";
 
 /* No comment provided by engineer. */
-"NFC device didn't transmit a valid axe address" = "Perangkat NFC tidak mengirimkan alamat axe yang valid";
+"No address copied" = "Tak ada alamat tersalin";
 
 /* No comment provided by engineer. */
-"NFC device didn't transmit a valid axe or bitcoin address" = "Perangkat NFC tidak mengirimkan alamat axe atau bitcoin yang valid";
+"Node IP" = "Node IP";
+
+/* adjective, security level */
+"None" = "Tidak ada";
 
 /* No comment provided by engineer. */
-"no exchange rate data" = "tidak ada data nilai tukar";
+"Not a Axe QR code" = "Bukan kode QR Axe";
 
 /* No comment provided by engineer. */
-"node ip" = "node ip";
+"Not a Axe URL" = "bukan URL Axe";
 
 /* No comment provided by engineer. */
-"not a axe or bitcoin QR code" = "bukan kode QR axe atau bitcoin";
+"Not a valid Axe address" = "bukan alamat axe yang valid";
 
 /* No comment provided by engineer. */
-"not a axe QR code" = "bukan kode QR axe";
-
-/* No comment provided by engineer. */
-"not a valid bitcoin address" = "bukan alamat bitcoin yang valid";
-
-/* No comment provided by engineer. */
-"not a valid axe address" = "bukan alamat axe yang valid";
-
-/* No comment provided by engineer. */
-"not a valid axe or bitcoin address" = "bukan alamat axe atau bitcoin yang valid";
-
-/* No comment provided by engineer. */
-"not operator" = "bukan operator";
-
-/* No comment provided by engineer. */
-"not owner" = "bukan pemilik";
-
-/* No comment provided by engineer. */
-"not voter" = "bukan pemilih";
+"Not yet used" = "Belum digunakan";
 
 /* No comment provided by engineer. */
 "OK" = "OK";
 
 /* No comment provided by engineer. */
-"ok" = "ok";
-
-/* No comment provided by engineer. */
-"Only enable advanced features if you are knowledgeable in blockchain technology. \nIf enabled only use advanced features that you understand." = "Hanya aktifkan fitur-fitur canggih jika Anda berpengetahuan luas dalam teknologi blockchain. \nJika diaktifkan gunakan hanya fitur-fitur canggih yang Anda pahami.";
-
-/* No comment provided by engineer. */
-"operator key index:" = "indeks kunci operator:";
-
-/* No comment provided by engineer. */
-"operator key:" = "kunci operator:";
-
-/* No comment provided by engineer. */
 "Operator Keys" = "Kunci Operator";
 
 /* No comment provided by engineer. */
-"owner key hash:" = "hash kunci pemilik:";
-
-/* No comment provided by engineer. */
-"owner key index:" = "indeks kunci pemilik:";
+"Owner Address" = "Alamat pemilik";
 
 /* No comment provided by engineer. */
 "Owner Keys" = "Kunci Pemilik";
@@ -432,211 +456,307 @@
 "Pay" = "Bayar";
 
 /* No comment provided by engineer. */
-"payload:" = "muatan:";
+"Pay and get paid instantly with easy to use payment flows" = "Bayar dan dapatkan bayaran instan dengan aliran pembayaran yang mudah digunakan";
 
 /* No comment provided by engineer. */
-"payment address" = "Alamat Pembayaran";
+"Pay with Ease" = "Bayar dengan Mudah";
+
+/* 1 out of 4 in the Paying Animation */
+"Paying" = "Paying";
+
+/* 2 out of 4 in the Paying Animation */
+"Paying." = "Paying.";
+
+/* 3 out of 4 in the Paying Animation */
+"Paying.." = "Paying..";
+
+/* 4 out of 4 in the Paying Animation */
+"Paying..." = "Paying...";
 
 /* No comment provided by engineer. */
-"payment output" = "hasil pembayaran";
+"Payments" = "Pembayaran";
 
 /* No comment provided by engineer. */
-"payout Address" = "Alamat penarikan";
+"PIN is always required to make a payment" = "PIN selalu diperlukan untuk melakukan pembayaran";
 
 /* No comment provided by engineer. */
-"payout address:" = "Alamat penarikan:";
-
-/* No comment provided by engineer. */
-"Pending" = "Tertunda";
-
-/* No comment provided by engineer. */
-"pending" = "tertunda";
-
-/* No comment provided by engineer. */
-"Please enter pin to upgrade wallet" = "Silakan masukkan pin untuk meningkatkan dompet";
-
-/* No comment provided by engineer. */
-"please enter pin to upgrade wallet" = "tolong masukkan pin untuk meng-upgrade dompet";
+"Please enter PIN to upgrade wallet" = "Silakan masukkan PIN untuk meningkatkan dompet";
 
 /* No comment provided by engineer. */
 "Please place your phone near NFC device." = "Silakan letakkan ponsel Anda di dekat perangkat NFC.";
 
 /* No comment provided by engineer. */
-"Private key" = "Kunci pribadi";
+"Please tap on the words from your recovery phrase in the right order" = "Ketuk kata-kata dari frasa pemulihan Anda dalam urutan yang benar";
 
 /* No comment provided by engineer. */
-"processing" = "Sedang diproses";
+"Please try again" = "Silakan coba lagi";
+
+/* No comment provided by engineer. */
+"Please try scanning again" = "Please try scanning again";
+
+/* No comment provided by engineer. */
+"Please Wait" = "Silahkan tunggu";
+
+/* No comment provided by engineer. */
+"Please wait for the sync to complete" = "Harap tunggu sampai sinkronisasi selesai";
+
+/* No comment provided by engineer. */
+"Please write it down" = "Tolong catat";
+
+/* No comment provided by engineer. */
+"Previously used at IP address" = "Sebelumnya digunakan di alamat IP";
+
+/* No comment provided by engineer. */
+"Private key" = "Kunci pribadi";
 
 /* No comment provided by engineer. */
 "Processing" = "Sedang diproses";
 
 /* No comment provided by engineer. */
+"Provider Address" = "Alamat Penyedia";
+
+/* No comment provided by engineer. */
 "Public key" = "Kunci publik";
 
 /* No comment provided by engineer. */
-"public key:" = "Kunci publik:";
+"Quick Receive" = "Terima Cepat";
 
 /* No comment provided by engineer. */
-"rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@\nquorums validated: %d/%d" = "nilai: %1$@ = %2$@\ndiperbarui: %3$@\nblock #%4$d dari %5$d\npeer yang terhubung: %6$d\ndl peer: %7$@\nkuorum divalidasi: %8$d/%9$d";
+"Quorums validated: %d/%d" = "Kuorum divalidasi: %1$d/%2$d";
+
+/* ex., Rate 1 US $ = 0.000009 Axe */
+"Rate: %@ = %@" = "Nilai: %1$@ = %2$@";
 
 /* No comment provided by engineer. */
-"Receive axe at this address: %@" = "Terima axe di alamat ini: %@";
+"Receive" = "Terima";
 
-/* No comment provided by engineer. */
+/* Received transaction */
 "Received" = "Diterima";
 
 /* No comment provided by engineer. */
-"received %@ (%@)" = "Diterima %1$@ (%2$@)";
+"Received %@ (%@)" = "Diterima %1$@ (%2$@)";
 
 /* No comment provided by engineer. */
-"recently mined (locked)" = "baru saja ditambang (dikunci)";
-
-/* Recovery phrase */
-"Recovery phrase" = "frasa pemulihan";
+"Received at" = "Diterima di";
 
 /* No comment provided by engineer. */
-"recovery phrase doesn't match" = "frasa pemulihan tidak sama";
+"Received from" = "Diterima dari";
 
 /* No comment provided by engineer. */
-"recovery phrase must have %d words" = "frasa pemulihan harus memiliki %d kata";
+"Recover Wallet" = "Pulihkan Dompet";
 
 /* No comment provided by engineer. */
-"registration tx:" = "tx pendaftaran:";
+"Recovery Phrase" = "Frasa pemulihan";
 
 /* No comment provided by engineer. */
-"Remind me later" = "Ingatkan saya nanti";
+"Recovery phrase doesn't match" = "Frasa pemulihan tidak sama";
 
 /* No comment provided by engineer. */
-"Request" = "meminta";
+"Recovery phrase must have %d words" = "Frasa pemulihan harus memiliki %d kata";
 
 /* No comment provided by engineer. */
-"request an amount" = "meminta jumlah";
+"Registered from" = "Terdaftar dari";
 
 /* No comment provided by engineer. */
-"rescan" = "memindai ulang";
+"Registered Masternode" = "Masternode Terdaftar";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Report an Issue" = "Laporkan masalah";
+
+/* An action */
+"Rescan" = "Pindai ulang";
 
 /* No comment provided by engineer. */
-"Rescan blockchain" = "memindai ulang blockchain";
+"Rescan Blockchain" = "Piindai ulang blockchain";
 
 /* No comment provided by engineer. */
-"reset" = "atur ulang";
+"Reset" = "Atur-ulang";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their axe address. You can send a payment to anyone with an address." = "Pindai kode QR orang lain untuk mendapatkan alamat axe mereka. Anda dapat mengirim pembayaran kepada siapa pun yang memiliki alamat.";
+"Reset to Default" = "Setel Ulang ke Default";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their axe or bitcoin address. You can send a payment to anyone with an address." = "Pindai kode QR orang lain untuk mendapatkan alamat axe atau bitcoin mereka. Anda dapat mengirim pembayaran kepada siapa pun yang memiliki alamat.";
+"Reset Wallet" = "Atur ulang dompet";
+
+/* No comment provided by engineer. */
+"Retry" = "Coba lagi";
+
+/* No comment provided by engineer. */
+"Review & Rate the app" = "Ulas & beri nilai aplikasi";
+
+/* No comment provided by engineer. */
+"Reward" = "Hadiah";
+
+/* No comment provided by engineer. */
+"Rewards" = "Hadiah";
+
+/* No comment provided by engineer. */
+"Scan" = "Pindai";
+
+/* No comment provided by engineer. */
+"Scan Private Key" = "Pindai Kunci Pribadi";
+
+/* No comment provided by engineer. */
+"Scan QR Code" = "Pindai kode QR";
+
+/* A title of the quick receive screen */
+"Scan this to Pay" = "Pindai ini untuk membayar";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Scan to Pay" = "Pindai untuk membayar";
+
+/* No comment provided by engineer. */
+"Scan to Send" = "Pindai untuk mengirim";
+
+/* (Send by) Scanning QR code */
+"Scanning QR code" = "Memindai kode QR";
+
+/* No comment provided by engineer. */
+"Screenshot detected. New recovery phrase:" = "Tangkapan layar terdeteksi. Frasa pemulihan baru:";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Tangkapan layar terlihat oleh aplikasi dan perangkat lain. Hasilkan frasa pemulihan baru dan jaga kerahasiaannya.";
 
 /* No comment provided by engineer. */
-"Screenshots are visible to other apps and devices. Your funds are at risk. Transfer your balance to another wallet." = "Tangkapan layar terlihat oleh aplikasi dan perangkat lain. Dana Anda berisiko. Transfer saldo Anda ke dompet lain.";
+"Secure now" = "Amankan sekarang";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Secure Wallet Now" = "Amankan Dompet Sekarang";
+
+/* No comment provided by engineer. */
+"Security" = "Keamanan";
+
+/* No comment provided by engineer. */
+"Security Level" = "Tingkat keamanan";
 
 /* No comment provided by engineer. */
 "See on Uphold" = "Lihat di Uphold";
 
 /* No comment provided by engineer. */
-"seen by %d of %d peers" = "terlihat oleh %1$d dari %2$d peer";
+"Send" = "Kirim";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The axe network will receive a fee of %@ (%@)." = "kirim %1$@ (%2$@) dari kunci pribadi ini ke dompet anda? Jaringan axe akan menerima biaya dari %3$@ (%4$@)";
+"Send %@ (%@) from this private key into your wallet? The Axe network will receive a fee of %@ (%@)." = "kirim %1$@ (%2$@) dari kunci pribadi ini ke dompet anda? Jaringan Axe akan menerima biaya dari %3$@ (%4$@)";
+
+/* Send by (scanning QR code) */
+"Send by" = "Dikirim oleh";
 
 /* No comment provided by engineer. */
-"send address as email" = "kirim alamat sebagai email";
+"Send to" = "Kirim ke";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Send to Address" = "Kirim ke alamat";
 
 /* No comment provided by engineer. */
-"send address as message" = "kirim alamat sebagai pesan";
+"Send to copied address" = "Kirim ke alamat yang disalin";
 
-/* No comment provided by engineer. */
-"send crash report" = "kirim laporan kerusakan";
+/* Translate it as short as possible! (24 symbols max) */
+"Send with NFC" = "Kirim dengan NFC";
 
-/* No comment provided by engineer. */
-"send request as email" = "kirim permintaan sebagai email";
+/* 1 out of 4 in the Sending Animation */
+"Sending" = "Mengirim";
 
-/* No comment provided by engineer. */
-"send request as message" = "kirim permintaan sebagai pesan";
+/* 2 out of 4 in the Sending Animation */
+"Sending." = "Mengirim.";
 
-/* No comment provided by engineer. */
+/* 3 out of 4 in the Sending Animation */
+"Sending.." = "Mengirim..";
+
+/* 4 out of 4 in the Sending Animation */
+"Sending..." = "Mengirim...";
+
+/* Sent transaction */
 "Sent" = "terkirim";
 
 /* No comment provided by engineer. */
-"sent!" = "terkirim!";
+"Sent from" = "Terkirim dari";
 
 /* No comment provided by engineer. */
-"set a trusted node" = "atur node terpercaya";
+"Sent successfully" = "Pengiriman berhasil";
+
+/* No comment provided by engineer. */
+"Sent to" = "Terkirim ke";
+
+/* No comment provided by engineer. */
+"Set a trusted node" = "Tetapkan node tepercaya";
+
+/* No comment provided by engineer. */
+"Set PIN" = "Tetapkan PIN";
 
 /* No comment provided by engineer. */
 "Settings" = "pengaturan";
 
 /* No comment provided by engineer. */
-"shapeshift bitcoin id:" = "id bitcoin shapeshift:";
+"Setup Wallet" = "Siapkan Dompet";
 
 /* No comment provided by engineer. */
-"shapeshift status:" = "status shapshift:";
+"Share" = "Berbagi";
 
 /* No comment provided by engineer. */
-"shapeshift succeeded" = "shapeshift berhasil";
+"Show Masternode Keys" = "Tampilkan kunci masternode";
 
 /* No comment provided by engineer. */
-"show" = "tunjukkan";
+"Show Recovery Phrase" = "Tampilkan Frasa pemulihan";
 
 /* No comment provided by engineer. */
-"Show masternode keys" = "Tampilkan kunci masternode";
+"Skip" = "Lewati";
 
 /* No comment provided by engineer. */
-"show phrase" = "tunjukkan frasa";
-
-/* No comment provided by engineer. */
-"size:" = "ukuran:";
-
-/* No comment provided by engineer. */
-"sms not currently available" = "sms saat ini tidak tersedia";
+"skip" = "lewati";
 
 /* No comment provided by engineer. */
 "Something went wrong" = "Ada yang salah";
 
 /* No comment provided by engineer. */
-"spent address" = "alamat yang dipakai";
+"Specify Amount" = "Tentukan Jumlah";
 
 /* No comment provided by engineer. */
-"spent input" = "input yang dipakai";
+"Spending Confirmation" = "Konfirmasi Pengiriman";
 
 /* No comment provided by engineer. */
-"Start / Recover another wallet" = "Mulai / Pulihkan dompet lain";
+"Support" = "Support";
 
 /* No comment provided by engineer. */
-"status:" = "status:";
+"Swept!" = "bersihkan!";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Switch to Mainnet" = "Pindah ke Mainnet";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Switch to Testnet" = "Pindah ke Testnet";
 
 /* No comment provided by engineer. */
-"Steps to reproduce the crash" = "Langkah-langkah untuk mereproduksi kerusakan";
+"Sync Failed" = "Sinkronisasi Gagal";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Sync Now" = "Sinkronkan Sekarang";
 
 /* No comment provided by engineer. */
-"Success" = "Berhasil";
+"Syncing" = "Menyingkronkan:";
+
+/* Pay using NFC (should be as short as possible) */
+"Tap" = "Ketuk";
 
 /* No comment provided by engineer. */
-"swept!" = "bersihkan!";
+"Tap to hide balance" = "Ketuk untuk menyembunyikan saldo";
 
 /* No comment provided by engineer. */
-"Syncing:" = "Sinkronisasi:";
+"Tap to unhide balance" = "Ketuk untuk melihat saldo";
 
 /* No comment provided by engineer. */
-"the app will now close" = "aplikasi sekarang akan ditutup";
+"There are no transactions to display" = "Tidak ada transaksi untuk ditampilkan";
 
 /* No comment provided by engineer. */
-"This is your axe address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Ini adalah alamat axe Anda. Ketuk untuk menyalin atau mengirimnya melalui email atau sms. Alamat akan berubah setiap kali Anda menerima dana, tetapi alamat lama selalu berfungsi.";
+"This app is open source:" = "Aplikasi ini adalah open source:";
 
 /* No comment provided by engineer. */
-"This is your axe balance." = "Ini adalah saldo axe anda.";
+"This PIN will be required to unlock your app every time when you use it." = "PIN ini akan diperlukan untuk membuka kunci aplikasi Anda setiap kali saat Anda menggunakannya.";
 
 /* No comment provided by engineer. */
-"This is your axe balance. Axe is a currency. The exchange rate changes with the market." = "Ini adalah saldo axe anda. axe adalah mata uang. Nila tukar berubah dengan pasar.";
+"This recovery phrase is your access to the funds in this wallet." = "Frasa pemulihan ini adalah akses Anda ke dana di dompet ini.";
 
 /* No comment provided by engineer. */
 "This transaction may take several minutes to settle." = "Transaksi ini mungkin perlu beberapa menit untuk diselesaikan.";
-
-/* No comment provided by engineer. */
-"This transaction may take several minutes to settle. Complete instantly for an extra %@?" = "Transaksi ini mungkin perlu beberapa menit untuk diselesaikan. Lengkap instan untuk tambahan %@?";
 
 /* No comment provided by engineer. */
 "This transaction should settle instantly at no extra fee" = "Transaksi ini harus diselesaikan secara instan tanpa biaya tambahan";
@@ -645,13 +765,10 @@
 "This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase" = "Dompet ini tidak kosong atau sinkronisasi belum selesai, Anda tidak dapat menghapusnya tanpa frasa pemulihan";
 
 /* No comment provided by engineer. */
-"to:" = "ke:";
+"This will move all coins from that wallet to your wallet on this device." = "Ini akan memindahkan semua koin dari dompet itu ke dompet Anda di perangkat ini.";
 
 /* No comment provided by engineer. */
-"to: %@" = "ke: %@";
-
-/* No comment provided by engineer. */
-"topup amount:" = "jumlah isi ulang:";
+"Tools" = "Alat";
 
 /* No comment provided by engineer. */
 "Total" = "Total";
@@ -660,15 +777,9 @@
 "Touch ID limit" = "ID sentuhan terbatas";
 
 /* No comment provided by engineer. */
-"Touch ID spending limit" = "ID sentuhan pengiriman terbatas";
-
-/* No comment provided by engineer. */
-"Transaction history" = "Riwayat transaksi";
-
-/* No comment provided by engineer. */
 "Transaction id" = "ID transaksi";
 
-/* No comment provided by engineer. */
+/* A verb, button title. */
 "Transfer" = "Transfer";
 
 /* No comment provided by engineer. */
@@ -677,110 +788,131 @@
 /* No comment provided by engineer. */
 "Transfer from Uphold" = "Transfer dari Uphold";
 
-/* No comment provided by engineer. */
-"trust" = "Terpercaya";
+/* An action */
+"Try again" = "Coba lagi";
+
+/* Alert title */
+"Turn device passcode on" = "Aktifkan kode sandi perangkat";
 
 /* No comment provided by engineer. */
-"try again" = "coba lagi";
+"Unable to connect" = "Tidak dapat terhubung";
 
 /* No comment provided by engineer. */
-"Try It!" = "Cobalah!";
+"Unable to get new QR code" = "Tidak dapat mendapat kode QR baru";
 
 /* No comment provided by engineer. */
-"turn device passcode on" = "aktifkan kode sandi perangkat";
+"Unsupported or corrupted document" = "Dokumen yang tidak didukung atau rusak";
 
 /* No comment provided by engineer. */
-"type:" = "Tipe:";
+"Unsupported URL" = "URL tidak didukung";
 
-/* No comment provided by engineer. */
-"Unable to get new qr code" = "Tiadak dapat mendapatkan kode qr baru";
-
-/* No comment provided by engineer. */
-"unknown address" = "alamat diketahui";
-
-/* No comment provided by engineer. */
-"unsupported or corrupted document" = "dokumen yang tidak didukung atau rusak";
-
-/* No comment provided by engineer. */
-"unsupported url" = "url tidak didukung";
-
-/* No comment provided by engineer. */
-"Unverified" = "Tidak diverifikasi";
+/* ex., Updated: 27.12, 8:30 */
+"Updated: %@" = "Diperbarui: %@";
 
 /* No comment provided by engineer. */
 "Uphold" = "Uphold";
 
 /* No comment provided by engineer. */
-"Uphold account" = "Akun Uphold";
+"Used" = "Digunakan";
 
 /* No comment provided by engineer. */
-"User Registration Transaction" = "Transaksi pendaftaran Pengguna";
+"Used at IP address" = "Digunakan di alamat IP";
 
 /* No comment provided by engineer. */
-"User Reset Transaction" = "Transaksi atur ulang Pengguna";
+"Verified Successfully" = "Berhasil Diverifikasi";
 
 /* No comment provided by engineer. */
-"User Topup Transaction" = "Transaksi isi ulang Pengguna";
+"Verify" = "Memeriksa";
+
+/* adjective, security level */
+"Very High" = "Sangat tinggi";
 
 /* No comment provided by engineer. */
-"username:" = "nama pengguna:";
+"View in Block Explorer" = "Lihat di Blok Explorer";
 
 /* No comment provided by engineer. */
-"verified, waiting for confirmation" = "diverifikasi, menunggu konfirmasi";
+"View passphrase, backup wallet…" = "Lihat frasa sandi, cadangkan domept...";
 
 /* No comment provided by engineer. */
-"verifying quorum" = "memverifikasi kuorum";
+"View Recovery Phrase" = "Lihat frasa pemulihan";
 
 /* No comment provided by engineer. */
-"voting key hash:" = "hash kunci suara:";
-
-/* No comment provided by engineer. */
-"voting key index:" = "indeks kunci pemungutan suara:";
+"Voting Address" = "Alamat pemungutan suara";
 
 /* No comment provided by engineer. */
 "Voting Keys" = "Kunci pemungutan suara";
 
 /* No comment provided by engineer. */
-"wallet address" = "alamat dompet";
+"Wallet disabled" = "Dompet dinonaktifkan";
 
 /* No comment provided by engineer. */
 "Wallet Keys" = "Kunci Dompet";
 
 /* No comment provided by engineer. */
+"Warning" = "Peringatan";
+
+/* No comment provided by engineer. */
 "WARNING" = "PERINGATAN";
 
 /* No comment provided by engineer. */
-"watch only" = "hanya melihat";
+"We are about to show you the secret key to your wallet." = "Kami akan menunjukkan kepada Anda kunci rahasia ke dompet Anda.";
 
 /* No comment provided by engineer. */
-"We have detected that Axewallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete." = "Kami telah mendeteksi bahwa Axewallet macet selama migrasi. Memindai ulang blockchain akan menyelesaikan masalah ini atau Anda dapat mencoba lagi. Pemindaian ulang sebaiknya dilakukan pada wifi dan akan memakan waktu hingga setengah jam. Dana Anda akan tersedia setelah proses sinkronisasi selesai.";
+"We do not store this recovery phrase." = "Kami tidak menyimpan frasa pemulihan ini.";
 
 /* No comment provided by engineer. */
-"We have detected that Axewallet crashed last time it was opened. Would you like to help us solve the issue by sending us the crash report data? Your transaction history and any other private information WILL NOT be shared." = "Kami telah mendeteksi bahwa Axewallet macet saat terakhir kali dibuka. Apakah Anda ingin membantu kami menyelesaikan masalah dengan mengirimkan data laporan kerusakan kepada kami? Riwayat transaksi Anda dan informasi pribadi lainnya TIDAK AKAN dibagikan.";
+"We have detected that Axe Wallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete." = "Kami telah mendeteksi bahwa Axe Wallet macet selama migrasi. Memindai ulang blockchain akan menyelesaikan masalah ini atau Anda dapat mencoba lagi. Pemindaian ulang sebaiknya dilakukan pada wifi dan akan memakan waktu hingga setengah jam. Dana Anda akan tersedia setelah proses sinkronisasi selesai.";
 
 /* No comment provided by engineer. */
-"wipe" = "menghapus";
+"We Upgraded" = "Kami meningkatkan";
 
 /* No comment provided by engineer. */
-"WRITE DOWN YOUR RECOVERY PHRASE" = "CATAT FRASA PEMULIHAN ANDA";
+"Welcome" = "Selamat Datang";
 
 /* No comment provided by engineer. */
-"yes" = "ya";
+"When the transaction is confirmed, the other wallet will be worthless and should not be re-used for safety reasons." = "Ketika transaksi dikonfirmasi, dompet lainnya tidak akan berharga dan tidak boleh digunakan kembali untuk alasan keamanan.";
 
 /* No comment provided by engineer. */
-"You can now buy axe in\naxewallet with cash or\nbank transfer." = "Anda sekarang dapat membeli axe di\ndompet axe dengan uang tunai atau\ntranfer bank.";
+"Why I should not take a screenshot?" = "Why I should not take a screenshot?";
 
 /* No comment provided by engineer. */
-"You must enter your pin in order to enter axewallet" = "Anda harus memasukkan pin Anda untuk memasuki dompet axe";
+"Wipe" = "Menghapus";
 
 /* No comment provided by engineer. */
-"you received axe!" = "anda menerima axe!";
+"Wipe Wallet" = "Sapu Dompet";
+
+/* No comment provided by engineer. */
+"with Axe blockchain" = "dengan Axe blockchain";
+
+/* No comment provided by engineer. */
+"You are about to sweep funds from another Axe Wallet." = "Anda akan menyapu dana dari dompet Axe lainnya.";
+
+/* No comment provided by engineer. */
+"You are about to wipe this wallet from this device. Funds associated with this wallet can only be retrieved if you have your recovery phrase." = "Anda akan menghapus dompet ini dari perangkat ini. Dana yang terkait dengan dompet ini hanya dapat diambil jika Anda memiliki frasa pemulihan.";
+
+/* No comment provided by engineer. */
+"You can authenticate with Face ID for payments below" = "Anda dapat mengautentikasi dengan ID Wajah untuk pembayaran di bawah";
+
+/* No comment provided by engineer. */
+"You can authenticate with Touch ID for payments below" = "Anda dapat mengautentikasi dengan Touch ID untuk pembayaran di bawah ini";
+
+/* No comment provided by engineer. */
+"You must enter your PIN in order to enter Axe Wallet" = "Anda harus memasukkan PIN untuk masuk ke Axe Wallet";
+
+/* No comment provided by engineer. */
+"You received Axe! If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device." = "Anda menerima Axe! Jika Anda kehilangan perangkat ini, Anda akan kehilangan dana Anda. Dapatkan Frasa pemulihan Anda sehingga Anda dapat memulihkan dompet di perangkat lain.";
 
 /* No comment provided by engineer. */
 "You will also need to log out from the Uphold website using your browser" = "Anda juga harus keluar dari situs web Uphold menggunakan browser Anda";
+
+/* No comment provided by engineer. */
+"You will need this recovery phrase to access your funds if this device is lost, damaged or if Axe Wallet ever is accidentally uninstalled from this device." = "Anda akan memerlukan frasa pemulihan ini untuk mengakses dana Anda jika perangkat ini hilang, rusak, atau jika Axe Wallet secara tidak sengaja dihapus dari perangkat ini.";
 
 /* No comment provided by engineer. */
 "Your transaction was sent and the amount should appear in your wallet in a few minutes." = "Transaksi Anda telah dikirim dan jumlahnya akan muncul di dompet Anda dalam beberapa menit.";
 
 /* No comment provided by engineer. */
 "Your Uphold account Axe balance is" = "Saldo Axe akun Uphold Anda adalah";
+
+/* No comment provided by engineer. */
+"Your wallet is secured now. You can use your recovery phrase anytime to recover your account on another device." = "Dompet Anda aman sekarang. Anda dapat menggunakan frasa pemulihan kapan saja untuk memulihkan akun di perangkat lain.";
