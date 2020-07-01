@@ -240,12 +240,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (nullable NSURL *)explorerURL {
     if ([[DWEnvironment sharedInstance].currentChain isTestnet]) {
-        NSString *urlString = [NSString stringWithFormat:@"https://testnet-insight.axerunners.org/insight/tx/%@",
+        NSString *urlString = [NSString stringWithFormat:@"https://testnet-insight.axecore.net/tx/%@",
                                                          self.transactionId];
         return [NSURL URLWithString:urlString];
     }
     else if ([[DWEnvironment sharedInstance].currentChain isMainnet]) {
-        NSString *urlString = [NSString stringWithFormat:@"https://insight.axerunners.org/insight/tx/%@",
+        NSString *urlString = [NSString stringWithFormat:@"https://insight.axecore.net/tx/%@",
                                                          self.transactionId];
         return [NSURL URLWithString:urlString];
     }
