@@ -6,7 +6,7 @@
 <img src="AxeWallet/Resources/AppAssets.xcassets/AppIcon.appiconset/icon_83.5@2x.png" alt="AXE wallet logo">
 </p>
 <p align="center" >
-<a href="https://itunes.apple.com/app/axe-wallet/id1430269763"><img src="images/Download_on_the_App_Store_Badge_US-UK_135x40.png"></a>
+<a href="https://itunes.apple.com/app/axe-wallet/id1430269763"><img src="appstore-badge.png"></a>
 </p>
 
 Axewallet (dashwallet fork) is a real standalone AXE client. There is no server to get hacked or go down, so you can always access your money.
