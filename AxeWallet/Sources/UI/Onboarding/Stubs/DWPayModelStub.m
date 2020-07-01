@@ -60,7 +60,7 @@ NS_ASSUME_NONNULL_BEGIN
 
         _options = [options copy];
 
-        pasteboardOption.details = @"XrUv3aniSvZEKx2VoFe5fTqFfYL5JYFkbg";
+        pasteboardOption.details = @"7a7Y5cpsPqhCsV1ss967d1wuSWH7QPR4Gt";
 
         __weak typeof(self) weakSelf = self;
         [_inputBuilder payFirstFromArray:@[ pasteboardOption.details ]
