@@ -1,53 +1,73 @@
 PODS:
   - AxeSync (0.1.0):
     - bls-signatures-pod (= 0.2.9)
-    - CocoaLumberjack (= 3.5.3)
+    - CocoaLumberjack (= 3.6.0)
+    - DSDynamicOptions (= 0.1.0)
+    - DWAlertController (= 0.2.1)
     - secp256k1_axe (= 0.1.2.5)
   - bls-signatures-pod (0.2.9)
-  - CocoaLumberjack (3.5.3):
-    - CocoaLumberjack/Core (= 3.5.3)
-  - CocoaLumberjack/Core (3.5.3)
-  - Dash-PLCrashReporter (1.4.0)
-  - KVO-MVVM (0.5.1)
+  - CloudInAppMessaging (0.1.0)
+  - CocoaLumberjack (3.6.0):
+    - CocoaLumberjack/Core (= 3.6.0)
+  - CocoaLumberjack/Core (3.6.0)
+  - DSDynamicOptions (0.1.0)
+  - DWAlertController (0.2.1)
+  - KVO-MVVM (0.5.6)
+  - MBProgressHUD (1.1.0)
+  - MMSegmentSlider (1.0.3)
   - secp256k1_axe (0.1.2.5)
-  - SimulatorStatusMagic (2.4.1)
+  - UIViewController-KeyboardAdditions (1.2.1)
 
 DEPENDENCIES:
-  - AxeSync (from `../AxeSync/`)
-  - Dash-PLCrashReporter (from `https://github.com/podkovyrin/plcrashreporter.git`, commit `41a46e6`, branch `dash`)
-  - KVO-MVVM (= 0.5.1)
-  - SimulatorStatusMagic (= 2.4.1)
+  - AxeSync (from `https://github.com/axerunners/axesync/`, commit `70f06b7a43a6ef30c9ab25425ba974f52b680e3f`)
+  - CloudInAppMessaging (= 0.1.0)
+  - DSDynamicOptions (= 0.1.0)
+  - KVO-MVVM (= 0.5.6)
+  - MBProgressHUD (= 1.1.0)
+  - MMSegmentSlider (from `https://github.com/podkovyrin/MMSegmentSlider`, commit `2d91366`)
+  - UIViewController-KeyboardAdditions (= 1.2.1)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - bls-signatures-pod
+    - CloudInAppMessaging
     - CocoaLumberjack
+    - DSDynamicOptions
+    - DWAlertController
     - KVO-MVVM
+    - MBProgressHUD
     - secp256k1_axe
-    - SimulatorStatusMagic
+    - UIViewController-KeyboardAdditions
 
 EXTERNAL SOURCES:
   AxeSync:
-    :path: "../AxeSync/"
-  Dash-PLCrashReporter:
-    :branch: dash
-    :commit: 41a46e6
-    :git: https://github.com/podkovyrin/plcrashreporter.git
+    :commit: 70f06b7a43a6ef30c9ab25425ba974f52b680e3f
+    :git: https://github.com/axerunners/axesync/
+  MMSegmentSlider:
+    :commit: 2d91366
+    :git: https://github.com/podkovyrin/MMSegmentSlider
 
 CHECKOUT OPTIONS:
-  Dash-PLCrashReporter:
-    :commit: 41a46e692083f4b88dc1f8516001f74710efbe13
-    :git: https://github.com/podkovyrin/plcrashreporter.git
+  AxeSync:
+    :commit: 70f06b7a43a6ef30c9ab25425ba974f52b680e3f
+    :git: https://github.com/axerunners/axesync/
+  MMSegmentSlider:
+    :commit: 2d91366
+    :git: https://github.com/podkovyrin/MMSegmentSlider
 
 SPEC CHECKSUMS:
-  AxeSync: 4770fde75484543a2bcfb9daea7c5910665d56a1
+  AxeSync: 5ec3a5cb4cfd99057707c7d3c4e59a134f6aff17
   bls-signatures-pod: 56adce76843f10f484ff996c33aee36cfd98ae5e
-  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
-  Dash-PLCrashReporter: 48274f97b50745ea7b627d0fca3a17fb2ee5b4d0
-  KVO-MVVM: 4df3afd1f7ebcb69735458b85db59c4271ada7c6
+  CloudInAppMessaging: 5dde21e2e67e173e3803ca7532eacaa77e19d744
+  CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
+  DSDynamicOptions: 6a37eb496daee3c067e086b5b236d77707e9a3ee
+  DWAlertController: 5f4cd8adf90336331c054857f709f5f8d4b16a5b
+  KVO-MVVM: 756673a8e837d7f27ff904fe2883e225e261d8ac
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MMSegmentSlider: db7ee0d6eb2eefbd511179195bf288ff2cebac0a
   secp256k1_axe: bd1dc10fc294f2f0e0704f8bea578eb9ea5916d0
-  SimulatorStatusMagic: 28d4a9d1a500ac7cea0b2b5a43c1c6ddb40ba56c
+  UIViewController-KeyboardAdditions: a691dc7e63a49854d341455a778ee8497dfc4662
 
-PODFILE CHECKSUM: f793f93d9516d87255219a0375261854fd30442d
+PODFILE CHECKSUM: 3a11fa19c79881bd17dd991da6e1fffee1840417
 
-COCOAPODS: 1.6.2
+COCOAPODS: 1.9.3
