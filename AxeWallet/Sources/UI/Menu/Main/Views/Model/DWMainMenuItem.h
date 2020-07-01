@@ -20,7 +20,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSUInteger, DWMainMenuItemType) {
-    DWMainMenuItemType_BuySellAxe,
     DWMainMenuItemType_Security,
     DWMainMenuItemType_Settings,
     DWMainMenuItemType_Tools,

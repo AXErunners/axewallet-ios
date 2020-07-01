@@ -34,9 +34,6 @@ static NSString *TitleForAction(DWShortcutAction *action) {
         case DWShortcutActionType_PayToAddress:
             return NSLocalizedString(@"Send to Address",
                                      @"Translate it as short as possible! (24 symbols max)");
-        case DWShortcutActionType_BuySellAxe:
-            return NSLocalizedString(@"Buy / Sell Axe",
-                                     @"Translate it as short as possible! (24 symbols max)");
         case DWShortcutActionType_SyncNow:
             return NSLocalizedString(@"Sync Now",
                                      @"Translate it as short as possible! (24 symbols max)");
@@ -82,11 +79,6 @@ static UIImage *_Nullable IconForAction(DWShortcutAction *action) {
         }
         case DWShortcutActionType_PayToAddress: {
             UIImage *image = [UIImage imageNamed:@"shortcut_payToAddress"];
-            NSCParameterAssert(image);
-            return image;
-        }
-        case DWShortcutActionType_BuySellAxe: {
-            UIImage *image = [UIImage imageNamed:@"shortcut_buySellAxe"];
             NSCParameterAssert(image);
             return image;
         }

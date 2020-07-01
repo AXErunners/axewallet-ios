@@ -54,10 +54,6 @@ NS_ASSUME_NONNULL_BEGIN
             [self payToAddressAction:sender];
             break;
         }
-        case DWShortcutActionType_BuySellAxe: {
-            [self buySellAxeAction];
-            break;
-        }
         case DWShortcutActionType_SyncNow: {
             [DWSettingsMenuModel rescanBlockchainActionFromController:self
                                                            sourceView:sender

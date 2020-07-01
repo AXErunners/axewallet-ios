@@ -45,7 +45,6 @@ NS_ASSUME_NONNULL_BEGIN
     self = [super init];
     if (self) {
         _items = @[
-            [[DWMainMenuItemImpl alloc] initWithType:DWMainMenuItemType_BuySellAxe],
             [[DWMainMenuItemImpl alloc] initWithType:DWMainMenuItemType_Security],
             [[DWMainMenuItemImpl alloc] initWithType:DWMainMenuItemType_Settings],
             [[DWMainMenuItemImpl alloc] initWithType:DWMainMenuItemType_Tools],

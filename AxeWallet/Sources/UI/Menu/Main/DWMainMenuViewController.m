@@ -76,22 +76,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)mainMenuContentView:(DWMainMenuContentView *)view didSelectMenuItem:(id<DWMainMenuItem>)item {
     switch (item.type) {
-        case DWMainMenuItemType_BuySellAxe: {
-            [[DSAuthenticationManager sharedInstance]
-                      authenticateWithPrompt:nil
-                usingBiometricAuthentication:[DWGlobalOptions sharedInstance].biometricAuthEnabled
-                              alertIfLockout:YES
-                                  completion:^(BOOL authenticated, BOOL usedBiometrics, BOOL cancelled) {
-                                      if (authenticated) {
-                                          UIViewController *controller = [DWUpholdViewController controller];
-                                          DWNavigationController *navigationController =
-                                              [[DWNavigationController alloc] initWithRootViewController:controller];
-                                          [self presentViewController:navigationController animated:YES completion:nil];
-                                      }
-                                  }];
-
-            break;
-        }
         case DWMainMenuItemType_Security: {
             DWSecurityMenuViewController *controller = [[DWSecurityMenuViewController alloc] initWithBalanceDisplayOptions:self.balanceDisplayOptions];
             controller.delegate = self.delegate;

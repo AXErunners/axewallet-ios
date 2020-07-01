@@ -23,8 +23,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 static UIImage *ImageByType(DWMainMenuItemType type) {
     switch (type) {
-        case DWMainMenuItemType_BuySellAxe:
-            return [UIImage imageNamed:@"menu_buySellAxe"];
         case DWMainMenuItemType_Security:
             return [UIImage imageNamed:@"menu_security"];
         case DWMainMenuItemType_Settings:
@@ -38,8 +36,6 @@ static UIImage *ImageByType(DWMainMenuItemType type) {
 
 static NSString *TitleByType(DWMainMenuItemType type) {
     switch (type) {
-        case DWMainMenuItemType_BuySellAxe:
-            return NSLocalizedString(@"Buy & Sell Axe", nil);
         case DWMainMenuItemType_Security:
             return NSLocalizedString(@"Security", nil);
         case DWMainMenuItemType_Settings:
@@ -53,8 +49,6 @@ static NSString *TitleByType(DWMainMenuItemType type) {
 
 static NSString *DescriptionByType(DWMainMenuItemType type) {
     switch (type) {
-        case DWMainMenuItemType_BuySellAxe:
-            return NSLocalizedString(@"Connect with third party exchanges", nil);
         case DWMainMenuItemType_Security:
             return NSLocalizedString(@"View passphrase, backup wallet…", nil);
         case DWMainMenuItemType_Settings:
