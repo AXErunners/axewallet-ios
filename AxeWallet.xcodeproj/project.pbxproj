@@ -3720,24 +3720,6 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftformat >/dev/null; then\n    swiftformat \"AxeWalletScreenshotsUITests\"\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
 		};
-		2AF134F821DE95FC004B9859 /* Run Script - Uphold Constants */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script - Uphold Constants";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ \"${CONFIGURATION}\" = \"Release\" ] ; then\n    if [ ! -f \"DWUpholdMainnetConstants__Release.m\" ]; then\n        echo \"error: DWUpholdMainnetConstants__Release.m file not found!\"\n        exit 1\n    fi\n\n    cp \"DWUpholdMainnetConstants__Release.m\" \"AxeWallet/Sources/Models/Uphold/DWUpholdMainnetConstants.m\"\nelse\n    # check if original file exist (in case it was moved or deleted while refactoring)\n    if [ ! -f \"AxeWallet/Sources/Models/Uphold/DWUpholdMainnetConstants.m\" ]; then\n        echo \"error: DWUpholdMainnetConstants.m file not found! Fix Uphold Constants build phase\"\n        exit 1\n    fi\nfi\n";
-		};
 		628D858805D450E2CE9D90A0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
