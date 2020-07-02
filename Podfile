@@ -1,7 +1,7 @@
 target 'axewallet' do
   platform :ios, '11.0'
   
-  pod 'AxeSync', :git => 'https://github.com/axerunners/axesync/', :commit => '70f06b7a43a6ef30c9ab25425ba974f52b680e3f'
+  pod 'AxeSync', :git => 'https://github.com/axerunners/axesync/', :commit => '76a2010683a5b807f14e05b989ba9f02f057f3b4'
   pod 'CloudInAppMessaging', '0.1.0'
   
   pod 'KVO-MVVM', '0.5.6'
