@@ -1,14 +1,10 @@
-osx_image: xcode10.2
+osx_image: xcode11.2
 language: objective-c
 
 cache: cocoapods
 
 before_install:
-  - brew install cmake # for compiling BLS
-  - gem install cocoapods --version 1.6.2
-  - gem install fastlane
   - set -o pipefail
-  - DW_DIR=`pwd` && pushd .. && git clone https://github.com/axerunners/axesync-iOS.git AxeSync && pushd AxeSync && git checkout `cat "$DW_DIR/AxeSyncCurrentCommit"` && popd && popd
   - travis_wait 55 pod install --repo-update
 
 install: true # disable automatic `pod install`

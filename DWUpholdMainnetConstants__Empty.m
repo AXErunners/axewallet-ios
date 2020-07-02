@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 }
 
 + (NSString *)buyCardURLFormat {
-    return @"https://uphold.com/dashboard/cards/%@/add";
+    return @"https://uphold.com/axeboard/cards/%@/add";
 }
 
 + (NSString *)transactionURLFormat {

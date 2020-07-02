@@ -1,72 +1,69 @@
 
 /* No comment provided by engineer. */
-"%@ is for 'mAXE'. %@ = 1 AXE." = "%1$@ là cho 'mAXE'. %2$@ = 1 AXE.";
+"%@ is not allowed to access Face ID" = "%@ không được cho phép truy cập Face ID";
 
 /* No comment provided by engineer. */
-"%@ is not allowed to access the camera" = "%@ không cho phép truy cập đến chức năng chụp ảnh";
+"%@ is not allowed to access the camera" = "%@ không được cho phép truy cập đến chức năng chụp ảnh";
 
 /* No comment provided by engineer. */
-"%@\n\nbalance: %@ (%@)" = "%1$@\n\nbalance: %2$@ (%3$@)";
+"%@ is not allowed to access Touch ID" = "%@ không được cho phép truy cập chức năng Touch ID";
 
 /* No comment provided by engineer. */
-"%d confirmations" = "%d xác thực";
+"1 hour" = "1 giờ";
+
+/* Shorten version of minute */
+"1 min" = "1 phút";
 
 /* No comment provided by engineer. */
-"%d haks/byte" = "%d haks/byte";
+"24 hours" = "24 giờ";
 
-/* No comment provided by engineer. */
-"%d out of %d lock votes" = "%1$d trên tổng số %2$d biểu quyết khoá";
-
-/* No comment provided by engineer. */
-"%ld used" = "%ld đã sử dụng";
-
-/* No comment provided by engineer. */
-"0 confirmations" = "0 xác thực";
-
-/* No comment provided by engineer. */
-"1 confirmation" = "1 xác thực";
-
-/* No comment provided by engineer. */
-"1 hak/byte" = "1 hak/byte";
+/* Shorten version of minutes */
+"5 min" = "5 phút";
 
 /* No comment provided by engineer. */
 "\"%@\" is not a recovery phrase word" = "\"%@\" không phải là một cụm từ khôi phục";
 
 /* No comment provided by engineer. */
-"\n%@\n\nif you ever lose your phone, you will need it to recover your wallet" = "\n%@\n\nnếu bạn bị mất điện thoại, bạn cần nó để khôi phục lại ví của mình";
+"\ntry again in %@" = "\nthử lại trong vòng %@";
 
 /* No comment provided by engineer. */
-"\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nBạn cần có mật khẩu cho thiết bị để bảo vệ ví của mình. Hãy vào phần Settings của điện thoại và bật mật khẩu lên và tiếp tục.";
-
-/* No comment provided by engineer. */
-"\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nbật tính năng truy cập chụp ảnh trong phần\nSettings->Privacy->Camera->%@";
-
-/* No comment provided by engineer. */
-"\ntry again in %@" = "\ntry again in %@";
+"A device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "Một mật khẩu cho thiết bị là cần thiết để bảo vệ ví của bạn. Hãy vào phần Settings và bật chế độ mật khẩu và tiếp tục.";
 
 /* No comment provided by engineer. */
 "About" = "Giới thiệu";
 
-/* No comment provided by engineer. */
-"accepted by quorum" = "được chấp nhận bởi quorum";
-
-/* No comment provided by engineer. */
-"Action Needed" = "Cần bạn hành động";
+/* Translate it as short as possible! (24 symbols max) */
+"Add Shortcut" = "Thêm shortcut";
 
 /* No comment provided by engineer. */
 "Address" = "Địa chỉ";
 
 /* No comment provided by engineer. */
-"ADVANCED" = "NÂNG CAO";
+"Advanced Security" = "Bảo mật nâng cao";
 
 /* No comment provided by engineer. */
-"always require passcode" = "luôn cần mật khẩu";
+"All" = "Tất cả";
 
 /* No comment provided by engineer. */
-"Amount" = "Số tiền";
+"Allow camera access in Settings" = "Cho phép truy cập máy ảnh trong Settings";
 
 /* No comment provided by engineer. */
-"amount too small" = "số lượng quá nhỏ";
+"Allow Face ID access in Settings" = "Cho phép truy cập Face ID trong Settings";
+
+/* No comment provided by engineer. */
+"Allow Touch ID access in Settings" = "Cho phép truy cập Touch ID trong Settings";
+
+/* No comment provided by engineer. */
+"Amount Received" = "Số tiền nhận được";
+
+/* No comment provided by engineer. */
+"Amount Sent" = "Số tiền đã gửi";
+
+/* No comment provided by engineer. */
+"Amount too small" = "Số tiền quá nhỏ";
+
+/* No comment provided by engineer. */
+"An intuitive and familiar experience across all your devices" = "Một giao diện trực quan và quen thuộc trên tất cả các thiết bị của bạn";
 
 /* No comment provided by engineer. */
 "Application %@ is requesting a payment to" = "Ứng dụng 1%@ đang yêu cầu thanh toán cho";
@@ -81,178 +78,181 @@
 "Are you sure?" = "Bạn chắc chứ?";
 
 /* No comment provided by engineer. */
-"available" = "còn lại";
+"Authentication is unvailable" = "Xác thực không sẵn sàng";
 
 /* No comment provided by engineer. */
-"bad recovery phrase" = "cụm từ phục hồi không đúng";
+"Auto Logout" = "Tự động khoá";
 
 /* No comment provided by engineer. */
-"Bitcoin address (shapeshift)" = "Địa chỉ Bitcoin (shapeshift)";
+"Autohide Balance" = "Tự ẩn số dư";
+
+/* lowercase, ex. 4 Axe available */
+"available" = "Hiện có";
+
+/* No comment provided by engineer. */
+"Available balance" = "Số dư hiện có";
+
+/* A noun. Used as a title. */
+"Backup Wallet" = "Sao lưu ví";
+
+/* No comment provided by engineer. */
+"Bad recovery phrase" = "Câu phục hồi không đúng";
+
+/* No comment provided by engineer. */
+"Balance hidden" = "Số dư được ẩn";
 
 /* No comment provided by engineer. */
 "block #%d of %d" = "khối #%1$d của %2$d";
 
 /* No comment provided by engineer. */
-"Buy Axe" = "Mua Axe";
+"Block #%d of %d" = "Khối #%1$d của %2$d";
 
 /* No comment provided by engineer. */
-"Buy axe in axewallet!" = "Mua axe trong axewallet!";
+"Buy & Sell Axe" = "Mua & Bán Axe";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Buy / Sell Axe" = "Mua & Bán Axe";
+
+/* No comment provided by engineer. */
+"Buy Axe" = "Mua Axe";
 
 /* No comment provided by engineer. */
 "Buy Axe with Uphold account" = "Mua Axe với tài khoản Uphold";
 
 /* No comment provided by engineer. */
-"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code." = "Bằng việc xoá sạch thiết bị này bạn sẽ không thể truy cập đến số tiền trong thiết bị nữa. Điều này chỉ nên thực hiện nếu bạn không còn có mật khẩu và bạn cũng quên cả mã PIN.";
-
-/* No comment provided by engineer. */
-"cancel" = "huỷ bỏ";
+"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your PIN code." = "Bằng việc xoá thiết bị này bạn sẽ không còn có thể truy cập vào số tiền trong thiết bị này nữa. Điều này chỉ nên thực hiện nếu bạn không còn nhớ mật khẩu hoặc quên mất mã PIN.";
 
 /* No comment provided by engineer. */
 "Cancel" = "Huỷ bỏ";
 
-/* No comment provided by engineer. */
-"change" = "thay đổi";
+/* A verb. Action button title for an alert 'Change payment amount?' */
+"Change" = "Thay đổi";
 
 /* No comment provided by engineer. */
-"Change passcode" = "Đổi mật khẩu";
+"Change payment amount?" = "Thay đổi số tiền cần chuyển?";
 
 /* No comment provided by engineer. */
-"change payment amount?" = "thay đổi số lượng cần chi?";
+"Change PIN" = "Đổi mã PIN";
 
 /* No comment provided by engineer. */
-"checking address balance..." = "đang kiểm tra số dư của địa chỉ...";
+"Check your connection" = "Kiểm tra kết nối của bạn";
 
 /* No comment provided by engineer. */
-"checking private key balance..." = "kiểm tra số dư của khoá riêng...";
+"Clear" = "Xoá";
 
 /* No comment provided by engineer. */
-"Classical Transaction" = "Giao dịch cổ điển";
+"Clear trusted node?" = "Xoá nút được tin cậy?";
 
 /* No comment provided by engineer. */
-"clear" = "xoá";
+"Clipboard doesn't contain a valid Axe address" = "Bộ nhớ đệm không chứa địa chỉ Axe hợp lệ";
 
 /* No comment provided by engineer. */
-"clear trusted node?" = "xoá các nút đã tin cậy?";
+"Close" = "Đóng";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid axe address" = "bộ đệm không chứa địa chỉ hợp lệ của axe";
+"Close App" = "Đóng ứng dụng";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid axe or bitcoin address" = "bộ đệm không chứa địa chỉ hợp lệ của axe hay bitcoin";
-
-/* No comment provided by engineer. */
-"close app" = "đóng ứng dụng";
-
-/* No comment provided by engineer. */
-"Coinbase Transaction" = "Giao dịch sinh coin";
-
-/* Confirm */
 "Confirm" = "Xác thực";
 
 /* No comment provided by engineer. */
-"confirm" = "xác thực";
+"Confirm PIN" = "Xác nhận mã PIN";
 
 /* No comment provided by engineer. */
-"Confirm transaction" = "Xác thực giao dịch";
+"Confirming" = "Đang xác nhận";
 
 /* No comment provided by engineer. */
-"confirmed in block #%d" = "đã được xác thực trong khối #%d";
+"Connect with third party exchanges" = "Kết nối với sàn giao dịch của bên thứ ba";
 
 /* No comment provided by engineer. */
-"copied" = "đã được chép";
+"Connected peers: %d" = "Số kết nối ngang hàng: %d";
 
 /* No comment provided by engineer. */
-"copy" = "copy";
+"Connecting to payment server" = "Đang kết nối với máy chủ thanh toán";
 
 /* No comment provided by engineer. */
-"copy address to clipboard" = "chép địa chỉ vào bộ đệm";
+"Contact Support" = "Liên hệ hỗ trợ";
 
 /* No comment provided by engineer. */
-"copy request to clipboard" = "chép yêu cầu vào bộ đệm";
+"Continue" = "Tiếp tục";
 
 /* No comment provided by engineer. */
-"copy wallet addresses to clipboard?" = "copy địa chỉ ví vào bộ đệm?";
+"Copied" = "Đã copy";
 
 /* No comment provided by engineer. */
-"couldn't check address balance" = "không thể kiểm tra số dư của địa chỉ";
+"Copy" = "Sao chép";
 
 /* No comment provided by engineer. */
-"couldn't make payment" = "không thể thực hiện thanh toán";
+"Copy Logs" = "Sao chép logs";
 
 /* No comment provided by engineer. */
-"couldn't sweep balance" = "không thể quét số dư";
+"Copyright © 2020 Axe Core" = "Bản quyền © 2020 Axe Core";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to axe network" = "không thể gửi thanh toán đến mạng lưới axe";
+"Couldn't make payment" = "Không thể thực hiện giao dịch";
 
 /* No comment provided by engineer. */
-"CRITICAL" = "NGHIÊM TRỌNG";
+"Couldn't sweep balance" = "Không thể quét số dư";
 
 /* No comment provided by engineer. */
-"Axe address" = "Địa chỉ Axe";
+"Couldn't transmit payment to Axe network" = "Không thể gửi giao dịch đến mạng lưới Axe";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Địa chỉ Axe cũng có thể copy vào bộ đệm. Một địa chỉ axe luôn bắt đầu bằng chữ 'X' hoặc '7'.";
+"Create a New Wallet" = "Tạo một ví mới";
 
 /* No comment provided by engineer. */
-"axe network fee" = "phí giao dịch";
+"Axe payments can't be less than %@" = "Số Axe cho giao dịch không thể nhỏ hơn %@";
 
 /* No comment provided by engineer. */
-"axe payments can't be less than %@" = "số axe thanh toán không thể nhỏ hơn %@";
+"Date" = "Ngày";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "AN NINH THIẾT BỊ BỊ  TỔN HẠI\nBất kỳ ứng dụng 'jailbreak' hay 'phá khoá' nào đều có thể truy cập vào dữ liệu chìa khoá của ứng dụng (và đánh cắp axe của bạn).";
+"Default currency, shortcuts, about…" = "Tiền tệ ngầm định, lối tắt, về...";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe). Wipe this wallet immediately and restore on a secure device." = "AN NINH THIẾT BỊ BỊ  TỔN HẠI\nBất kỳ ứng dụng bị 'jailbreak' hay 'phá khoá' nào đều có thể truy cập được vào dữ liệu chìa khoá của ứng dụng (và đánh cắp axe của bạn). Hãy xoá sạch ví này ngay lập tức và phục hồi nó trên một thiết bị an toàn.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe)." = "THIẾT BỊ NÀY KHÔNG CÒN BẢO MẬT\nBất kỳ ứng dụng 'jailbreak' nào đều có thể truy cập vào dữ liệu chìa khoá của tất cả các ứng dụng khác (và đánh cắp Axe của bạn).";
 
 /* No comment provided by engineer. */
-"do it later" = "làm việc này sau";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe). Wipe this wallet immediately and restore on a secure device." = "THIẾT BỊ NÀY KHÔNG CÒN BẢO MẬT\nBất kỳ ứng dụng 'jailbreak' nào đều có thể truy cập vào dữ liệu chìa khoá của tất cả các ứng dụng khác (và đánh cắp Axe của bạn). Hãy xoá sạch ví ngày ngay lập trức và khôi phục tính năng bảo mật của thiết bị.";
 
 /* No comment provided by engineer. */
-"DO NOT let anyone see your recovery phrase or they can spend your axe." = "ĐỪNG để bất cứ ai nhìn thấy cụm từ phục hồi của bạn nếu không họ sẽ tiêu hết số Axe của bạn.";
-
-/* No comment provided by engineer. */
-"DO NOT take a screenshot. Screenshots are visible to other apps and devices." = "KHÔNG chụp ảnh màn hình. Ảnh chụp màn hình có thể hiểnt hị trên những ứng dụng hoặc thiết bị khác.";
+"Do not take a screenshot" = "Do not take a screenshot";
 
 /* No comment provided by engineer. */
 "Done" = "Xong";
 
-/* No comment provided by engineer. */
-"double spend" = "tiêu lặp";
+/* ex., Download peer: 127.0.0.1:9999 */
+"Download peer: %@" = "Nút tải xuống: %@";
 
 /* No comment provided by engineer. */
-"Email client is not configured. Please add your email account in Settings" = "Phần mềm email chưa được cấu hình. Hãy thêm tài khoản email của bạn trong phần Setting của iPhone";
+"Enable Face ID" = "Cho phép Face ID";
 
 /* No comment provided by engineer. */
-"email not configured" = "e-mail chưa được cấu hình";
+"Enable Receive Notifications" = "Cho phép nhận thông báo";
 
 /* No comment provided by engineer. */
-"Enable advanced features" = "Bật các tính năng nâng cao";
+"Enable Touch ID" = "Cho phép Touch ID";
 
 /* No comment provided by engineer. */
-"Enable advanced features?" = "Muốn bật tính năng nâng cao?";
+"Enter" = "Nhập";
 
 /* No comment provided by engineer. */
-"Enable receive notifications" = "Bật thông báo nhận";
+"Enter PIN" = "Nhập mã PIN!";
 
 /* No comment provided by engineer. */
-"enter" = "nhập";
+"Enter Recovery Phrase" = "Nhập cụm từ phục hồi";
 
 /* No comment provided by engineer. */
-"Enter the amount to transfer below" = "Hãy nhập số tiền cần chuyển vào dưới đây";
+"Enter the amount to transfer" = "Hãy nhập số tiền cần chuyển";
 
 /* No comment provided by engineer. */
 "Enter your 2FA code below" = "Hãy nhập mà xác thực 2 lớp vào dưới đây";
 
 /* No comment provided by engineer. */
-"exit" = "thoát";
+"Exit" = "Thoát";
 
 /* No comment provided by engineer. */
 "Face ID limit" = "Giới hạn Face ID";
-
-/* No comment provided by engineer. */
-"Face ID spending limit" = "Giới hạn chi tiêu với Face ID";
 
 /* No comment provided by engineer. */
 "Failed wallet update" = "Không cập nhận được ví";
@@ -264,55 +264,79 @@
 "Fee is greater than balance" = "Phí gửi lớn hơn số dư";
 
 /* No comment provided by engineer. */
-"Fee will be deducted from requested amount" = "Phí sẽ được trừ từ khoản tiền được nhận";
+"Fee will be deducted from requested amount." = "Phí chuyển sẽ được trừ từ số lượng yêu cầu.";
 
 /* No comment provided by engineer. */
-"from:" = "từ:";
+"Filter Transactions" = "Lọc các giao dịch";
 
 /* No comment provided by engineer. */
-"GENERAL" = "TỔNG THỂ";
+"Forgot PIN?" = "Quên mã PIN";
+
+/* No comment provided by engineer. */
+"Get Started" = "Bắt đầu";
 
 /* No comment provided by engineer. */
 "Go to Website" = "Đến Website";
 
 /* No comment provided by engineer. */
-"holding funds index:" = "chỉ số giao dịch đặt cọc";
+"Have complete control and customize your wallet based on your needs" = "Bạn có toàn quyền kiểm soát và tuỳ chỉnh ví dựa trên nhu cầu của mình";
+
+/* No comment provided by engineer. */
+"Help us improve your experience" = "Hãy giúp chúng tôi cải thiện trải nghiệm cho bạn";
+
+/* adjective, security level */
+"High" = "Cao";
+
+/* No comment provided by engineer. */
+"History" = "Lịch sử";
 
 /* No comment provided by engineer. */
 "I accept that I will lose my coins if I no longer possess the recovery phrase" = "Tôi chấp nhận rằng tôi sẽ mất các coin của mình nếu không còn sở hữu cụm từ phục hồi";
 
 /* No comment provided by engineer. */
-"id:" = "id :";
+"I wrote it down" = "Tôi đã viết xuống";
+
+/* No comment provided by engineer. */
+"If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device." = "Nếu bạn mất thiết bị này, bạn sẽ mất số tiền trong đó. Hãy thiết lập cụm từ phục hồi để bạn có thể khôi phục được ví trên một thiết bị khác.";
 
 /* No comment provided by engineer. */
 "If you still would like to wipe it please input: \"%@\"" = "Nếu bạn vẫn muốn xoá sách nó thì hãy nhập \"%@\"";
 
 /* No comment provided by engineer. */
-"ignore" = "bỏ qua";
+"Ignore" = "Bỏ qua";
 
 /* No comment provided by engineer. */
-"Import private key" = "Nhập khoá riêng";
+"Immediately" = "Ngay lập tức";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Import Private Key" = "Nhập khoá riêng";
 
 /* No comment provided by engineer. */
-"IMPORTANT" = "QUAN TRỌNG";
+"Import private key…" = "Nhập khoá riêng...";
 
 /* No comment provided by engineer. */
-"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again." = "Trong phiên bản trước của ví Axewallet, khi lần đầu hiển thị mật khẩu của bạn trên thiết bị chúng tôi đã phát hiện rằng App đã không hiển thị một cách chính xác 12 từ khoá hạt giống. Hãy viết mật khẩu đầy đủ của bạn xuống một lần nữa.";
+"Insufficient funds" = "Không đủ tiền";
+
+/* Transaction within the wallet, transfer of own funds */
+"Internal Transfer" = "Giao dịch nội bộ";
 
 /* No comment provided by engineer. */
-"Insufficient Funds" = "Không đủ tiền";
+"Internally moved to" = "Được di chuyển nội bộ đến";
+
+/* Invalid transaction */
+"Invalid" = "Không hợp lệ";
 
 /* No comment provided by engineer. */
-"INVALID" = "KHÔNG HỢP LỆ";
+"Invalid Payment Request" = "Yêu cầu thanh toán không hợp lệ";
 
 /* No comment provided by engineer. */
-"Invalid amount" = "Số tiền không hợp lệ";
+"Invalid QR Code" = "Mã QR không hợp lệ";
 
 /* No comment provided by engineer. */
-"IP address/port:" = "Địa chỉ IP/cổng:";
+"It's Important" = "Điều này là quan trọng";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your axe address. Anyone can send axe to your wallet by transferring them to your address." = "Hãy để người kia quét mã QR này để lấy địa chỉ ví axe của bạn. Bất cứ ai cũng có thể gửi axe đến ví của bạn bằng cách chuyển tiền đến địa chỉ của bạn.";
+"Keypair %ld" = "Cặp khoá %ld";
 
 /* No comment provided by engineer. */
 "Link Uphold Account" = "Liên kết với tài khoản Uphold";
@@ -320,14 +344,14 @@
 /* No comment provided by engineer. */
 "Load more" = "Nạp thêm";
 
+/* Translate it as short as possible! (24 symbols max) */
+"Local Currency" = "Tiền địa phương";
+
 /* No comment provided by engineer. */
-"Local currency" = "Tiền địa phương";
+"Local requested amount: %@" = "Số lượng được yêu cầu: %@";
 
 /* No comment provided by engineer. */
 "Locked" = "Đã khoá";
-
-/* No comment provided by engineer. */
-"locked with InstantSend" = "Đã được khoá với InstantSend";
 
 /* No comment provided by engineer. */
 "Log Out" = "Đăng xuất";
@@ -336,94 +360,94 @@
 "Log out from Uphold" = "Đăng xuất khỏi Uphold";
 
 /* No comment provided by engineer. */
-"masternode holding address" = "địa chỉ đặt cọc masternode";
+"Login with Face ID" = "Đăng nhập với Face ID";
 
 /* No comment provided by engineer. */
-"Masternode Registration Transaction" = "Giao dịch đăng ký Masternode";
+"Login with Touch ID" = "Đăng nhập với Touch ID";
+
+/* a verb, Logout Immediately */
+"Logout" = "Thoát";
+
+/* Logout after 5 min */
+"Logout after" = "Thoát sau";
 
 /* No comment provided by engineer. */
-"Masternode Update Registrar Transaction" = "Giao dịch cập nhật đăng ký Masternode";
+"Long press to copy ID" = "Giữ để sao chép ID";
+
+/* adjective, security level */
+"Low" = "Thấp";
 
 /* No comment provided by engineer. */
-"Masternode Update Service Transaction" = "Giao dịch cập nhật dịch vụ Masternode";
+"Manage Trusted Node" = "Quản lý nút tin cậy";
 
 /* No comment provided by engineer. */
-"more..." = "tiếp...";
+"Masternode Registration" = "Đăng ký Masternode";
 
 /* No comment provided by engineer. */
-"Moved" = "Đã chuyển";
+"Masternode Revocation" = "Thu hồi Masternode";
+
+/* No comment provided by engineer. */
+"Masternode Update" = "Cập nhật Masternode";
+
+/* Contracted variant of 'Maximum' word */
+"Max" = "Tối đa";
+
+/* adjective, security level */
+"Medium" = "Trung bình";
+
+/* No comment provided by engineer. */
+"More" = "Thêm";
+
+/* No comment provided by engineer. */
+"More Control" = "Kiểm soát nhiều hơn";
+
+/* No comment provided by engineer. */
+"Moved from" = "Được di chuyển từ";
+
+/* No comment provided by engineer. */
+"Moved to Address" = "Được chuyển đến Địa chỉ";
 
 /* No comment provided by engineer. */
 "Network" = "Mạng";
 
 /* No comment provided by engineer. */
-"NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected." = "ĐỪNG BAO GIỜ ghi cụm từ phục hồi vào phần mềm quản lý mật khẩu hoặc nơi nào khác. Những thiết bị khác có thể bị nhiễm mã độc.";
+"Network fee" = "Phí giao dịch";
 
 /* No comment provided by engineer. */
-"new public key:" = "khoá công khai mới:";
+"NFC device" = "Thiết bị NFC";
 
 /* No comment provided by engineer. */
-"next, write down your recovery phrase" = "tiếp theo, ghi xuống cụm từ phục hồi";
+"NFC device didn't transmit a valid Axe address" = "Thiết bị NFC không gửi một địa chỉ Axe hợp lệ";
 
 /* No comment provided by engineer. */
-"NFC device didn't transmit a valid axe address" = "Thiết bị NFC không truyền đi một địa chỉ Axe hợp lệ";
+"No address copied" = "Không có địa chỉ nào được copy";
 
 /* No comment provided by engineer. */
-"NFC device didn't transmit a valid axe or bitcoin address" = "Thiết bị NFC không truyền đi một địa chỉ Axe hoặc Bitcoin hợp lệ";
+"Node IP" = "Địa chỉ IP của nút";
+
+/* adjective, security level */
+"None" = "Không có";
 
 /* No comment provided by engineer. */
-"no exchange rate data" = "không có thông tin về tỷ giá";
+"Not a Axe QR code" = "Không phải mã QR của Axe";
 
 /* No comment provided by engineer. */
-"node ip" = "địa chỉ ip của nút";
+"Not a Axe URL" = "Không phải địa chỉ URL của Axe";
 
 /* No comment provided by engineer. */
-"not a axe or bitcoin QR code" = "đây phải là mã QR của địa chỉ axe hay bitcoin";
+"Not a valid Axe address" = "Không phải một địa chỉ Axe hợp lệ";
 
 /* No comment provided by engineer. */
-"not a axe QR code" = "không phải axe mã QR";
-
-/* No comment provided by engineer. */
-"not a valid bitcoin address" = "không phải địa chỉ bitcoin hợp lệ";
-
-/* No comment provided by engineer. */
-"not a valid axe address" = "không phải một địa chỉ axe hợp lệ";
-
-/* No comment provided by engineer. */
-"not a valid axe or bitcoin address" = "không phải địa chỉ hợp lệ của axe hay bitcoin";
-
-/* No comment provided by engineer. */
-"not operator" = "không phải người vận hành";
-
-/* No comment provided by engineer. */
-"not owner" = "không phải chủ sở hữu";
-
-/* No comment provided by engineer. */
-"not voter" = "không phải người bỏ phiếu";
+"Not yet used" = "Chưa từng được dùng";
 
 /* No comment provided by engineer. */
 "OK" = "OK";
 
 /* No comment provided by engineer. */
-"ok" = "ok";
-
-/* No comment provided by engineer. */
-"Only enable advanced features if you are knowledgeable in blockchain technology. \nIf enabled only use advanced features that you understand." = "Chỉ bật những tính năng nâng cao nếu bạn hiểu biết về công nghệ blockchain.\nNếu có thể hãy chỉ bật những tính năng nâng cao nào mà bạn hiểu rõ.";
-
-/* No comment provided by engineer. */
-"operator key index:" = "chỉ số khoá của người vận hành:";
-
-/* No comment provided by engineer. */
-"operator key:" = "chìa khoá của người vận hành";
-
-/* No comment provided by engineer. */
 "Operator Keys" = "Chìa khoá của người vận hành";
 
 /* No comment provided by engineer. */
-"owner key hash:" = "mã băm khoá của chủ sở hữu";
-
-/* No comment provided by engineer. */
-"owner key index:" = "chỉ số khoá của chủ sở hữu:";
+"Owner Address" = "Địa chỉ của chủ sở hữu";
 
 /* No comment provided by engineer. */
 "Owner Keys" = "Khoá của chủ sở hữu";
@@ -432,211 +456,307 @@
 "Pay" = "thanh toán";
 
 /* No comment provided by engineer. */
-"payload:" = "payload:";
+"Pay and get paid instantly with easy to use payment flows" = "Trả và nhận một cách tức thời một cách dễ dàng bằng cách sử dụng các quy trình thanh toán";
 
 /* No comment provided by engineer. */
-"payment address" = "địa chỉ thanh toán";
+"Pay with Ease" = "Giao dịch một cách đơn giản";
+
+/* 1 out of 4 in the Paying Animation */
+"Paying" = "Đang gửi";
+
+/* 2 out of 4 in the Paying Animation */
+"Paying." = "Đang gửi.";
+
+/* 3 out of 4 in the Paying Animation */
+"Paying.." = "Đang gửi..";
+
+/* 4 out of 4 in the Paying Animation */
+"Paying..." = "Đang gửi...";
 
 /* No comment provided by engineer. */
-"payment output" = "đầu ra thanh toán";
+"Payments" = "Các giao dịch";
 
 /* No comment provided by engineer. */
-"payout Address" = "Địa chỉ thanh toán";
+"PIN is always required to make a payment" = "Mã PIN luôn được cần đến khi thực hiện giao dịch";
 
 /* No comment provided by engineer. */
-"payout address:" = "địa chỉ thanh toán";
-
-/* No comment provided by engineer. */
-"Pending" = "Đang chờ";
-
-/* No comment provided by engineer. */
-"pending" = "đang chờ";
-
-/* No comment provided by engineer. */
-"Please enter pin to upgrade wallet" = "Hãy nhập mã để nâng cấp ví";
-
-/* No comment provided by engineer. */
-"please enter pin to upgrade wallet" = "hãy nhập mã pin để nâng cấp ví";
+"Please enter PIN to upgrade wallet" = "Hãy nhập mã PIN để nâng cấp ví";
 
 /* No comment provided by engineer. */
 "Please place your phone near NFC device." = "Hãy đặt điện thoại của bạn cạnh thiết bị NFC.";
 
 /* No comment provided by engineer. */
-"Private key" = "Khoá riêng";
+"Please tap on the words from your recovery phrase in the right order" = "Hãy bấm vào những từ trong cụm từ phục hồi của bạn theo một thứ tự đúng";
 
 /* No comment provided by engineer. */
-"processing" = "đang xử lý";
+"Please try again" = "Hãy thử lại";
+
+/* No comment provided by engineer. */
+"Please try scanning again" = "Hãy thử quét lại lần nữa";
+
+/* No comment provided by engineer. */
+"Please Wait" = "Vui lòng đợi";
+
+/* No comment provided by engineer. */
+"Please wait for the sync to complete" = "Vui lòng đợi quá trình đồng bộ hoàn thành";
+
+/* No comment provided by engineer. */
+"Please write it down" = "Hãy vui lòng ghi xuống";
+
+/* No comment provided by engineer. */
+"Previously used at IP address" = "Trước đó được dùng tại địa chỉ IP";
+
+/* No comment provided by engineer. */
+"Private key" = "Khoá riêng";
 
 /* No comment provided by engineer. */
 "Processing" = "Đang xử lý";
 
 /* No comment provided by engineer. */
+"Provider Address" = "Địa chỉ nhà cung cấp";
+
+/* No comment provided by engineer. */
 "Public key" = "Khoá công khai";
 
 /* No comment provided by engineer. */
-"public key:" = "khoá công khai:";
+"Quick Receive" = "Nhận nhanh";
 
 /* No comment provided by engineer. */
-"rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@\nquorums validated: %d/%d" = "tỷ giá: %1$@ = %2$@\ncập nhật: %3$@\nkhối # %4$dcủa %5$d\ncác thành phần được kết nối: %6$d\ndl peer: %7$@\nquorum được kiểm chứng: %8$d/%9$d";
+"Quorums validated: %d/%d" = "Quorums xác nhận: %1$d/%2$d";
+
+/* ex., Rate 1 US $ = 0.000009 Axe */
+"Rate: %@ = %@" = "Tỷ giá: %1$@ = %2$@";
 
 /* No comment provided by engineer. */
-"Receive axe at this address: %@" = "Nhận axe với địa chỉ này: %@";
+"Receive" = "Nhận";
 
-/* No comment provided by engineer. */
+/* Received transaction */
 "Received" = "Đã nhận";
 
 /* No comment provided by engineer. */
-"received %@ (%@)" = "nhận %@ (%@)";
+"Received %@ (%@)" = "Đã nhận %1$@ (%2$@)";
 
 /* No comment provided by engineer. */
-"recently mined (locked)" = "mới được khai thác (khoá)";
-
-/* Recovery phrase */
-"Recovery phrase" = "Cụm từ phục hồi";
+"Received at" = "Nhận được tại";
 
 /* No comment provided by engineer. */
-"recovery phrase doesn't match" = "cụm từ phục hồi không đúng";
+"Received from" = "Nhận được từ";
 
 /* No comment provided by engineer. */
-"recovery phrase must have %d words" = "cụm từ phục hồi phải có %d từ";
+"Recover Wallet" = "Khôi phục Ví";
 
 /* No comment provided by engineer. */
-"registration tx:" = "mã giao dịch đăng ký:";
+"Recovery Phrase" = "Cụm từ phục hồi";
 
 /* No comment provided by engineer. */
-"Remind me later" = "Hãy nhắc tôi sau";
+"Recovery phrase doesn't match" = "Cụm từ phục hồi không đúng";
 
 /* No comment provided by engineer. */
-"Request" = "Yêu cầu";
+"Recovery phrase must have %d words" = "Cụm từ phục hồi phải có %dtừ";
 
 /* No comment provided by engineer. */
-"request an amount" = "yêu cầu một khoản";
+"Registered from" = "Đã đăng ký từ";
 
 /* No comment provided by engineer. */
-"rescan" = "quét lại";
+"Registered Masternode" = "Masternode đã đăng ký";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Report an Issue" = "Báo cáo về lỗi";
+
+/* An action */
+"Rescan" = "Quét lại";
 
 /* No comment provided by engineer. */
-"Rescan blockchain" = "Quét lại blockchain";
+"Rescan Blockchain" = "Quét lại blockchain";
 
 /* No comment provided by engineer. */
-"reset" = "khởi tạo lại";
+"Reset" = "Thiết lập lại";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their axe address. You can send a payment to anyone with an address." = "Quét mã QR của một người khác để lấy địa chỉ axe của họ. Bạn có thể gửi một khoản thanh toán cho bất kỳ ai với một địa chỉ.";
+"Reset to Default" = "Thiết lập lại về giá trị ngầm định";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their axe or bitcoin address. You can send a payment to anyone with an address." = "Hãy quét mã QR của người kia để lấy địa chỉ axe hay bitcoin của họ. Bạn có thể gửi tiền cho bất cứ ai khi có địa chỉ của họ.";
+"Reset Wallet" = "Thiết lập lại ví";
+
+/* No comment provided by engineer. */
+"Retry" = "Thử lại";
+
+/* No comment provided by engineer. */
+"Review & Rate the app" = "Viết nhận xét & đánh giá cho ứng dụng này";
+
+/* No comment provided by engineer. */
+"Reward" = "Phần thưởng";
+
+/* No comment provided by engineer. */
+"Rewards" = "Phần thưởng";
+
+/* No comment provided by engineer. */
+"Scan" = "Quét";
+
+/* No comment provided by engineer. */
+"Scan Private Key" = "Quét khoá riêng";
+
+/* No comment provided by engineer. */
+"Scan QR Code" = "Quét mã QR";
+
+/* A title of the quick receive screen */
+"Scan this to Pay" = "Quét cái này để thanh toán";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Scan to Pay" = "Quét để thanh toán";
+
+/* No comment provided by engineer. */
+"Scan to Send" = "Quét để gửi";
+
+/* (Send by) Scanning QR code */
+"Scanning QR code" = "Quét mã QR";
+
+/* No comment provided by engineer. */
+"Screenshot detected. New recovery phrase:" = "Phát hiện bị chụp ảnh màn hình: Cụm từ phục hồi mới:";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Chụp ảnh màn hình có thể nhìn thấy bởi các ứng dụng và thiết bị khác. Hãy sinh ra một cụm từ phục hồi mới và giữ nó bí mật.";
 
 /* No comment provided by engineer. */
-"Screenshots are visible to other apps and devices. Your funds are at risk. Transfer your balance to another wallet." = "Chụp ảnh màn hình có thể nhìn thấy bởi các ứng dụng và thiết bị khác. Tiền của bạn có rủi ro. Hãy chuyển số dư của bạn vào một ví khác.";
+"Secure now" = "Bảo mật ngay";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Secure Wallet Now" = "Bảo mật ví ngay";
+
+/* No comment provided by engineer. */
+"Security" = "Bảo mật";
+
+/* No comment provided by engineer. */
+"Security Level" = "Mức độ bảo mật";
 
 /* No comment provided by engineer. */
 "See on Uphold" = "Xem trên Uphold";
 
 /* No comment provided by engineer. */
-"seen by %d of %d peers" = "được thấy bởi %1$d của %2$d các nút";
+"Send" = "Gửi";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The axe network will receive a fee of %@ (%@)." = "Gửi %1$@ (%2$@) từ khoá riêng này vào ví của bạn? Mạng lưới axe sẽ nhận một mức phí của %3$@ (%4$@).";
+"Send %@ (%@) from this private key into your wallet? The Axe network will receive a fee of %@ (%@)." = "Gửi %1$@ (%2$@) từ khoá riêng này đến ví của bạn? Mạng lưới Axe sẽ nhận một khoản phí là %3$@ (%4$@).";
+
+/* Send by (scanning QR code) */
+"Send by" = "Gửi bởi";
 
 /* No comment provided by engineer. */
-"send address as email" = "gửi địa chỉ bằng e-mail";
+"Send to" = "Gửi đến";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Send to Address" = "Gửi đến địa chỉ";
 
 /* No comment provided by engineer. */
-"send address as message" = "gửi địa chỉ bằng tin nhắn";
+"Send to copied address" = "Gửi đến địa chỉ đã được copy";
 
-/* No comment provided by engineer. */
-"send crash report" = "gửi thông báo lỗi";
+/* Translate it as short as possible! (24 symbols max) */
+"Send with NFC" = "Gửi với NFC";
 
-/* No comment provided by engineer. */
-"send request as email" = "gửi yêu cầu bằng e-mail";
+/* 1 out of 4 in the Sending Animation */
+"Sending" = "Đang gửi";
 
-/* No comment provided by engineer. */
-"send request as message" = "gửi yêu cầu bằng tin nhắn";
+/* 2 out of 4 in the Sending Animation */
+"Sending." = "Đang gửi.";
 
-/* No comment provided by engineer. */
+/* 3 out of 4 in the Sending Animation */
+"Sending.." = "Đang gửi..";
+
+/* 4 out of 4 in the Sending Animation */
+"Sending..." = "Đang gửi...";
+
+/* Sent transaction */
 "Sent" = "Đã gửi";
 
 /* No comment provided by engineer. */
-"sent!" = "đã gửi!";
+"Sent from" = "Gửi đến từ";
 
 /* No comment provided by engineer. */
-"set a trusted node" = "thiết lập một nút tin cậy";
+"Sent successfully" = "Đã gửi thành công";
+
+/* No comment provided by engineer. */
+"Sent to" = "Gửi đến";
+
+/* No comment provided by engineer. */
+"Set a trusted node" = "Thiết lập một nút tin cậy";
+
+/* No comment provided by engineer. */
+"Set PIN" = "Đặt mã PIN";
 
 /* No comment provided by engineer. */
 "Settings" = "Các thiết lập";
 
 /* No comment provided by engineer. */
-"shapeshift bitcoin id:" = "shapeshift bitcoin id:";
+"Setup Wallet" = "Thiết lập ví";
 
 /* No comment provided by engineer. */
-"shapeshift status:" = "tình trạng shapeshift:";
+"Share" = "Chia sẻ";
 
 /* No comment provided by engineer. */
-"shapeshift succeeded" = "shapeshift thành công";
+"Show Masternode Keys" = "Hiển thị các khoá Masternode";
 
 /* No comment provided by engineer. */
-"show" = "hiển thị";
+"Show Recovery Phrase" = "Hiển thị câu phục hồi";
 
 /* No comment provided by engineer. */
-"Show masternode keys" = "Hiển thị các khoá của masternode";
+"Skip" = "Bỏ qua";
 
 /* No comment provided by engineer. */
-"show phrase" = "hiển thị cụm từ";
-
-/* No comment provided by engineer. */
-"size:" = "kích thước";
-
-/* No comment provided by engineer. */
-"sms not currently available" = "sms hiện không sẵn sàng";
+"skip" = "bỏ qua";
 
 /* No comment provided by engineer. */
 "Something went wrong" = "Có vấn đề gì đó";
 
 /* No comment provided by engineer. */
-"spent address" = "địa chỉ gửi tiền";
+"Specify Amount" = "Xác định số lượng";
 
 /* No comment provided by engineer. */
-"spent input" = "đầu vào";
+"Spending Confirmation" = "Xác nhận chi tiêu";
 
 /* No comment provided by engineer. */
-"Start / Recover another wallet" = "Bắt đầu / Khôi phục một ví khác";
+"Support" = "Support";
 
 /* No comment provided by engineer. */
-"status:" = "tình trạng:";
+"Swept!" = "Đã quét!";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Switch to Mainnet" = "Chuyển sang mạng chính";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Switch to Testnet" = "Chuyển sang mạng thử nghiệm";
 
 /* No comment provided by engineer. */
-"Steps to reproduce the crash" = "Các bước để tái tạo lại lỗi";
+"Sync Failed" = "Đồng bộ không thành công";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Sync Now" = "Đồng bộ luôn";
 
 /* No comment provided by engineer. */
-"Success" = "Thành công";
+"Syncing" = "Đang đồng bộ";
+
+/* Pay using NFC (should be as short as possible) */
+"Tap" = "Bấm";
 
 /* No comment provided by engineer. */
-"swept!" = "đã được quét!";
+"Tap to hide balance" = "Bấm để ẩn số dư";
 
 /* No comment provided by engineer. */
-"Syncing:" = "Đang đồng bộ:";
+"Tap to unhide balance" = "Bấm để hiện số dư";
 
 /* No comment provided by engineer. */
-"the app will now close" = "ứng dụng sẽ được đóng bây giờ";
+"There are no transactions to display" = "Không có giao dịch nào để hiển thị";
 
 /* No comment provided by engineer. */
-"This is your axe address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Đây là địa chỉ axe của bạn. Chạm vào để chép nó hoặc gửi nó qua email hoặc sms. Địa chỉ sẽ thay đổi mỗi khi bạn nhận tiền, nhưng địa chỉ cũ luôn hoạt động.";
+"This app is open source:" = "Ứng dụng này là mã nguồn mở:";
 
 /* No comment provided by engineer. */
-"This is your axe balance." = "Đây là số dư axe của bạn.";
+"This PIN will be required to unlock your app every time when you use it." = "Mã PIN này sẽ được hỏi để mở ứng dụng của bạn mỗi khi bạn sử dụng nó.";
 
 /* No comment provided by engineer. */
-"This is your axe balance. Axe is a currency. The exchange rate changes with the market." = "Đây là số dư axe của bạn. Axe là một loại tiền. Tỷ giá giao dịch có thể thay đổi theo thị trường.";
+"This recovery phrase is your access to the funds in this wallet." = "Cụm từ phục hồi này là quyền truy cập của bạn đến số tiền trong ví này.";
 
 /* No comment provided by engineer. */
 "This transaction may take several minutes to settle." = "Giao dịch này cần mất vài phút để hoàn tất.";
-
-/* No comment provided by engineer. */
-"This transaction may take several minutes to settle. Complete instantly for an extra %@?" = "Giao dịch này cần mất vài phút để hoàn tất. Để hoàn tất tức thời mất thêm một khoản là %@?";
 
 /* No comment provided by engineer. */
 "This transaction should settle instantly at no extra fee" = "Giao dịch này sẽ được hoàn tất mà không mất thêm phí bổ sung";
@@ -645,13 +765,10 @@
 "This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase" = "Ví này không rỗng hoặc quá trình đồng bộ chưa xong, bạn không thể xoá nó mà không có dòng khôi phục";
 
 /* No comment provided by engineer. */
-"to:" = "đến:";
+"This will move all coins from that wallet to your wallet on this device." = "Việc này sẽ chuyển toàn bộ số tiền từ ví đó sang ví của bạn trên thiết bị này.";
 
 /* No comment provided by engineer. */
-"to: %@" = "đến: %@";
-
-/* No comment provided by engineer. */
-"topup amount:" = "số lượng nạp thêm:";
+"Tools" = "Công cụ";
 
 /* No comment provided by engineer. */
 "Total" = "Tổng số";
@@ -660,15 +777,9 @@
 "Touch ID limit" = "Giới hạn Touch ID";
 
 /* No comment provided by engineer. */
-"Touch ID spending limit" = "Giới hạn chi tiêu với Touch ID";
-
-/* No comment provided by engineer. */
-"Transaction history" = "Lịch sử giao dịch";
-
-/* No comment provided by engineer. */
 "Transaction id" = "Mã giao dịch";
 
-/* No comment provided by engineer. */
+/* A verb, button title. */
 "Transfer" = "Chuyển";
 
 /* No comment provided by engineer. */
@@ -677,110 +788,131 @@
 /* No comment provided by engineer. */
 "Transfer from Uphold" = "Chuyển từ Uphold";
 
-/* No comment provided by engineer. */
-"trust" = "tin cậy";
+/* An action */
+"Try again" = "Thử lại";
+
+/* Alert title */
+"Turn device passcode on" = "Hãy bật chế độ mật khẩu cho thiết bị";
 
 /* No comment provided by engineer. */
-"try again" = "thử lại";
+"Unable to connect" = "Không thể kết nối";
 
 /* No comment provided by engineer. */
-"Try It!" = "Hãy thử!";
+"Unable to get new QR code" = "Không thể lấy mã QR mới";
 
 /* No comment provided by engineer. */
-"turn device passcode on" = "hãy bật mật khẩu cho thiết bị của bạn";
+"Unsupported or corrupted document" = "Tài liệu không được hỗ trợ hoặc bị hỏng";
 
 /* No comment provided by engineer. */
-"type:" = "kiểu:";
+"Unsupported URL" = "Địa chỉ URL không được hỗ trợ";
 
-/* No comment provided by engineer. */
-"Unable to get new qr code" = "Không thể lấy mã QR mới";
-
-/* No comment provided by engineer. */
-"unknown address" = "địa chỉ không xác định";
-
-/* No comment provided by engineer. */
-"unsupported or corrupted document" = "không được hỗ trợ hoặc thông tin bị lỗi";
-
-/* No comment provided by engineer. */
-"unsupported url" = "địa chỉ url không được hỗ trợ";
-
-/* No comment provided by engineer. */
-"Unverified" = "Chưa được xác thực";
+/* ex., Updated: 27.12, 8:30 */
+"Updated: %@" = "Đã cập nhật: %@";
 
 /* No comment provided by engineer. */
 "Uphold" = "Uphold";
 
 /* No comment provided by engineer. */
-"Uphold account" = "Tài khoản Uphold";
+"Used" = "Đã dùng";
 
 /* No comment provided by engineer. */
-"User Registration Transaction" = "Giao dịch đăng ký người dùng";
+"Used at IP address" = "Được sử dụng tại địa chỉ IP";
 
 /* No comment provided by engineer. */
-"User Reset Transaction" = "Giao dịch tái thiết lập người dùng";
+"Verified Successfully" = "Đã kiểm tra thành công";
 
 /* No comment provided by engineer. */
-"User Topup Transaction" = "Giao dịch người dùng nạp thêm";
+"Verify" = "Kiểm tra";
+
+/* adjective, security level */
+"Very High" = "Rất cao";
 
 /* No comment provided by engineer. */
-"username:" = "tên người dùng:";
+"View in Block Explorer" = "Xem trên công cụ khám phá khối";
 
 /* No comment provided by engineer. */
-"verified, waiting for confirmation" = "đã được kiểm tra, đang đợi xác thực";
+"View passphrase, backup wallet…" = "Xem mật khẩu, sao lưu ví...";
 
 /* No comment provided by engineer. */
-"verifying quorum" = "đang kiểm tra quorum";
+"View Recovery Phrase" = "Xem cụm từ phục hồi";
 
 /* No comment provided by engineer. */
-"voting key hash:" = "mã băm của khoá bỏ phiếu";
-
-/* No comment provided by engineer. */
-"voting key index:" = "chỉ số khoá của người bỏ phiếu:";
+"Voting Address" = "Địa chỉ bỏ phiếu";
 
 /* No comment provided by engineer. */
 "Voting Keys" = "Khoá bỏ phiếu";
 
 /* No comment provided by engineer. */
-"wallet address" = "địa chỉ ví";
+"Wallet disabled" = "Ví đã bị vô hiệu hoá";
 
 /* No comment provided by engineer. */
 "Wallet Keys" = "Khoá của ví";
 
 /* No comment provided by engineer. */
+"Warning" = "Cảnh báo";
+
+/* No comment provided by engineer. */
 "WARNING" = "CẢNH BÁO";
 
 /* No comment provided by engineer. */
-"watch only" = "chỉ theo dõi";
+"We are about to show you the secret key to your wallet." = "Chúng tôi sẽ hiển thị cho bạn xem khoá bí mật của ví của bạn";
 
 /* No comment provided by engineer. */
-"We have detected that Axewallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete." = "Chúng tôi nhận thấy ví Axe bị lỗi trong lúc chuyển đổi dữ liệu. Quét lại blockchain sẽ giải quyết được vấn đề này hoặc bạn có thể thử lại lần nữa. Bạn nên cho quét lại khi dùng mạng wifi và nó sẽ mất chừng nửa giờ. Số tiền của bạn sẽ sẵn sàng một khi quá trình đồng bộ được hoàn tất.";
+"We do not store this recovery phrase." = "Chúng tôi không lưu giữ dòng chữ phục hồi này.";
 
 /* No comment provided by engineer. */
-"We have detected that Axewallet crashed last time it was opened. Would you like to help us solve the issue by sending us the crash report data? Your transaction history and any other private information WILL NOT be shared." = "Chúng tôi phát hiện rằng ví Axewallet đã bị lỗi trong lần cuối nó được mở. Bạn có muốn giúp chúng tôi giải quyết vấn đề đó bằng việc gửi chúng tôi dữ liệu thông báo lỗi? Lịch sử giao dịch của bạn và bất cứ thông tin cá nhân SẼ KHÔNG BỊ chia sẻ.";
+"We have detected that Axe Wallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete." = "Chúng tôi phát hiện thấy ví Axe bị lỗi trong quá trình nhập dữ liệu. Quét lại blockchain sẽ giải quyết được vấn đề hoặc bạn có thể thử lại. Việc quét lại nên được thực hiện với kết nối wifi và nó sẽ mất khoảng nửa giờ đồng hồ. Số tiền của bạn sẽ được sẵn sàng cho chi tiêu một khi việc đồng bộ hoàn tất.";
 
 /* No comment provided by engineer. */
-"wipe" = "xoá sạch";
+"We Upgraded" = "Chúng tôi đã Nâng cấp";
 
 /* No comment provided by engineer. */
-"WRITE DOWN YOUR RECOVERY PHRASE" = "HÃY GHI LẠI CỤM TỪ PHỤC HỒI";
+"Welcome" = "Chào mừng";
 
 /* No comment provided by engineer. */
-"yes" = "đồng ý";
+"When the transaction is confirmed, the other wallet will be worthless and should not be re-used for safety reasons." = "Khi các giao dịch được xác thực, ví kia sẽ trở nên vô giá trị và không nên được tiếp tục sử dụng vì những lý do an toàn.";
 
 /* No comment provided by engineer. */
-"You can now buy axe in\naxewallet with cash or\nbank transfer." = "Bây giờ bạn có thể mua axe trong\nví axewallet hoặc\nchuyển khoản.";
+"Why I should not take a screenshot?" = "Why I should not take a screenshot?";
 
 /* No comment provided by engineer. */
-"You must enter your pin in order to enter axewallet" = "Bạn cần nhập mã pin của bạn để truy cập ví axewallet";
+"Wipe" = "Xoá";
 
 /* No comment provided by engineer. */
-"you received axe!" = "bạn đã nhận được axe!";
+"Wipe Wallet" = "Xoá ví";
+
+/* No comment provided by engineer. */
+"with Axe blockchain" = "với blockchain của Axe";
+
+/* No comment provided by engineer. */
+"You are about to sweep funds from another Axe Wallet." = "Bạn sẽ quét số tiền từ một ví Axe khác.";
+
+/* No comment provided by engineer. */
+"You are about to wipe this wallet from this device. Funds associated with this wallet can only be retrieved if you have your recovery phrase." = "Bạn đang sắp xoá sạch ví này từ thiết bị này. Khoản tiền liên quan đến ví này chỉ có thể lấy lại được nếu bạn có cụm từ phục hồi.";
+
+/* No comment provided by engineer. */
+"You can authenticate with Face ID for payments below" = "Bạn có thể xác thực với Face ID cho giao dịch bên dưới";
+
+/* No comment provided by engineer. */
+"You can authenticate with Touch ID for payments below" = "Bạn có thể xác thực với Touch ID cho giao dịch bên dưới";
+
+/* No comment provided by engineer. */
+"You must enter your PIN in order to enter Axe Wallet" = "Bạn cần phải nhập mã PIN để truy cập vào ví Axe";
+
+/* No comment provided by engineer. */
+"You received Axe! If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device." = "Bạn đã nhận được Axe! Nếu bạn mất thiết bị này, bạn sẽ mất số tiền của mình. Hãy chọn cụm từ phục hồi để bạn có thể khôi phục ví của mình trên một thiết bị khác.";
 
 /* No comment provided by engineer. */
 "You will also need to log out from the Uphold website using your browser" = "Bạn sẽ cần phải đăng xuất khỏi tài khoản từ trang web Uphold với trình duyệt của mình";
+
+/* No comment provided by engineer. */
+"You will need this recovery phrase to access your funds if this device is lost, damaged or if Axe Wallet ever is accidentally uninstalled from this device." = "Bạn cần cụm từ phục hồi để truy cập đến khoản tiền của bạn nếu thiết bị này bị mất, hỏng hoặc ví Axe Wallet vô tình bị gỡ bỏ khỏi thiết bị này.";
 
 /* No comment provided by engineer. */
 "Your transaction was sent and the amount should appear in your wallet in a few minutes." = "Giao dịch của bạn đã được gửi và số tiền sẽ xuất hiện trong ví của bạn trong vài phút.";
 
 /* No comment provided by engineer. */
 "Your Uphold account Axe balance is" = "Số dư tài khoản Uphold bằng Axe là";
+
+/* No comment provided by engineer. */
+"Your wallet is secured now. You can use your recovery phrase anytime to recover your account on another device." = "Bây giờ ví của bạn đã được an toàn. Bạn có thể sử dụng dòng chữ phục hồi bất kỳ khi nào để khôi phục số tiền của mình trên một thiết bị khác.";

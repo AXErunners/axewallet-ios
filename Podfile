@@ -1,27 +1,31 @@
 target 'axewallet' do
-  platform :ios, '10.0'
+  platform :ios, '11.0'
+  
+  pod 'AxeSync', :git => 'https://github.com/axerunners/axesync/', :commit => '76a2010683a5b807f14e05b989ba9f02f057f3b4'
+  pod 'CloudInAppMessaging', '0.1.0'
+  
+  pod 'KVO-MVVM', '0.5.6'
+  pod 'UIViewController-KeyboardAdditions', '1.2.1'
+  pod 'MBProgressHUD', '1.1.0'
+  pod 'MMSegmentSlider', :git => 'https://github.com/podkovyrin/MMSegmentSlider', :commit => '2d91366'
 
-  pod 'AxeSync', :path => '../AxeSync/'
-
-  pod 'KVO-MVVM', '0.5.1'
-  pod 'Dash-PLCrashReporter', :git => 'https://github.com/podkovyrin/plcrashreporter.git', :branch => 'dash', :commit => '41a46e6', :inhibit_warnings => true
-
-  # Pods for axewallet
-
+  # Debugging purposes
+#  pod 'Reveal-SDK', :configurations => ['Debug']
+  
   target 'AxeWalletTests' do
     inherit! :search_paths
-    # Pods for testing
   end
 
   target 'AxeWalletScreenshotsUITests' do
     inherit! :search_paths
-
-    pod 'SimulatorStatusMagic', '2.4.1'
   end
 
 end
 
 target 'TodayExtension' do
+  platform :ios, '11.0'
+  
+  pod 'DSDynamicOptions', '0.1.0'
 
 end
 
@@ -35,8 +39,8 @@ target 'WatchApp Extension' do
 
 end
 
-# fixes warnings about unsupported Deployment Target in Xcode 10
 post_install do |installer|
     # update info about current AxeSync version
-    system("bash ./scripts/axesync_version.sh")
+    # the command runs in the background after 1 sec, when `pod install` updates Podfile.lock
+    system("(sleep 1; sh ./scripts/axesync_version.sh) &")
 end

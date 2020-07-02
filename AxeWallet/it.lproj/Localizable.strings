@@ -1,72 +1,69 @@
 
 /* No comment provided by engineer. */
-"%@ is for 'mAXE'. %@ = 1 AXE." = "%@sta per 'mAXE'. %@ = 1 AXE.";
+"%@ is not allowed to access Face ID" = "%@ non hai dato il permesso alla videocamera";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ non ha il permesso di accedere alla videocamera";
 
 /* No comment provided by engineer. */
-"%@\n\nbalance: %@ (%@)" = "%1$@\n\nequilibrio: %2$@ (%3$@)";
+"%@ is not allowed to access Touch ID" = "%@ non hai dato il permesso al sensore biometrico digitale";
 
 /* No comment provided by engineer. */
-"%d confirmations" = "%d conferme";
+"1 hour" = "1 ora";
+
+/* Shorten version of minute */
+"1 min" = "1 minuto";
 
 /* No comment provided by engineer. */
-"%d haks/byte" = "%d haks/byte ";
+"24 hours" = "24 ore";
 
-/* No comment provided by engineer. */
-"%d out of %d lock votes" = "%1$d di %2$d voti bloccati";
-
-/* No comment provided by engineer. */
-"%ld used" = "%ID usato";
-
-/* No comment provided by engineer. */
-"0 confirmations" = "0 conferme";
-
-/* No comment provided by engineer. */
-"1 confirmation" = "1 conferma";
-
-/* No comment provided by engineer. */
-"1 hak/byte" = "1 hak/byte";
+/* Shorten version of minutes */
+"5 min" = "5 minuti";
 
 /* No comment provided by engineer. */
 "\"%@\" is not a recovery phrase word" = "\"%@\" non è una parola della frase di recupero";
 
 /* No comment provided by engineer. */
-"\n%@\n\nif you ever lose your phone, you will need it to recover your wallet" = "\n%@ \n\nse perdi il tuo telefono, ti basterà per recuperare il tuo portafoglio";
-
-/* No comment provided by engineer. */
-"\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nUn codice di accesso è necessario per proteggere il tuo portafoglio. Vai nelle impostazioni e attiva il codice per continuare.";
-
-/* No comment provided by engineer. */
-"\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nconsenti l'accesso alla fotocamera in\nImpostazioni->Privacy->Fotocamera->%@";
-
-/* No comment provided by engineer. */
 "\ntry again in %@" = "\nriprova tra %@";
+
+/* No comment provided by engineer. */
+"A device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "Un codice di accesso è necessario per proteggere il tuo portafoglio. Vai nelle impostazioni e attiva il codice per continuare.";
 
 /* No comment provided by engineer. */
 "About" = "A proposito di";
 
-/* No comment provided by engineer. */
-"accepted by quorum" = "accettato dal quorum";
-
-/* No comment provided by engineer. */
-"Action Needed" = "Azione Necessaria";
+/* Translate it as short as possible! (24 symbols max) */
+"Add Shortcut" = "Aggiungi Scorciatoia";
 
 /* No comment provided by engineer. */
 "Address" = "Indirizzo";
 
 /* No comment provided by engineer. */
-"ADVANCED" = "AVANZATE";
+"Advanced Security" = "Sicurezza Avanzata";
 
 /* No comment provided by engineer. */
-"always require passcode" = "è sempre richiesto il codice di accesso";
+"All" = "Tutte";
 
 /* No comment provided by engineer. */
-"Amount" = "Importo";
+"Allow camera access in Settings" = "Abilita l'accesso alla videocamera in Impostazioni->Privacy->Fotocamera";
 
 /* No comment provided by engineer. */
-"amount too small" = "importo troppo piccolo";
+"Allow Face ID access in Settings" = "Consenti accesso Face ID in Impostazioni";
+
+/* No comment provided by engineer. */
+"Allow Touch ID access in Settings" = "Consenti accesso Touch ID in Impostazioni";
+
+/* No comment provided by engineer. */
+"Amount Received" = "Importo Ricevuto";
+
+/* No comment provided by engineer. */
+"Amount Sent" = "Importo Inviato";
+
+/* No comment provided by engineer. */
+"Amount too small" = "Importo troppo piccolo";
+
+/* No comment provided by engineer. */
+"An intuitive and familiar experience across all your devices" = "Un'esperienza intuitiva e familiare su tutti i tuoi dispositivi";
 
 /* No comment provided by engineer. */
 "Application %@ is requesting a payment to" = "<br>L'applicazione %@ richiede un pagamento";
@@ -81,178 +78,181 @@
 "Are you sure?" = "Sei sicuro??";
 
 /* No comment provided by engineer. */
+"Authentication is unvailable" = "L'autenticazione non è disponibile";
+
+/* No comment provided by engineer. */
+"Auto Logout" = "Auto Logout";
+
+/* No comment provided by engineer. */
+"Autohide Balance" = "Mascheramento Automatico Bilancio ";
+
+/* lowercase, ex. 4 Axe available */
 "available" = "disponibile";
 
 /* No comment provided by engineer. */
-"bad recovery phrase" = "frase di sicurezza errata";
+"Available balance" = "Bilancio Disponibile";
+
+/* A noun. Used as a title. */
+"Backup Wallet" = "Portafoglio di backup";
 
 /* No comment provided by engineer. */
-"Bitcoin address (shapeshift)" = "indirizzo Bitcoin (shapeshift)";
+"Bad recovery phrase" = "Frase di recupero errata";
+
+/* No comment provided by engineer. */
+"Balance hidden" = "Bilancio nascosto";
 
 /* No comment provided by engineer. */
 "block #%d of %d" = "blocco #%1$d di %2$d";
 
 /* No comment provided by engineer. */
-"Buy Axe" = "Compra Axe";
+"Block #%d of %d" = "Blocco #%1$d di %2$d";
 
 /* No comment provided by engineer. */
-"Buy axe in axewallet!" = "Compra axe nel portafoglio axe!";
+"Buy & Sell Axe" = "Compra & Vendi Axe";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Buy / Sell Axe" = "Compra / Vendi Axe";
+
+/* No comment provided by engineer. */
+"Buy Axe" = "Compra Axe";
 
 /* No comment provided by engineer. */
 "Buy Axe with Uphold account" = "Acquista Axe con account Uphold";
 
 /* No comment provided by engineer. */
-"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code." = "Cancellando questo dispositivo non avrai più accesso ai fondi su questo dispositivo. Questo dovrebbe essere fatto solo se non hai più accesso alla tua \"passphrase\" e hai anche dimenticato il tuo codice pin.";
-
-/* No comment provided by engineer. */
-"cancel" = "annulla";
+"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your PIN code." = "Cancellando questo dispositivo non avrai più accesso ai fondi su questo dispositivo. Questo dovrebbe essere fatto solo se non hai più accesso alla tua \"passphrase\" e hai anche dimenticato il tuo codice PIN.";
 
 /* No comment provided by engineer. */
 "Cancel" = "Cancella";
 
-/* No comment provided by engineer. */
-"change" = "modifica";
+/* A verb. Action button title for an alert 'Change payment amount?' */
+"Change" = "Cambiare";
 
 /* No comment provided by engineer. */
-"Change passcode" = "Cambia passcode";
+"Change payment amount?" = "Cambiare l'ammontare del pagamento?";
 
 /* No comment provided by engineer. */
-"change payment amount?" = "cambiare l'ammontare del pagamento?";
+"Change PIN" = "Modificare PIN";
 
 /* No comment provided by engineer. */
-"checking address balance..." = "verificando il saldo del indirizzo...";
+"Check your connection" = "Controlla la connessione";
 
 /* No comment provided by engineer. */
-"checking private key balance..." = "verificando il saldo della chiave privata...";
+"Clear" = "Rimuovere";
 
 /* No comment provided by engineer. */
-"Classical Transaction" = "Transazione Classica";
+"Clear trusted node?" = "Rimuovere il nodo affidabile?";
 
 /* No comment provided by engineer. */
-"clear" = "rimuovere";
+"Clipboard doesn't contain a valid Axe address" = "Gli appunti non contiene un indirizzo Axe valido";
 
 /* No comment provided by engineer. */
-"clear trusted node?" = "rimuovere il nodo affidabile?";
+"Close" = "Chiudi";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid axe address" = "gli appunti non contiene un indirizzo axe valido";
+"Close App" = "Chiudi app";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid axe or bitcoin address" = "gli appunti non contengono un indirizzo bitcoin o un indirizzo axe valido";
-
-/* No comment provided by engineer. */
-"close app" = "chiudi app";
-
-/* No comment provided by engineer. */
-"Coinbase Transaction" = "Transazione Coinbase";
-
-/* Confirm */
 "Confirm" = "Conferma";
 
 /* No comment provided by engineer. */
-"confirm" = "Conferma";
+"Confirm PIN" = "Conferma PIN";
 
 /* No comment provided by engineer. */
-"Confirm transaction" = "Conferma la transazione";
+"Confirming" = "In Conferma";
 
 /* No comment provided by engineer. */
-"confirmed in block #%d" = "confermato nel blocco #%d";
+"Connect with third party exchanges" = "Connetti a Exchanges esterni";
 
 /* No comment provided by engineer. */
-"copied" = "copiato";
+"Connected peers: %d" = "Peers connessi: %d";
 
 /* No comment provided by engineer. */
-"copy" = "copia";
+"Connecting to payment server" = "Connessione al server di pagamento";
 
 /* No comment provided by engineer. */
-"copy address to clipboard" = "copia indirizzo negli appunti";
+"Contact Support" = "Contatta il Supporto";
 
 /* No comment provided by engineer. */
-"copy request to clipboard" = "copia richiesta negli appunti";
+"Continue" = "Continua";
 
 /* No comment provided by engineer. */
-"copy wallet addresses to clipboard?" = "copia indirizzo di portafoglio negli appunti?";
+"Copied" = "Copiato";
 
 /* No comment provided by engineer. */
-"couldn't check address balance" = "impossibile verificando il saldo del indirizzo";
+"Copy" = "Copia";
 
 /* No comment provided by engineer. */
-"couldn't make payment" = "impossibile effettuare il pagamento";
+"Copy Logs" = "Copia i Logs";
 
 /* No comment provided by engineer. */
-"couldn't sweep balance" = "impossibile trasferire il saldo";
+"Copyright © 2020 Axe Core" = "Copyright © 2020 Axe Core";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to axe network" = "impossibile trasferire il pagamento alla rete axe";
+"Couldn't make payment" = "Impossibile effettuare il pagamento";
 
 /* No comment provided by engineer. */
-"CRITICAL" = "CRITICO";
+"Couldn't sweep balance" = "Impossibile trasferire il saldo";
 
 /* No comment provided by engineer. */
-"Axe address" = "Indirizzo Axe";
+"Couldn't transmit payment to Axe network" = "Impossibile trasferire il pagamento alla rete Axe";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "Gli indirizzi Axe possono anche essere copiati negli Appunti. Un indirizzo axe inizia sempre con 'X' o '7'.";
+"Create a New Wallet" = "Crea un nuovo portafoglio";
 
 /* No comment provided by engineer. */
-"axe network fee" = "tassa di rete axe";
+"Axe payments can't be less than %@" = "I pagamneti in Axe non possono essere inferiore a %@";
 
 /* No comment provided by engineer. */
-"axe payments can't be less than %@" = "i pagamneti in Bitcoin non possono essere inferiore a %@";
+"Date" = "Data";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "SICUREZZA DEL DISPOSITIVO COMPROMESSA\nQualunque app \"jailbreak\" può accedere ai dati di altre app (e rubare i tuoi axe).";
+"Default currency, shortcuts, about…" = "Valuta predefinita, scorciatoie, riguardo ...";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe). Wipe this wallet immediately and restore on a secure device." = "SICUREZZA DEL DISPOSITIVO COMPROMESSA\nQualunque app \"jailbreak\" può accedere ai dati di altre app (e rubare i tuoi axe). Elimina subito questo portafoglio e ripristina su un dispositivo sicuro.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe)." = "SICUREZZA DEL DISPOSITIVO COMPROMESSA\nQualunque app \"jailbreak\" può accedere ai dati di altre app (e rubare i tuoi Axe).";
 
 /* No comment provided by engineer. */
-"do it later" = "fallo più tardi";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe). Wipe this wallet immediately and restore on a secure device." = "SICUREZZA DEL DISPOSITIVO COMPROMESSA\nQualunque app \"jailbreak\" può accedere ai dati di altre app (e rubare i tuoi Axe). Elimina subito questo portafoglio e ripristina su un dispositivo sicuro.";
 
 /* No comment provided by engineer. */
-"DO NOT let anyone see your recovery phrase or they can spend your axe." = "NON LASCIARE che qualcuno veda la tua frase di recupero o potrà usare i tuoi axe.";
-
-/* No comment provided by engineer. */
-"DO NOT take a screenshot. Screenshots are visible to other apps and devices." = "NON USARE gli screenshot. Gli \"Screenshots\" sono visibili alle apps e  ai despositivi.";
+"Do not take a screenshot" = "Do not take a screenshot";
 
 /* No comment provided by engineer. */
 "Done" = "Fatto";
 
-/* No comment provided by engineer. */
-"double spend" = "doppia spesa";
+/* ex., Download peer: 127.0.0.1:9999 */
+"Download peer: %@" = "Scarica peer: %@";
 
 /* No comment provided by engineer. */
-"Email client is not configured. Please add your email account in Settings" = "Il client di posta elettronica non è configurato. Aggiungi il tuo account e-mail nelle Impostazioni";
+"Enable Face ID" = "Abilita Face ID";
 
 /* No comment provided by engineer. */
-"email not configured" = "email non configurata";
+"Enable Receive Notifications" = "Abilita la ricezione di Notifiche";
 
 /* No comment provided by engineer. */
-"Enable advanced features" = "Abilita funzioni avanzate";
+"Enable Touch ID" = "Abilita Touch ID";
 
 /* No comment provided by engineer. */
-"Enable advanced features?" = "Abilitare funzioni avanzate?";
+"Enter" = "Immetti";
 
 /* No comment provided by engineer. */
-"Enable receive notifications" = "Abilita ricezzione delle notifiche";
+"Enter PIN" = "Immetti il PIN";
 
 /* No comment provided by engineer. */
-"enter" = "immetti";
+"Enter Recovery Phrase" = "Inserisci la Frase di Recupero";
 
 /* No comment provided by engineer. */
-"Enter the amount to transfer below" = "Inserisci l'importo da trasferire di seguito";
+"Enter the amount to transfer" = "Inserisci l'importo da trasferire";
 
 /* No comment provided by engineer. */
 "Enter your 2FA code below" = "Inserisci il tuo codice 2FA di seguito";
 
 /* No comment provided by engineer. */
-"exit" = "esci";
+"Exit" = "Esci";
 
 /* No comment provided by engineer. */
 "Face ID limit" = "Limite \"Face ID\"";
-
-/* No comment provided by engineer. */
-"Face ID spending limit" = "Limite di spesa Face ID";
 
 /* No comment provided by engineer. */
 "Failed wallet update" = "\nAggiornamento del portafoglio fallito";
@@ -261,58 +261,82 @@
 "Fee" = "Commissione";
 
 /* No comment provided by engineer. */
-"Fee is greater than balance" = "Fee is greater than balance";
+"Fee is greater than balance" = "La commissione è maggiore del saldo";
 
 /* No comment provided by engineer. */
-"Fee will be deducted from requested amount" = "La commissione verrà detratta dall'importo richiesto";
+"Fee will be deducted from requested amount." = "La commissione verrà detratta dall'importo richiesto.";
 
 /* No comment provided by engineer. */
-"from:" = "da:";
+"Filter Transactions" = "Filtra Transazioni";
 
 /* No comment provided by engineer. */
-"GENERAL" = "GENERALE";
+"Forgot PIN?" = "Hai dimenticato il PIN?";
+
+/* No comment provided by engineer. */
+"Get Started" = "Iniziare";
 
 /* No comment provided by engineer. */
 "Go to Website" = "Vai al sito web";
 
 /* No comment provided by engineer. */
-"holding funds index:" = "indice dei fondi di partecipazione:";
+"Have complete control and customize your wallet based on your needs" = "Controllo completo di personalizzare il portafoglio in base alle proprie esigenze";
 
 /* No comment provided by engineer. */
-"I accept that I will lose my coins if I no longer possess the recovery phrase" = "accetto di perdere le mie monete se non possiedo la frase di recupero";
+"Help us improve your experience" = "Aiutaci a migliorare raccontaci tua esperienza";
+
+/* adjective, security level */
+"High" = "Alto";
 
 /* No comment provided by engineer. */
-"id:" = "id:";
+"History" = "Storia";
+
+/* No comment provided by engineer. */
+"I accept that I will lose my coins if I no longer possess the recovery phrase" = "Accetto di perdere le mie monete se non possiedo la frase di recupero";
+
+/* No comment provided by engineer. */
+"I wrote it down" = "L'ho scritto";
+
+/* No comment provided by engineer. */
+"If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device." = "Se perdi questo dispositivo, perderai i tuoi fondi. Ottieni la tua frase di recupero in modo da poter ripristinare il tuo portafoglio su un altro dispositivo.";
 
 /* No comment provided by engineer. */
 "If you still would like to wipe it please input: \"%@\"" = "Se desideri veramente cancellarlo, perfavore inserisci: \"%@\"";
 
 /* No comment provided by engineer. */
-"ignore" = "ignora";
+"Ignore" = "Ignora";
 
 /* No comment provided by engineer. */
-"Import private key" = "Importa chiave privata";
+"Immediately" = "Immediatamente";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Import Private Key" = "Importa chiave privata";
 
 /* No comment provided by engineer. */
-"IMPORTANT" = "IMPORTANTE";
+"Import private key…" = "Importa chiave privata…";
 
 /* No comment provided by engineer. */
-"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again." = "\nIn una versione precedente di Axewallet, quando inizialmente visualizzava la passphrase su un dispositivo, abbiamo determinato che la \"app\" non visualizzava correttamente tutte le 12 parole seme. Quindi per favore scrivi (prendi nota) di nuovo la tua passphrase completa.";
+"Insufficient funds" = "Fondi insufficenti";
+
+/* Transaction within the wallet, transfer of own funds */
+"Internal Transfer" = "Trasferimento Interno";
 
 /* No comment provided by engineer. */
-"Insufficient Funds" = "Fondi insufficenti";
+"Internally moved to" = "Trasferito internamente a";
+
+/* Invalid transaction */
+"Invalid" = "Non valido";
 
 /* No comment provided by engineer. */
-"INVALID" = "INVALIDO";
+"Invalid Payment Request" = "Richiesta di pagamento invalida";
 
 /* No comment provided by engineer. */
-"Invalid amount" = "Importo non valido";
+"Invalid QR Code" = "Invalid QR Code";
 
 /* No comment provided by engineer. */
-"IP address/port:" = "IP address/port:";
+"It's Important" = "È importante";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your axe address. Anyone can send axe to your wallet by transferring them to your address." = "Permetti agli altri di scansionare questo codice QR per trovare il tuo indirizzo axe. Chiunque può spedire axe al tuo portafoglio trasferendoli al tuo indirizzo.";
+"Keypair %ld" = "Keypair %ld";
 
 /* No comment provided by engineer. */
 "Link Uphold Account" = "Collega l'account Uphold";
@@ -320,14 +344,14 @@
 /* No comment provided by engineer. */
 "Load more" = "Carica di più";
 
+/* Translate it as short as possible! (24 symbols max) */
+"Local Currency" = "Moneta Locale";
+
 /* No comment provided by engineer. */
-"Local currency" = "Moneta Locale";
+"Local requested amount: %@" = "Quantità locale richiesta: %@";
 
 /* No comment provided by engineer. */
 "Locked" = "Bloccato";
-
-/* No comment provided by engineer. */
-"locked with InstantSend" = "bloccato con InstantSend";
 
 /* No comment provided by engineer. */
 "Log Out" = "Esci";
@@ -336,94 +360,94 @@
 "Log out from Uphold" = "Esci da Uphold";
 
 /* No comment provided by engineer. */
-"masternode holding address" = "indirizzo di partecipazione del masternode";
+"Login with Face ID" = "Accedi con Face ID";
 
 /* No comment provided by engineer. */
-"Masternode Registration Transaction" = "Transazione di registrazione Masternode";
+"Login with Touch ID" = "Accedi con Touch ID";
+
+/* a verb, Logout Immediately */
+"Logout" = "Logout";
+
+/* Logout after 5 min */
+"Logout after" = "posponi il Logout";
 
 /* No comment provided by engineer. */
-"Masternode Update Registrar Transaction" = "Transazione del registro di aggiornamento Masternode";
+"Long press to copy ID" = "Tieni premuto per copiare l'ID";
+
+/* adjective, security level */
+"Low" = "Basso";
 
 /* No comment provided by engineer. */
-"Masternode Update Service Transaction" = "Transazione del servizio di aggiornamento Masternode";
+"Manage Trusted Node" = "Gestisci Nodo Affidabile";
 
 /* No comment provided by engineer. */
-"more..." = "di più...";
+"Masternode Registration" = "Registrazione Masternode";
 
 /* No comment provided by engineer. */
-"Moved" = "Mosso";
+"Masternode Revocation" = "Revoca Masternode";
+
+/* No comment provided by engineer. */
+"Masternode Update" = "Aggiornamento Masternode";
+
+/* Contracted variant of 'Maximum' word */
+"Max" = "Massimo";
+
+/* adjective, security level */
+"Medium" = "Medio";
+
+/* No comment provided by engineer. */
+"More" = "Di Più";
+
+/* No comment provided by engineer. */
+"More Control" = "Più Controllo";
+
+/* No comment provided by engineer. */
+"Moved from" = "Trasferito da";
+
+/* No comment provided by engineer. */
+"Moved to Address" = "Spostato in Indirizzo";
 
 /* No comment provided by engineer. */
 "Network" = "Network";
 
 /* No comment provided by engineer. */
-"NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected." = "MAI scrivere la tua frase di recupero in qualunque altro programma. Altri dispositivi possono essere infetti.";
+"Network fee" = "Commissione di rete";
 
 /* No comment provided by engineer. */
-"new public key:" = "nuova chiave pubblica:";
+"NFC device" = "Dispositivo NFC";
 
 /* No comment provided by engineer. */
-"next, write down your recovery phrase" = "ora, scrivi la tua frase di recupero";
+"NFC device didn't transmit a valid Axe address" = "Il dispositivo NFC non ha trasmesso un indirizzo Axe valido";
 
 /* No comment provided by engineer. */
-"NFC device didn't transmit a valid axe address" = "Il dispositivo NFC non ha trasmesso un indirizzo axe valido";
+"No address copied" = "Nessun indirizzo copiato";
 
 /* No comment provided by engineer. */
-"NFC device didn't transmit a valid axe or bitcoin address" = "Il dispositivo NFC non ha trasmesso un indirizzo axe o bitcoin valido";
+"Node IP" = "IP Nodo";
+
+/* adjective, security level */
+"None" = "Nessuno";
 
 /* No comment provided by engineer. */
-"no exchange rate data" = "nessun dato del tasso di cambio";
+"Not a Axe QR code" = "Non è un codice QR Axe";
 
 /* No comment provided by engineer. */
-"node ip" = "\"ip\" del nodo";
+"Not a Axe URL" = "Non è un URL Axe";
 
 /* No comment provided by engineer. */
-"not a axe or bitcoin QR code" = "non è un codice QR axe o bitcoin";
+"Not a valid Axe address" = "Non un indirizzo Axe valido";
 
 /* No comment provided by engineer. */
-"not a axe QR code" = "non è un codice QR axe";
-
-/* No comment provided by engineer. */
-"not a valid bitcoin address" = "non un indirizzo bitcoin valido";
-
-/* No comment provided by engineer. */
-"not a valid axe address" = "non un indirizzo axe valido";
-
-/* No comment provided by engineer. */
-"not a valid axe or bitcoin address" = "non un indirizzo axe o bitcoin valido";
-
-/* No comment provided by engineer. */
-"not operator" = "non operatore";
-
-/* No comment provided by engineer. */
-"not owner" = "non proprietario";
-
-/* No comment provided by engineer. */
-"not voter" = "non votante";
+"Not yet used" = "Non ancora usato";
 
 /* No comment provided by engineer. */
 "OK" = "OK";
 
 /* No comment provided by engineer. */
-"ok" = "ok";
+"Operator Keys" = "Chiavi operatore";
 
 /* No comment provided by engineer. */
-"Only enable advanced features if you are knowledgeable in blockchain technology. \nIf enabled only use advanced features that you understand." = "Abilita le funzionalità avanzate solo se sei esperto in tecnologia \"blockchain\".\nNel caso decida di abilitarlo, usa solo le funzioni avanzate che conosci.";
-
-/* No comment provided by engineer. */
-"operator key index:" = "indice chiave dell'operatore:";
-
-/* No comment provided by engineer. */
-"operator key:" = "chiave operatore:";
-
-/* No comment provided by engineer. */
-"Operator Keys" = "Chiavi operatore:";
-
-/* No comment provided by engineer. */
-"owner key hash:" = "chiave hash proprietario:";
-
-/* No comment provided by engineer. */
-"owner key index:" = "indice chiave proprietario:";
+"Owner Address" = "Indirizzo del proprietario";
 
 /* No comment provided by engineer. */
 "Owner Keys" = "Chiavi proprietario";
@@ -432,211 +456,307 @@
 "Pay" = "Paga";
 
 /* No comment provided by engineer. */
-"payload:" = "payload:";
+"Pay and get paid instantly with easy to use payment flows" = "Paga e ricevi pagamenti istantaneamente in modo semplice e facile da usare";
 
 /* No comment provided by engineer. */
-"payment address" = "indirizzo pagamento";
+"Pay with Ease" = "Paga con facilità";
+
+/* 1 out of 4 in the Paying Animation */
+"Paying" = "Paying";
+
+/* 2 out of 4 in the Paying Animation */
+"Paying." = "Paying.";
+
+/* 3 out of 4 in the Paying Animation */
+"Paying.." = "Paying..";
+
+/* 4 out of 4 in the Paying Animation */
+"Paying..." = "Paying...";
 
 /* No comment provided by engineer. */
-"payment output" = "uscita pagamento";
+"Payments" = "Pagamenti";
 
 /* No comment provided by engineer. */
-"payout Address" = "Indirizzo di pagamento";
+"PIN is always required to make a payment" = "Il PIN è sempre richiesto per effettuare un pagamento";
 
 /* No comment provided by engineer. */
-"payout address:" = "indirizzo di pagamento:";
-
-/* No comment provided by engineer. */
-"Pending" = "In attesa";
-
-/* No comment provided by engineer. */
-"pending" = "in attesa di";
-
-/* No comment provided by engineer. */
-"Please enter pin to upgrade wallet" = "\nInserisci il PIN per aggiornare il portafoglio";
-
-/* No comment provided by engineer. */
-"please enter pin to upgrade wallet" = "Immettere il pin per fare l'upgrade del wallet";
+"Please enter PIN to upgrade wallet" = "Inserisci il PIN per aggiornare il portafoglio";
 
 /* No comment provided by engineer. */
 "Please place your phone near NFC device." = "Perfavore posiziona il tuo telefono vicino al dispositivo NFC.";
 
 /* No comment provided by engineer. */
-"Private key" = "Chiave privata";
+"Please tap on the words from your recovery phrase in the right order" = "Si prega di toccare le parole dalla frase di recupero nel giusto ordine";
 
 /* No comment provided by engineer. */
-"processing" = "in lavorazione";
+"Please try again" = "Per favore riprova";
+
+/* No comment provided by engineer. */
+"Please try scanning again" = "Please try scanning again";
+
+/* No comment provided by engineer. */
+"Please Wait" = "Attendere prego";
+
+/* No comment provided by engineer. */
+"Please wait for the sync to complete" = "Attendi il completamento della sincronizzazione";
+
+/* No comment provided by engineer. */
+"Please write it down" = "Per favore scrivilo di seguito";
+
+/* No comment provided by engineer. */
+"Previously used at IP address" = "Utilizzato in precedenza all'indirizzo IP";
+
+/* No comment provided by engineer. */
+"Private key" = "Chiave privata";
 
 /* No comment provided by engineer. */
 "Processing" = "In lavorazione";
 
 /* No comment provided by engineer. */
+"Provider Address" = "Indirizzo del Provider";
+
+/* No comment provided by engineer. */
 "Public key" = "Chiave pubblica";
 
 /* No comment provided by engineer. */
-"public key:" = "chiave pubblica:";
+"Quick Receive" = "Rapido Ricevi";
 
 /* No comment provided by engineer. */
-"rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@\nquorums validated: %d/%d" = "tasso di cambio %1$@ = %2$@\naggiornato: %3$@\nblocco #%4$d di %5$d\npeers connessi: %6$d\ndi peer: %7$@\nquorums validati: %8$d/%9$d";
+"Quorums validated: %d/%d" = "Quorum validati: %1$d/%2$d";
+
+/* ex., Rate 1 US $ = 0.000009 Axe */
+"Rate: %@ = %@" = "Tasso: %1$@ = %2$@";
 
 /* No comment provided by engineer. */
-"Receive axe at this address: %@" = "Ricevi axe a questo indirizzo: %@";
+"Receive" = "Ricevi";
 
-/* No comment provided by engineer. */
+/* Received transaction */
 "Received" = "Ricevuto";
 
 /* No comment provided by engineer. */
-"received %@ (%@)" = "ricevuto %1$@ (%2$@)";
+"Received %@ (%@)" = "Ricevuto %1$@ (%2$@)";
 
 /* No comment provided by engineer. */
-"recently mined (locked)" = " minato recentemente (bloccato)";
-
-/* Recovery phrase */
-"Recovery phrase" = "Frase di recupero";
+"Received at" = "Ricevuto a";
 
 /* No comment provided by engineer. */
-"recovery phrase doesn't match" = "la frase di recupero non coincide";
+"Received from" = "Ricevuto da";
 
 /* No comment provided by engineer. */
-"recovery phrase must have %d words" = "la frase di recupero deve avere %d parole";
+"Recover Wallet" = "Recuperare Wallet";
 
 /* No comment provided by engineer. */
-"registration tx:" = "registrazione tx:";
+"Recovery Phrase" = "Frase di recupero";
 
 /* No comment provided by engineer. */
-"Remind me later" = "Ricordamelo in seguito";
+"Recovery phrase doesn't match" = "La frase di recupero non coincide";
 
 /* No comment provided by engineer. */
-"Request" = "Richiesta";
+"Recovery phrase must have %d words" = "La frase di recupero deve avere %d parole";
 
 /* No comment provided by engineer. */
-"request an amount" = "richiedi una somma";
+"Registered from" = "Registrato da";
 
 /* No comment provided by engineer. */
-"rescan" = "riscansiona";
+"Registered Masternode" = "Masternode registrato";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Report an Issue" = "Segnala un problema";
+
+/* An action */
+"Rescan" = "Riscansiona";
 
 /* No comment provided by engineer. */
-"Rescan blockchain" = "Riscansione blockchain";
+"Rescan Blockchain" = "Riscansione blockchain";
 
 /* No comment provided by engineer. */
-"reset" = "resetta";
+"Reset" = "Reset";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their axe address. You can send a payment to anyone with an address." = "Scansiona il codice QR di qualcun altro per vedere il suo indirizzo axe. Puoi effettuare un pagamento verso chiunque abbia un indirizzo.";
+"Reset to Default" = "Riportare alle condizioni originali";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their axe or bitcoin address. You can send a payment to anyone with an address." = "Scansiona il codice QR di qualcun altro per vedere il suo indirizzo axe o bitcoin. Puoi effettuare un pagamento verso chiunque abbia un indirizzo.";
+"Reset Wallet" = "Resetta portafoglio";
+
+/* No comment provided by engineer. */
+"Retry" = "Riprova";
+
+/* No comment provided by engineer. */
+"Review & Rate the app" = "Recensisci & Valuta l'app";
+
+/* No comment provided by engineer. */
+"Reward" = "Ricompensa";
+
+/* No comment provided by engineer. */
+"Rewards" = "Ricompense";
+
+/* No comment provided by engineer. */
+"Scan" = "Scansiona";
+
+/* No comment provided by engineer. */
+"Scan Private Key" = "Scansione Chiave Privata";
+
+/* No comment provided by engineer. */
+"Scan QR Code" = "Scansiona il codice QR";
+
+/* A title of the quick receive screen */
+"Scan this to Pay" = "Scansiona questo per Pagare";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Scan to Pay" = "Scansiona per pagare";
+
+/* No comment provided by engineer. */
+"Scan to Send" = "Scansiona per inviare";
+
+/* (Send by) Scanning QR code */
+"Scanning QR code" = "Scansiona QR Code";
+
+/* No comment provided by engineer. */
+"Screenshot detected. New recovery phrase:" = "Screenshot rilevato. Nuova frase di recupero:";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Gli screenshot sono visibili ad altri dispositivi e applicazioni. Genera una nuova frase di recupero e tienila segreta.";
 
 /* No comment provided by engineer. */
-"Screenshots are visible to other apps and devices. Your funds are at risk. Transfer your balance to another wallet." = "Gli screenshot sono visibili ad altri dispositivi e applicazioni. I tuoi fondi sono a rischio. Trasferisci il tuo saldo a un altro portafoglio.";
+"Secure now" = "Rendilo sicuro ora";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Secure Wallet Now" = "Il Portafoglio ora è sicuro ";
+
+/* No comment provided by engineer. */
+"Security" = "Sicurezza";
+
+/* No comment provided by engineer. */
+"Security Level" = "Livello di sicurezza";
 
 /* No comment provided by engineer. */
 "See on Uphold" = "Vedi su Uphold";
 
 /* No comment provided by engineer. */
-"seen by %d of %d peers" = "visto da %1$d di %2$d pari";
+"Send" = "Invia";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The axe network will receive a fee of %@ (%@)." = "Inviare %1$@ (%2$@) da questa chiave privata al tuo portafoglio? La rete axe riceverà una tassa di %3$@ (%4$@).";
+"Send %@ (%@) from this private key into your wallet? The Axe network will receive a fee of %@ (%@)." = "Inviare %1$@ (%2$@) da questa chiave privata al tuo portafoglio? La rete Axe riceverà una tassa di %3$@ (%4$@).";
+
+/* Send by (scanning QR code) */
+"Send by" = "Inviato da";
 
 /* No comment provided by engineer. */
-"send address as email" = "invia indirizzo per email";
+"Send to" = "Manda a";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Send to Address" = "Invia all'indirizzo";
 
 /* No comment provided by engineer. */
-"send address as message" = "invia indirizzo per messaggio";
+"Send to copied address" = "Invia all'indirizzo copiato";
 
-/* No comment provided by engineer. */
-"send crash report" = "invia un rapporto sugli arresti anomali";
+/* Translate it as short as possible! (24 symbols max) */
+"Send with NFC" = "Invia con NFC";
 
-/* No comment provided by engineer. */
-"send request as email" = "invia richiesta per email";
+/* 1 out of 4 in the Sending Animation */
+"Sending" = "Invio in corso";
 
-/* No comment provided by engineer. */
-"send request as message" = "invia richiesta per messaggio";
+/* 2 out of 4 in the Sending Animation */
+"Sending." = "Invio in corso.";
 
-/* No comment provided by engineer. */
+/* 3 out of 4 in the Sending Animation */
+"Sending.." = "Invio in corso..";
+
+/* 4 out of 4 in the Sending Animation */
+"Sending..." = "Invio in corso...";
+
+/* Sent transaction */
 "Sent" = "Inviato";
 
 /* No comment provided by engineer. */
-"sent!" = "inviato!";
+"Sent from" = "Inviato da";
 
 /* No comment provided by engineer. */
-"set a trusted node" = "impostare un nodo affidabile";
+"Sent successfully" = "Correttamente inviato";
+
+/* No comment provided by engineer. */
+"Sent to" = "Inviato a";
+
+/* No comment provided by engineer. */
+"Set a trusted node" = "Impostare un nodo affidabile";
+
+/* No comment provided by engineer. */
+"Set PIN" = "Imposta PIN";
 
 /* No comment provided by engineer. */
 "Settings" = "Impostazioni";
 
 /* No comment provided by engineer. */
-"shapeshift bitcoin id:" = "Shapeshift bitcoin id:";
+"Setup Wallet" = "Imposta il portafoglio";
 
 /* No comment provided by engineer. */
-"shapeshift status:" = "stato dello shapeshift:";
+"Share" = "Condividi";
 
 /* No comment provided by engineer. */
-"shapeshift succeeded" = "shapeshift avvenuto con successo";
+"Show Masternode Keys" = "Mostra le chiavi masternode";
 
 /* No comment provided by engineer. */
-"show" = "mostra";
+"Show Recovery Phrase" = "Mostra la frase di recupero";
 
 /* No comment provided by engineer. */
-"Show masternode keys" = "Mostra le chiavi masternode";
+"Skip" = "Salta";
 
 /* No comment provided by engineer. */
-"show phrase" = "mostra frase";
-
-/* No comment provided by engineer. */
-"size:" = "taglia:";
-
-/* No comment provided by engineer. */
-"sms not currently available" = "sms non disponibili al momento";
+"skip" = "salta";
 
 /* No comment provided by engineer. */
 "Something went wrong" = "Qualcosa è andato storto";
 
 /* No comment provided by engineer. */
-"spent address" = "indirizzo speso";
+"Specify Amount" = "Specifica Importo";
 
 /* No comment provided by engineer. */
-"spent input" = "introito esaurito";
+"Spending Confirmation" = "Conferma della spesa";
 
 /* No comment provided by engineer. */
-"Start / Recover another wallet" = "Inizia / Recupera un altro wallet";
+"Support" = "Support";
 
 /* No comment provided by engineer. */
-"status:" = "stato:";
+"Swept!" = "Pulito!";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Switch to Mainnet" = "Passa a Mainnet";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Switch to Testnet" = "Passa a Testnet";
 
 /* No comment provided by engineer. */
-"Steps to reproduce the crash" = "Passi per riprodurre il crash";
+"Sync Failed" = "Sincronizzazione Fallita";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Sync Now" = "Sincronizza Ora";
 
 /* No comment provided by engineer. */
-"Success" = "Successo";
+"Syncing" = "Sincronizzazione";
+
+/* Pay using NFC (should be as short as possible) */
+"Tap" = "Tocca";
 
 /* No comment provided by engineer. */
-"swept!" = "pulito!";
+"Tap to hide balance" = "Tocca per nascondere il saldo";
 
 /* No comment provided by engineer. */
-"Syncing:" = "Sincronizzazione:";
+"Tap to unhide balance" = "Tocca per visualizzare il saldo";
 
 /* No comment provided by engineer. */
-"the app will now close" = "l'app verrà chiusa";
+"There are no transactions to display" = "Non ci sono transazioni da visualizzare";
 
 /* No comment provided by engineer. */
-"This is your axe address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Questo è il tuo indirizzo axe. Tocca per copiarlo o inviarlo per email o sms. L'indirizzo cambierà ogni volta che riceverai fondi, ma i vecchi indirizzi continueranno a funzionare.";
+"This app is open source:" = "Questa app è open source:";
 
 /* No comment provided by engineer. */
-"This is your axe balance." = "Questo è il tuo saldo axe";
+"This PIN will be required to unlock your app every time when you use it." = "Questo PIN ti sarà richiesto per sbloccare l'app ogni volta che la usi.";
 
 /* No comment provided by engineer. */
-"This is your axe balance. Axe is a currency. The exchange rate changes with the market." = "Questo è il tuo saldo axe. Axe è una valuta. Il tasso di cambio varia con il mercato.";
+"This recovery phrase is your access to the funds in this wallet." = "Questa frase di recupero è il tuo accesso ai fondi in questo portafoglio.";
 
 /* No comment provided by engineer. */
 "This transaction may take several minutes to settle." = "Questa transazione potrebbe richiedere diversi minuti per essere eseguita.";
-
-/* No comment provided by engineer. */
-"This transaction may take several minutes to settle. Complete instantly for an extra %@?" = "Questa transazione potrebbe richiedere diversi minuti per essere eseguita. Vuoi pagare un extra per renderla istantanea %@?";
 
 /* No comment provided by engineer. */
 "This transaction should settle instantly at no extra fee" = "Questa transazione potrebbe essere eseguita istantaneamente senza costi aggiuntivi";
@@ -645,13 +765,10 @@
 "This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase" = "Questo portafoglio non è vuoto o la sincronizzazione non è terminata, non puoi cancellarlo senza la frase di recupero";
 
 /* No comment provided by engineer. */
-"to:" = "a:";
+"This will move all coins from that wallet to your wallet on this device." = "Questa operazione sposterà tutte le monete da quel portafoglio al portafoglio su questo dispositivo.";
 
 /* No comment provided by engineer. */
-"to: %@" = "a: %@";
-
-/* No comment provided by engineer. */
-"topup amount:" = "importo di ricarica:";
+"Tools" = "Strumenti";
 
 /* No comment provided by engineer. */
 "Total" = "Totale";
@@ -660,15 +777,9 @@
 "Touch ID limit" = "Limite  \"Touch ID\"";
 
 /* No comment provided by engineer. */
-"Touch ID spending limit" = "Limite di spesa Touch ID";
-
-/* No comment provided by engineer. */
-"Transaction history" = "Storico delle transazioni";
-
-/* No comment provided by engineer. */
 "Transaction id" = "id Transazione";
 
-/* No comment provided by engineer. */
+/* A verb, button title. */
 "Transfer" = "Trasferimento";
 
 /* No comment provided by engineer. */
@@ -677,110 +788,131 @@
 /* No comment provided by engineer. */
 "Transfer from Uphold" = "Trasferimento da Uphold";
 
-/* No comment provided by engineer. */
-"trust" = "fiducia";
+/* An action */
+"Try again" = "Riprova";
+
+/* Alert title */
+"Turn device passcode on" = "Attiva codice d'accesso dispositivo";
 
 /* No comment provided by engineer. */
-"try again" = "riprova";
+"Unable to connect" = "Impossibile connetersi";
 
 /* No comment provided by engineer. */
-"Try It!" = "Provalo!";
+"Unable to get new QR code" = "Impossibile ottenere un nuovo codice QR";
 
 /* No comment provided by engineer. */
-"turn device passcode on" = "attiva codice d'accesso dispositivo";
+"Unsupported or corrupted document" = "Documento non supportato o corrotto";
 
 /* No comment provided by engineer. */
-"type:" = "genere:";
+"Unsupported URL" = "URL non supportato";
 
-/* No comment provided by engineer. */
-"Unable to get new qr code" = "Impossibile ottenere un nuovo codice QR";
-
-/* No comment provided by engineer. */
-"unknown address" = "indirizzo sconoscuito";
-
-/* No comment provided by engineer. */
-"unsupported or corrupted document" = "documento non supportato o corrotto";
-
-/* No comment provided by engineer. */
-"unsupported url" = "url non supportato";
-
-/* No comment provided by engineer. */
-"Unverified" = "Non verificato";
+/* ex., Updated: 27.12, 8:30 */
+"Updated: %@" = "Aggiornato %@";
 
 /* No comment provided by engineer. */
 "Uphold" = "Uphold";
 
 /* No comment provided by engineer. */
-"Uphold account" = "Account Uphold";
+"Used" = "Usato";
 
 /* No comment provided by engineer. */
-"User Registration Transaction" = "Transazione registrazione utente";
+"Used at IP address" = "Utilizzato all'indirizzo IP";
 
 /* No comment provided by engineer. */
-"User Reset Transaction" = "Transazione di reset utente";
+"Verified Successfully" = "Verifica effettuata con Successo";
 
 /* No comment provided by engineer. */
-"User Topup Transaction" = "transazione Topup utente";
+"Verify" = "Verifica";
+
+/* adjective, security level */
+"Very High" = "Molto Alto";
 
 /* No comment provided by engineer. */
-"username:" = "nome utente:";
+"View in Block Explorer" = "Visualizza in Block Explorer";
 
 /* No comment provided by engineer. */
-"verified, waiting for confirmation" = "verificato, in attesa di conferma";
+"View passphrase, backup wallet…" = "Visualizza passphrase,  di backup del portafoglio ...";
 
 /* No comment provided by engineer. */
-"verifying quorum" = "verifica del quorum";
+"View Recovery Phrase" = "Visualizza la frase di recupero";
 
 /* No comment provided by engineer. */
-"voting key hash:" = "hash chiave voto:";
-
-/* No comment provided by engineer. */
-"voting key index:" = "indice chiave di voto:";
+"Voting Address" = "Indirizzo di voto";
 
 /* No comment provided by engineer. */
 "Voting Keys" = "Chiavi  di Voto";
 
 /* No comment provided by engineer. */
-"wallet address" = "indirizzo portafoglio";
+"Wallet disabled" = "Portafoglio disabilitato";
 
 /* No comment provided by engineer. */
 "Wallet Keys" = "Chiavi Portafoglio";
 
 /* No comment provided by engineer. */
+"Warning" = "Attenzione";
+
+/* No comment provided by engineer. */
 "WARNING" = "ATTENZIONE";
 
 /* No comment provided by engineer. */
-"watch only" = "guarda solamente";
+"We are about to show you the secret key to your wallet." = "Stiamo per mostrarti la chiave segreta del tuo portafoglio.";
 
 /* No comment provided by engineer. */
-"We have detected that Axewallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete." = "Abbiamo rilevato che Axewallet si è arrestato in modo anomalo durante la migrazione. Ricontrollare la blockchain può risolvere questo problema altrimenti prova a rifare la procedura. Il controllo dovrebbe preferibilmente essere eseguito su wifi e può durare fino a mezz'ora. I fondi saranno disponibili una volta completato il processo di sincronizzazione.";
+"We do not store this recovery phrase." = "Noi non memorizziamo la frase di recupero.";
 
 /* No comment provided by engineer. */
-"We have detected that Axewallet crashed last time it was opened. Would you like to help us solve the issue by sending us the crash report data? Your transaction history and any other private information WILL NOT be shared." = "Abbiamo rilevato che Axewallet si è arrestato in modo anomalo l'ultima volta che è stato aperto. Vorresti aiutarci a risolvere il problema inviandoci i dati del rapporto sugli arresti anomali? La cronologia delle transazioni e qualsiasi altra informazione privata NON saranno incluse.";
+"We have detected that Axe Wallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete." = "Abbiamo rilevato che Axe Wallet si è arrestato in modo anomalo durante la migrazione. Ricontrollare la blockchain può risolvere questo problema altrimenti prova a rifare la procedura. Il controllo dovrebbe preferibilmente essere eseguito su wifi e può durare fino a mezz'ora. I fondi saranno disponibili una volta completato il processo di sincronizzazione.";
 
 /* No comment provided by engineer. */
-"wipe" = "eliminare";
+"We Upgraded" = "Abbiamo aggiornato";
 
 /* No comment provided by engineer. */
-"WRITE DOWN YOUR RECOVERY PHRASE" = "SCRIVI LA TUA FRASE DI RECUPERO";
+"Welcome" = "Benvenuto";
 
 /* No comment provided by engineer. */
-"yes" = "si";
+"When the transaction is confirmed, the other wallet will be worthless and should not be re-used for safety reasons." = "A transazione confermata, il portafoglio di origine  sarà privo di valore e non dovrebbe essere riutilizzato per motivi di sicurezza.";
 
 /* No comment provided by engineer. */
-"You can now buy axe in\naxewallet with cash or\nbank transfer." = "Ora puoi comprare Axe nel\nportafoglio axe con contanti o con\nbonifico bancario.";
+"Why I should not take a screenshot?" = "Why I should not take a screenshot?";
 
 /* No comment provided by engineer. */
-"You must enter your pin in order to enter axewallet" = "\nDevi inserire il tuo pin per accedere a axewallet";
+"Wipe" = "Pulisci";
 
 /* No comment provided by engineer. */
-"you received axe!" = "hai ricevuto dei axe!";
+"Wipe Wallet" = "Pulisci il portafoglio";
+
+/* No comment provided by engineer. */
+"with Axe blockchain" = "con blockchain Axe";
+
+/* No comment provided by engineer. */
+"You are about to sweep funds from another Axe Wallet." = "Stai per 'spazzolare' fondi da un portafoglio Axe.";
+
+/* No comment provided by engineer. */
+"You are about to wipe this wallet from this device. Funds associated with this wallet can only be retrieved if you have your recovery phrase." = "Stai per cancellare il portafoglio da questo dispositivo. Tutti i fondi associati ad esso potranno essere recuperati solo se si dispone della frase di recupero.";
+
+/* No comment provided by engineer. */
+"You can authenticate with Face ID for payments below" = "Puoi effettuare l'autenticazione con Face ID per i pagamenti di seguito";
+
+/* No comment provided by engineer. */
+"You can authenticate with Touch ID for payments below" = "Puoi effettuare l'autenticazione con Touch ID per i pagamenti di seguito";
+
+/* No comment provided by engineer. */
+"You must enter your PIN in order to enter Axe Wallet" = "Devi inserire il tuo PIN per accedere a Axe Wallet";
+
+/* No comment provided by engineer. */
+"You received Axe! If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device." = "Hai ricevuto Axe! Se perdi questo dispositivo, perderai i tuoi fondi. Ottieni la tua frase di recupero in modo da poter ripristinare il tuo portafoglio su un altro dispositivo.";
 
 /* No comment provided by engineer. */
 "You will also need to log out from the Uphold website using your browser" = "Sarà inoltre necessario disconnettersi dal sito Web di Uphold utilizzando il browser";
+
+/* No comment provided by engineer. */
+"You will need this recovery phrase to access your funds if this device is lost, damaged or if Axe Wallet ever is accidentally uninstalled from this device." = "Questa frase di recupero sarà necessaria per accedere ai tuoi fondi in caso di smarrimento, danneggiamento del dispositivo o in caso di disinstallazione accidentale del Wallet Axe da questo dispositivo.";
 
 /* No comment provided by engineer. */
 "Your transaction was sent and the amount should appear in your wallet in a few minutes." = "La tua transazione è stata inviata e l'importo dovrebbe essere visualizzato nel tuo portafoglio entro pochi minuti.";
 
 /* No comment provided by engineer. */
 "Your Uphold account Axe balance is" = "Il tuoil bilancio Axe nell'account Uphold è ";
+
+/* No comment provided by engineer. */
+"Your wallet is secured now. You can use your recovery phrase anytime to recover your account on another device." = "Il tuo wallet ora è protetto. Puoi utilizzare la frase di recupero in qualsiasi momento per ripristinare il tuo account su un altro dispositivo.";

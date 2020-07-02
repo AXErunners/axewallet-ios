@@ -1,72 +1,69 @@
 
 /* No comment provided by engineer. */
-"%@ is for 'mAXE'. %@ = 1 AXE." = "%@ คือ 'mAXE'  %@เท่ากับ 1 AXE";
+"%@ is not allowed to access Face ID" = "%@ ไม่สามารถเข้าถึง Face ID";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ ไม่สามารถเข้าถึงกล้องถ่ายรูป";
 
 /* No comment provided by engineer. */
-"%@\n\nbalance: %@ (%@)" = "%1$@ \n\nสมดุล : %2$@ (%3$@)";
+"%@ is not allowed to access Touch ID" = "%@ ไม่สามารถเข้าถึง Touch ID";
 
 /* No comment provided by engineer. */
-"%d confirmations" = "%d การยืนยัน";
+"1 hour" = "1 ชั่วโมง";
+
+/* Shorten version of minute */
+"1 min" = "1 นาที";
 
 /* No comment provided by engineer. */
-"%d haks/byte" = "%d ดัฟฟ์/ไบต์";
+"24 hours" = "24 ชั่วโมง";
 
-/* No comment provided by engineer. */
-"%d out of %d lock votes" = "ล็อคโหวต %1$dจาก%2$d";
-
-/* No comment provided by engineer. */
-"%ld used" = "%ld ใช้แล้ว";
-
-/* No comment provided by engineer. */
-"0 confirmations" = "0 การยืนยัน";
-
-/* No comment provided by engineer. */
-"1 confirmation" = "1 การยืนยัน";
-
-/* No comment provided by engineer. */
-"1 hak/byte" = "1 ดัฟฟ์/ไบต์";
+/* Shorten version of minutes */
+"5 min" = "5 นาที";
 
 /* No comment provided by engineer. */
 "\"%@\" is not a recovery phrase word" = "%@ไม่ใช่วลีกู้คืน";
 
 /* No comment provided by engineer. */
-"\n%@\n\nif you ever lose your phone, you will need it to recover your wallet" = "\n%@\n\nถ้าคุณทำโทรศัพท์หาย คุณจะต้องการมันเพื่อกู้คืน wallet ของคุณ";
-
-/* No comment provided by engineer. */
-"\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nการตั้งรหัสผ่านนั้นจำเป็นเพื่อป้องกันความปลอดภัยของ wallet ของคุณ  เข้าไปที่การตั้งค่า และ เปิดรหัสผ่าน";
-
-/* No comment provided by engineer. */
-"\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nอนุญาติการเข้าถึงกล้องถ่ายรูป\nการตั้งค่า->ความเป็นส่วนตัว->กล้องถ่ายรูป->%@";
-
-/* No comment provided by engineer. */
 "\ntry again in %@" = "\nลองเข้าอีกครั้ง%@";
+
+/* No comment provided by engineer. */
+"A device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "การตั้งรหัสผ่านนั้นจำเป็นเพื่อป้องกันความปลอดภัยของ wallet ของคุณ เข้าไปที่การตั้งค่า และ เปิดรหัสผ่าน";
 
 /* No comment provided by engineer. */
 "About" = "เกี่ยวกับ";
 
-/* No comment provided by engineer. */
-"accepted by quorum" = "accepted by quorum";
-
-/* No comment provided by engineer. */
-"Action Needed" = "การกระทำที่จำเป็น";
+/* Translate it as short as possible! (24 symbols max) */
+"Add Shortcut" = "ใส่ทางลัด";
 
 /* No comment provided by engineer. */
 "Address" = "ที่อยู่";
 
 /* No comment provided by engineer. */
-"ADVANCED" = "ขั้นสูง";
+"Advanced Security" = "ความปลอดภัยขั้นสูง";
 
 /* No comment provided by engineer. */
-"always require passcode" = "จำเป็นต้องใช้รหัสตลอด";
+"All" = "ทั้งหมด";
 
 /* No comment provided by engineer. */
-"Amount" = "จำนวน";
+"Allow camera access in Settings" = "อนุญาตการเข้าถึงกล้องถ่ายรูปใน Settings";
 
 /* No comment provided by engineer. */
-"amount too small" = "จำนวนเงินน้อยเกินไป";
+"Allow Face ID access in Settings" = "อนุญาตการเข้าถึง Face ID ใน Settings";
+
+/* No comment provided by engineer. */
+"Allow Touch ID access in Settings" = "อนุญาตการเข้าถึง Touch ID ใน Settings";
+
+/* No comment provided by engineer. */
+"Amount Received" = "จำนวนเงินที่ได้รับ";
+
+/* No comment provided by engineer. */
+"Amount Sent" = "จำนวนเงินที่ส่ง";
+
+/* No comment provided by engineer. */
+"Amount too small" = "จำนวนเงินน้อยเกินไป";
+
+/* No comment provided by engineer. */
+"An intuitive and familiar experience across all your devices" = "ประสบการณ์ที่ใช้งานง่ายและคุ้นเคย";
 
 /* No comment provided by engineer. */
 "Application %@ is requesting a payment to" = "แบบฟอร์ม%@ ชำระเงิน";
@@ -81,178 +78,181 @@
 "Are you sure?" = "คุณแน่ใจหรือไม่?";
 
 /* No comment provided by engineer. */
+"Authentication is unvailable" = "ไม่สามารตรวจสอบสิทธิ์ได้";
+
+/* No comment provided by engineer. */
+"Auto Logout" = "ออกจากระแบบอัตโนมัติ";
+
+/* No comment provided by engineer. */
+"Autohide Balance" = "สมดุลอัตโนมัติ";
+
+/* lowercase, ex. 4 Axe available */
 "available" = "ที่สามารถใช้ได้";
 
 /* No comment provided by engineer. */
-"bad recovery phrase" = "วลีกู้คืนไม่ถูกต้อง";
+"Available balance" = "ยอดเงินคงเหลือ";
+
+/* A noun. Used as a title. */
+"Backup Wallet" = "Wallet สำรอง";
 
 /* No comment provided by engineer. */
-"Bitcoin address (shapeshift)" = "ที่อยู่ Bitcoin  (shapshift)";
+"Bad recovery phrase" = "วลีกู้คืนไม่ดี";
+
+/* No comment provided by engineer. */
+"Balance hidden" = "ยอดคงเหลือถูกซ่อน";
 
 /* No comment provided by engineer. */
 "block #%d of %d" = "กลุ่ม # %1$d of %2$d";
 
 /* No comment provided by engineer. */
-"Buy Axe" = "ขาย Axe";
+"Block #%d of %d" = "กลุ่ม # %1$d of %2$d";
 
 /* No comment provided by engineer. */
-"Buy axe in axewallet!" = "ขาย axe ใน axewallet";
+"Buy & Sell Axe" = "ซื้อ & ขาย Axe";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Buy / Sell Axe" = "ซื้อ / ขาย Axe";
+
+/* No comment provided by engineer. */
+"Buy Axe" = "ขาย Axe";
 
 /* No comment provided by engineer. */
 "Buy Axe with Uphold account" = "ซื้อ Axe ด้วยบัญชี Uphold";
 
 /* No comment provided by engineer. */
-"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your pin code." = "การล้างข้อมูลอุปกรณ์นี้ คุณจะไม่สามารถเข้าถึงเงินในอุปกรณ์นี้ได้อีกต่อไป   ควรล้างข้อมูลเฉพาะเมื่อคุณไม่สามารถเข้าถึงข้อความรหัสผ่านและลืมรหัสผ่านของคุณ";
-
-/* No comment provided by engineer. */
-"cancel" = "ยกเลิก";
+"By wiping this device you will no longer have access to funds on this device. This should only be done if you no longer have access to your passphrase and have also forgotten your PIN code." = "จากการกวาดล้างอุปกรณ์นี้คุณจะไม่สามารถเข้าถึงเงินทุนในอุปกรณ์นี้ได้อีกต่อไป สิ่งนี้ควรจะเกิดขึ้นได้ก็ต่อเมื่อคุณไม่สามารถเข้าถึงข้อความรหัสผ่านของคุณได้อีกต่อไปและยังลืมรหัส PIN ของคุณด้วย";
 
 /* No comment provided by engineer. */
 "Cancel" = "ยกเลิก";
 
-/* No comment provided by engineer. */
-"change" = "เปลี่ยนแปลง";
+/* A verb. Action button title for an alert 'Change payment amount?' */
+"Change" = "เปลี่ยนแปลง";
 
 /* No comment provided by engineer. */
-"Change passcode" = "เปลี่ยนแปลงรหัสผ่าน";
+"Change payment amount?" = "เปลี่ยนแปลงจำนวนเงิน";
 
 /* No comment provided by engineer. */
-"change payment amount?" = "เปลี่ยนแปลงยอดชำระ";
+"Change PIN" = "เปลี่ยนแปลง PIN";
 
 /* No comment provided by engineer. */
-"checking address balance..." = "ตรวจสอบที่อยู่";
+"Check your connection" = "ตรวจสอบการเชื่อมต่อ";
 
 /* No comment provided by engineer. */
-"checking private key balance..." = "ตรวจสอบความสมดุลของ key ส่วนตัว";
+"Clear" = "ลบออก";
 
 /* No comment provided by engineer. */
-"Classical Transaction" = "ธุรกรรมคลาสสิก";
+"Clear trusted node?" = "ลบโหนดที่เชื่อถือได้";
 
 /* No comment provided by engineer. */
-"clear" = "ลบออก";
+"Clipboard doesn't contain a valid Axe address" = "คลิปบอร์ดไม่มีที่อยู่ axe ที่ถูกต้อง";
 
 /* No comment provided by engineer. */
-"clear trusted node?" = "ลบ node ที่เชื่อถือได้ออกหรือไม่?";
+"Close" = "ปิด";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid axe address" = "คลิปบอร์ดไม่มีที่อยู่ axe ที่ถูกต้อง";
+"Close App" = "ปิดแอพพลิเคชั่น";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid axe or bitcoin address" = "คลิปบอร์ดไม่มีอยู่ใน axe หรือ ที่อยู่ของ bitcoin";
-
-/* No comment provided by engineer. */
-"close app" = "ปิดแอพพลิเคชั่น";
-
-/* No comment provided by engineer. */
-"Coinbase Transaction" = "ธุรกรรม Coinbase";
-
-/* Confirm */
 "Confirm" = "ยืนยัน";
 
 /* No comment provided by engineer. */
-"confirm" = "ยืนยัน";
+"Confirm PIN" = "ยืนยัน PIN";
 
 /* No comment provided by engineer. */
-"Confirm transaction" = "ยืนยันธุรกรรม";
+"Confirming" = "กำลังยืนยัน";
 
 /* No comment provided by engineer. */
-"confirmed in block #%d" = "ยืนยันในกลุ่ม #%d";
+"Connect with third party exchanges" = "เชื่อมต่อกับการแลกเปลี่ยนบุคคลที่สาม";
 
 /* No comment provided by engineer. */
-"copied" = "คัดลอก";
+"Connected peers: %d" = "เชื่อมต่อเพื่อน: %d";
 
 /* No comment provided by engineer. */
-"copy" = "คัดลอก";
+"Connecting to payment server" = "กำลังเชื่อมต่อกับเซิร์ฟเวอร์การชำระเงิน";
 
 /* No comment provided by engineer. */
-"copy address to clipboard" = "คัดลอกที่อยู่ไปยังคลิปบอร์ด";
+"Contact Support" = "ติดต่อฝ่ายสนับสนุน";
 
 /* No comment provided by engineer. */
-"copy request to clipboard" = "คัดลอกคำขอไปยังคลิปบอร์ด";
+"Continue" = "ดำเนินการต่อ";
 
 /* No comment provided by engineer. */
-"copy wallet addresses to clipboard?" = "คัดลอกที่อยู่ wallet ไปยังคลิปบอร์ด";
+"Copied" = "คัดลอก";
 
 /* No comment provided by engineer. */
-"couldn't check address balance" = "ไม่สามารถตรวจสอบที่อยู่ได้";
+"Copy" = "คัดลอก";
 
 /* No comment provided by engineer. */
-"couldn't make payment" = "ไม่สามารถชำระเงินได้";
+"Copy Logs" = "คัดลอก logs";
 
 /* No comment provided by engineer. */
-"couldn't sweep balance" = "ไม่สามารถกวาดความสมดุลได้";
+"Copyright © 2020 Axe Core" = "Copyright © 2020 Axe Core";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to axe network" = "ไม่สามารถส่งการชำระเงินไปยังเครือข่าย axe ได้";
+"Couldn't make payment" = "ไม่สามารถชำระเงินได้";
 
 /* No comment provided by engineer. */
-"CRITICAL" = "วิกฤติ";
+"Couldn't sweep balance" = "ไม่สามารถกวาดความสมดุลได้";
 
 /* No comment provided by engineer. */
-"Axe address" = "ที่อยู่ Axe";
+"Couldn't transmit payment to Axe network" = "ไม่สามารถส่งการชำระเงินไปยังเครือข่าย axe ได้";
 
 /* No comment provided by engineer. */
-"Axe addresses can also be copied to the clipboard. A axe address always starts with 'X' or '7'." = "ที่อยู่ Axe สามารถคัดลอกไปยังคลิปบอร์ดได้ด้วย  ที่อยู่ axe จะขึ้นต้นด้วย 'X' or '7' เสมอ";
+"Create a New Wallet" = "สร้าง wallet ใหม่";
 
 /* No comment provided by engineer. */
-"axe network fee" = "ค่าธรรมเนียมเครือข่าย axe";
+"Axe payments can't be less than %@" = "ชำระเงิน axe ไม่สามารถไม่น้อยกว่า %@ ได้";
 
 /* No comment provided by engineer. */
-"axe payments can't be less than %@" = "ชำระเงิน axe ไม่สามารถไม่น้อยกว่า %@ ได้";
+"Date" = "วันที่";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe)." = "ความปลอดภัยของอุปกรณ์ \nการ 'jailbreak' แอพพลิเคชั่น  สามารถเข้าถึงข้อมูลของแอพพลิเคชั่นอื่นได้ (และสามารถขโมย axe ของคุณได้ )";
+"Default currency, shortcuts, about…" = "สกุลเงินเริ่มต้น, ทางลัด, เกี่ยวกับ...";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your axe). Wipe this wallet immediately and restore on a secure device." = "ความปลอดภัยของอุปกรณ์ \nการ 'jailbreak' แอพพลิเคชั่น สามารถเข้าถึงข้อมูลของแอพพลิเคชั่นอื่นได้ (และสามารถขโมย axe ของคุณได้ )  ลบล้าง wallet นี้โดยทันทีและกู้คืนบนอุปกรณ์ที่ปลอดภัย";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe)." = "ความปลอดภัยของอุปกรณ์ \nการ 'jailbreak' แอพพลิเคชั่น  สามารถเข้าถึงข้อมูลของแอพพลิเคชั่นอื่นได้ (และสามารถขโมย axe ของคุณได้ )";
 
 /* No comment provided by engineer. */
-"do it later" = "ทำภายหลัง";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe). Wipe this wallet immediately and restore on a secure device." = "ความปลอดภัยของอุปกรณ์ \nการ 'jailbreak' แอพพลิเคชั่น สามารถเข้าถึงข้อมูลของแอพพลิเคชั่นอื่นได้ (และสามารถขโมย axe ของคุณได้ )  ลบล้าง wallet นี้โดยทันทีและกู้คืนบนอุปกรณ์ที่ปลอดภัย";
 
 /* No comment provided by engineer. */
-"DO NOT let anyone see your recovery phrase or they can spend your axe." = "ห้ามให้บุคคลอื่นเห็นข้อมูลกู้คืนของคุณ วลี หรือ เขาสามารถใช้ axe ของคุณได้";
-
-/* No comment provided by engineer. */
-"DO NOT take a screenshot. Screenshots are visible to other apps and devices." = "ห้ามถ่ายภาพหน้าจอ การถ่ายภาพหน้าจอนั้นสามารถแสดงไปถึงแอพลิเคชั่น และอุปกรณ์อื่นได้";
+"Do not take a screenshot" = "Do not take a screenshot";
 
 /* No comment provided by engineer. */
 "Done" = "เสร็จแล้ว";
 
-/* No comment provided by engineer. */
-"double spend" = "จ่ายเงินสองเท่า";
+/* ex., Download peer: 127.0.0.1:9999 */
+"Download peer: %@" = "เชื่อมต่อเพื่อน: %@";
 
 /* No comment provided by engineer. */
-"Email client is not configured. Please add your email account in Settings" = "Email client is not configured. Please add your email account in Settings";
+"Enable Face ID" = "เชื่อมต่อ Face ID";
 
 /* No comment provided by engineer. */
-"email not configured" = "ไม่ได้กำหนดค่าอีเมล์";
+"Enable Receive Notifications" = "เปิดรับการแจ้งเตือน";
 
 /* No comment provided by engineer. */
-"Enable advanced features" = "เปิดใช้งานคุณลักษณะขั้นสูง";
+"Enable Touch ID" = "เชื่อมต่อ touch ID";
 
 /* No comment provided by engineer. */
-"Enable advanced features?" = "เปิดใช้งานคุณลักษณะขั้นสูงใช่หรือไม่?";
+"Enter" = "เข้าสู่";
 
 /* No comment provided by engineer. */
-"Enable receive notifications" = "เปิดรับการแจ้งเตือน";
+"Enter PIN" = "ใส่รหัส PIN";
 
 /* No comment provided by engineer. */
-"enter" = "เข้าสู่";
+"Enter Recovery Phrase" = "ใส่วลีกู้คืน";
 
 /* No comment provided by engineer. */
-"Enter the amount to transfer below" = "ป้อนจำนวนเงินที่ต้องการโอนด้านล่าง";
+"Enter the amount to transfer" = "ป้อนจำนวนเงินที่ต้องการโอน";
 
 /* No comment provided by engineer. */
 "Enter your 2FA code below" = "ป้อนรหัส 2FA ของคุณด้านล่าง";
 
 /* No comment provided by engineer. */
-"exit" = "ออก";
+"Exit" = "ออก";
 
 /* No comment provided by engineer. */
 "Face ID limit" = "ขีดจำกัด Face ID";
-
-/* No comment provided by engineer. */
-"Face ID spending limit" = "จำกัดใช้ Face ID";
 
 /* No comment provided by engineer. */
 "Failed wallet update" = "อัปเดต wallet ล้มเหลว";
@@ -261,58 +261,82 @@
 "Fee" = "ค่าธรรมเนียม";
 
 /* No comment provided by engineer. */
-"Fee is greater than balance" = "Fee is greater than balance";
+"Fee is greater than balance" = "ค่าธรรมเนียมมากกว่ายอดคงเหลือ";
 
 /* No comment provided by engineer. */
-"Fee will be deducted from requested amount" = "ค่าธรรมเนียมจะถูกหักออกจากจำนวนที่ต้องการ";
+"Fee will be deducted from requested amount." = "ค่าธรรมเนียมจะถูกหักออกจากจำนวนที่ต้องการ";
 
 /* No comment provided by engineer. */
-"from:" = "จาก:";
+"Filter Transactions" = "กรองธุรกรรม";
 
 /* No comment provided by engineer. */
-"GENERAL" = "ทั่วไป";
+"Forgot PIN?" = "ลืม PIN?";
+
+/* No comment provided by engineer. */
+"Get Started" = "เริ่มต้น";
 
 /* No comment provided by engineer. */
 "Go to Website" = "ไปยังเว็บไซต์";
 
 /* No comment provided by engineer. */
-"holding funds index:" = "ดัชนีกองทุนกำลังถือ:";
+"Have complete control and customize your wallet based on your needs" = "มีการควบคุมที่สมบูรณ์และกำหนดกระเป๋าเงินของคุณตามความต้องการของคุณ";
+
+/* No comment provided by engineer. */
+"Help us improve your experience" = "ช่วยเราเพื่อพัฒนาประการณ์ของคุณ";
+
+/* adjective, security level */
+"High" = "สูง";
+
+/* No comment provided by engineer. */
+"History" = "ประวัติ";
 
 /* No comment provided by engineer. */
 "I accept that I will lose my coins if I no longer possess the recovery phrase" = "ฉันยอมรับที่ฉันจะสูญเสียเหรียญของฉันถ้าฉันไม่มีวลีกู้คืน";
 
 /* No comment provided by engineer. */
-"id:" = "ไอดี:";
+"I wrote it down" = "ฉันได้เขียนลงไปแล้ว";
+
+/* No comment provided by engineer. */
+"If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device." = "หากคุณทำอุปกรณ์นี้หาย เงินก็จะสูญหาย รับวลีการกู้คืนเพื่อให้คุณสามารถกู้คืนกระเป๋าเงินของคุณบนอุปกรณ์อื่น";
 
 /* No comment provided by engineer. */
 "If you still would like to wipe it please input: \"%@\"" = "ถ้าคุณยังต้องการลบล้าง กรุณาใส่: \"%@\"";
 
 /* No comment provided by engineer. */
-"ignore" = "เพิกเฉย";
+"Ignore" = "เพิกเฉย";
 
 /* No comment provided by engineer. */
-"Import private key" = "นำเข้าคีย์ส่วนตัว";
+"Immediately" = "ทันที";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Import Private Key" = "นำเข้าคีย์ส่วนตัว";
 
 /* No comment provided by engineer. */
-"IMPORTANT" = "สำคัญ";
+"Import private key…" = "นำเข้าคีย์ส่วนตัว...";
 
 /* No comment provided by engineer. */
-"In a previous version of Axewallet, when initially displaying your passphrase on this device we have determined that this App did not correctly display all 12 seed words. Please write down your full passphrase again." = "ใน Axewallet เวอร์ชันก่อนหน้านี้ เมื่อข้อความรหัสผ่านของคุณแสดงตอนแรกบนอุปกรณ์นี้ แอปนี้ไม่ได้แสดงคำทั้งหมด 12 ตัวอย่างถูกต้อง  โปรดเขียนข้อความรหัสผ่านที่ครบถ้วนอีกครั้ง";
+"Insufficient funds" = "ยอดเงินไม่เพียงพอ";
+
+/* Transaction within the wallet, transfer of own funds */
+"Internal Transfer" = "โอนเงินภายใน";
 
 /* No comment provided by engineer. */
-"Insufficient Funds" = "กองทุนไม่เพียงพอ";
+"Internally moved to" = "ย้ายไปภายแล้ว";
+
+/* Invalid transaction */
+"Invalid" = "ไม่ถูกต้อง";
 
 /* No comment provided by engineer. */
-"INVALID" = "ไม่ถูกต้อง";
+"Invalid Payment Request" = "คำขอการชำระเงินไม่ถูกต้อง";
 
 /* No comment provided by engineer. */
-"Invalid amount" = "จำนวนเงินไม่ถูกต้อง";
+"Invalid QR Code" = "Invalid QR Code";
 
 /* No comment provided by engineer. */
-"IP address/port:" = "ที่อยู่ IP / พอร์ต";
+"It's Important" = "สำคัญ";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your axe address. Anyone can send axe to your wallet by transferring them to your address." = "อนุญาตให้ผู้อื่นสแกนโค้ด QR นี้เพื่อรับที่อยู่ axe ของคุณ  ทุกคนสามารถส่ง Axe ไปยัง wallet ของคุณได้โดยการโอนไปยังที่อยู่ของคุณ";
+"Keypair %ld" = "Keypair %ld";
 
 /* No comment provided by engineer. */
 "Link Uphold Account" = "เชื่อมบัญชี Uphold";
@@ -320,14 +344,14 @@
 /* No comment provided by engineer. */
 "Load more" = "โหลดเพิ่ม";
 
-/* No comment provided by engineer. */
-"Local currency" = "สกุลเงินท้องถิ่น";
+/* Translate it as short as possible! (24 symbols max) */
+"Local Currency" = "สกุลเงินท้องถิ่น";
 
 /* No comment provided by engineer. */
-"Locked" = "Locked";
+"Local requested amount: %@" = "จำนวนเงินที่ต้องการท้องถิ่น: %@";
 
 /* No comment provided by engineer. */
-"locked with InstantSend" = "ล็อคด้วย InstantSend";
+"Locked" = "ล็อค";
 
 /* No comment provided by engineer. */
 "Log Out" = "ออกจากระบบ";
@@ -336,94 +360,94 @@
 "Log out from Uphold" = "ออกจากระบบ Uphold";
 
 /* No comment provided by engineer. */
-"masternode holding address" = "ที่อยู่สำหรับ  Masternode";
+"Login with Face ID" = "เข้าสู่ระบบด้วย Face ID";
 
 /* No comment provided by engineer. */
-"Masternode Registration Transaction" = "Masternode การลงทะเบียนธุรกรรม";
+"Login with Touch ID" = "เข้าสู่ระบบด้วย Touch ID";
+
+/* a verb, Logout Immediately */
+"Logout" = "ออกจากระบบ";
+
+/* Logout after 5 min */
+"Logout after" = "ออกจากระบบหลังจาก";
 
 /* No comment provided by engineer. */
-"Masternode Update Registrar Transaction" = "Masternode อัพเดตลงทะเบีนธุรกรรม";
+"Long press to copy ID" = "กดค้างเพื่อคัดลอก ID";
+
+/* adjective, security level */
+"Low" = "ต่ำ";
 
 /* No comment provided by engineer. */
-"Masternode Update Service Transaction" = "Masternode อัพเดตบริการธุรกรรม";
+"Manage Trusted Node" = "จัดการโหนดที่เชื่อถือได้";
 
 /* No comment provided by engineer. */
-"more..." = "เพิ่มเติม";
+"Masternode Registration" = "การลงทะเบียน Masternode ";
 
 /* No comment provided by engineer. */
-"Moved" = "เคลื่อนย้าย";
+"Masternode Revocation" = "การเพิกถอน Masternode";
+
+/* No comment provided by engineer. */
+"Masternode Update" = "อัพเดต Masternode";
+
+/* Contracted variant of 'Maximum' word */
+"Max" = "สูงสุด";
+
+/* adjective, security level */
+"Medium" = "ปานกลาง";
+
+/* No comment provided by engineer. */
+"More" = "มากขึ้น";
+
+/* No comment provided by engineer. */
+"More Control" = "ควบคุมมากขึ้น";
+
+/* No comment provided by engineer. */
+"Moved from" = "เคลื่อนย้ายจาก";
+
+/* No comment provided by engineer. */
+"Moved to Address" = "ย้ายไปยังที่อยู่";
 
 /* No comment provided by engineer. */
 "Network" = "เครือข่าย";
 
 /* No comment provided by engineer. */
-"NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected." = "อย่าพิมพ์วลีกู้คืนที่เกี่ยวข้อง รหัสผ่าน หรือ อื่นๆ อุปกรณ์อื่นอาจติดไวรัสได้";
+"Network fee" = "ค่าธรรมเนียมเครือข่าย";
 
 /* No comment provided by engineer. */
-"new public key:" = "public key ใหม่:";
+"NFC device" = "อุปกรณ์ NFC";
 
 /* No comment provided by engineer. */
-"next, write down your recovery phrase" = "ต่อไป , เขียนวลีกู้คืนของคุณ";
+"NFC device didn't transmit a valid Axe address" = "อุปกรณ์ NFC ไม่ได้ส่งที่อยู่ axe ที่ถูกต้อง";
 
 /* No comment provided by engineer. */
-"NFC device didn't transmit a valid axe address" = "อุปกรณ์ NFC ไม่ได้ส่งที่อยู่ axe ที่ถูกต้อง";
+"No address copied" = "ไม่มีที่อยู่คัดลอก";
 
 /* No comment provided by engineer. */
-"NFC device didn't transmit a valid axe or bitcoin address" = "อุปกรณ์ NFC ไม่ได้ส่งที่อยู่ Axe หรือ ที่อยู่ Bitcoin ที่ถูกต้อง";
+"Node IP" = "โหนด IP";
+
+/* adjective, security level */
+"None" = "ไม่มี";
 
 /* No comment provided by engineer. */
-"no exchange rate data" = "ไม่มีข้อมูลอัตราแลกเปลี่ยน";
+"Not a Axe QR code" = "ไม่ใช่ QR โค้ดของ Axe";
 
 /* No comment provided by engineer. */
-"node ip" = "node ip";
+"Not a Axe URL" = "ไม่ใช่ Axe URL";
 
 /* No comment provided by engineer. */
-"not a axe or bitcoin QR code" = "ไม่ใช่ โค้ด QR ของ axe  หรือ  bitcoin";
+"Not a valid Axe address" = "ไม่ใช่ที่อยู่ axe ที่ถูกต้อง";
 
 /* No comment provided by engineer. */
-"not a axe QR code" = "ไม่ใช่โค้ด QR ของ axe ";
-
-/* No comment provided by engineer. */
-"not a valid bitcoin address" = "ไม่ใช่ที่อยู่ bitcoin address ที่ถูกต้อง";
-
-/* No comment provided by engineer. */
-"not a valid axe address" = "ไม่ใช่ที่อยู่ axe ที่ถูกต้อง";
-
-/* No comment provided by engineer. */
-"not a valid axe or bitcoin address" = "ไม่ใช่ที่อยู่ axe หรือ bitcoin ที่ถูกต้อง";
-
-/* No comment provided by engineer. */
-"not operator" = "ไม่ใช่ตัวดำเนินการ";
-
-/* No comment provided by engineer. */
-"not owner" = "ไม่ใช่เจ้าของ";
-
-/* No comment provided by engineer. */
-"not voter" = "ไม่ใช่ผู้โหวต";
+"Not yet used" = "ยังไม่ถูกใช้";
 
 /* No comment provided by engineer. */
 "OK" = "OK";
 
 /* No comment provided by engineer. */
-"ok" = "โอเค";
-
-/* No comment provided by engineer. */
-"Only enable advanced features if you are knowledgeable in blockchain technology. \nIf enabled only use advanced features that you understand." = "เปิดใช้งานคุณลักษณะขั้นสูงหากคุณรู้เกี่ยวกับเทคโนโลยี blockchain เท่านั้น \nเปิดใช้งานใช้เฉพาะคุณลักษณะขั้นสูงที่คุณเข้าใจเท่านั้น";
-
-/* No comment provided by engineer. */
-"operator key index:" = "ดัชนีตัวดำเนินการ Keys:";
-
-/* No comment provided by engineer. */
-"operator key:" = "ตัวดำเนินการ Keys:";
-
-/* No comment provided by engineer. */
 "Operator Keys" = "ตัวดำเนินการ Keys";
 
 /* No comment provided by engineer. */
-"owner key hash:" = "Hash ของเจ้าของ Keys:";
-
-/* No comment provided by engineer. */
-"owner key index:" = "ดัชนีของเจ้าของ Keys:";
+"Owner Address" = "ที่อยู่เจ้าของ";
 
 /* No comment provided by engineer. */
 "Owner Keys" = "เจ้าของ Keys";
@@ -432,211 +456,307 @@
 "Pay" = "จ่ายเงิน";
 
 /* No comment provided by engineer. */
-"payload:" = "payload:";
+"Pay and get paid instantly with easy to use payment flows" = "ชำระเงินและรับเงินทันทีด้วยกระบวนการชำระเงินที่ใช้งานง่าย";
 
 /* No comment provided by engineer. */
-"payment address" = "ที่อยู่การชำระเงิน";
+"Pay with Ease" = "ชำระเงินได้อย่างง่ายดาย";
+
+/* 1 out of 4 in the Paying Animation */
+"Paying" = "Paying";
+
+/* 2 out of 4 in the Paying Animation */
+"Paying." = "Paying.";
+
+/* 3 out of 4 in the Paying Animation */
+"Paying.." = "Paying..";
+
+/* 4 out of 4 in the Paying Animation */
+"Paying..." = "Paying...";
 
 /* No comment provided by engineer. */
-"payment output" = "การชำระเงิน";
+"Payments" = "การชำระเงิน";
 
 /* No comment provided by engineer. */
-"payout Address" = "ที่อยู่การจ่ายเงิน:";
+"PIN is always required to make a payment" = "ต้องระบุ PIN ทุกครั้งเพื่อชำระเงิน";
 
 /* No comment provided by engineer. */
-"payout address:" = "ที่อยู่การจ่ายเงิน:";
-
-/* No comment provided by engineer. */
-"Pending" = "Pending";
-
-/* No comment provided by engineer. */
-"pending" = "อยู่ระหว่างดำเนินการ";
-
-/* No comment provided by engineer. */
-"Please enter pin to upgrade wallet" = "โปรดใส่รหัสเพื่ออัพเกรด wallet";
-
-/* No comment provided by engineer. */
-"please enter pin to upgrade wallet" = "โปรดป้อน pin เพื่ออัพเกรด wallet";
+"Please enter PIN to upgrade wallet" = "โปรดป้อน PIN เพื่ออัปเกรด Wallet";
 
 /* No comment provided by engineer. */
 "Please place your phone near NFC device." = "โปรดวางมือถือของคุณใกล้กับอุปกรณ์ NFC";
 
 /* No comment provided by engineer. */
+"Please tap on the words from your recovery phrase in the right order" = "โปรดแตะที่คำจากวลีการกู้คืนของคุณในลำดับที่ถูกต้อง";
+
+/* No comment provided by engineer. */
+"Please try again" = "โปรดลองใหม่อีกครั้ง";
+
+/* No comment provided by engineer. */
+"Please try scanning again" = "Please try scanning again";
+
+/* No comment provided by engineer. */
+"Please Wait" = "กรุณารอสักครู่";
+
+/* No comment provided by engineer. */
+"Please wait for the sync to complete" = "โปรดรอจนกว่าการซิงค์จะเสร็จสมบูรณ์";
+
+/* No comment provided by engineer. */
+"Please write it down" = "กรุณาเขียนลงไป";
+
+/* No comment provided by engineer. */
+"Previously used at IP address" = "ใช้ก่อนหน้านี้ที่ที่อยู่ IP";
+
+/* No comment provided by engineer. */
 "Private key" = "Private key";
 
 /* No comment provided by engineer. */
-"processing" = "processing";
+"Processing" = "กำลังประมวลผล";
 
 /* No comment provided by engineer. */
-"Processing" = "Processing";
+"Provider Address" = "ที่อยู่ผู้จัดหา";
 
 /* No comment provided by engineer. */
 "Public key" = "Public key";
 
 /* No comment provided by engineer. */
-"public key:" = "public key:";
+"Quick Receive" = "ได้รับอย่างรวดเร็ว";
 
 /* No comment provided by engineer. */
-"rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@\nquorums validated: %d/%d" = "rate: %1$@ = %2$@\nupdated: %3$@\nblock #%4$d of %5$d\nconnected peers: %6$d\ndl peer: %7$@\nquorums validated: %8$d/%9$d";
+"Quorums validated: %d/%d" = "องค์ประชุมที่ได้รับการรับรอง%1$d/%2$d";
+
+/* ex., Rate 1 US $ = 0.000009 Axe */
+"Rate: %@ = %@" = "ราคา: %1$@ = %2$@";
 
 /* No comment provided by engineer. */
-"Receive axe at this address: %@" = "รับ axe ตามที่อยู่นี้: %@";
+"Receive" = "ได้รับ";
 
-/* No comment provided by engineer. */
+/* Received transaction */
 "Received" = "ได้รับ";
 
 /* No comment provided by engineer. */
-"received %@ (%@)" = "ได้รับ %1$@(%2$@)";
+"Received %@ (%@)" = "ได้รับ %1$@(%2$@)";
 
 /* No comment provided by engineer. */
-"recently mined (locked)" = "ขุดเมื่อไม่นานนี้ (ล็อค)";
-
-/* Recovery phrase */
-"Recovery phrase" = "วลีกู้คืน";
+"Received at" = "ได้รับที่";
 
 /* No comment provided by engineer. */
-"recovery phrase doesn't match" = "วลีกู้คืนไม่ตรงกัน";
+"Received from" = "ได้รับจาก";
 
 /* No comment provided by engineer. */
-"recovery phrase must have %d words" = "วลีกู้คืนต้องมี คำ %d";
+"Recover Wallet" = "กู้คืน wallet";
 
 /* No comment provided by engineer. */
-"registration tx:" = "ลงทะเบียน tx:";
+"Recovery Phrase" = "วลีกู้คืน";
 
 /* No comment provided by engineer. */
-"Remind me later" = "เตือนฉันภายหลัง";
+"Recovery phrase doesn't match" = "วลีกู้คืนไม่ตรงกัน";
 
 /* No comment provided by engineer. */
-"Request" = "ขอร้อง";
+"Recovery phrase must have %d words" = "การกู้คืนวลีต้องมี %d คำ";
 
 /* No comment provided by engineer. */
-"request an amount" = "ขอวงเงิน";
+"Registered from" = "ลงทะเบียนจาก";
 
 /* No comment provided by engineer. */
-"rescan" = "สแกนอีกครั้ง";
+"Registered Masternode" = "Masternodes ที่ลงทะเบียน";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Report an Issue" = "รายงานปัญหา";
+
+/* An action */
+"Rescan" = "สแกนอีกครั้ง";
 
 /* No comment provided by engineer. */
-"Rescan blockchain" = "สแกน blockchain อีกครั้ง";
+"Rescan Blockchain" = "สแกน blockchain อีกครั้ง";
 
 /* No comment provided by engineer. */
-"reset" = "รีเซ็ต";
+"Reset" = "ตั้งค่า";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their axe address. You can send a payment to anyone with an address." = "สแกนโค้ด QR ของผู้อื่นเพื่อรับที่อยู่ axe ของพวกเขา คุณสามารถส่งการชำระเงินให้กับทุกคนที่มีที่อยู่ได้";
+"Reset to Default" = "ตั้งค่าเป็นค่าเริ่มต้น";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their axe or bitcoin address. You can send a payment to anyone with an address." = "สแกนโค้ด QR ของผู้อื่นเพื่อดูที่อยู่ axe หรือ ที่  bitcoin ของพวกเขา";
+"Reset Wallet" = "ตั้งค่า wallet";
+
+/* No comment provided by engineer. */
+"Retry" = "ลองอีกครั้ง";
+
+/* No comment provided by engineer. */
+"Review & Rate the app" = "วิจารณ์และให้คะแนนแอพพลิเคชั่นนี้";
+
+/* No comment provided by engineer. */
+"Reward" = "รางวัล";
+
+/* No comment provided by engineer. */
+"Rewards" = "รางวัล";
+
+/* No comment provided by engineer. */
+"Scan" = "สแกน";
+
+/* No comment provided by engineer. */
+"Scan Private Key" = "สแกนคีย์ส่วนตัว";
+
+/* No comment provided by engineer. */
+"Scan QR Code" = "สแกนโค้ด QR";
+
+/* A title of the quick receive screen */
+"Scan this to Pay" = "สแกนสิ่งนี้เพื่อจ่าย";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Scan to Pay" = "สแกนเพื่อจ่าย";
+
+/* No comment provided by engineer. */
+"Scan to Send" = "สแกนเพื่อส่ง";
+
+/* (Send by) Scanning QR code */
+"Scanning QR code" = "สแกนโค้ด QR";
+
+/* No comment provided by engineer. */
+"Screenshot detected. New recovery phrase:" = "เกิดการบันทึกภาพหน้าจอ. วลีกู้คืนใหม่:";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "การถ่ายภาพหน้าจอสามารถเข้าถึงแอพพลิเคชั่นและอุปกรณ์อื่นได้  สร้างวลีกู้คืนใหม่และเก็บเป็นความลับ";
 
 /* No comment provided by engineer. */
-"Screenshots are visible to other apps and devices. Your funds are at risk. Transfer your balance to another wallet." = "การถ่ายภาพหน้าจอสามารถเข้าถึงแอพพลิเคชั่นและอุปกรณ์อื่นได้  เงินทุนของคุณมีความเสี่ยง  โอนย้ายยอดเงินไปยัง wallet ";
+"Secure now" = "ปลอดภัย";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Secure Wallet Now" = "ทำให้ Wallet ปลอดภัยตอนนี้";
+
+/* No comment provided by engineer. */
+"Security" = "ความปลอดภัย";
+
+/* No comment provided by engineer. */
+"Security Level" = "เลเวลความปลอดภัย";
 
 /* No comment provided by engineer. */
 "See on Uphold" = "เปิดดูที่ Uphold";
 
 /* No comment provided by engineer. */
-"seen by %d of %d peers" = "เห็นแล้ว %1$d ของ %2$d ผู้ปล่อย ";
+"Send" = "ส่ง";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The axe network will receive a fee of %@ (%@)." = "ส่ง %1$@(%2$@) จากคีย์ส่วนตัวนี้ไปยัง wallet ของคุณหรือไม่?  เครือข่าย axe จะได้รับค่าธรรมเนียมของ %3$@ (%4$@)";
+"Send %@ (%@) from this private key into your wallet? The Axe network will receive a fee of %@ (%@)." = "ส่ง %1$@ (%2$@) จากกุญแจส่วนตัวไปยังกระเป๋าสตางค์ของคุณ เครือข่ายของ Axe จะได้รับค่าธรรมเนียมของ %3$@ (%4$@)";
+
+/* Send by (scanning QR code) */
+"Send by" = "ส่งจาก";
 
 /* No comment provided by engineer. */
-"send address as email" = "ส่งที่อยู่เป็นอีเมล์";
+"Send to" = "ส่งไปยัง";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Send to Address" = "ส่งไปยังที่อยู่";
 
 /* No comment provided by engineer. */
-"send address as message" = "ส่งที่อยู่เป็นข้อความ";
+"Send to copied address" = "ส่งไปยังที่อยู่ที่คัดลอก";
 
-/* No comment provided by engineer. */
-"send crash report" = "send crash report";
+/* Translate it as short as possible! (24 symbols max) */
+"Send with NFC" = "ส่งกับ NFC";
 
-/* No comment provided by engineer. */
-"send request as email" = "ส่งคำขอเป็นอีเมล์";
+/* 1 out of 4 in the Sending Animation */
+"Sending" = "กำลังส่ง";
 
-/* No comment provided by engineer. */
-"send request as message" = "ส่งคำขอเป็นข้อความ";
+/* 2 out of 4 in the Sending Animation */
+"Sending." = "กำลังส่ง";
 
-/* No comment provided by engineer. */
+/* 3 out of 4 in the Sending Animation */
+"Sending.." = "กำลังส่ง..";
+
+/* 4 out of 4 in the Sending Animation */
+"Sending..." = "กำลังส่ง..";
+
+/* Sent transaction */
 "Sent" = "ส่ง";
 
 /* No comment provided by engineer. */
-"sent!" = "ส่ง!";
+"Sent from" = "ส่งจาก";
 
 /* No comment provided by engineer. */
-"set a trusted node" = "ตั้ง node  ที่เชื่อถือได้";
+"Sent successfully" = "ส่งสำเร็จแล้ว";
+
+/* No comment provided by engineer. */
+"Sent to" = "ส่งไปยัง";
+
+/* No comment provided by engineer. */
+"Set a trusted node" = "ติดตั้ง node ที่เชื่อถือได้";
+
+/* No comment provided by engineer. */
+"Set PIN" = "ตั้งค่า PIN";
 
 /* No comment provided by engineer. */
 "Settings" = "ตั้งค่า";
 
 /* No comment provided by engineer. */
-"shapeshift bitcoin id:" = "Shapeshift bitcoin id:";
+"Setup Wallet" = "ตั้งค่า wallet";
 
 /* No comment provided by engineer. */
-"shapeshift status:" = "สถานะ shapeshift";
+"Share" = "แบ่งปัน";
 
 /* No comment provided by engineer. */
-"shapeshift succeeded" = "shapeshift สำเร็จ";
+"Show Masternode Keys" = "แสดง masternode keys";
 
 /* No comment provided by engineer. */
-"show" = "แสดง";
+"Show Recovery Phrase" = "แสดงวลีกู้คืน";
 
 /* No comment provided by engineer. */
-"Show masternode keys" = "แสดง masternode keys";
+"Skip" = "ข้าม";
 
 /* No comment provided by engineer. */
-"show phrase" = "แสดงวลี";
-
-/* No comment provided by engineer. */
-"size:" = "ขนาด:";
-
-/* No comment provided by engineer. */
-"sms not currently available" = "sms ไม่พร้อมใช้งาน";
+"skip" = "ข้าม";
 
 /* No comment provided by engineer. */
 "Something went wrong" = "มีบางอย่างผิดพลาด";
 
 /* No comment provided by engineer. */
-"spent address" = "ที่อยู่ที่ใช้แล้ว";
+"Specify Amount" = "ระบุจำนวน";
 
 /* No comment provided by engineer. */
-"spent input" = "ข้อมูลที่ใช้แล้ว";
+"Spending Confirmation" = "การยืนยันการใช้จ่าย";
 
 /* No comment provided by engineer. */
-"Start / Recover another wallet" = "เริ่ม/กู้คืน wallet อื่น";
+"Support" = "Support";
 
 /* No comment provided by engineer. */
-"status:" = "สถานะ:";
+"Swept!" = "ลบล้าง";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Switch to Mainnet" = "เปลี่ยนเป็น Mainnet";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Switch to Testnet" = "เปลี่ยนเป็น Testnet";
 
 /* No comment provided by engineer. */
-"Steps to reproduce the crash" = "Steps to reproduce the crash";
+"Sync Failed" = "ซิงค์ล้มเหลว";
+
+/* Translate it as short as possible! (24 symbols max) */
+"Sync Now" = "ซิงค์ตอนนี้";
 
 /* No comment provided by engineer. */
-"Success" = "สำเร็จ";
+"Syncing" = "กำลังซิงค์";
+
+/* Pay using NFC (should be as short as possible) */
+"Tap" = "กด";
 
 /* No comment provided by engineer. */
-"swept!" = "ลบล้าง";
+"Tap to hide balance" = "กดเพื่อซ่อนยอดคงเหลือ";
 
 /* No comment provided by engineer. */
-"Syncing:" = "ซิงค์";
+"Tap to unhide balance" = "กดเพื่อเลิกซ่อนยอดคงเหลือ";
 
 /* No comment provided by engineer. */
-"the app will now close" = "แอพพลิเคชั่นจะปิดตอนนี้";
+"There are no transactions to display" = "ไม่มีธุรกรรมเพื่อแสดง";
 
 /* No comment provided by engineer. */
-"This is your axe address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "นี่คือที่อยู่ axe ของคุณ แตะเพื่อคัดลอกหรือส่งโดยอีเมล์หรือข้อความ ที่อยู่จะเปลี่ยนแปลงทุกครั้งที่คุณรับเงิน แต่ที่อยู่เดิมจะทำงานได้เสมอ";
+"This app is open source:" = "แอพพลิเคชั่นนี้คือ ซอฟต์แวร์ที่เปิดเผยหลักการหรือแหล่งที่มาของเทคโนโลยีของซอฟต์แวร์นั้นให้บุคคลภายนอกได้ใช้ ภายใต้เงื่อนไขบางประการที่เปิดโอกาสให้ผู้ใช้ทำการแก้ไข ดัดแปลงและเผยแพร่ซอร์สโค้ดได้ ภายใต้เงื่อนไขทางข้อตกลงทางกฎหมาย";
 
 /* No comment provided by engineer. */
-"This is your axe balance." = "นี่คือยอดรวม axe ของคุณ";
+"This PIN will be required to unlock your app every time when you use it." = "ต้องใช้ PIN นี้เพื่อปลดล็อคแอพของคุณทุกครั้งที่ใช้";
 
 /* No comment provided by engineer. */
-"This is your axe balance. Axe is a currency. The exchange rate changes with the market." = "นี่คือยอดเงิน axe ทั้งหมดของคุณ  Axe เป็นสกุลเงิน อัตราแลกเปลี่ยนมีการเปลี่ยนแปลงกับตลาด";
+"This recovery phrase is your access to the funds in this wallet." = "วลีกู้คืนนี้จะทำให้คุณเข้าถึงจำนวนเงินในวอลเล็ท";
 
 /* No comment provided by engineer. */
 "This transaction may take several minutes to settle." = "ธุรกรรมนี้อาจใช้เวลาหลายนาทีในการชำระ";
-
-/* No comment provided by engineer. */
-"This transaction may take several minutes to settle. Complete instantly for an extra %@?" = "ธุรกรรมนี้อาจใช้เวลาหลายนาทีในการชำระ  ต้องการชำระในทันทีสำหรับ %@ หรือไม่?";
 
 /* No comment provided by engineer. */
 "This transaction should settle instantly at no extra fee" = "ธุรกรรมนี้ชำระทันทีโดยไม่มีค่าธรรมเนียมเพิ่มเติม";
@@ -645,13 +765,10 @@
 "This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase" = "Wallet นี้ยังมีข้อมูลหรือการซิงค์ที่ยังไม่เสร็จสิ้น คุณไม่สามารถลบข้อมูลได้โดยไม่ใช้วลีกู้คืน";
 
 /* No comment provided by engineer. */
-"to:" = "ถึง:";
+"This will move all coins from that wallet to your wallet on this device." = "จะทำการย้ายเหรียญทั้งหมดของมายังวอลเล็ทบนอุปกรณ์นี้";
 
 /* No comment provided by engineer. */
-"to: %@" = "ถึง: %@";
-
-/* No comment provided by engineer. */
-"topup amount:" = "เติมเงิน:";
+"Tools" = "เครื่องมือ";
 
 /* No comment provided by engineer. */
 "Total" = "ทั้งหมด";
@@ -660,15 +777,9 @@
 "Touch ID limit" = "ขีดจำกัด Touch ID";
 
 /* No comment provided by engineer. */
-"Touch ID spending limit" = "จำกัดใช้ Touch ID";
-
-/* No comment provided by engineer. */
-"Transaction history" = "ประวัติการทำรายการ";
-
-/* No comment provided by engineer. */
 "Transaction id" = "id ธุรกรรม";
 
-/* No comment provided by engineer. */
+/* A verb, button title. */
 "Transfer" = "โอน";
 
 /* No comment provided by engineer. */
@@ -677,110 +788,131 @@
 /* No comment provided by engineer. */
 "Transfer from Uphold" = "Transfer from Uphold";
 
-/* No comment provided by engineer. */
-"trust" = "เชื่อถือ";
+/* An action */
+"Try again" = "ลองอีกครั้ง";
+
+/* Alert title */
+"Turn device passcode on" = "เปิดรหัสผ่านของอุปกรณ์";
 
 /* No comment provided by engineer. */
-"try again" = "ลองอีกครั้ง:";
+"Unable to connect" = "ไม่สามารถเชื่อมต่อ";
 
 /* No comment provided by engineer. */
-"Try It!" = "ลอง!";
+"Unable to get new QR code" = "ไม่สามารถได้รับโค้ด QR ใหม่";
 
 /* No comment provided by engineer. */
-"turn device passcode on" = "เปิดการใช้งานรหัส";
+"Unsupported or corrupted document" = "ไม่รับรอง หรือเอกสารได้รับความเสียหาย";
 
 /* No comment provided by engineer. */
-"type:" = "ชนิด:";
+"Unsupported URL" = "ไม่รับรองแหล่งที่มาของทรัพยากร URL";
 
-/* No comment provided by engineer. */
-"Unable to get new qr code" = "ไม่สามารถรับโค้ด QR ใหม่";
-
-/* No comment provided by engineer. */
-"unknown address" = "ไม่พบที่อยู่";
-
-/* No comment provided by engineer. */
-"unsupported or corrupted document" = "เอกสารไม่รองรับหรือเสียหาย";
-
-/* No comment provided by engineer. */
-"unsupported url" = "url ไม่รองรับ";
-
-/* No comment provided by engineer. */
-"Unverified" = "Unverified";
+/* ex., Updated: 27.12, 8:30 */
+"Updated: %@" = "อัพเดต: %@";
 
 /* No comment provided by engineer. */
 "Uphold" = "Uphold";
 
 /* No comment provided by engineer. */
-"Uphold account" = "บัญชี Uphold";
+"Used" = "ใช้แล้ว";
 
 /* No comment provided by engineer. */
-"User Registration Transaction" = "ธุรกรรมการลงทะเบียนผู้ใช้";
+"Used at IP address" = "ใช้ที่ที่อยู่ IP";
 
 /* No comment provided by engineer. */
-"User Reset Transaction" = "ธุรกรรมการรีเซ็ตผู้ใช้";
+"Verified Successfully" = "ตรวจสอบสำเร็จ";
 
 /* No comment provided by engineer. */
-"User Topup Transaction" = "ธุรกรรมการเติมเงินของผู้ใช้";
+"Verify" = "ตรวจสอบ";
+
+/* adjective, security level */
+"Very High" = "สูงมาก";
 
 /* No comment provided by engineer. */
-"username:" = "ชื่อผู้ใช้:";
+"View in Block Explorer" = "ดูใน Block Explorer";
 
 /* No comment provided by engineer. */
-"verified, waiting for confirmation" = "ตรวจสอบแล้ว รอการยืนยัน";
+"View passphrase, backup wallet…" = "ดูวลี, สำรองวอลเล็ท...";
 
 /* No comment provided by engineer. */
-"verifying quorum" = "verifying quorum";
+"View Recovery Phrase" = "ดูวลีกู้คืน";
 
 /* No comment provided by engineer. */
-"voting key hash:" = "Hash ของ voting key: ";
-
-/* No comment provided by engineer. */
-"voting key index:" = "ดัชนี voting key: ";
+"Voting Address" = "ที่อยู่ซึ่งใช้ในการออกเสียงลงคะแนน";
 
 /* No comment provided by engineer. */
 "Voting Keys" = "Voting Keys";
 
 /* No comment provided by engineer. */
-"wallet address" = "ที่อยู่ wallet ";
+"Wallet disabled" = "wallet ถูกปิดการใช้งาน";
 
 /* No comment provided by engineer. */
 "Wallet Keys" = "Wallet Keys";
 
 /* No comment provided by engineer. */
+"Warning" = "คำเตือน";
+
+/* No comment provided by engineer. */
 "WARNING" = "คำเตือน";
 
 /* No comment provided by engineer. */
-"watch only" = "ดูเท่านั้น";
+"We are about to show you the secret key to your wallet." = "เรากำลังจะแสดงให้คุณเห็นถึง การเข้ารหัสและถอดรหัสโดยใช้กุญแจรหัสตัวเดียวกันในการเข้าถึงกระเป๋าสตางค์ของคุณ";
 
 /* No comment provided by engineer. */
-"We have detected that Axewallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete." = "ตรวจพบว่า Axewallet เกิดข้อผิดพลาดระหว่างการย้ายข้อมูล การสแกน Blockchain ใหม่อีกครั้งจะช่วยแก้ปัญหานี้หรือคุณอาจจะต้องลองอีกครั้ง  ควรทำการสแกนซ้ำโดยใช้ wifi โดยจะใช้เวลาประมาณครึ่งชั่วโมง  เงินของคุณจะสามารถใช้ได้เมื่อกระบวนการซิงค์เสร็จสมบูรณ์";
+"We do not store this recovery phrase." = "เราไม่เก็บรักษาวลีกู้คืนนี้";
 
 /* No comment provided by engineer. */
-"We have detected that Axewallet crashed last time it was opened. Would you like to help us solve the issue by sending us the crash report data? Your transaction history and any other private information WILL NOT be shared." = "We have detected that Axewallet crashed last time it was opened. Would you like to help us solve the issue by sending us the crash report data? Your transaction history and any other private information WILL NOT be shared.";
+"We have detected that Axe Wallet crashed during migration. Rescanning the blockchain will solve this issue or you may try again. Rescanning should preferably be performed on wifi and will take up to half an hour. Your funds will be available once the sync process is complete." = "ตรวจพบว่า Axewallet เกิดข้อผิดพลาดระหว่างการย้ายข้อมูล การสแกน Blockchain ใหม่อีกครั้งจะช่วยแก้ปัญหานี้หรือคุณอาจจะต้องลองอีกครั้ง  ควรทำการสแกนซ้ำโดยใช้ wifi โดยจะใช้เวลาประมาณครึ่งชั่วโมง  เงินของคุณจะสามารถใช้ได้เมื่อกระบวนการซิงค์เสร็จสมบูรณ์";
 
 /* No comment provided by engineer. */
-"wipe" = "ลบล้าง";
+"We Upgraded" = "อัพเกรด";
 
 /* No comment provided by engineer. */
-"WRITE DOWN YOUR RECOVERY PHRASE" = "เขียนวลีการกู้คืนของคุณ";
+"Welcome" = "ยินดีต้อนรับ";
 
 /* No comment provided by engineer. */
-"yes" = "ใช่";
+"When the transaction is confirmed, the other wallet will be worthless and should not be re-used for safety reasons." = "เมื่อธุรกรรมถูกยืนยัน วอลเล็ทอื่นๆจะไม่มีจราคาและไม่ควรนำมาใช้อีกครั้งเพื่อความปลอดภัย";
 
 /* No comment provided by engineer. */
-"You can now buy axe in\naxewallet with cash or\nbank transfer." = "ขณะนี้คุณสามารถซื้อ axe \nผ่านเงินใน axe wallet หรือ \nโอนผ่านธนาคารได้";
+"Why I should not take a screenshot?" = "Why I should not take a screenshot?";
 
 /* No comment provided by engineer. */
-"You must enter your pin in order to enter axewallet" = "คุณต้องป้อนรหัสของคุณเพื่อที่จะเข้า axewallet";
+"Wipe" = "ลบล้าง";
 
 /* No comment provided by engineer. */
-"you received axe!" = "คุณได้รับ axe ";
+"Wipe Wallet" = "รีเซ็ตกระเป๋าสตางค์";
+
+/* No comment provided by engineer. */
+"with Axe blockchain" = "กับ Axe Blockchain";
+
+/* No comment provided by engineer. */
+"You are about to sweep funds from another Axe Wallet." = "คุณกำลังจะเคลื่อนย้ายเงินจาก Axe Wallet อื่น";
+
+/* No comment provided by engineer. */
+"You are about to wipe this wallet from this device. Funds associated with this wallet can only be retrieved if you have your recovery phrase." = "คุณกำลังจะล้างวอลเล็ทนี้จากอุปกรณ์นี้ เงินทุนที่เกี่ยวข้องกับกระเป๋าเงินนี้สามารถเรียกคืนได้หากคุณมีวลีกู้คืนของคุณ";
+
+/* No comment provided by engineer. */
+"You can authenticate with Face ID for payments below" = "คุณสามารถตรวจสอบด้วย Face ID สำหรับการชำระเงินด้านล่าง";
+
+/* No comment provided by engineer. */
+"You can authenticate with Touch ID for payments below" = "คุณสามารถตรวจสอบด้วย Touch ID สำหรับการชำระเงินด้านล่าง";
+
+/* No comment provided by engineer. */
+"You must enter your PIN in order to enter Axe Wallet" = "คุณต้องใส่รหัสผ่านเพื่อทำการเข้า Axe Wallet";
+
+/* No comment provided by engineer. */
+"You received Axe! If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device." = "คุณได้รับ Axe! หากคุณทำอุปกรณ์นี้หายคุณจะเสียเงิน รับวลีการกู้คืนเพื่อให้คุณสามารถกู้คืนกระเป๋าเงินของคุณบนอุปกรณ์อื่น";
 
 /* No comment provided by engineer. */
 "You will also need to log out from the Uphold website using your browser" = "คุณจะต้องออกจากระบบของเว็บไซต์ Uphold โดยใช้เบราว์เซอร์ของคุณ";
+
+/* No comment provided by engineer. */
+"You will need this recovery phrase to access your funds if this device is lost, damaged or if Axe Wallet ever is accidentally uninstalled from this device." = "คุณจะต้องใช้วลีกู้คืนนี้เพื่อเข้าถึงเงินทุนของคุณหากอุปกรณ์นี้สูญหายได้รับความเสียหายหรือหาก Axe Wallet เคยถอนการติดตั้งโดยไม่ได้ตั้งใจจากอุปกรณ์นี้";
 
 /* No comment provided by engineer. */
 "Your transaction was sent and the amount should appear in your wallet in a few minutes." = "ธุรกรรมของคุณถูกส่งแล้วและจำนวนเงินจะปรากฏใน wallet ของคุณในอีกไม่กี่นาที";
 
 /* No comment provided by engineer. */
 "Your Uphold account Axe balance is" = "ยอด Axe ของบัญชี Uphold ของคุณคือ";
+
+/* No comment provided by engineer. */
+"Your wallet is secured now. You can use your recovery phrase anytime to recover your account on another device." = "กระเป๋าเงินของคุณปลอดภัยแล้ว คุณสามารถใช้วลีกู้คืนได้ทุกเวลาเพื่อกู้คืนบัญชีของคุณบนอุปกรณ์อื่น";

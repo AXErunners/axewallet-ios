@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>org.axecore.axesync.backgroundblocksync</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -63,6 +67,16 @@
 	<array>
 		<dict>
 			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>CFBundleURLName</key>
+			<string>com.anypay</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>pay</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
 			<string>axe</string>
@@ -117,23 +131,15 @@
 	<string>Used to authorize payments</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>We will use your location to determine where you are. Your location will never be recorded or shared with anyone.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Used to save media data</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Unused</string>
+	<string>Used to save media data</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Montserrat-Regular.otf</string>
-		<string>Montserrat-Light.otf</string>
-		<string>Montserrat-Bold.otf</string>
-		<string>Montserrat-Italic.otf</string>
 		<string>Montserrat-SemiBold.otf</string>
-		<string>Montserrat-Thin.otf</string>
 		<string>Montserrat-Medium.otf</string>
-		<string>Montserrat-ExtraLight.otf</string>
-		<string>Montserrat-ExtraLightItalic.otf</string>
-		<string>Montserrat-LightItalic.otf</string>
-		<string>Montserrat-MediumItalic.otf</string>
-		<string>Montserrat-SemiBoldItalic.otf</string>
-		<string>Montserrat-ThinItalic.otf</string>
 	</array>
 	<key>UIBackgroundModes</key>
 	<array>
@@ -147,17 +153,20 @@
 		<string>armv7</string>
 	</array>
 	<key>UIRequiresFullScreen</key>
-	<true/>
-	<key>UIStatusBarHidden</key>
-	<true/>
+	<false/>
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleLightContent</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
-	<key>UIUserInterfaceStyle</key>
-	<string>Light</string>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
 	<key>UTImportedTypeDeclarations</key>
@@ -207,6 +216,11 @@
 				<string>application/axe-paymentack</string>
 			</dict>
 		</dict>
+	</array>
+	<key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
+	<array>
+		<string>A0000002471001</string>
+		<string>00000000000000</string>
 	</array>
 </dict>
 </plist>
