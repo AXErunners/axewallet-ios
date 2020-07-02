@@ -19,7 +19,7 @@ PODS:
   - UIViewController-KeyboardAdditions (1.2.1)
 
 DEPENDENCIES:
-  - AxeSync (from `https://github.com/axerunners/axesync/`, commit `70f06b7a43a6ef30c9ab25425ba974f52b680e3f`)
+  - AxeSync (from `https://github.com/axerunners/axesync/`, commit `76a2010683a5b807f14e05b989ba9f02f057f3b4`)
   - CloudInAppMessaging (= 0.1.0)
   - DSDynamicOptions (= 0.1.0)
   - KVO-MVVM (= 0.5.6)
@@ -41,7 +41,7 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   AxeSync:
-    :commit: 70f06b7a43a6ef30c9ab25425ba974f52b680e3f
+    :commit: 76a2010683a5b807f14e05b989ba9f02f057f3b4
     :git: https://github.com/axerunners/axesync/
   MMSegmentSlider:
     :commit: 2d91366
@@ -49,7 +49,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   AxeSync:
-    :commit: 70f06b7a43a6ef30c9ab25425ba974f52b680e3f
+    :commit: 76a2010683a5b807f14e05b989ba9f02f057f3b4
     :git: https://github.com/axerunners/axesync/
   MMSegmentSlider:
     :commit: 2d91366
@@ -68,6 +68,6 @@ SPEC CHECKSUMS:
   secp256k1_axe: bd1dc10fc294f2f0e0704f8bea578eb9ea5916d0
   UIViewController-KeyboardAdditions: a691dc7e63a49854d341455a778ee8497dfc4662
 
-PODFILE CHECKSUM: 3a11fa19c79881bd17dd991da6e1fffee1840417
+PODFILE CHECKSUM: 6d0dc73e4e49340caba969e48940148522790062
 
 COCOAPODS: 1.9.3
