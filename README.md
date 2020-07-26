@@ -24,7 +24,6 @@ Because Axewallet is deterministic, your balance and transaction history can be 
 - private keys never leave your device
 - import password protected paper wallets
 - "payment protocol” payee identity certification
-- Shapeshift integration (Pay any BTC Address by just scanning the BTC QR Code)
 
 ## URL scheme:
 Axewallet supports the [x-callback-url](http://x-callback-url.com/) specification with the following URLs:
