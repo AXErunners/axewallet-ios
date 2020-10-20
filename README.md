@@ -1,6 +1,6 @@
 # AXEwallet
 
-[![Build Status](https://travis-ci.com/AXErunners/axewallet-ios.svg?branch=master)](https://travis-ci.com/AXErunners/axewallet-ios) [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/AXErunners/axewallet-ios/blob/master/LICENSE) [![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20watchOS-blue)](https://github.com/AXErunners/axewallet-ios)
+[![Build Status](https://travis-ci.com/AXErunners/axewallet-ios.svg?branch=master)](https://travis-ci.com/AXErunners/axewallet-ios) [![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20watchOS-blue)](https://github.com/AXErunners/axewallet-ios)
 
 <p align="center" >
 <img src="AxeWallet/Resources/AppAssets.xcassets/AppIcon.appiconset/icon_83.5@2x.png" alt="AXE wallet logo">
