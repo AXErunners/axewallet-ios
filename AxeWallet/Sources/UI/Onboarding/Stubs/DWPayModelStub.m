@@ -60,7 +60,7 @@ NS_ASSUME_NONNULL_BEGIN
 
         _options = [options copy];
 
-        pasteboardOption.details = @"7a7Y5cpsPqhCsV1ss967d1wuSWH7QPR4Gt";
+        pasteboardOption.details = @"XrUv3aniSvZEKx2VoFe5fTqFfYL5JYFkbg";
 
         __weak typeof(self) weakSelf = self;
         [_inputBuilder payFirstFromArray:@[ pasteboardOption.details ]
@@ -81,6 +81,10 @@ NS_ASSUME_NONNULL_BEGIN
 }
 
 - (nonnull DWPaymentInput *)paymentInputWithURL:(nonnull NSURL *)url {
+    return self.pasteboardPaymentInput;
+}
+
+- (DWPaymentInput *)paymentInputWithUser:(id<DWDPBasicUserItem>)userItem {
     return self.pasteboardPaymentInput;
 }
 

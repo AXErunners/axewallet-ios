@@ -64,7 +64,7 @@
                                                     <constraint firstAttribute="height" constant="44" id="0XG-wC-M3Q"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="13"/>
-                                                <state key="normal" title="www.axerunners.com">
+                                                <state key="normal" title="www.axe.org">
                                                     <color key="titleColor" name="SecondaryTextColor"/>
                                                 </state>
                                                 <connections>

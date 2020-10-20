@@ -19,6 +19,7 @@
 
 #import "DWGlobalOptions.h"
 #import "DWShortcutAction.h"
+#import "DevicesCompatibility.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -27,6 +28,7 @@ static NSInteger MAX_SHORTCUTS_COUNT = 4;
 @interface DWShortcutsModel ()
 
 @property (strong, nonatomic) NSMutableArray<DWShortcutAction *> *mutableItems;
+@property (nullable, nonatomic, weak) id<DWShortcutsModelDataSource> dataSource;
 
 @end
 
@@ -40,9 +42,10 @@ static NSInteger MAX_SHORTCUTS_COUNT = 4;
     return keyPaths ?: [super keyPathsForValuesAffectingValueForKey:key];
 }
 
-- (instancetype)init {
+- (instancetype)initWithDataSource:(id<DWShortcutsModelDataSource>)dataSource {
     self = [super init];
     if (self) {
+        _dataSource = dataSource;
         [self reloadShortcuts];
     }
     return self;
@@ -64,28 +67,35 @@ static NSInteger MAX_SHORTCUTS_COUNT = 4;
         self.mutableItems = [self.class userShortcuts];
     }
     else {
-        self.mutableItems = [self.class defaultShortcuts];
+        const BOOL isShowingCreateUserName = [self.dataSource shouldShowCreateUserNameButton];
+        self.mutableItems = [self.class defaultShortcutsShowingCreateUserName:isShowingCreateUserName];
     }
 }
 
 #pragma mark - Private
 
-+ (NSMutableArray<DWShortcutAction *> *)defaultShortcuts {
++ (NSMutableArray<DWShortcutAction *> *)defaultShortcutsShowingCreateUserName:(BOOL)isShowingCreateUserName {
     DWGlobalOptions *options = [DWGlobalOptions sharedInstance];
 
     NSMutableArray<DWShortcutAction *> *mutableItems = [NSMutableArray array];
 
+    if (isShowingCreateUserName) {
+        [mutableItems addObject:[DWShortcutAction action:DWShortcutActionType_CreateUsername]];
+    }
+
     const BOOL walletNeedsBackup = options.walletNeedsBackup;
     if (walletNeedsBackup) {
         [mutableItems addObject:[DWShortcutAction action:DWShortcutActionType_SecureWallet]];
+        [mutableItems addObject:[DWShortcutAction action:DWShortcutActionType_ScanToPay]];
+        if (!IS_IPHONE_5_OR_LESS) {
+            [mutableItems addObject:[DWShortcutAction action:DWShortcutActionType_PayToAddress]];
+        }
+        [mutableItems addObject:[DWShortcutAction action:DWShortcutActionType_Receive]];
     }
-
-    [mutableItems addObject:[DWShortcutAction action:DWShortcutActionType_ScanToPay]];
-    [mutableItems addObject:[DWShortcutAction action:DWShortcutActionType_PayToAddress]];
-
-    const BOOL canConfigureShortcuts = !walletNeedsBackup;
-    if (canConfigureShortcuts) {
-        [mutableItems addObject:[DWShortcutAction action:DWShortcutActionType_ImportPrivateKey]];
+    else {
+        [mutableItems addObject:[DWShortcutAction action:DWShortcutActionType_ScanToPay]];
+        [mutableItems addObject:[DWShortcutAction action:DWShortcutActionType_PayToAddress]];
+        [mutableItems addObject:[DWShortcutAction action:DWShortcutActionType_Receive]];
     }
 
     return mutableItems;

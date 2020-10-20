@@ -37,6 +37,11 @@ NS_ASSUME_NONNULL_BEGIN
         return;
     }
 
+    if (![DWDataMigrationManager sharedInstance].shouldMigrateDatabase) {
+        self.state = DWStartModelStateDone;
+        return;
+    }
+
     self.state = DWStartModelStateInProgress;
 
 #ifdef DEBUG
@@ -59,12 +64,10 @@ NS_ASSUME_NONNULL_BEGIN
 }
 
 - (void)cancelMigration {
-    [[DWDataMigrationManager sharedInstance] destroyOldPersistentStore];
     self.state = DWStartModelStateDone;
 }
 
 - (void)cancelMigrationAndRescanBlockchain {
-    [[DWDataMigrationManager sharedInstance] destroyOldPersistentStore];
     self.state = DWStartModelStateDoneAndRescan;
 }
 

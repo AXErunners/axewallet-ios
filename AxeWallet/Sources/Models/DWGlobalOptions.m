@@ -38,6 +38,10 @@ static NSString *const SPENDING_CONFIRMATION_DISABLED_KEY = @"org.axe.wallet.spe
 @dynamic balanceHidden;
 @dynamic shouldDisplayOnboarding;
 @dynamic paymentsScreenCurrentTab;
+@dynamic axepayUsername;
+@dynamic axepayRegistrationCompleted;
+@dynamic mostRecentViewedNotificationDate;
+@dynamic resyncingWallet;
 
 #pragma mark - Init
 
@@ -111,6 +115,10 @@ static NSString *const SPENDING_CONFIRMATION_DISABLED_KEY = @"org.axe.wallet.spe
     self.shortcuts = nil;
     self.localNotificationsEnabled = YES;
     self.balanceHidden = NO;
+    self.axepayUsername = nil;
+    self.axepayRegistrationCompleted = NO;
+    self.mostRecentViewedNotificationDate = nil;
+    self.resyncingWallet = NO;
 }
 
 @end

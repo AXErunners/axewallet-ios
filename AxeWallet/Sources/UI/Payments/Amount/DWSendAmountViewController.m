@@ -29,14 +29,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @implementation DWSendAmountViewController
 
-+ (instancetype)sendControllerWithDestination:(NSString *)sendingDestination
-                               paymentDetails:(nullable DSPaymentProtocolDetails *)paymentDetails {
+- (instancetype)initWithDestination:(NSString *)sendingDestination
+                     paymentDetails:(nullable DSPaymentProtocolDetails *)paymentDetails
+                        contactItem:(nullable id<DWDPBasicUserItem>)contactItem {
     DWSendAmountModel *model = [[DWSendAmountModel alloc] initWithSendingDestination:sendingDestination
-                                                                      paymentDetails:paymentDetails];
-
-    DWSendAmountViewController *controller = [[DWSendAmountViewController alloc] initWithModel:model];
-
-    return controller;
+                                                                      paymentDetails:paymentDetails
+                                                                         contactItem:contactItem];
+    self = [super initWithModel:model];
+    return self;
 }
 
 - (DWSendAmountModel *)sendAmountModel {
@@ -74,6 +74,15 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)actionButtonAction:(id)sender {
     BOOL inputValid = [self validateInputAmount];
     if (!inputValid) {
+        return;
+    }
+
+    if (!self.sendAmountModel.isSendAllowed) {
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Please wait for the sync to complete", nil) message:nil preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *ok = [UIAlertAction actionWithTitle:NSLocalizedString(@"OK", nil) style:UIAlertActionStyleCancel handler:nil];
+        [alert addAction:ok];
+        [self presentViewController:alert animated:YES completion:nil];
+
         return;
     }
 
