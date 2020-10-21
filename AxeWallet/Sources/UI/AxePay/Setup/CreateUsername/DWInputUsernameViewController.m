@@ -224,7 +224,7 @@ NS_ASSUME_NONNULL_END
         _textField.autocorrectionType = UITextAutocorrectionTypeNo;
         _textField.autocapitalizationType = UITextAutocapitalizationTypeNone;
         _textField.spellCheckingType = UITextSpellCheckingTypeNo;
-        _textField.smartDashesType = UITextSmartAxeesTypeNo;
+        _textField.smartDashesType = UITextSmartDashesTypeNo;
         _textField.smartQuotesType = UITextSmartQuotesTypeNo;
         _textField.smartInsertDeleteType = UITextSmartInsertDeleteTypeNo;
         _textField.returnKeyType = UIReturnKeyDone;
