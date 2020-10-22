@@ -95,6 +95,9 @@ static NSInteger MAX_SHORTCUTS_COUNT = 4;
     else {
         [mutableItems addObject:[DWShortcutAction action:DWShortcutActionType_ScanToPay]];
         [mutableItems addObject:[DWShortcutAction action:DWShortcutActionType_PayToAddress]];
+        if (!IS_IPHONE_5_OR_LESS) {
+            [mutableItems addObject:[DWShortcutAction action:DWShortcutActionType_SyncNow]];
+        }
         [mutableItems addObject:[DWShortcutAction action:DWShortcutActionType_Receive]];
     }
 
