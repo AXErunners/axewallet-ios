@@ -33,6 +33,8 @@ typedef NS_ENUM(NSInteger, DWShortcutActionType) {
     DWShortcutActionType_SwitchToTestnet = 8,
     DWShortcutActionType_SwitchToMainnet = 9,
     DWShortcutActionType_ReportAnIssue = 10,
+    DWShortcutActionType_CreateUsername = 11,
+    DWShortcutActionType_Receive = 12,
     DWShortcutActionType_AddShortcut = 1000,
 };
 
