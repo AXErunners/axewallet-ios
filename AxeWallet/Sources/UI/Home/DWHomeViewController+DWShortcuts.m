@@ -129,24 +129,6 @@ NS_ASSUME_NONNULL_BEGIN
     [self presentControllerModallyInNavigationController:controller];
 }
 
-- (void)buySellAxeAction {
-    [[DSAuthenticationManager sharedInstance]
-              authenticateWithPrompt:nil
-        usingBiometricAuthentication:[DWGlobalOptions sharedInstance].biometricAuthEnabled
-                      alertIfLockout:YES
-                          completion:^(BOOL authenticated, BOOL usedBiometrics, BOOL cancelled) {
-                              if (authenticated) {
-                                  [self buySellAxeActionAuthenticated];
-                              }
-                          }];
-}
-
-- (void)buySellAxeActionAuthenticated {
-    UIViewController *controller = [DWUpholdViewController controller];
-    DWNavigationController *navigationController =
-        [[DWNavigationController alloc] initWithRootViewController:controller];
-    [self presentViewController:navigationController animated:YES completion:nil];
-}
 
 - (void)showLocalCurrencyAction {
     DWLocalCurrencyViewController *controller = [[DWLocalCurrencyViewController alloc] init];
