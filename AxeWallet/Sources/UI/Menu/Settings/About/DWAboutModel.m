@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 @implementation DWAboutModel
 
 + (NSURL *)supportURL {
-    NSURL *url = [NSURL URLWithString:@"https://support.axe.org/en/support/solutions"];
+    NSURL *url = [NSURL URLWithString:@"https://axerunners.com/#resources"];
     return url;
 }
 
