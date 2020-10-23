@@ -1,3 +1,8 @@
+/* No comment provided by engineer. */
+"%@ has accepted your contact request" = "%@ talebinizi kabul etti.";
+
+/* Username has sent you a contact request */
+"%@ has sent you a contact request" = "%@ size bir talep gönderdi";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access Face ID" = "%@ Yüz Kimliğine erişim izni verilmiyor";
@@ -7,6 +12,24 @@
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access Touch ID" = "%@ Dokunmatik Kimliğe erişim izni verilmiyor";
+
+/* No comment provided by engineer. */
+"(1/3) Processing Payment" = "(1/3) Ödeme İşleniyor";
+
+/* No comment provided by engineer. */
+"(1/3) Unable to process payment" = "(1/3) Ödeme işlenemiyor";
+
+/* No comment provided by engineer. */
+"(2/3) Creating Axe Identity" = "(2/3) Axe Kimliği Oluşturuluyor";
+
+/* No comment provided by engineer. */
+"(2/3) Unable to create Axe Identity" = "(2/3) Axe Kimliği Oluşturulamadı";
+
+/* No comment provided by engineer. */
+"(3/3) Can't register username" = "(3/3) Kullanıcı adı kaydedilemiyor";
+
+/* No comment provided by engineer. */
+"(3/3) Registering Username" = "(3/3) Kullanıcı Adı Kaydediliyor";
 
 /* No comment provided by engineer. */
 "1 hour" = "1 saat";
@@ -24,6 +47,9 @@
 "\"%@\" is not a recovery phrase word" = "\"%@\" kurtarma cümlesi kelimesi değil";
 
 /* No comment provided by engineer. */
+"\"%@\" is not a recovery phrase word. Would you like to try to recover the correct word that should be in its place?" = "\"%@\" is not a recovery phrase word. Would you like to try to recover the correct word that should be in its place?";
+
+/* No comment provided by engineer. */
 "\ntry again in %@" = "\n%@ içinde tekrar deneyin";
 
 /* No comment provided by engineer. */
@@ -31,6 +57,18 @@
 
 /* No comment provided by engineer. */
 "About" = "Hakkında";
+
+/* No comment provided by engineer. */
+"Accept" = "Kabul et";
+
+/* No comment provided by engineer. */
+"Activity" = "Faaliyet";
+
+/* Add <username> as your contact... */
+"Add %@ as your contact to Pay Directly to Username and Retain Mutual Transaction History" = "%@ Doğrudan Kullanıcı Adına Ödeme Yapmak ve Karşılıklı İşlem Geçmişini Saklamak için ekle";
+
+/* No comment provided by engineer. */
+"Add a New Contact" = "Yeni Kişi Ekle";
 
 /* Translate it as short as possible! (24 symbols max) */
 "Add Shortcut" = "Kısayol Ekle";
@@ -137,6 +175,9 @@
 /* No comment provided by engineer. */
 "Check your connection" = "Bağlantınızı kontrol edin";
 
+/* Choose your Axe username */
+"Choose your" = "Seçin";
+
 /* No comment provided by engineer. */
 "Clear" = "Temizle";
 
@@ -156,6 +197,9 @@
 "Confirm" = "Onayla";
 
 /* No comment provided by engineer. */
+"Confirm & Pay" = "Onayla ve Öde";
+
+/* No comment provided by engineer. */
 "Confirm PIN" = "PİN'i Onayla";
 
 /* No comment provided by engineer. */
@@ -171,7 +215,16 @@
 "Connecting to payment server" = "Ödeme Sunucusuna Bağlanıyor";
 
 /* No comment provided by engineer. */
+"Contact Request Pending" = "Bekleyen İletişim Talebi";
+
+/* No comment provided by engineer. */
+"Contact Requests" = "İletişim Talebi";
+
+/* No comment provided by engineer. */
 "Contact Support" = "Destekle İletişime Geçin";
+
+/* No comment provided by engineer. */
+"Contacts" = "Kişiler";
 
 /* No comment provided by engineer. */
 "Continue" = "Devam";
@@ -189,6 +242,9 @@
 "Copyright © 2020 Axe Core" = "Telif Hakkı © 2020 Axe Core";
 
 /* No comment provided by engineer. */
+"Could not automatically recover missing or incorrect words" = "Could not automatically recover missing or incorrect words";
+
+/* No comment provided by engineer. */
 "Couldn't make payment" = "Ödeme yapılamadı";
 
 /* No comment provided by engineer. */
@@ -201,7 +257,16 @@
 "Create a New Wallet" = "Yeni Cüzdan Oluştur";
 
 /* No comment provided by engineer. */
+"Current user: %@" = "Şu anki kullanıcı: %@";
+
+/* No comment provided by engineer. */
 "Axe payments can't be less than %@" = "Axe ödemesi %@ altında olamaz";
+
+/* No comment provided by engineer. */
+"Axe username" = "Axe kullanıcı adı";
+
+/* No comment provided by engineer. */
+"AxePay Upgrade Fee" = "AxePay Yükseltme Ücreti";
 
 /* No comment provided by engineer. */
 "Date" = "Tarih";
@@ -216,13 +281,19 @@
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your Axe). Wipe this wallet immediately and restore on a secure device." = "CİHAZ GÜVENLİĞİ ZAYIFLADI\nHerhangi bir 'jailbreak' uygulaması diğer uygulamaların verilerine erişebilir (ve Axelerinizi çalabilir). Bu cüzdanı hemen silin ve güvenli bir cihaza yükleyin.";
 
 /* No comment provided by engineer. */
-"Do not take a screenshot" = "Do not take a screenshot";
+"Do not take a screenshot" = "Ekran görüntüsü almayın";
 
 /* No comment provided by engineer. */
 "Done" = "Bitti";
 
 /* ex., Download peer: 127.0.0.1:9999 */
 "Download peer: %@" = "İndirilen dağıtıcı: %@";
+
+/* (List of notifications happened) Earlier (some time ago) */
+"Earlier" = "Önceki";
+
+/* Input username textfield placeholder */
+"eg: johndoe" = "örneğin: mehmetali";
 
 /* No comment provided by engineer. */
 "Enable Face ID" = "Yüz Kimliğini Etkinleştir";
@@ -249,6 +320,12 @@
 "Enter your 2FA code below" = "2FA kodunu aşağıya girin";
 
 /* No comment provided by engineer. */
+"Error" = "Hata";
+
+/* No comment provided by engineer. */
+"Error Upgrading" = "Yükseltme Hatası";
+
+/* No comment provided by engineer. */
 "Exit" = "Çıkış";
 
 /* No comment provided by engineer. */
@@ -270,7 +347,22 @@
 "Filter Transactions" = "İşlemleri Filtrele";
 
 /* No comment provided by engineer. */
+"Find a user on the Axe Network" = "Axe Ağında bir kullanıcı bulun";
+
+/* No comment provided by engineer. */
 "Forgot PIN?" = "PİN'inizi unuttunuz mu?";
+
+/* No comment provided by engineer. */
+"Found missing word:\n%@" = "Found missing word:\n%@";
+
+/* No comment provided by engineer. */
+"Found missing words:\n%@" = "Found missing words:\n%@";
+
+/* No comment provided by engineer. */
+"Found potential missing words:\n%@" = "Found potential missing words:\n%@";
+
+/* No comment provided by engineer. */
+"Generate extended public keys?" = "Genişletilmiş umumi anahtarlar oluşturulsun mu?";
 
 /* No comment provided by engineer. */
 "Get Started" = "Başla";
@@ -278,8 +370,17 @@
 /* No comment provided by engineer. */
 "Go to Website" = "İnternet sitesine git";
 
+/* Username has requested to be your friend */
+"has requested to be your friend" = "arkadaşın olma isteği gönderdi";
+
 /* No comment provided by engineer. */
 "Have complete control and customize your wallet based on your needs" = "Tam kontrol sahibi olun ve cüzdanınızı ihtiyacınıza göre özelleştirin";
+
+/* No comment provided by engineer. */
+"header #%d of %d" = "başlık #%1$d / %2$d";
+
+/* Hello username, */
+"Hello %@," = "Merhaba %@,";
 
 /* No comment provided by engineer. */
 "Help us improve your experience" = "Deneyiminizi geliştirmemize yardımcı olun";
@@ -289,6 +390,9 @@
 
 /* No comment provided by engineer. */
 "History" = "Geçmiş";
+
+/* No comment provided by engineer. */
+"I Accept" = "Kabul ediyorum";
 
 /* No comment provided by engineer. */
 "I accept that I will lose my coins if I no longer possess the recovery phrase" = "Eğer kurtarma metnime sahip olmazsam paralarımı kaybedeceğimi kabul ediyorum";
@@ -333,10 +437,25 @@
 "Invalid QR Code" = "Geçersiz QR Kodu";
 
 /* No comment provided by engineer. */
+"It would seem like you are attempting to restore your wallet a using a 12 word recovery phrase, however you have only entered 10 words, would you like to automatically recover missing words? This might take around an hour. We recommend plugging in your device." = "It would seem like you are attempting to restore your wallet a using a 12 word recovery phrase, however you have only entered 10 words, would you like to automatically recover missing words? This might take around an hour. We recommend plugging in your device.";
+
+/* No comment provided by engineer. */
+"It would seem like you are attempting to restore your wallet a using a 12 word recovery phrase, however you have only entered 11 words, would you like to automatically recover the missing word?" = "It would seem like you are attempting to restore your wallet a using a 12 word recovery phrase, however you have only entered 11 words, would you like to automatically recover the missing word?";
+
+/* No comment provided by engineer. */
 "It's Important" = "Bu önemli";
 
 /* No comment provided by engineer. */
+"Join Evolution" = "Evolution'a katıl";
+
+/* No comment provided by engineer. */
 "Keypair %ld" = "Anahtar çifti %ld";
+
+/* No comment provided by engineer. */
+"Let me know when it’s done" = "Bittiğinde bana haber ver";
+
+/* Validation rule */
+"Letters and numbers only" = "Sadece harfler ve rakamlar";
 
 /* No comment provided by engineer. */
 "Link Uphold Account" = "Uphold Hesabını Bağla";
@@ -381,6 +500,9 @@
 "Manage Trusted Node" = "Güvenilen Düğümü Yönet";
 
 /* No comment provided by engineer. */
+"masternode list #%d of %d" = "masternode list #%1$d of %2$d";
+
+/* No comment provided by engineer. */
 "Masternode Registration" = "Anadüğüm Kayıt İşlemi";
 
 /* No comment provided by engineer. */
@@ -392,8 +514,14 @@
 /* Contracted variant of 'Maximum' word */
 "Max" = "Maksimum";
 
+/* Validation rule: Maximum 24 characters */
+"Maximum %ld characters" = "Maksimum %ld karakter";
+
 /* adjective, security level */
 "Medium" = "Orta";
+
+/* Validation rule */
+"Minimum 3 characters" = "Minimum 3 karakter";
 
 /* No comment provided by engineer. */
 "More" = "Daha Fazla";
@@ -408,10 +536,19 @@
 "Moved to Address" = "Adrese Taşındı";
 
 /* No comment provided by engineer. */
+"My Contacts" = "Kişilerim";
+
+/* No comment provided by engineer. */
+"Name" = "İsim";
+
+/* No comment provided by engineer. */
 "Network" = "Ağ";
 
 /* No comment provided by engineer. */
 "Network fee" = "Ağ ücreti";
+
+/* (List of) New (notifications) */
+"New" = "Yeni";
 
 /* No comment provided by engineer. */
 "NFC device" = "NFC cihazı";
@@ -441,7 +578,13 @@
 "Not yet used" = "Henüz kullanılmadı";
 
 /* No comment provided by engineer. */
+"Notifications" = "Bildirimler";
+
+/* No comment provided by engineer. */
 "OK" = "Tamam";
+
+/* Once <username> accepts your request... */
+"Once %@ accepts your request you can Pay Directly to Username" = "%@ isteğinizi kabul ettiğinizde Kullanıcı Adına Doğrudan Ödeme yapabilirsiniz";
 
 /* No comment provided by engineer. */
 "Operator Keys" = "Operatör Anahtarları";
@@ -457,6 +600,9 @@
 
 /* No comment provided by engineer. */
 "Pay and get paid instantly with easy to use payment flows" = "Kullanımı kolay ödeme akımlarıyla anında ödeme yapın ve alın";
+
+/* emphasized text in: Add <username> as your contact to Pay Directly to Username and Retain Mutual Transaction History */
+"Pay Directly to Username" = "Kullanıcı Adına Doğrudan Ödeme Yap";
 
 /* No comment provided by engineer. */
 "Pay with Ease" = "Kolaylıkla öde";
@@ -475,6 +621,9 @@
 
 /* No comment provided by engineer. */
 "Payments" = "Ödemeler";
+
+/* No comment provided by engineer. */
+"Pending" = "Bekliyor";
 
 /* No comment provided by engineer. */
 "PIN is always required to make a payment" = "Ödeme yapmak için her zaman PIN gereklidir";
@@ -496,6 +645,9 @@
 
 /* No comment provided by engineer. */
 "Please Wait" = "Lütfen Bekleyin";
+
+/* No comment provided by engineer. */
+"Please wait" = "Lütfen bekleyin";
 
 /* No comment provided by engineer. */
 "Please wait for the sync to complete" = "Lütfen senkronizasyonun tamamlanmasını bekleyin";
@@ -543,7 +695,13 @@
 "Received from" = "Gönderen";
 
 /* No comment provided by engineer. */
+"Recover" = "Recover";
+
+/* No comment provided by engineer. */
 "Recover Wallet" = "Cüzdanı Kurtar";
+
+/* No comment provided by engineer. */
+"Recovering..." = "Recovering...";
 
 /* No comment provided by engineer. */
 "Recovery Phrase" = "Kurtarma Sözcük Grubu";
@@ -552,7 +710,13 @@
 "Recovery phrase doesn't match" = "Kurtarma cümlesi eşleşmiyor";
 
 /* No comment provided by engineer. */
-"Recovery phrase must have %d words" = "Kurtarma cümlesi %d kelime olmalı";
+"Recovery phrase must have 12, 15, 18, 21 or 24 words" = "Recovery phrase must have 12, 15, 18, 21 or 24 words";
+
+/* Button title, Register (username) */
+"Register" = "Kayıt ol";
+
+/* No comment provided by engineer. */
+"Register?" = "Kayıt ol?";
 
 /* No comment provided by engineer. */
 "Registered from" = "Tarafından kaydedildi";
@@ -577,6 +741,9 @@
 
 /* No comment provided by engineer. */
 "Reset Wallet" = "Cüzdanı Sıfırla";
+
+/* emphasized text in: Add <username> as your contact to Pay Directly to Username and Retain Mutual Transaction History */
+"Retain Mutual Transaction History" = "Karşılıklı İşlem Geçmişini Saklayın";
 
 /* No comment provided by engineer. */
 "Retry" = "Tekrar dene";
@@ -618,6 +785,24 @@
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Ekran görüntüleri diğer uygulamalar ve cihazlar tarafından görülebilir. Yeni bir kurtarma metni oluşturun ve gizli tutun.";
 
 /* No comment provided by engineer. */
+"Search for a contact" = "Kişi arayın";
+
+/* No comment provided by engineer. */
+"Search for a contact request" = "Kişi isteği arayın";
+
+/* No comment provided by engineer. */
+"Search for a User on the Axe Network" = "Axe Ağındaki bir Kullanıcıyı Ara";
+
+/* No comment provided by engineer. */
+"Search for a username" = "Bir kullanıcı adı arayın";
+
+/* Search results for \"John Doe\" */
+"Search results for \"" = "\" için arama sonuçları";
+
+/* No comment provided by engineer. */
+"Searching for username %@ on the Axe Network" = "Axe ağında %@ kullanıcı adı aranıyor";
+
+/* No comment provided by engineer. */
 "Secure now" = "Şimdi Korumaya Al";
 
 /* Translate it as short as possible! (24 symbols max) */
@@ -642,6 +827,9 @@
 "Send by" = "Tarafından Gönderildi";
 
 /* No comment provided by engineer. */
+"Send Contact Request" = "İletişim İsteği Gönderin";
+
+/* No comment provided by engineer. */
 "Send to" = "Gönder";
 
 /* Translate it as short as possible! (24 symbols max) */
@@ -655,6 +843,9 @@
 
 /* 1 out of 4 in the Sending Animation */
 "Sending" = "Gönderiliyor";
+
+/* No comment provided by engineer. */
+"Sending to" = "Gönderiliyor";
 
 /* 2 out of 4 in the Sending Animation */
 "Sending." = "Gönderiliyor.";
@@ -708,13 +899,19 @@
 "Something went wrong" = "Bir şeyler ters gitti";
 
 /* No comment provided by engineer. */
+"Sort by" = "Göre sırala";
+
+/* No comment provided by engineer. */
+"Sort Contacts" = "Kişileri Sırala";
+
+/* No comment provided by engineer. */
 "Specify Amount" = "Tutarı Belirleyin";
 
 /* No comment provided by engineer. */
 "Spending Confirmation" = "Harcama Onayı";
 
 /* No comment provided by engineer. */
-"Support" = "Support";
+"Support" = "Destek";
 
 /* No comment provided by engineer. */
 "Swept!" = "Tarandı!";
@@ -744,7 +941,16 @@
 "Tap to unhide balance" = "Bakiyeyi görmek için tıkla";
 
 /* No comment provided by engineer. */
+"There are no new notifications" = "Yeni bildirim yok";
+
+/* No comment provided by engineer. */
 "There are no transactions to display" = "Görüntülenecek işlem yok";
+
+/* No comment provided by engineer. */
+"There are no users that match with the name %@" = "%@ Adıyla eşleşen kullanıcı yok";
+
+/* No comment provided by engineer. */
+"There are no users that match with the name %@ in your contacts" = "Kişilerinizde %@ adıyla eşleşen kullanıcı yok";
 
 /* No comment provided by engineer. */
 "This app is open source:" = "Bu uygulama açık kaynaklıdır:";
@@ -810,6 +1016,12 @@
 "Updated: %@" = "Güncellendi: %@";
 
 /* No comment provided by engineer. */
+"Upgrade Fee" = "Yükseltme Ücreti";
+
+/* No comment provided by engineer. */
+"Upgrading to AxePay" = "AxePay'e yükseltiliyor";
+
+/* No comment provided by engineer. */
 "Uphold" = "Uphold";
 
 /* No comment provided by engineer. */
@@ -819,6 +1031,18 @@
 "Used at IP address" = "IP adresinde kullanıldı";
 
 /* No comment provided by engineer. */
+"Username taken" = "Kullanıcı adı alınmış";
+
+/* No comment provided by engineer. */
+"Validating username done" = "Kullanıcı adı doğrulandı";
+
+/* No comment provided by engineer. */
+"Validating username failed" = "Kullanıcı adı doğrulanamadı";
+
+/* No comment provided by engineer. */
+"Validating username…" = "Kullanıcı adı doğrulanıyor…";
+
+/* No comment provided by engineer. */
 "Verified Successfully" = "Başarıyla Doğrulandı";
 
 /* No comment provided by engineer. */
@@ -826,6 +1050,9 @@
 
 /* adjective, security level */
 "Very High" = "Çok Yüksek";
+
+/* No comment provided by engineer. */
+"View All" = "Hepsini gör";
 
 /* No comment provided by engineer. */
 "View in Block Explorer" = "Blok gezgininde görüntüle";
@@ -873,7 +1100,7 @@
 "When the transaction is confirmed, the other wallet will be worthless and should not be re-used for safety reasons." = "İşlem onaylandığında, diğer cüzdan değersiz olacaktır ve güvenlik nedeniyle yeniden kullanılmamalıdır.";
 
 /* No comment provided by engineer. */
-"Why I should not take a screenshot?" = "Why I should not take a screenshot?";
+"Why I should not take a screenshot?" = "Neden ekran görüntüsü almamalıyım?";
 
 /* No comment provided by engineer. */
 "Wipe" = "Sil";
@@ -883,6 +1110,9 @@
 
 /* No comment provided by engineer. */
 "with Axe blockchain" = "Axe blok zinciri ile";
+
+/* No comment provided by engineer. */
+"You accepted the contact request from %@" = "%@'den gelen kişi talebini kabul ettiniz.";
 
 /* No comment provided by engineer. */
 "You are about to sweep funds from another Axe Wallet." = "Başka bir Axe cüzdanından para aktarmak üzeresiniz.";
@@ -897,10 +1127,16 @@
 "You can authenticate with Touch ID for payments below" = "Dokunmatik Kimlik doğrulaması ile aşağıdaki ödemeleri yapabilirsiniz";
 
 /* No comment provided by engineer. */
+"You have chosen \"%@\" as your username. Your username cannot be changed once registered." = "Kullanıcı adınızı \"%@\" olarak belirlediniz. Kullanıcı adınız kayıt olduktan sonra değiştirilemez.";
+
+/* No comment provided by engineer. */
 "You must enter your PIN in order to enter Axe Wallet" = "Axe Wallet'a girmek için bir PİN kodu girmelisiniz";
 
 /* No comment provided by engineer. */
 "You received Axe! If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device." = "Axe aldınız! Bu cihazı kaybederseniz, paranızı kaybedersiniz. Cüzdanınızı başka bir cihaza geri yükleyebilmeniz için kurtarma sözcük grubunuza sahip çıkın.";
+
+/* No comment provided by engineer. */
+"You sent the contact request to %@" = "%@'e iletişim talebi gönderildi";
 
 /* No comment provided by engineer. */
 "You will also need to log out from the Uphold website using your browser" = "Aynı zamanda tarayıcınızda Uphold internet sitesinden çıkış yapmanız gerekecek";
@@ -909,10 +1145,19 @@
 "You will need this recovery phrase to access your funds if this device is lost, damaged or if Axe Wallet ever is accidentally uninstalled from this device." = "Bu cihazın kaybolması / hasar görmesi, Axe cüzdanının bu cihazdan yanlışlıkla silinmesi durumunda paranıza erişmek için bu kurtarma ifadesine ihtiyacınız olacaktır.";
 
 /* No comment provided by engineer. */
+"Your AxePay Username is ready to use" = "AxePay Kullanıcı Adınız kullanıma hazır";
+
+/* No comment provided by engineer. */
 "Your transaction was sent and the amount should appear in your wallet in a few minutes." = "İşleminiz yapıldı ve birkaç dakika içinde tutar cüzdanınızda görülecek.";
 
 /* No comment provided by engineer. */
 "Your Uphold account Axe balance is" = "Uphold hesabınızın Axe bakiyesi:";
+
+/* No comment provided by engineer. */
+"Your username %@ has been successfully created on the Axe Network" = "Kullanıcı adınız %@ Axe Ağında başarıyla oluşturuldu";
+
+/* No comment provided by engineer. */
+"Your username %@ is being created on the Axe Network" = "Kullanıcı adınız %@ Axe Ağında oluşturuluyor";
 
 /* No comment provided by engineer. */
 "Your wallet is secured now. You can use your recovery phrase anytime to recover your account on another device." = "Cüzdanınız artık güvende. Hesabınızı başka bir cihaza aktarmak için kurtarma sözcük grubunuzu istediğiniz zaman kullanabilirsiniz.";

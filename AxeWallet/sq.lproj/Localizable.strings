@@ -1,3 +1,8 @@
+/* No comment provided by engineer. */
+"%@ has accepted your contact request" = "%@ has accepted your contact request";
+
+/* Username has sent you a contact request */
+"%@ has sent you a contact request" = "%@ has sent you a contact request";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access Face ID" = "%@ is not allowed to access Face ID";
@@ -7,6 +12,24 @@
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access Touch ID" = "%@ is not allowed to access Touch ID";
+
+/* No comment provided by engineer. */
+"(1/3) Processing Payment" = "(1/3) Processing Payment";
+
+/* No comment provided by engineer. */
+"(1/3) Unable to process payment" = "(1/3) Unable to process payment";
+
+/* No comment provided by engineer. */
+"(2/3) Creating Axe Identity" = "(2/3) Creating Axe Identity";
+
+/* No comment provided by engineer. */
+"(2/3) Unable to create Axe Identity" = "(2/3) Unable to create Axe Identity";
+
+/* No comment provided by engineer. */
+"(3/3) Can't register username" = "(3/3) Can't register username";
+
+/* No comment provided by engineer. */
+"(3/3) Registering Username" = "(3/3) Registering Username";
 
 /* No comment provided by engineer. */
 "1 hour" = "1 hour";
@@ -24,6 +47,9 @@
 "\"%@\" is not a recovery phrase word" = "\"%@\" nuk është një fjalë e frazës rikthyese";
 
 /* No comment provided by engineer. */
+"\"%@\" is not a recovery phrase word. Would you like to try to recover the correct word that should be in its place?" = "\"%@\" is not a recovery phrase word. Would you like to try to recover the correct word that should be in its place?";
+
+/* No comment provided by engineer. */
 "\ntry again in %@" = "\ntry again in %@";
 
 /* No comment provided by engineer. */
@@ -31,6 +57,18 @@
 
 /* No comment provided by engineer. */
 "About" = "Rreth";
+
+/* No comment provided by engineer. */
+"Accept" = "Accept";
+
+/* No comment provided by engineer. */
+"Activity" = "Activity";
+
+/* Add <username> as your contact... */
+"Add %@ as your contact to Pay Directly to Username and Retain Mutual Transaction History" = "Add %@ as your contact to Pay Directly to Username and Retain Mutual Transaction History";
+
+/* No comment provided by engineer. */
+"Add a New Contact" = "Add a New Contact";
 
 /* Translate it as short as possible! (24 symbols max) */
 "Add Shortcut" = "Add Shortcut";
@@ -137,6 +175,9 @@
 /* No comment provided by engineer. */
 "Check your connection" = "Check your connection";
 
+/* Choose your Axe username */
+"Choose your" = "Choose your";
+
 /* No comment provided by engineer. */
 "Clear" = "Clear";
 
@@ -156,6 +197,9 @@
 "Confirm" = "Confirm";
 
 /* No comment provided by engineer. */
+"Confirm & Pay" = "Confirm & Pay";
+
+/* No comment provided by engineer. */
 "Confirm PIN" = "Confirm PIN";
 
 /* No comment provided by engineer. */
@@ -171,7 +215,16 @@
 "Connecting to payment server" = "Connecting to payment server";
 
 /* No comment provided by engineer. */
+"Contact Request Pending" = "Contact Request Pending";
+
+/* No comment provided by engineer. */
+"Contact Requests" = "Contact Requests";
+
+/* No comment provided by engineer. */
 "Contact Support" = "Contact Support";
+
+/* No comment provided by engineer. */
+"Contacts" = "Contacts";
 
 /* No comment provided by engineer. */
 "Continue" = "Continue";
@@ -189,6 +242,9 @@
 "Copyright © 2020 Axe Core" = "Copyright © 2020 Axe Core";
 
 /* No comment provided by engineer. */
+"Could not automatically recover missing or incorrect words" = "Could not automatically recover missing or incorrect words";
+
+/* No comment provided by engineer. */
 "Couldn't make payment" = "Couldn't make payment";
 
 /* No comment provided by engineer. */
@@ -201,7 +257,16 @@
 "Create a New Wallet" = "Create a New Wallet";
 
 /* No comment provided by engineer. */
+"Current user: %@" = "Current user: %@";
+
+/* No comment provided by engineer. */
 "Axe payments can't be less than %@" = "Axe payments can't be less than %@";
+
+/* No comment provided by engineer. */
+"Axe username" = "Axe username";
+
+/* No comment provided by engineer. */
+"AxePay Upgrade Fee" = "AxePay Upgrade Fee";
 
 /* No comment provided by engineer. */
 "Date" = "Date";
@@ -223,6 +288,12 @@
 
 /* ex., Download peer: 127.0.0.1:9999 */
 "Download peer: %@" = "Download peer: %@";
+
+/* (List of notifications happened) Earlier (some time ago) */
+"Earlier" = "Earlier";
+
+/* Input username textfield placeholder */
+"eg: johndoe" = "eg: johndoe";
 
 /* No comment provided by engineer. */
 "Enable Face ID" = "Enable Face ID";
@@ -249,6 +320,12 @@
 "Enter your 2FA code below" = "Enter your 2FA code below";
 
 /* No comment provided by engineer. */
+"Error" = "Gabim";
+
+/* No comment provided by engineer. */
+"Error Upgrading" = "Error Upgrading";
+
+/* No comment provided by engineer. */
 "Exit" = "Exit";
 
 /* No comment provided by engineer. */
@@ -270,7 +347,22 @@
 "Filter Transactions" = "Filter Transactions";
 
 /* No comment provided by engineer. */
+"Find a user on the Axe Network" = "Find a user on the Axe Network";
+
+/* No comment provided by engineer. */
 "Forgot PIN?" = "Forgot PIN?";
+
+/* No comment provided by engineer. */
+"Found missing word:\n%@" = "Found missing word:\n%@";
+
+/* No comment provided by engineer. */
+"Found missing words:\n%@" = "Found missing words:\n%@";
+
+/* No comment provided by engineer. */
+"Found potential missing words:\n%@" = "Found potential missing words:\n%@";
+
+/* No comment provided by engineer. */
+"Generate extended public keys?" = "Generate extended public keys?";
 
 /* No comment provided by engineer. */
 "Get Started" = "Get Started";
@@ -278,8 +370,17 @@
 /* No comment provided by engineer. */
 "Go to Website" = "Go to Website";
 
+/* Username has requested to be your friend */
+"has requested to be your friend" = "has requested to be your friend";
+
 /* No comment provided by engineer. */
 "Have complete control and customize your wallet based on your needs" = "Have complete control and customize your wallet based on your needs";
+
+/* No comment provided by engineer. */
+"header #%d of %d" = "header #%1$d of %2$d";
+
+/* Hello username, */
+"Hello %@," = "Hello %@,";
 
 /* No comment provided by engineer. */
 "Help us improve your experience" = "Help us improve your experience";
@@ -289,6 +390,9 @@
 
 /* No comment provided by engineer. */
 "History" = "History";
+
+/* No comment provided by engineer. */
+"I Accept" = "I Accept";
 
 /* No comment provided by engineer. */
 "I accept that I will lose my coins if I no longer possess the recovery phrase" = "I accept that I will lose my coins if I no longer possess the recovery phrase";
@@ -333,10 +437,25 @@
 "Invalid QR Code" = "Invalid QR Code";
 
 /* No comment provided by engineer. */
+"It would seem like you are attempting to restore your wallet a using a 12 word recovery phrase, however you have only entered 10 words, would you like to automatically recover missing words? This might take around an hour. We recommend plugging in your device." = "It would seem like you are attempting to restore your wallet a using a 12 word recovery phrase, however you have only entered 10 words, would you like to automatically recover missing words? This might take around an hour. We recommend plugging in your device.";
+
+/* No comment provided by engineer. */
+"It would seem like you are attempting to restore your wallet a using a 12 word recovery phrase, however you have only entered 11 words, would you like to automatically recover the missing word?" = "It would seem like you are attempting to restore your wallet a using a 12 word recovery phrase, however you have only entered 11 words, would you like to automatically recover the missing word?";
+
+/* No comment provided by engineer. */
 "It's Important" = "It's Important";
 
 /* No comment provided by engineer. */
+"Join Evolution" = "Join Evolution";
+
+/* No comment provided by engineer. */
 "Keypair %ld" = "Keypair %ld";
+
+/* No comment provided by engineer. */
+"Let me know when it’s done" = "Let me know when it’s done";
+
+/* Validation rule */
+"Letters and numbers only" = "Letters and numbers only";
 
 /* No comment provided by engineer. */
 "Link Uphold Account" = "Link Uphold Account";
@@ -381,6 +500,9 @@
 "Manage Trusted Node" = "Manage Trusted Node";
 
 /* No comment provided by engineer. */
+"masternode list #%d of %d" = "masternode list #%1$d of %2$d";
+
+/* No comment provided by engineer. */
 "Masternode Registration" = "Masternode Registration";
 
 /* No comment provided by engineer. */
@@ -392,8 +514,14 @@
 /* Contracted variant of 'Maximum' word */
 "Max" = "Max";
 
+/* Validation rule: Maximum 24 characters */
+"Maximum %ld characters" = "Maximum %ld characters";
+
 /* adjective, security level */
 "Medium" = "Medium";
+
+/* Validation rule */
+"Minimum 3 characters" = "Minimum 3 characters";
 
 /* No comment provided by engineer. */
 "More" = "More";
@@ -408,10 +536,19 @@
 "Moved to Address" = "Moved to Address";
 
 /* No comment provided by engineer. */
+"My Contacts" = "My Contacts";
+
+/* No comment provided by engineer. */
+"Name" = "Name";
+
+/* No comment provided by engineer. */
 "Network" = "Network";
 
 /* No comment provided by engineer. */
 "Network fee" = "Tarifa e rrjetit";
+
+/* (List of) New (notifications) */
+"New" = "New";
 
 /* No comment provided by engineer. */
 "NFC device" = "NFC device";
@@ -441,7 +578,13 @@
 "Not yet used" = "Not yet used";
 
 /* No comment provided by engineer. */
+"Notifications" = "Notifications";
+
+/* No comment provided by engineer. */
 "OK" = "OK";
+
+/* Once <username> accepts your request... */
+"Once %@ accepts your request you can Pay Directly to Username" = "Once %@ accepts your request you can Pay Directly to Username";
 
 /* No comment provided by engineer. */
 "Operator Keys" = "Operator Keys";
@@ -457,6 +600,9 @@
 
 /* No comment provided by engineer. */
 "Pay and get paid instantly with easy to use payment flows" = "Pay and get paid instantly with easy to use payment flows";
+
+/* emphasized text in: Add <username> as your contact to Pay Directly to Username and Retain Mutual Transaction History */
+"Pay Directly to Username" = "Pay Directly to Username";
 
 /* No comment provided by engineer. */
 "Pay with Ease" = "Pay with Ease";
@@ -475,6 +621,9 @@
 
 /* No comment provided by engineer. */
 "Payments" = "Payments";
+
+/* No comment provided by engineer. */
+"Pending" = "Pending";
 
 /* No comment provided by engineer. */
 "PIN is always required to make a payment" = "PIN is always required to make a payment";
@@ -496,6 +645,9 @@
 
 /* No comment provided by engineer. */
 "Please Wait" = "Please Wait";
+
+/* No comment provided by engineer. */
+"Please wait" = "Please wait";
 
 /* No comment provided by engineer. */
 "Please wait for the sync to complete" = "Please wait for the sync to complete";
@@ -543,7 +695,13 @@
 "Received from" = "Received from";
 
 /* No comment provided by engineer. */
+"Recover" = "Recover";
+
+/* No comment provided by engineer. */
 "Recover Wallet" = "Recover Wallet";
+
+/* No comment provided by engineer. */
+"Recovering..." = "Recovering...";
 
 /* No comment provided by engineer. */
 "Recovery Phrase" = "Recovery Phrase";
@@ -552,7 +710,13 @@
 "Recovery phrase doesn't match" = "Recovery phrase doesn't match";
 
 /* No comment provided by engineer. */
-"Recovery phrase must have %d words" = "Recovery phrase must have %d words";
+"Recovery phrase must have 12, 15, 18, 21 or 24 words" = "Recovery phrase must have 12, 15, 18, 21 or 24 words";
+
+/* Button title, Register (username) */
+"Register" = "Register";
+
+/* No comment provided by engineer. */
+"Register?" = "Register?";
 
 /* No comment provided by engineer. */
 "Registered from" = "Registered from";
@@ -577,6 +741,9 @@
 
 /* No comment provided by engineer. */
 "Reset Wallet" = "Reset Wallet";
+
+/* emphasized text in: Add <username> as your contact to Pay Directly to Username and Retain Mutual Transaction History */
+"Retain Mutual Transaction History" = "Retain Mutual Transaction History";
 
 /* No comment provided by engineer. */
 "Retry" = "Provo prapë";
@@ -618,6 +785,24 @@
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Screenshot mund të shihen nga aplikacionet dhe pajisjet tjera. Gjenero një frazë tjetër rikthyese dhe mbaje sekret.";
 
 /* No comment provided by engineer. */
+"Search for a contact" = "Search for a contact";
+
+/* No comment provided by engineer. */
+"Search for a contact request" = "Search for a contact request";
+
+/* No comment provided by engineer. */
+"Search for a User on the Axe Network" = "Search for a User on the Axe Network";
+
+/* No comment provided by engineer. */
+"Search for a username" = "Search for a username";
+
+/* Search results for \"John Doe\" */
+"Search results for \"" = "Search results for \"";
+
+/* No comment provided by engineer. */
+"Searching for username %@ on the Axe Network" = "Searching for username %@ on the Axe Network";
+
+/* No comment provided by engineer. */
 "Secure now" = "Secure now";
 
 /* Translate it as short as possible! (24 symbols max) */
@@ -642,6 +827,9 @@
 "Send by" = "Send by";
 
 /* No comment provided by engineer. */
+"Send Contact Request" = "Send Contact Request";
+
+/* No comment provided by engineer. */
 "Send to" = "Send to";
 
 /* Translate it as short as possible! (24 symbols max) */
@@ -655,6 +843,9 @@
 
 /* 1 out of 4 in the Sending Animation */
 "Sending" = "Sending";
+
+/* No comment provided by engineer. */
+"Sending to" = "Sending to";
 
 /* 2 out of 4 in the Sending Animation */
 "Sending." = "Sending.";
@@ -708,6 +899,12 @@
 "Something went wrong" = "Something went wrong";
 
 /* No comment provided by engineer. */
+"Sort by" = "Sort by";
+
+/* No comment provided by engineer. */
+"Sort Contacts" = "Sort Contacts";
+
+/* No comment provided by engineer. */
 "Specify Amount" = "Specify Amount";
 
 /* No comment provided by engineer. */
@@ -744,7 +941,16 @@
 "Tap to unhide balance" = "Tap to unhide balance";
 
 /* No comment provided by engineer. */
+"There are no new notifications" = "There are no new notifications";
+
+/* No comment provided by engineer. */
 "There are no transactions to display" = "There are no transactions to display";
+
+/* No comment provided by engineer. */
+"There are no users that match with the name %@" = "There are no users that match with the name %@";
+
+/* No comment provided by engineer. */
+"There are no users that match with the name %@ in your contacts" = "There are no users that match with the name %@ in your contacts";
 
 /* No comment provided by engineer. */
 "This app is open source:" = "This app is open source:";
@@ -810,6 +1016,12 @@
 "Updated: %@" = "Updated: %@";
 
 /* No comment provided by engineer. */
+"Upgrade Fee" = "Upgrade Fee";
+
+/* No comment provided by engineer. */
+"Upgrading to AxePay" = "Upgrading to AxePay";
+
+/* No comment provided by engineer. */
 "Uphold" = "Uphold";
 
 /* No comment provided by engineer. */
@@ -819,6 +1031,18 @@
 "Used at IP address" = "Used at IP address";
 
 /* No comment provided by engineer. */
+"Username taken" = "Username taken";
+
+/* No comment provided by engineer. */
+"Validating username done" = "Validating username done";
+
+/* No comment provided by engineer. */
+"Validating username failed" = "Validating username failed";
+
+/* No comment provided by engineer. */
+"Validating username…" = "Validating username…";
+
+/* No comment provided by engineer. */
 "Verified Successfully" = "Verified Successfully";
 
 /* No comment provided by engineer. */
@@ -826,6 +1050,9 @@
 
 /* adjective, security level */
 "Very High" = "Very High";
+
+/* No comment provided by engineer. */
+"View All" = "View All";
 
 /* No comment provided by engineer. */
 "View in Block Explorer" = "View in Block Explorer";
@@ -885,6 +1112,9 @@
 "with Axe blockchain" = "with Axe blockchain";
 
 /* No comment provided by engineer. */
+"You accepted the contact request from %@" = "You accepted the contact request from %@";
+
+/* No comment provided by engineer. */
 "You are about to sweep funds from another Axe Wallet." = "You are about to sweep funds from another Axe Wallet.";
 
 /* No comment provided by engineer. */
@@ -897,10 +1127,16 @@
 "You can authenticate with Touch ID for payments below" = "You can authenticate with Touch ID for payments below";
 
 /* No comment provided by engineer. */
+"You have chosen \"%@\" as your username. Your username cannot be changed once registered." = "You have chosen \"%@\" as your username. Your username cannot be changed once registered.";
+
+/* No comment provided by engineer. */
 "You must enter your PIN in order to enter Axe Wallet" = "You must enter your PIN in order to enter Axe Wallet";
 
 /* No comment provided by engineer. */
 "You received Axe! If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device." = "You received Axe! If you lose this device, you will lose your funds. Get your recovery phrase so that you can restore your wallet on another device.";
+
+/* No comment provided by engineer. */
+"You sent the contact request to %@" = "You sent the contact request to %@";
 
 /* No comment provided by engineer. */
 "You will also need to log out from the Uphold website using your browser" = "You will also need to log out from the Uphold website using your browser";
@@ -909,10 +1145,19 @@
 "You will need this recovery phrase to access your funds if this device is lost, damaged or if Axe Wallet ever is accidentally uninstalled from this device." = "You will need this recovery phrase to access your funds if this device is lost, damaged or if Axe Wallet ever is accidentally uninstalled from this device.";
 
 /* No comment provided by engineer. */
+"Your AxePay Username is ready to use" = "Your AxePay Username is ready to use";
+
+/* No comment provided by engineer. */
 "Your transaction was sent and the amount should appear in your wallet in a few minutes." = "Your transaction was sent and the amount should appear in your wallet in a few minutes.";
 
 /* No comment provided by engineer. */
 "Your Uphold account Axe balance is" = "Your Uphold account Axe balance is";
+
+/* No comment provided by engineer. */
+"Your username %@ has been successfully created on the Axe Network" = "Your username %@ has been successfully created on the Axe Network";
+
+/* No comment provided by engineer. */
+"Your username %@ is being created on the Axe Network" = "Your username %@ is being created on the Axe Network";
 
 /* No comment provided by engineer. */
 "Your wallet is secured now. You can use your recovery phrase anytime to recover your account on another device." = "Your wallet is secured now. You can use your recovery phrase anytime to recover your account on another device.";

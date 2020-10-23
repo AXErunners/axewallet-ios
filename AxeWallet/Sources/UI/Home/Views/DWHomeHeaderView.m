@@ -17,18 +17,23 @@
 
 #import "DWHomeHeaderView.h"
 
-#import "DWBalancePayReceiveButtonsView.h"
+#import "DWBalanceView.h"
+#import "DWDPRegistrationStatus.h"
+#import "DWAxePayProfileView.h"
 #import "DWShortcutAction.h"
 #import "DWShortcutsView.h"
 #import "DWSyncView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DWHomeHeaderView () <DWBalancePayReceiveButtonsViewDelegate,
+static CGSize const AVATAR_SIZE = {72.0, 72.0};
+
+@interface DWHomeHeaderView () <DWBalanceViewDelegate,
                                 DWShortcutsViewDelegate,
                                 DWSyncViewDelegate>
 
-@property (readonly, nonatomic, strong) DWBalancePayReceiveButtonsView *balancePayReceiveButtonsView;
+@property (readonly, nonatomic, strong) DWAxePayProfileView *profileView;
+@property (readonly, nonatomic, strong) DWBalanceView *balanceView;
 @property (readonly, nonatomic, strong) DWSyncView *syncView;
 @property (readonly, nonatomic, strong) DWShortcutsView *shortcutsView;
 @property (readonly, nonatomic, strong) UIStackView *stackView;
@@ -40,9 +45,14 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        DWBalancePayReceiveButtonsView *balancePayReceiveButtonsView = [[DWBalancePayReceiveButtonsView alloc] initWithFrame:CGRectZero];
-        balancePayReceiveButtonsView.delegate = self;
-        _balancePayReceiveButtonsView = balancePayReceiveButtonsView;
+        DWAxePayProfileView *profileView = [[DWAxePayProfileView alloc] initWithFrame:CGRectZero];
+        profileView.translatesAutoresizingMaskIntoConstraints = NO;
+        [profileView addTarget:self action:@selector(profileViewAction:) forControlEvents:UIControlEventTouchUpInside];
+        _profileView = profileView;
+
+        DWBalanceView *balanceView = [[DWBalanceView alloc] initWithFrame:CGRectZero];
+        balanceView.delegate = self;
+        _balanceView = balanceView;
 
         DWSyncView *syncView = [[DWSyncView alloc] initWithFrame:CGRectZero];
         syncView.delegate = self;
@@ -52,7 +62,7 @@ NS_ASSUME_NONNULL_BEGIN
         shortcutsView.delegate = self;
         _shortcutsView = shortcutsView;
 
-        NSArray<UIView *> *views = @[ balancePayReceiveButtonsView, syncView, shortcutsView ];
+        NSArray<UIView *> *views = @[ profileView, balanceView, shortcutsView, syncView ];
         UIStackView *stackView = [[UIStackView alloc] initWithArrangedSubviews:views];
         stackView.translatesAutoresizingMaskIntoConstraints = NO;
         stackView.axis = UILayoutConstraintAxisVertical;
@@ -94,15 +104,31 @@ NS_ASSUME_NONNULL_BEGIN
 
                           [self.syncView setProgress:self.model.syncModel.progress animated:YES];
                       }];
+
+        [self mvvm_observe:DW_KEYPATH(self, model.axePayModel.registrationStatus)
+                      with:^(typeof(self) self, id value) {
+                          [self updateProfileView];
+                      }];
+
+        [self mvvm_observe:DW_KEYPATH(self, model.axePayModel.username)
+                      with:^(typeof(self) self, id value) {
+                          [self updateProfileView];
+                      }];
+
+        [self mvvm_observe:DW_KEYPATH(self, model.axePayModel.unreadNotificationsCount)
+                      with:^(typeof(self) self, id value) {
+                          self.profileView.unreadCount = self.model.axePayModel.unreadNotificationsCount;
+                      }];
     }
     return self;
 }
 
-- (void)setModel:(nullable id<DWBalanceProtocol, DWSyncContainerProtocol, DWShortcutsProtocol>)model {
+- (void)setModel:(nullable id<DWHomeProtocol>)model {
     _model = model;
 
-    self.balancePayReceiveButtonsView.model = model;
+    self.balanceView.model = model;
     self.shortcutsView.model = model.shortcutsModel;
+    [self updateProfileView];
 }
 
 - (nullable id<DWShortcutsActionDelegate>)shortcutsDelegate {
@@ -114,27 +140,15 @@ NS_ASSUME_NONNULL_BEGIN
 }
 
 - (void)parentScrollViewDidScroll:(UIScrollView *)scrollView {
-    [self.balancePayReceiveButtonsView parentScrollViewDidScroll:scrollView];
 }
 
-#pragma mark - DWBalancePayReceiveButtonsViewDelegate
+#pragma mark - DWBalanceViewDelegate
 
-- (void)balancePayReceiveButtonsView:(DWBalancePayReceiveButtonsView *)view
-              balanceLongPressAction:(UIControl *)sender {
+- (void)balanceView:(DWBalanceView *)view balanceLongPressAction:(UIControl *)sender {
     DWShortcutAction *action = [DWShortcutAction action:DWShortcutActionType_LocalCurrency];
-    [self.shortcutsDelegate shortcutsView:self.balancePayReceiveButtonsView
+    [self.shortcutsDelegate shortcutsView:self.balanceView
                           didSelectAction:action
                                    sender:sender];
-}
-
-- (void)balancePayReceiveButtonsView:(DWBalancePayReceiveButtonsView *)view
-                     payButtonAction:(UIButton *)sender {
-    [self.delegate homeHeaderView:self payButtonAction:sender];
-}
-
-- (void)balancePayReceiveButtonsView:(DWBalancePayReceiveButtonsView *)view
-                 receiveButtonAction:(UIButton *)sender {
-    [self.delegate homeHeaderView:self receiveButtonAction:sender];
 }
 
 #pragma mark - DWShortcutsViewDelegate
@@ -150,6 +164,23 @@ NS_ASSUME_NONNULL_BEGIN
 }
 
 #pragma mark - Private
+
+- (void)profileViewAction:(UIControl *)sender {
+    [self.delegate homeHeaderView:self profileButtonAction:sender];
+}
+
+- (void)updateProfileView {
+    DWDPRegistrationStatus *status = self.model.axePayModel.registrationStatus;
+    const BOOL completed = self.model.axePayModel.registrationCompleted;
+    if (status.state == DWDPRegistrationState_Done || completed) {
+        self.profileView.username = self.model.axePayModel.username;
+        self.profileView.hidden = NO;
+    }
+    else {
+        self.profileView.hidden = YES;
+    }
+    [self.delegate homeHeaderViewDidUpdateContents:self];
+}
 
 - (void)hideSyncView {
     self.syncView.hidden = YES;

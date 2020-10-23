@@ -46,6 +46,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) NSInteger paymentsScreenCurrentTab;
 
+@property (nullable, nonatomic, copy) NSString *axepayUsername;
+@property (nonatomic, assign) BOOL axepayRegistrationCompleted;
+@property (nullable, nonatomic, strong) NSDate *mostRecentViewedNotificationDate;
+
+@property (nonatomic, assign, getter=isResyncingWallet) BOOL resyncingWallet;
+
 // Non-dynamic
 
 - (BOOL)lockScreenDisabled;

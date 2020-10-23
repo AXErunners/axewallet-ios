@@ -20,6 +20,7 @@
 #import <AxeSync/AxeSync.h>
 
 #import "DWBackupInfoViewController.h"
+#import "DWAxePaySetupFlowController.h"
 #import "DWGlobalOptions.h"
 #import "DWHomeViewController+DWImportPrivateKeyDelegateImpl.h"
 #import "DWHomeViewController+DWSecureWalletDelegateImpl.h"
@@ -88,6 +89,14 @@ NS_ASSUME_NONNULL_BEGIN
         case DWShortcutActionType_ReportAnIssue: {
             break;
         }
+        case DWShortcutActionType_CreateUsername: {
+            [self showCreateUsername];
+            break;
+        }
+        case DWShortcutActionType_Receive: {
+            [self.delegate homeViewControllerShowReceivePayment:self];
+            break;
+        }
         case DWShortcutActionType_AddShortcut: {
             break;
         }
@@ -120,24 +129,6 @@ NS_ASSUME_NONNULL_BEGIN
     [self presentControllerModallyInNavigationController:controller];
 }
 
-- (void)buySellAxeAction {
-    [[DSAuthenticationManager sharedInstance]
-              authenticateWithPrompt:nil
-        usingBiometricAuthentication:[DWGlobalOptions sharedInstance].biometricAuthEnabled
-                      alertIfLockout:YES
-                          completion:^(BOOL authenticated, BOOL usedBiometrics, BOOL cancelled) {
-                              if (authenticated) {
-                                  [self buySellAxeActionAuthenticated];
-                              }
-                          }];
-}
-
-- (void)buySellAxeActionAuthenticated {
-    UIViewController *controller = [DWUpholdViewController controller];
-    DWNavigationController *navigationController =
-        [[DWNavigationController alloc] initWithRootViewController:controller];
-    [self presentViewController:navigationController animated:YES completion:nil];
-}
 
 - (void)showLocalCurrencyAction {
     DWLocalCurrencyViewController *controller = [[DWLocalCurrencyViewController alloc] init];
@@ -178,7 +169,27 @@ NS_ASSUME_NONNULL_BEGIN
     }];
 }
 
+- (void)showCreateUsername {
+    DWAxePaySetupFlowController *controller = [[DWAxePaySetupFlowController alloc]
+        initWithAxePayModel:self.model.axePayModel];
+    controller.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:controller animated:YES completion:nil];
+}
+
 - (void)presentControllerModallyInNavigationController:(UIViewController *)controller {
+    if (@available(iOS 13.0, *)) {
+        [self presentControllerModallyInNavigationController:controller
+                                      modalPresentationStyle:UIModalPresentationAutomatic];
+    }
+    else {
+        // TODO: check on the iPad
+        [self presentControllerModallyInNavigationController:controller
+                                      modalPresentationStyle:UIModalPresentationFullScreen];
+    }
+}
+
+- (void)presentControllerModallyInNavigationController:(UIViewController *)controller
+                                modalPresentationStyle:(UIModalPresentationStyle)modalPresentationStyle {
     UIBarButtonItem *cancelButton =
         [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel
                                                       target:self
@@ -187,6 +198,7 @@ NS_ASSUME_NONNULL_BEGIN
 
     DWNavigationController *navigationController =
         [[DWNavigationController alloc] initWithRootViewController:controller];
+    navigationController.modalPresentationStyle = modalPresentationStyle;
     [self presentViewController:navigationController animated:YES completion:nil];
 }
 
