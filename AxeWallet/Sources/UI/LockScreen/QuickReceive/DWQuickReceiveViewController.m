@@ -24,7 +24,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-static NSString *const AXE_WEBSITE = @"https://axerunners.com";
+static NSString *const AXE_WEBSITE = @"https://axe.org";
 
 @interface DWQuickReceiveViewController () <DWReceiveViewControllerDelegate>
 

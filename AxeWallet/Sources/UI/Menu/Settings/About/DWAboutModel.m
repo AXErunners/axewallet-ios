@@ -22,13 +22,14 @@
 #import <sys/socket.h>
 
 #import "DWEnvironment.h"
+#import "DWGlobalOptions.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @implementation DWAboutModel
 
 + (NSURL *)supportURL {
-    NSURL *url = [NSURL URLWithString:@"https://axerunners.com/#resources/"];
+    NSURL *url = [NSURL URLWithString:@"https://axerunners.com/#resources"];
     return url;
 }
 
@@ -83,17 +84,23 @@ NS_ASSUME_NONNULL_BEGIN
     NSString *updatedString = [NSString stringWithFormat:NSLocalizedString(@"Updated: %@", @"ex., Updated: 27.12, 8:30"),
                                                          [dateFormatter stringFromDate:[NSDate dateWithTimeIntervalSince1970:authenticationManager.secureTime]].lowercaseString];
     NSString *blockString = [NSString stringWithFormat:NSLocalizedString(@"Block #%d of %d", nil),
-                                                       chain.lastBlockHeight,
+                                                       chain.lastSyncBlockHeight,
                                                        chain.estimatedBlockHeight];
     NSString *peersString = [NSString stringWithFormat:NSLocalizedString(@"Connected peers: %d", nil),
-                                                       peerManager.connectedPeerCount];
+                                                       (int)peerManager.connectedPeerCount];
     NSString *dlPeerString = [NSString stringWithFormat:NSLocalizedString(@"Download peer: %@", @"ex., Download peer: 127.0.0.1:9999"),
                                                         peerManager.downloadPeerName ? peerManager.downloadPeerName : @"-"];
     NSString *quorumsString = [NSString stringWithFormat:NSLocalizedString(@"Quorums validated: %d/%d", nil),
-                                                         [currentMasternodeList validQuorumsCountOfType:DSLLMQType_50_60],
-                                                         [currentMasternodeList quorumsCountOfType:DSLLMQType_50_60]];
+                                                         (int)[currentMasternodeList validQuorumsCountOfType:DSLLMQType_50_60],
+                                                         (int)[currentMasternodeList quorumsCountOfType:DSLLMQType_50_60]];
 
-    NSArray<NSString *> *statusLines = @[ rateString, updatedString, blockString, peersString, dlPeerString, quorumsString ];
+    NSString *usernameString = @"";
+    if ([DWGlobalOptions sharedInstance].axepayUsername) {
+        usernameString = [NSString stringWithFormat:NSLocalizedString(@"Current user: %@", nil),
+                                                    [DWGlobalOptions sharedInstance].axepayUsername];
+    }
+
+    NSArray<NSString *> *statusLines = @[ rateString, updatedString, blockString, peersString, dlPeerString, quorumsString, usernameString ];
 
     return [statusLines componentsJoinedByString:@"\n"];
 }
